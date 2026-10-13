@@ -85,59 +85,15 @@ MessMetrics does not try to change what the mess cooks. Instead, it:
 
 ## Tech Stack
 
-### Frontend
+### Frontend - React
 
-| Purpose              | Technology                   |
-| -------------------- | ---------------------------- |
-| Framework            | Next.js (React) + TypeScript |
-| Styling / UI         | Tailwind CSS, shadcn/ui      |
-| Charts               | Recharts                     |
-| Data fetching        | TanStack Query               |
-| Forms and validation | React Hook Form, Zod         |
-| Tables               | TanStack Table               |
+### Backend - FastAPI
 
-### Backend
+### Data and ingestion - Website scraping, Spreadsheets, PDFs
 
-| Purpose            | Technology                                             |
-| ------------------ | ------------------------------------------------------ |
-| API framework      | FastAPI (Python)                                       |
-| Validation         | Pydantic                                               |
-| ORM and migrations | SQLAlchemy, Alembic                                    |
-| Background jobs    | FastAPI background tasks (MVP), Celery + Redis (later) |
-| Scheduling         | APScheduler or Celery Beat (for scraping)              |
-| Auth               | JWT, or Supabase Auth                                  |
-| Email              | Resend or Brevo                                        |
+### Database and storage - PostgreSQL
 
-### Data and ingestion
-
-| Purpose            | Technology                                            |
-| ------------------ | ----------------------------------------------------- |
-| Website scraping   | Playwright, BeautifulSoup                             |
-| Spreadsheets       | pandas, openpyxl                                      |
-| PDFs               | pdfplumber, Camelot                                   |
-| Photos / scans     | OpenCV + OCR, or a vision LLM                         |
-| Menu normalization | Claude API with structured JSON output                |
-| Dish matching      | RapidFuzz + sentence embeddings (pgvector)            |
-| Nutrition data     | IFCT 2017 (primary), USDA FoodData Central (fallback) |
-| Plan optimization  | PuLP / OR-Tools, Mifflin-St Jeor for targets          |
-
-### Database and storage
-
-| Purpose       | Technology                                        |
-| ------------- | ------------------------------------------------- |
-| Main database | PostgreSQL with pgvector (Neon or Supabase)       |
-| Cache / queue | Redis                                             |
-| File storage  | Supabase Storage or Cloudflare R2 (MinIO locally) |
-
-### DevOps
-
-| Purpose           | Technology                   |
-| ----------------- | ---------------------------- |
-| Local development | Docker, Docker Compose       |
-| CI                | GitHub Actions               |
-| Frontend hosting  | Vercel                       |
-| Backend hosting   | Render (or Railway / Fly.io) |
-| Monitoring        | Sentry                       |
+### DevOps - Docker, GitHub
 
 ---
 
@@ -201,26 +157,13 @@ messmetrics/
 
 > Setup steps will be finalized as the project takes shape. The intended workflow is:
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/Ashwanth119/MessMetrics.git
-cd messmetrics
 
-# 2. Configure environment variables
-cp .env.example .env
-
-# 3. Start all services
-docker compose up --build
-
-# 4. Run database migrations
-docker compose exec backend alembic upgrade head
-```
 
 | Service            | URL                        |
 | ------------------ | -------------------------- |
-| Frontend           | http://localhost:3000      |
-| Backend API        | http://localhost:8000      |
-| API docs (Swagger) | http://localhost:8000/docs |
+| Frontend           | -                          |
+| Backend API        | -                          |
+| API docs (Swagger) | -                          |
 
 ---
 
