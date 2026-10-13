@@ -6,6 +6,9 @@ MessMetrics is a full-stack web application that turns a hostel's weekly mess me
 
 ---
 
+https://calorieninjas.com/profile
+for the calories
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -22,6 +25,7 @@ MessMetrics is a full-stack web application that turns a hostel's weekly mess me
 ### The problem
 
 Hostel messes feed thousands of students every day. Students with different bodies, goals, and dietary restrictions all get the same menu.
+
 ### The solution
 
 MessMetrics does not try to change what the mess cooks. Instead, it:
@@ -31,10 +35,10 @@ MessMetrics does not try to change what the mess cooks. Instead, it:
 3. **Guides each student** on what to eat from the existing menu, based on their body, goals, and dietary restrictions.
 4. **Gives the mess council an aggregate dashboard** that turns vague complaints into measurable evidence for menu reform.
 
-
 ## Key Features
 
 ### Menu data pipeline
+
 - Scheduled scraping of the weekly menu from the hostel website, with change detection
 - Manual menu upload by admins (spreadsheet, PDF, or photo) and a manual entry grid as a fallback
 - Manual upload overrides scraped data for that week
@@ -43,12 +47,14 @@ MessMetrics does not try to change what the mess cooks. Instead, it:
 - Scrape failure alerts and stale-data warnings
 
 ### Dish and nutrition mapping
+
 - Automatic matching of menu items to canonical dishes and nutrition profiles
 - Handles spelling variants and mixed-language dish names
 - Confidence scores with an admin review queue for low-confidence matches
 - Standard serving sizes (katori, ladle, piece) and "estimated" labels where data is not verified
 
 ### Student features
+
 - Campus email login and onboarding profile (body metrics, goal, diet type, allergies)
 - Calorie and macro targets calculated from the profile
 - **Daily plan** per meal: what to take, how much, and what to limit
@@ -59,6 +65,7 @@ MessMetrics does not try to change what the mess cooks. Instead, it:
 - Email reminders and weekly digest
 
 ### Mess council and admin features
+
 - Menu status dashboard (current week, source, freshness)
 - Aggregate nutrition analytics compared against recommended levels
 - Gap analysis, for example "protein is below target on 4 of 7 days"
@@ -68,6 +75,7 @@ MessMetrics does not try to change what the mess cooks. Instead, it:
 - **Privacy by design:** admins only see aggregated, anonymized data, never an individual student's records
 
 ### Platform
+
 - Role-based access (student, admin, super admin)
 - Audit log of menu and data changes
 - Multi-hostel ready data model
@@ -78,53 +86,58 @@ MessMetrics does not try to change what the mess cooks. Instead, it:
 ## Tech Stack
 
 ### Frontend
-| Purpose | Technology |
-|---|---|
-| Framework | Next.js (React) + TypeScript |
-| Styling / UI | Tailwind CSS, shadcn/ui |
-| Charts | Recharts |
-| Data fetching | TanStack Query |
-| Forms and validation | React Hook Form, Zod |
-| Tables | TanStack Table |
+
+| Purpose              | Technology                   |
+| -------------------- | ---------------------------- |
+| Framework            | Next.js (React) + TypeScript |
+| Styling / UI         | Tailwind CSS, shadcn/ui      |
+| Charts               | Recharts                     |
+| Data fetching        | TanStack Query               |
+| Forms and validation | React Hook Form, Zod         |
+| Tables               | TanStack Table               |
 
 ### Backend
-| Purpose | Technology |
-|---|---|
-| API framework | FastAPI (Python) |
-| Validation | Pydantic |
-| ORM and migrations | SQLAlchemy, Alembic |
-| Background jobs | FastAPI background tasks (MVP), Celery + Redis (later) |
-| Scheduling | APScheduler or Celery Beat (for scraping) |
-| Auth | JWT, or Supabase Auth |
-| Email | Resend or Brevo |
+
+| Purpose            | Technology                                             |
+| ------------------ | ------------------------------------------------------ |
+| API framework      | FastAPI (Python)                                       |
+| Validation         | Pydantic                                               |
+| ORM and migrations | SQLAlchemy, Alembic                                    |
+| Background jobs    | FastAPI background tasks (MVP), Celery + Redis (later) |
+| Scheduling         | APScheduler or Celery Beat (for scraping)              |
+| Auth               | JWT, or Supabase Auth                                  |
+| Email              | Resend or Brevo                                        |
 
 ### Data and ingestion
-| Purpose | Technology |
-|---|---|
-| Website scraping | Playwright, BeautifulSoup |
-| Spreadsheets | pandas, openpyxl |
-| PDFs | pdfplumber, Camelot |
-| Photos / scans | OpenCV + OCR, or a vision LLM |
-| Menu normalization | Claude API with structured JSON output |
-| Dish matching | RapidFuzz + sentence embeddings (pgvector) |
-| Nutrition data | IFCT 2017 (primary), USDA FoodData Central (fallback) |
-| Plan optimization | PuLP / OR-Tools, Mifflin-St Jeor for targets |
+
+| Purpose            | Technology                                            |
+| ------------------ | ----------------------------------------------------- |
+| Website scraping   | Playwright, BeautifulSoup                             |
+| Spreadsheets       | pandas, openpyxl                                      |
+| PDFs               | pdfplumber, Camelot                                   |
+| Photos / scans     | OpenCV + OCR, or a vision LLM                         |
+| Menu normalization | Claude API with structured JSON output                |
+| Dish matching      | RapidFuzz + sentence embeddings (pgvector)            |
+| Nutrition data     | IFCT 2017 (primary), USDA FoodData Central (fallback) |
+| Plan optimization  | PuLP / OR-Tools, Mifflin-St Jeor for targets          |
 
 ### Database and storage
-| Purpose | Technology |
-|---|---|
-| Main database | PostgreSQL with pgvector (Neon or Supabase) |
-| Cache / queue | Redis |
-| File storage | Supabase Storage or Cloudflare R2 (MinIO locally) |
+
+| Purpose       | Technology                                        |
+| ------------- | ------------------------------------------------- |
+| Main database | PostgreSQL with pgvector (Neon or Supabase)       |
+| Cache / queue | Redis                                             |
+| File storage  | Supabase Storage or Cloudflare R2 (MinIO locally) |
 
 ### DevOps
-| Purpose | Technology |
-|---|---|
-| Local development | Docker, Docker Compose |
-| CI | GitHub Actions |
-| Frontend hosting | Vercel |
-| Backend hosting | Render (or Railway / Fly.io) |
-| Monitoring | Sentry |
+
+| Purpose           | Technology                   |
+| ----------------- | ---------------------------- |
+| Local development | Docker, Docker Compose       |
+| CI                | GitHub Actions               |
+| Frontend hosting  | Vercel                       |
+| Backend hosting   | Render (or Railway / Fly.io) |
+| Monitoring        | Sentry                       |
 
 ---
 
@@ -203,10 +216,10 @@ docker compose up --build
 docker compose exec backend alembic upgrade head
 ```
 
-| Service | URL |
-|---|---|
-| Frontend | http://localhost:3000 |
-| Backend API | http://localhost:8000 |
+| Service            | URL                        |
+| ------------------ | -------------------------- |
+| Frontend           | http://localhost:3000      |
+| Backend API        | http://localhost:8000      |
 | API docs (Swagger) | http://localhost:8000/docs |
 
 ---
