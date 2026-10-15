@@ -1,0 +1,4783 @@
+hostel_name,day,item_name,meal
+Hostel 10,7,Onion Methi Thepla,breakfast
+Hostel 10,7,Tomato Chutney,breakfast
+Hostel 10,7,Mix Sprouts,breakfast
+Hostel 10,7,Milk,breakfast
+Hostel 10,7,Tea /Coffee,breakfast
+Hostel 10,7,Chocos+Bournvita,breakfast
+Hostel 10,7,Live Counter,breakfast
+Hostel 10,7,B. B. J,breakfast
+Hostel 10,7,Paneer Bhurji/Chikko,breakfast
+Hostel 10,7,Papaya,breakfast
+Hostel 10,7,Arbi Dum Masala,lunch
+Hostel 10,7,Torai Posto Dry,lunch
+Hostel 10,7,Roti/With/Without Ghee,lunch
+Hostel 10,7,Akha Masoor Dal,lunch
+Hostel 10,7,Plain Rice,lunch
+Hostel 10,7,Lemon Rice,lunch
+Hostel 10,7,Cucumber/Carrot,lunch
+Hostel 10,7,Potao Chips,lunch
+Hostel 10,7,Curd,lunch
+Hostel 10,7,Rasna,lunch
+Hostel 10,7,Chicken Curry,lunch
+Hostel 10,7,Schezwan Masala Dosa/ Plain Dosa,snacks
+Hostel 10,7,Milk,snacks
+Hostel 10,7,Tea/Coffee,snacks
+Hostel 10,7,Chocos+Bournvita,snacks
+Hostel 10,7,Guava,snacks
+Hostel 10,7,B. B. J,snacks
+Hostel 10,7,Peanut Butter,snacks
+Hostel 10,7,Aviyal Masala,dinner
+Hostel 10,7,Corn Capsicum,dinner
+Hostel 10,7,Roti/Missi Roti,dinner
+Hostel 10,7,Chana Dal,dinner
+Hostel 10,7,Plain Rice,dinner
+Hostel 10,7,Masala Rice,dinner
+Hostel 10,7,Stick Salad,dinner
+Hostel 10,7,Rasam,dinner
+Hostel 10,7,Roasted Papad,dinner
+Hostel 10,7,Bell Cake,dinner
+Hostel 10,7,Chicken Biryani (Extra),dinner
+Hostel 10,2,Kanchipuram Idli/Vada Sambhar,breakfast
+Hostel 10,2,Red Chutney,breakfast
+Hostel 10,2,Boil Corn,breakfast
+Hostel 10,2,Milk,breakfast
+Hostel 10,2,Tea/Coffee,breakfast
+Hostel 10,2,Oats/Bornvita,breakfast
+Hostel 10,2,Live Counter,breakfast
+Hostel 10,2,B. B. J,breakfast
+Hostel 10,2,Paneer Bhurji/Plum,breakfast
+Hostel 10,2,Muskmelon,breakfast
+Hostel 10,2,Paneer Handi,lunch
+Hostel 10,2,Aloo Karela Masala,lunch
+Hostel 10,2,Roti/ With/ Without Ghee,lunch
+Hostel 10,2,Dal Makhni,lunch
+Hostel 10,2,Plain Rice,lunch
+Hostel 10,2,Peas Pulao,lunch
+Hostel 10,2,Sprouts Moong Salad,lunch
+Hostel 10,2,Roasted Papad,lunch
+Hostel 10,2,Onion Mirchi Techa,lunch
+Hostel 10,2,Chaas,lunch
+Hostel 10,2,Egg Tawa Masala,lunch
+Hostel 10,2,Veg Macroni,snacks
+Hostel 10,2,Milk,snacks
+Hostel 10,2,Tea /Coffee,snacks
+Hostel 10,2,Oats/Bornvita,snacks
+Hostel 10,2,Naka,snacks
+Hostel 10,2,B B J,snacks
+Hostel 10,2,Peanut Butter,snacks
+Hostel 10,2,Sukto Masala,dinner
+Hostel 10,2,Gazar Methi Dry,dinner
+Hostel 10,2,Roti/With /Without Ghee,dinner
+Hostel 10,2,Arhar Dal Tadaka,dinner
+Hostel 10,2,Plain Rice,dinner
+Hostel 10,2,Curd Rice,dinner
+Hostel 10,2,Cucumber/ Beetroot(Boil),dinner
+Hostel 10,2,Clear Soup-,dinner
+Hostel 10,2,Papad,dinner
+Hostel 10,2,Sahi Tukda,dinner
+Hostel 10,2,Chicken Kosha (Extra),dinner
+Hostel 10,4,Muli Paratha,breakfast
+Hostel 10,4,Curd,breakfast
+Hostel 10,4,Boil Kidney Beans,breakfast
+Hostel 10,4,Milk,breakfast
+Hostel 10,4,Tea/Coffee,breakfast
+Hostel 10,4,Cornflakes/Bournvita,breakfast
+Hostel 10,4,Live Counter,breakfast
+Hostel 10,4,B. B. J,breakfast
+Hostel 10,4,Paneer Bhurji/Gauva,breakfast
+Hostel 10,4,Banana,breakfast
+Hostel 10,4,Kadhi Pakoda,lunch
+Hostel 10,4,Bhindi Masala,lunch
+Hostel 10,4,Roti/ With/ Without Ghee,lunch
+Hostel 10,4,Veg Moong Dal,lunch
+Hostel 10,4,Plain Rice,lunch
+Hostel 10,4,Veg Dal Khichdi,lunch
+Hostel 10,4,Cucumber /Carrot Salad,lunch
+Hostel 10,4,Roasted Papad,lunch
+Hostel 10,4,Pineapple Chutney,lunch
+Hostel 10,4,Jaljeera,lunch
+Hostel 10,4,Chicken Tawa Masala,lunch
+Hostel 10,4,Veg Mayo Sandwich (Cheese),snacks
+Hostel 10,4,Milk,snacks
+Hostel 10,4,Tea/Coffee,snacks
+Hostel 10,4,Cornflakes/Bournvita,snacks
+Hostel 10,4,Pears/Dragon,snacks
+Hostel 10,4,B. B. J,snacks
+Hostel 10,4,Peanut Butter,snacks
+Hostel 10,4,Lobia Masala Gravy,dinner
+Hostel 10,4,Mix Veg Dry,dinner
+Hostel 10,4,Roti/With /Without Ghee,dinner
+Hostel 10,4,Panchratan Dal,dinner
+Hostel 10,4,Plain Rice,dinner
+Hostel 10,4,Tomato Rice,dinner
+Hostel 10,4,Mix Salad,dinner
+Hostel 10,4,Minestrom Soup,dinner
+Hostel 10,4,Papad,dinner
+Hostel 10,4,Kala Jamun,dinner
+Hostel 10,4,Chicken Chilli (Extra),dinner
+Hostel 10,1,Onion Poha,breakfast
+Hostel 10,1,Usal,breakfast
+Hostel 10,1,Sprouts,breakfast
+Hostel 10,1,Milk,breakfast
+Hostel 10,1,Tea/Coffee,breakfast
+Hostel 10,1,Museli+Bournvita,breakfast
+Hostel 10,1,Live Counter,breakfast
+Hostel 10,1,B. B. J,breakfast
+Hostel 10,1,Paneer Bhurji/Apple,breakfast
+Hostel 10,1,Banana,breakfast
+Hostel 10,1,Veg Kolhapuri Masala,lunch
+Hostel 10,1,Cabbage Dry,lunch
+Hostel 10,1,Roti/ With/ Without Ghee,lunch
+Hostel 10,1,Jeera Tadka Dal Fry,lunch
+Hostel 10,1,Plain Rice,lunch
+Hostel 10,1,Onion Tadka Rice,lunch
+Hostel 10,1,Pasta Salad,lunch
+Hostel 10,1,Rice Papad,lunch
+Hostel 10,1,Curd,lunch
+Hostel 10,1,Roohafza,lunch
+Hostel 10,1,Chicken Aloo Jhol,lunch
+Hostel 10,1,Vada Pav,snacks
+Hostel 10,1,Milk,snacks
+Hostel 10,1,Tea/Coffee,snacks
+Hostel 10,1,Museli+Bournvita,snacks
+Hostel 10,1,Dragon,snacks
+Hostel 10,1,B B J,snacks
+Hostel 10,1,Lauki Tomato Gravy,dinner
+Hostel 10,1,Baigan Choka,dinner
+Hostel 10,1,Roti/With /Mix Roti,dinner
+Hostel 10,1,Chana Dal,dinner
+Hostel 10,1,Plain Rice,dinner
+Hostel 10,1,Herb Rice,dinner
+Hostel 10,1,Beetroot/Carrot,dinner
+Hostel 10,1,Lemon Coriander Soup,dinner
+Hostel 10,1,Sabudana Kheer,dinner
+Hostel 10,1,Paneer Chilly (Extra),dinner
+Hostel 10,5,Ragi Uttapa(Sambhar),breakfast
+Hostel 10,5,Coconut Chutney,breakfast
+Hostel 10,5,Boil Peanuts,breakfast
+Hostel 10,5,Milk,breakfast
+Hostel 10,5,Tea /Coffee,breakfast
+Hostel 10,5,Museli+Bournvita,breakfast
+Hostel 10,5,Live Counter,breakfast
+Hostel 10,5,B. B. J,breakfast
+Hostel 10,5,Paneer Bhurji/ Mosambi,breakfast
+Hostel 10,5,Pineapple,breakfast
+Hostel 10,5,Soyabean Chilli,lunch
+Hostel 10,5,Methi Moong Dry Sabzi,lunch
+Hostel 10,5,Roti/ With/ Without Ghee,lunch
+Hostel 10,5,Arhar Dal Tadka,lunch
+Hostel 10,5,Plain Rice,lunch
+Hostel 10,5,Coriander Rice,lunch
+Hostel 10,5,Beetroot Carrot,lunch
+Hostel 10,5,Sabudana Papad,lunch
+Hostel 10,5,Rajasthani Chutney,lunch
+Hostel 10,5,Lemon Mint Sharbat,lunch
+Hostel 10,5,Egg Masala,lunch
+Hostel 10,5,Pani Puri,snacks
+Hostel 10,5,Milk,snacks
+Hostel 10,5,Tea/Coffee,snacks
+Hostel 10,5,Museli+Bournvita,snacks
+Hostel 10,5,Mix Juice,snacks
+Hostel 10,5,B. B. J,snacks
+Hostel 10,5,Dum Aloo,dinner
+Hostel 10,5,Black Chana Chatpata,dinner
+Hostel 10,5,Roti/Masala Puri,dinner
+Hostel 10,5,Mix Dal Fry,dinner
+Hostel 10,5,Plain Rice,dinner
+Hostel 10,5,Jeera Rice,dinner
+Hostel 10,5,Green Salad,dinner
+Hostel 10,5,Manchow Soup,dinner
+Hostel 10,5,Curd,dinner
+Hostel 10,5,Papad,dinner
+Hostel 10,5,Bhagar Rice Kheer,dinner
+Hostel 10,5,Chicken Butter Masala (Extra),dinner
+Hostel 10,6,Sadudana Khichdi,breakfast
+Hostel 10,6,Curd,breakfast
+Hostel 10,6,Boiled Chickpea,breakfast
+Hostel 10,6,Milk,breakfast
+Hostel 10,6,Tea /Coffee,breakfast
+Hostel 10,6,Oats/Bournvita,breakfast
+Hostel 10,6,Live Counter,breakfast
+Hostel 10,6,B. B. J,breakfast
+Hostel 10,6,Paneer Bhurji/ Apple,breakfast
+Hostel 10,6,Banana,breakfast
+Hostel 10,6,Veg Hyderabadi,lunch
+Hostel 10,6,Beetroot Poriyal,lunch
+Hostel 10,6,Roti/ With/ Without Ghee,lunch
+Hostel 10,6,Dal Palak,lunch
+Hostel 10,6,Plain Rice,lunch
+Hostel 10,6,Aloo Veg Biryani,lunch
+Hostel 10,6,Tadka Cucumber Salad,lunch
+Hostel 10,6,Roasted Papad,lunch
+Hostel 10,6,Veg Raita,lunch
+Hostel 10,6,Kokam Sarbat,lunch
+Hostel 10,6,Garlic Chicken,lunch
+Hostel 10,6,Veg Frankie,snacks
+Hostel 10,6,Milk,snacks
+Hostel 10,6,Tea/Coffee,snacks
+Hostel 10,6,Oats/Bournvita,snacks
+Hostel 10,6,Orange,snacks
+Hostel 10,6,B.B.J,snacks
+Hostel 10,6,Paneer Kolhapuri,dinner
+Hostel 10,6,Baigan Bhaja,dinner
+Hostel 10,6,Roti/With /Paratha,dinner
+Hostel 10,6,Dal Makhni,dinner
+Hostel 10,6,Plain Rice,dinner
+Hostel 10,6,Bisibille Bhat,dinner
+Hostel 10,6,Cucumber/Beetroot,dinner
+Hostel 10,6,Dhudhi Soup,dinner
+Hostel 10,6,Papad,dinner
+Hostel 10,6,Mawa Peda,dinner
+Hostel 10,6,Fish Masala (Extra),dinner
+Hostel 10,3,Rawa Upma,breakfast
+Hostel 10,3,Coconut Chutney,breakfast
+Hostel 10,3,Boil Chana,breakfast
+Hostel 10,3,Milk,breakfast
+Hostel 10,3,Tea/Coffee,breakfast
+Hostel 10,3,Chocos/Bournvita,breakfast
+Hostel 10,3,Live Counter,breakfast
+Hostel 10,3,B. B. J,breakfast
+Hostel 10,3,Paneer Bhurji/Orange,breakfast
+Hostel 10,3,Watermelon,breakfast
+Hostel 10,3,Chole Bhature,lunch
+Hostel 10,3,Banana Dry,lunch
+Hostel 10,3,Roti,lunch
+Hostel 10,3,Dal Fry,lunch
+Hostel 10,3,Plain Rice,lunch
+Hostel 10,3,Veg Pulao,lunch
+Hostel 10,3,Cucumber Peanut Salad,lunch
+Hostel 10,3,Sabudana Papad,lunch
+Hostel 10,3,Tamarind Chutney,lunch
+Hostel 10,3,Lassi (Sweet/Salty),lunch
+Hostel 10,3,Roohi Fish Masala,lunch
+Hostel 10,3,Dhokla,snacks
+Hostel 10,3,Milk,snacks
+Hostel 10,3,Tea /Coffee,snacks
+Hostel 10,3,Chocos/Bournvita,snacks
+Hostel 10,3,Chikko,snacks
+Hostel 10,3,B. B. J,snacks
+Hostel 10,3,Dalma,dinner
+Hostel 10,3,Long Beans Masala Dry,dinner
+Hostel 10,3,Roti/With /Without Ghee,dinner
+Hostel 10,3,Moong Masoor Dal,dinner
+Hostel 10,3,Plain Rice,dinner
+Hostel 10,3,Kerala Rice,dinner
+Hostel 10,3,Beetroot/Gajar,dinner
+Hostel 10,3,Rasam,dinner
+Hostel 10,3,Fryums,dinner
+Hostel 10,3,Balushahi,dinner
+Hostel 10,3,Kerala Chicken (Extra),dinner
+Hostel 11,3,Odd Week: Medu Bada,breakfast
+Hostel 11,3,Shambhar,breakfast
+Hostel 11,3,Chutney,breakfast
+Hostel 11,3,Boiled Eggs,breakfast
+Hostel 11,3,Moong; Even Week: Raginidly,breakfast
+Hostel 11,3,Sambhar,breakfast
+Hostel 11,3,Chutney,breakfast
+Hostel 11,3,Corn,breakfast
+Hostel 11,3,Boiled Egg/Omlete,breakfast
+Hostel 11,3,Paneer Bhurji,breakfast
+Hostel 11,3,Odd Week: Rice,lunch
+Hostel 11,3,Roti,lunch
+Hostel 11,3,Dal Kolhapuri,lunch
+Hostel 11,3,Sarso Ka Sag,lunch
+Hostel 11,3,Sev Tamato Sabji,lunch
+Hostel 11,3,Plane Salad,lunch
+Hostel 11,3,Fryums,lunch
+Hostel 11,3,Curd,lunch
+Hostel 11,3,Mint Juice; Even Week: Veg Pulao,lunch
+Hostel 11,3,Bhature,lunch
+Hostel 11,3,Dal Butter Fry,lunch
+Hostel 11,3,Mirchi Tamatar Sbji,lunch
+Hostel 11,3,Chole,lunch
+Hostel 11,3,Plain Salad,lunch
+Hostel 11,3,Fryums,lunch
+Hostel 11,3,Butter Milk,lunch
+Hostel 11,3,Odd Week: Poha; Even Week: Punugulu,snacks
+Hostel 11,3,Odd Week: Rice,dinner
+Hostel 11,3,Roti,dinner
+Hostel 11,3,Kali Dal,dinner
+Hostel 11,3,Kadhai Paneer,dinner
+Hostel 11,3,Plain Salad,dinner
+Hostel 11,3,Jalebi; Even Week: Plain Rice,dinner
+Hostel 11,3,Roti,dinner
+Hostel 11,3,Dal Tadka,dinner
+Hostel 11,3,Paneer 65/Paneer Masala,dinner
+Hostel 11,3,Plain Salad,dinner
+Hostel 11,3,Fruit Custurd,dinner
+Hostel 11,7,Odd Week: Vermicilli,breakfast
+Hostel 11,7,Chutney,breakfast
+Hostel 11,7,Groundnut,breakfast
+Hostel 11,7,Omlete,breakfast
+Hostel 11,7,Boiled Egg,breakfast
+Hostel 11,7,Paneer Bhurji; Even Week: Veg Dalia,breakfast
+Hostel 11,7,Groundnut,breakfast
+Hostel 11,7,Omlet/Boiled Egg,breakfast
+Hostel 11,7,Odd Week: Rice,lunch
+Hostel 11,7,Paneer Biriyani,lunch
+Hostel 11,7,Puri,lunch
+Hostel 11,7,Dal Mukhni,lunch
+Hostel 11,7,Alu Bhaja,lunch
+Hostel 11,7,Chana Masala,lunch
+Hostel 11,7,Sweet Corn Salad,lunch
+Hostel 11,7,Masala Fry,lunch
+Hostel 11,7,Boondi Raita,lunch
+Hostel 11,7,Aam Ras; Even Week: Rice,lunch
+Hostel 11,7,Veg Biryani,lunch
+Hostel 11,7,Roti,lunch
+Hostel 11,7,Dal,lunch
+Hostel 11,7,Aloo Jeera,lunch
+Hostel 11,7,Matar Paneer,lunch
+Hostel 11,7,Salad,lunch
+Hostel 11,7,Veg Raita,lunch
+Hostel 11,7,Aamrus,lunch
+Hostel 11,7,Odd Week: Kolkata Puchka; Even Week: Bhelpuri/Burger,snacks
+Hostel 11,7,Odd Week: Plain Rice,dinner
+Hostel 11,7,Kali Dal,dinner
+Hostel 11,7,Roti,dinner
+Hostel 11,7,Baigan Bharta,dinner
+Hostel 11,7,Plain Salad,dinner
+Hostel 11,7,Masala Roasted,dinner
+Hostel 11,7,Sabudan Kheer; Even Week: Rice,dinner
+Hostel 11,7,Roti,dinner
+Hostel 11,7,Dal,dinner
+Hostel 11,7,Makhana Sabji,dinner
+Hostel 11,7,Corn Salad,dinner
+Hostel 11,7,Moong Dal Halwa,dinner
+Hostel 11,6,Odd Week: Idly Fry,breakfast
+Hostel 11,6,Chutney,breakfast
+Hostel 11,6,Corn,breakfast
+Hostel 11,6,Boiled Egg; Even Week: Masala Dosa,breakfast
+Hostel 11,6,Chutney,breakfast
+Hostel 11,6,Corn,breakfast
+Hostel 11,6,Boiled Egg,breakfast
+Hostel 11,6,Odd Week: Plain Rice,lunch
+Hostel 11,6,Roti,lunch
+Hostel 11,6,Panchpuran Tadka Dal,lunch
+Hostel 11,6,Lehsun Chutney,lunch
+Hostel 11,6,Gawar Sabji,lunch
+Hostel 11,6,Mixed Sprout Sabji,lunch
+Hostel 11,6,Salad,lunch
+Hostel 11,6,Masala Roasted,lunch
+Hostel 11,6,Curd; Even Week: Rice,lunch
+Hostel 11,6,Roti,lunch
+Hostel 11,6,Dal Makhni,lunch
+Hostel 11,6,Pudine Chutney,lunch
+Hostel 11,6,Gawar Sbji,lunch
+Hostel 11,6,Pyaj Tomato Sbji,lunch
+Hostel 11,6,Plain Salad,lunch
+Hostel 11,6,Masala Roasted,lunch
+Hostel 11,6,Curd,lunch
+Hostel 11,6,Odd Week: Dal Kachori; Even Week: Veg Cheese Sandwich,snacks
+Hostel 11,6,Cold Coffee,snacks
+Hostel 11,6,Odd Week: Roti,dinner
+Hostel 11,6,Plain Khicdi,dinner
+Hostel 11,6,Kadi Pakoda,dinner
+Hostel 11,6,Masala Cabbage With Peas,dinner
+Hostel 11,6,Corn Salad,dinner
+Hostel 11,6,Papad,dinner
+Hostel 11,6,Sheera; Even Week: Rice,dinner
+Hostel 11,6,Paratha,dinner
+Hostel 11,6,Spinach Aloo,dinner
+Hostel 11,6,Plain Salad,dinner
+Hostel 11,6,Rice Kheer,dinner
+Hostel 11,1,Odd Week: Uttapam,breakfast
+Hostel 11,1,Coconut Chutney,breakfast
+Hostel 11,1,Corn,breakfast
+Hostel 11,1,Boiled Egg; Even Week: Puri Alu Bhajii,breakfast
+Hostel 11,1,Moong,breakfast
+Hostel 11,1,Boiled Egg,breakfast
+Hostel 11,1,Paneer Bhurji,breakfast
+Hostel 11,1,Odd Week: Rice,lunch
+Hostel 11,1,Dahi Bath,lunch
+Hostel 11,1,Roti,lunch
+Hostel 11,1,Dal Butter Fry,lunch
+Hostel 11,1,Bhindi Sabji,lunch
+Hostel 11,1,Rajma,lunch
+Hostel 11,1,Indian Mixed Salad,lunch
+Hostel 11,1,Sabudana Papad,lunch
+Hostel 11,1,Kokam Sarbat; Even Week: Rice,lunch
+Hostel 11,1,Missi Roti,lunch
+Hostel 11,1,Arhar Dal,lunch
+Hostel 11,1,Tondli Sabji,lunch
+Hostel 11,1,Soyabean Masala,lunch
+Hostel 11,1,Indian Mixed Salad,lunch
+Hostel 11,1,Sabudana Papad,lunch
+Hostel 11,1,Curd,lunch
+Hostel 11,1,Sweet Lassi,lunch
+Hostel 11,1,Odd Week: Vada Pao/Pao Bhaji; Even Week: Sabudana Vada With Peanut Chutney,snacks
+Hostel 11,1,Odd Week: Rice,dinner
+Hostel 11,1,Roti,dinner
+Hostel 11,1,Bengali Veg Torka Dal,dinner
+Hostel 11,1,Raw Banana Sabji,dinner
+Hostel 11,1,Salad,dinner
+Hostel 11,1,Icecream; Even Week: Plain Rice,dinner
+Hostel 11,1,Roti,dinner
+Hostel 11,1,Dalma,dinner
+Hostel 11,1,Achaari Gobi,dinner
+Hostel 11,1,Mix Sprout Salad,dinner
+Hostel 11,1,Shahi Tukda,dinner
+Hostel 11,5,Odd Week: Dal Pakwan,breakfast
+Hostel 11,5,Bolied Egg,breakfast
+Hostel 11,5,Moong; Even Week: Upma,breakfast
+Hostel 11,5,Coconut Chutney,breakfast
+Hostel 11,5,Moong,breakfast
+Hostel 11,5,Boiled Egg,breakfast
+Hostel 11,5,Paneer Bhurji,breakfast
+Hostel 11,5,Odd Week: Plain Rice,lunch
+Hostel 11,5,Jeera Rice,lunch
+Hostel 11,5,Roti,lunch
+Hostel 11,5,Moong Dal,lunch
+Hostel 11,5,Rasam,lunch
+Hostel 11,5,Pumpkin Sabji,lunch
+Hostel 11,5,Gobi Masala,lunch
+Hostel 11,5,Browngram Salad,lunch
+Hostel 11,5,Papad,lunch
+Hostel 11,5,Curd; Even Week: Rice,lunch
+Hostel 11,5,Rice Bhakri,lunch
+Hostel 11,5,Dal,lunch
+Hostel 11,5,Chawli Sbji,lunch
+Hostel 11,5,Mix Veg Gravy,lunch
+Hostel 11,5,Brown Gram Salad,lunch
+Hostel 11,5,Fryums,lunch
+Hostel 11,5,Curd,lunch
+Hostel 11,5,Tang,lunch
+Hostel 11,5,Odd Week: Chowmin/Pancake; Even Week: Chana Chat,snacks
+Hostel 11,5,Odd Week: Mushroom Rice,dinner
+Hostel 11,5,Roti,dinner
+Hostel 11,5,Dal Lehsuni,dinner
+Hostel 11,5,Alu Gobi,dinner
+Hostel 11,5,Mixed Sprout Sald,dinner
+Hostel 11,5,Honeybell Cake/Chocolate; Even Week: Fried Rice,dinner
+Hostel 11,5,Roti,dinner
+Hostel 11,5,Akka Moong Dal Tadka,dinner
+Hostel 11,5,Mashroom Chilli,dinner
+Hostel 11,5,Mix Salad,dinner
+Hostel 11,5,Icecream,dinner
+Hostel 11,2,Odd Week: Sabudana Khichdi,breakfast
+Hostel 11,2,Black Chana,breakfast
+Hostel 11,2,Omelete,breakfast
+Hostel 11,2,Boiled Egg,breakfast
+Hostel 11,2,Paneer Bhurji; Even Week: Paneer Paratha,breakfast
+Hostel 11,2,Tomato Chutney,breakfast
+Hostel 11,2,Black Chana,breakfast
+Hostel 11,2,Boiled Egg,breakfast
+Hostel 11,2,Odd Week: Rice,lunch
+Hostel 11,2,Peas Pulao,lunch
+Hostel 11,2,Roti,lunch
+Hostel 11,2,Arhar Dal,lunch
+Hostel 11,2,Dum Aloo,lunch
+Hostel 11,2,Snake Bean Sabji,lunch
+Hostel 11,2,Salad,lunch
+Hostel 11,2,Masala Papad,lunch
+Hostel 11,2,Curd; Even Week: Lemon Rice,lunch
+Hostel 11,2,Plain Rice,lunch
+Hostel 11,2,Roti,lunch
+Hostel 11,2,Masoor Dal,lunch
+Hostel 11,2,Keri Sabji/Turai Sabji,lunch
+Hostel 11,2,Black Gravy Chana,lunch
+Hostel 11,2,Peanut Salad,lunch
+Hostel 11,2,Masala Roasted,lunch
+Hostel 11,2,Curd,lunch
+Hostel 11,2,Odd Week: Fried Maggie/Soupy Maggie; Even Week: Red/White Sauce Pasta,snacks
+Hostel 11,2,Odd Week: Plain Rice,dinner
+Hostel 11,2,Roti,dinner
+Hostel 11,2,Dal Fry,dinner
+Hostel 11,2,Mix Veg,dinner
+Hostel 11,2,Plain Salad,dinner
+Hostel 11,2,Gulab Jamun; Even Week: Rice,dinner
+Hostel 11,2,Roti,dinner
+Hostel 11,2,Sambhar,dinner
+Hostel 11,2,Aloo Methi,dinner
+Hostel 11,2,Plain Salad,dinner
+Hostel 11,2,Papad,dinner
+Hostel 11,2,Blooshahi,dinner
+Hostel 11,4,Odd Week: Alu Paratha,breakfast
+Hostel 11,4,Omlet/ Boiled Egg,breakfast
+Hostel 11,4,Boiled Chawli,breakfast
+Hostel 11,4,Paneer Bhurji; Even Week: Alu Carrot Poha,breakfast
+Hostel 11,4,Black Chana,breakfast
+Hostel 11,4,Boiled Egg,breakfast
+Hostel 11,4,Odd Week: Plain Rice,lunch
+Hostel 11,4,Roti,lunch
+Hostel 11,4,Dal,lunch
+Hostel 11,4,Karela Fry,lunch
+Hostel 11,4,Gatte Ki Sabji,lunch
+Hostel 11,4,Plain Salad,lunch
+Hostel 11,4,Masala Fry,lunch
+Hostel 11,4,Butter Milk; Even Week: Steam Rice,lunch
+Hostel 11,4,Tomato Rice,lunch
+Hostel 11,4,Roti,lunch
+Hostel 11,4,Moong Dal,lunch
+Hostel 11,4,Baingan Chana Sabji,lunch
+Hostel 11,4,Methi Malai Matar,lunch
+Hostel 11,4,Plain Salad,lunch
+Hostel 11,4,Masala Fry,lunch
+Hostel 11,4,Curd,lunch
+Hostel 11,4,Odd Week: Hara Bhara Kabab; Even Week: Dabeli/Pani Puri,snacks
+Hostel 11,4,Odd Week: Plain Rice,dinner
+Hostel 11,4,Roti,dinner
+Hostel 11,4,Dal Fry,dinner
+Hostel 11,4,Lauki Chana Dal Sabji,dinner
+Hostel 11,4,Plain Sald,dinner
+Hostel 11,4,Gajar Ka Halwa; Even Week: Plain Rice,dinner
+Hostel 11,4,Khichdi,dinner
+Hostel 11,4,Kadi Pakoda,dinner
+Hostel 11,4,Roti,dinner
+Hostel 11,4,Bhindi Do Pyaja,dinner
+Hostel 11,4,Plain Salad,dinner
+Hostel 11,4,Papad,dinner
+Hostel 11,4,Pineapple Sheera,dinner
+Hostel 12,6,Masala Utappam,breakfast
+Hostel 12,6,Sambar,breakfast
+Hostel 12,6,Coconut Chutney,breakfast
+Hostel 12,6,Egg Bhurji,breakfast
+Hostel 12,6,Paneer Bhurji,breakfast
+Hostel 12,6,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,6,Boiled Kidney Beans,breakfast
+Hostel 12,6,Bread,breakfast
+Hostel 12,6,Butter And Mix Jam,breakfast
+Hostel 12,6,Tea And Coffee,breakfast
+Hostel 12,6,Banana / Boiled Egg,breakfast
+Hostel 12,6,Milk/Carrot,breakfast
+Hostel 12,6,Beetroot,breakfast
+Hostel 12,6,Amla Mix Juice,breakfast
+Hostel 12,6,Veg Tawa,lunch
+Hostel 12,6,Kadhi Pakoda,lunch
+Hostel 12,6,Toor Dal Tadka,lunch
+Hostel 12,6,Vegetable Dal Khichdi,lunch
+Hostel 12,6,Roti (With And Without Ghee),lunch
+Hostel 12,6,Green Chiili,lunch
+Hostel 12,6,Curd,lunch
+Hostel 12,6,Nimbu Pani,lunch
+Hostel 12,6,Fryums,lunch
+Hostel 12,6,Pasta Salad With Mayo Dressing,lunch
+Hostel 12,6,Steam Rice,lunch
+Hostel 12,6,Sambhar,lunch
+Hostel 12,6,Chicken Masala,lunch
+Hostel 12,6,Chole Samosa (Chopped Onion Tomatos),snacks
+Hostel 12,6,Bread,snacks
+Hostel 12,6,Butter,snacks
+Hostel 12,6,And Mango Jam,snacks
+Hostel 12,6,Tea/Coffee,snacks
+Hostel 12,6,Phool Gobhi Matar,dinner
+Hostel 12,6,Soya Chaap Masala / Egg Curry,dinner
+Hostel 12,6,Fried Rice,dinner
+Hostel 12,6,Moong Dal Adraki Tadka,dinner
+Hostel 12,6,Boiled Corn Salad (Chopped Onion,dinner
+Hostel 12,6,Tomato),dinner
+Hostel 12,6,Roti (With & Without Ghee),dinner
+Hostel 12,6,Raita,dinner
+Hostel 12,6,Green Chiili,dinner
+Hostel 12,6,Steam Rice,dinner
+Hostel 12,6,Rasam,dinner
+Hostel 12,6,Fruit,dinner
+Hostel 12,6,Pista Barfi (2 Pieces),dinner
+Hostel 12,6,Chili Chicken,dinner
+Hostel 12,4,Veg Poha (Peas And Peanut),breakfast
+Hostel 12,4,Sev,breakfast
+Hostel 12,4,Chana Usal,breakfast
+Hostel 12,4,Tomato Sauce And Chopped Onion,breakfast
+Hostel 12,4,Egg Bhurji,breakfast
+Hostel 12,4,Paneer Bhurji,breakfast
+Hostel 12,4,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,4,Boiled Chana,breakfast
+Hostel 12,4,Bread,breakfast
+Hostel 12,4,Butter And Mix Jam,breakfast
+Hostel 12,4,Tea/Coffee,breakfast
+Hostel 12,4,Banana/ Boiled Egg,breakfast
+Hostel 12,4,Milk/Apple Beetroot Carrot Juice,breakfast
+Hostel 12,4,Aloo Methi,lunch
+Hostel 12,4,Soyabean Masala Gravy,lunch
+Hostel 12,4,Hakka Masoor Daal,lunch
+Hostel 12,4,Masala Khichdi (Soya Chunks),lunch
+Hostel 12,4,Roti (With And Without Ghee),lunch
+Hostel 12,4,White Papaya Chutney,lunch
+Hostel 12,4,Mango Pickle,lunch
+Hostel 12,4,Curd,lunch
+Hostel 12,4,Rooh Afza,lunch
+Hostel 12,4,Papad,lunch
+Hostel 12,4,Cucumber,lunch
+Hostel 12,4,Beetroot,lunch
+Hostel 12,4,Lemon,lunch
+Hostel 12,4,Steam Rice,lunch
+Hostel 12,4,Rasam,lunch
+Hostel 12,4,Dhaba Chicken,lunch
+Hostel 12,4,Misal Pav (Chopped Onion Tomatos),snacks
+Hostel 12,4,Bread,snacks
+Hostel 12,4,Butter And Mix Jam,snacks
+Hostel 12,4,Tea And Coffee,snacks
+Hostel 12,4,Pumpkin Dry,dinner
+Hostel 12,4,Aloo Matar Bhandara,dinner
+Hostel 12,4,Lemon-Rice,dinner
+Hostel 12,4,Dal Achari Tadka,dinner
+Hostel 12,4,Kimchi Salad,dinner
+Hostel 12,4,Methi Puri/ Roti (With & Without Ghee),dinner
+Hostel 12,4,Pineapple Chutney,dinner
+Hostel 12,4,Lemon Pickle,dinner
+Hostel 12,4,Steam Rice,dinner
+Hostel 12,4,Rasam,dinner
+Hostel 12,4,Tomato Soup,dinner
+Hostel 12,4,Fruit,dinner
+Hostel 12,4,Srikhand,dinner
+Hostel 12,4,Chicken 65,dinner
+Hostel 12,1,Idli,breakfast
+Hostel 12,1,Medu Boonda,breakfast
+Hostel 12,1,Coconut Chutney,breakfast
+Hostel 12,1,Sambhar,breakfast
+Hostel 12,1,Egg Omelette,breakfast
+Hostel 12,1,Paneer Bhurji,breakfast
+Hostel 12,1,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,1,Boiled Sweet Corn,breakfast
+Hostel 12,1,Bread,breakfast
+Hostel 12,1,Butter And Mix Jam,breakfast
+Hostel 12,1,Tea And Coffee,breakfast
+Hostel 12,1,Banana/ Boiled Egg,breakfast
+Hostel 12,1,Milk/Watermelon Juice,breakfast
+Hostel 12,1,Bhindi Masala,lunch
+Hostel 12,1,Shukto,lunch
+Hostel 12,1,Dal Palak,lunch
+Hostel 12,1,Tomato-Rice,lunch
+Hostel 12,1,Roti (With And Without Ghee),lunch
+Hostel 12,1,Tisa Chutney (Spicy),lunch
+Hostel 12,1,Mix Pickle,lunch
+Hostel 12,1,Curd,lunch
+Hostel 12,1,Mint Mojito,lunch
+Hostel 12,1,Sabudana Papad,lunch
+Hostel 12,1,Cucumber,lunch
+Hostel 12,1,Beetroot,lunch
+Hostel 12,1,Chutney,lunch
+Hostel 12,1,Steam Rice,lunch
+Hostel 12,1,Sambhar,lunch
+Hostel 12,1,Bengali Chicken,lunch
+Hostel 12,1,Sev Puri (Chopped Onion And Tomato,snacks
+Hostel 12,1,Green And Red Chutney And Dahi),snacks
+Hostel 12,1,Bread,snacks
+Hostel 12,1,Butter,snacks
+Hostel 12,1,Peanut Butter And Mango Jam,snacks
+Hostel 12,1,Tea/Coffee,snacks
+Hostel 12,1,Soybean Dry,dinner
+Hostel 12,1,Kadhai Paneer,dinner
+Hostel 12,1,Puliyogare,dinner
+Hostel 12,1,Dal Tadka Fry,dinner
+Hostel 12,1,Cucumber,dinner
+Hostel 12,1,Carrot,dinner
+Hostel 12,1,Onion,dinner
+Hostel 12,1,Beetroot,dinner
+Hostel 12,1,Roti (With & Without Ghee),dinner
+Hostel 12,1,Chutney,dinner
+Hostel 12,1,Lemon Pickle,dinner
+Hostel 12,1,Steam Rice,dinner
+Hostel 12,1,Rasam,dinner
+Hostel 12,1,Manchaw Soup (Dry Noodles),dinner
+Hostel 12,1,Fruit,dinner
+Hostel 12,1,Kaju Katli (2 Pieces),dinner
+Hostel 12,1,Chicken Do Pyaza,dinner
+Hostel 12,7,Puri Bhaji,breakfast
+Hostel 12,7,Pineapple Sheera,breakfast
+Hostel 12,7,Onion And Tomtato,breakfast
+Hostel 12,7,Egg Bhurji,breakfast
+Hostel 12,7,Paneer Bhurji,breakfast
+Hostel 12,7,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,7,Moong Sprouts,breakfast
+Hostel 12,7,Bread,breakfast
+Hostel 12,7,Butter And Mix Jam,breakfast
+Hostel 12,7,Tea/Coffee,breakfast
+Hostel 12,7,Banana/ Boiled Egg,breakfast
+Hostel 12,7,Milk/Muskmelon Juice,breakfast
+Hostel 12,7,French Fries,lunch
+Hostel 12,7,Paneer Do Pyaza,lunch
+Hostel 12,7,Dal Makhani,lunch
+Hostel 12,7,Curd Rice With Tarmind Chuteny,lunch
+Hostel 12,7,Palak Parantha + Roti (With And Without Ghee),lunch
+Hostel 12,7,Mix Pickle,lunch
+Hostel 12,7,Fruit Custard,lunch
+Hostel 12,7,Papad,lunch
+Hostel 12,7,Roasted Peanut Salad,lunch
+Hostel 12,7,Steam Rice,lunch
+Hostel 12,7,Rasam,lunch
+Hostel 12,7,Fish Curry,lunch
+Hostel 12,7,Bhel Puri,snacks
+Hostel 12,7,Bread,snacks
+Hostel 12,7,Butter And Mix Jam,snacks
+Hostel 12,7,Tea/Coffee,snacks
+Hostel 12,7,Corn Palak,dinner
+Hostel 12,7,Matki Masala,dinner
+Hostel 12,7,Jeera Rice,dinner
+Hostel 12,7,Arhar Dal Tadka,dinner
+Hostel 12,7,Cucumber Carrot Onion With Corriander,dinner
+Hostel 12,7,Roti (With & Without Ghee),dinner
+Hostel 12,7,Mix Pickle,dinner
+Hostel 12,7,Steam Rice,dinner
+Hostel 12,7,Rasam,dinner
+Hostel 12,7,Fruit,dinner
+Hostel 12,7,Lauki Halwa,dinner
+Hostel 12,7,Hyderabadi Chicken Biryani,dinner
+Hostel 12,5,Idli,breakfast
+Hostel 12,5,Medu Boonda,breakfast
+Hostel 12,5,Coconut Chutney,breakfast
+Hostel 12,5,Sambhar,breakfast
+Hostel 12,5,Egg Omelette,breakfast
+Hostel 12,5,Paneer Bhurji,breakfast
+Hostel 12,5,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,5,Boiled Sweet Corn,breakfast
+Hostel 12,5,Bread,breakfast
+Hostel 12,5,Butter And Mix Jam,breakfast
+Hostel 12,5,Tea And Coffee,breakfast
+Hostel 12,5,Banana/ Boiled Egg,breakfast
+Hostel 12,5,Milk/Watermelon Juice,breakfast
+Hostel 12,5,Bhindi Masala,lunch
+Hostel 12,5,Shukto,lunch
+Hostel 12,5,Dal Palak,lunch
+Hostel 12,5,Tomato-Rice,lunch
+Hostel 12,5,Roti (With And Without Ghee),lunch
+Hostel 12,5,Tisa Chutney (Spicy),lunch
+Hostel 12,5,Mix Pickle,lunch
+Hostel 12,5,Curd,lunch
+Hostel 12,5,Mint Mojito,lunch
+Hostel 12,5,Sabudana Papad,lunch
+Hostel 12,5,Cucumber,lunch
+Hostel 12,5,Beetroot,lunch
+Hostel 12,5,Chutney,lunch
+Hostel 12,5,Steam Rice,lunch
+Hostel 12,5,Sambhar,lunch
+Hostel 12,5,Bengali Chicken,lunch
+Hostel 12,5,Sev Puri (Chopped Onion And Tomato,snacks
+Hostel 12,5,Green And Red Chutney And Dahi),snacks
+Hostel 12,5,Bread,snacks
+Hostel 12,5,Butter,snacks
+Hostel 12,5,Peanut Butter And Mango Jam,snacks
+Hostel 12,5,Tea/Coffee,snacks
+Hostel 12,5,Soybean Dry,dinner
+Hostel 12,5,Kadhai Paneer,dinner
+Hostel 12,5,Puliyogare,dinner
+Hostel 12,5,Dal Tadka Fry,dinner
+Hostel 12,5,Cucumber,dinner
+Hostel 12,5,Carrot,dinner
+Hostel 12,5,Onion,dinner
+Hostel 12,5,Beetroot,dinner
+Hostel 12,5,Roti (With & Without Ghee),dinner
+Hostel 12,5,Chutney,dinner
+Hostel 12,5,Lemon Pickle,dinner
+Hostel 12,5,Steam Rice,dinner
+Hostel 12,5,Rasam,dinner
+Hostel 12,5,Manchaw Soup (Dry Noodles),dinner
+Hostel 12,5,Fruit,dinner
+Hostel 12,5,Kaju Katli (2 Pieces),dinner
+Hostel 12,5,Chicken Do Pyaza,dinner
+Hostel 12,3,Puri Bhaji+Kheer,breakfast
+Hostel 12,3,Tomato Onion Chopped,breakfast
+Hostel 12,3,Egg Bhurji,breakfast
+Hostel 12,3,Paneer Bhurji,breakfast
+Hostel 12,3,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,3,Moong Sprouts,breakfast
+Hostel 12,3,Bread,breakfast
+Hostel 12,3,Peanut Butter And Mix Jam,breakfast
+Hostel 12,3,Tea,breakfast
+Hostel 12,3,Banana,breakfast
+Hostel 12,3,Cold Milk/Muskmelon Juice,breakfast
+Hostel 12,3,French Fries,lunch
+Hostel 12,3,Paneer Do Pyaza,lunch
+Hostel 12,3,Dal Makhani,lunch
+Hostel 12,3,Curd Rice With Tarmind Chuteny,lunch
+Hostel 12,3,Palak Parantha + Roti (With And Without Ghee),lunch
+Hostel 12,3,Mix Pickle,lunch
+Hostel 12,3,Fruit Custard,lunch
+Hostel 12,3,Papad,lunch
+Hostel 12,3,Roasted Peanut Salad,lunch
+Hostel 12,3,Steam Rice,lunch
+Hostel 12,3,Rasam,lunch
+Hostel 12,3,Fish Curry,lunch
+Hostel 12,3,Bhel Puri,snacks
+Hostel 12,3,Bread,snacks
+Hostel 12,3,Butter And Mix Jam,snacks
+Hostel 12,3,Tea/Coffee,snacks
+Hostel 12,3,Corn Palak,dinner
+Hostel 12,3,Matki Masala,dinner
+Hostel 12,3,Jeera Rice,dinner
+Hostel 12,3,Arhar Dal Tadka,dinner
+Hostel 12,3,Cucumber Carrot Onion With Corriander,dinner
+Hostel 12,3,Roti (With & Without Ghee),dinner
+Hostel 12,3,Mix Pickle,dinner
+Hostel 12,3,Steam Rice,dinner
+Hostel 12,3,Rasam,dinner
+Hostel 12,3,Fruit,dinner
+Hostel 12,3,Lauki Halwa,dinner
+Hostel 12,3,Hyderabadi Chicken Biryani,dinner
+Hostel 12,2,Gobhi Parantha,breakfast
+Hostel 12,2,Schezwan Chutney,breakfast
+Hostel 12,2,Tomato-Coriander-Chilli Chutney,breakfast
+Hostel 12,2,Curd,breakfast
+Hostel 12,2,Tomato Sauce,breakfast
+Hostel 12,2,Egg Bhurji,breakfast
+Hostel 12,2,Paneer Bhurji,breakfast
+Hostel 12,2,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 12,2,Sprout Pulses,breakfast
+Hostel 12,2,Bread,breakfast
+Hostel 12,2,Peanut Butter And Mix Jam,breakfast
+Hostel 12,2,Tea,breakfast
+Hostel 12,2,Banana,breakfast
+Hostel 12,2,(Cold Milk)/(Carrot,breakfast
+Hostel 12,2,Beetroot,breakfast
+Hostel 12,2,Amla Mix Juice),breakfast
+Hostel 12,2,Veg Tawa,lunch
+Hostel 12,2,Kadhi Pakoda,lunch
+Hostel 12,2,Toor Dal Tadka,lunch
+Hostel 12,2,Vegetable Dal Khichdi,lunch
+Hostel 12,2,Roti (With And Without Ghee),lunch
+Hostel 12,2,Green Chiili,lunch
+Hostel 12,2,Curd,lunch
+Hostel 12,2,Nimbu Pani,lunch
+Hostel 12,2,Fryums,lunch
+Hostel 12,2,Pasta Salad With Mayo Dressing,lunch
+Hostel 12,2,Steam Rice,lunch
+Hostel 12,2,Sambhar,lunch
+Hostel 12,2,Chicken Masala,lunch
+Hostel 12,2,Chole Samosa (Chopped Onion Tomatos),snacks
+Hostel 12,2,Bread,snacks
+Hostel 12,2,Butter,snacks
+Hostel 12,2,And Mango Jam,snacks
+Hostel 12,2,Tea/Coffee,snacks
+Hostel 12,2,Phool Gobhi Matar,dinner
+Hostel 12,2,Soya Chaap Masala / Egg Curry,dinner
+Hostel 12,2,Fried Rice,dinner
+Hostel 12,2,Moong Dal Adraki Tadka,dinner
+Hostel 12,2,Boiled Corn Salad (Chopped Onion,dinner
+Hostel 12,2,Tomato),dinner
+Hostel 12,2,Roti (With & Without Ghee),dinner
+Hostel 12,2,Raita,dinner
+Hostel 12,2,Green Chiili,dinner
+Hostel 12,2,Steam Rice,dinner
+Hostel 12,2,Rasam,dinner
+Hostel 12,2,Fruit,dinner
+Hostel 12,2,Pista Barfi (2 Pieces),dinner
+Hostel 12,2,Chili Chicken,dinner
+Hostel 13,2,Gobhi Parantha,breakfast
+Hostel 13,2,Schezwan Chutney,breakfast
+Hostel 13,2,Tomato-Coriander-Chilli Chutney,breakfast
+Hostel 13,2,Curd,breakfast
+Hostel 13,2,Tomato Sauce,breakfast
+Hostel 13,2,Egg Bhurji,breakfast
+Hostel 13,2,Paneer Bhurji,breakfast
+Hostel 13,2,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,2,Sprout Pulses,breakfast
+Hostel 13,2,Bread,breakfast
+Hostel 13,2,Peanut Butter And Mix Jam,breakfast
+Hostel 13,2,Tea,breakfast
+Hostel 13,2,Banana,breakfast
+Hostel 13,2,(Cold Milk)/(Carrot,breakfast
+Hostel 13,2,Beetroot,breakfast
+Hostel 13,2,Amla Mix Juice),breakfast
+Hostel 13,2,Veg Tawa,lunch
+Hostel 13,2,Kadhi Pakoda,lunch
+Hostel 13,2,Toor Dal Tadka,lunch
+Hostel 13,2,Vegetable Dal Khichdi,lunch
+Hostel 13,2,Roti (With And Without Ghee),lunch
+Hostel 13,2,Green Chiili,lunch
+Hostel 13,2,Curd,lunch
+Hostel 13,2,Nimbu Pani,lunch
+Hostel 13,2,Fryums,lunch
+Hostel 13,2,Pasta Salad With Mayo Dressing,lunch
+Hostel 13,2,Steam Rice,lunch
+Hostel 13,2,Sambhar,lunch
+Hostel 13,2,Chicken Masala,lunch
+Hostel 13,2,Chole Samosa (Chopped Onion Tomatos),snacks
+Hostel 13,2,Bread,snacks
+Hostel 13,2,Butter,snacks
+Hostel 13,2,And Mango Jam,snacks
+Hostel 13,2,Tea/Coffee,snacks
+Hostel 13,2,Phool Gobhi Matar,dinner
+Hostel 13,2,Soya Chaap Masala / Egg Curry,dinner
+Hostel 13,2,Fried Rice,dinner
+Hostel 13,2,Moong Dal Adraki Tadka,dinner
+Hostel 13,2,Boiled Corn Salad (Chopped Onion,dinner
+Hostel 13,2,Tomato),dinner
+Hostel 13,2,Roti (With & Without Ghee),dinner
+Hostel 13,2,Raita,dinner
+Hostel 13,2,Green Chiili,dinner
+Hostel 13,2,Steam Rice,dinner
+Hostel 13,2,Rasam,dinner
+Hostel 13,2,Fruit,dinner
+Hostel 13,2,Pista Barfi (2 Pieces),dinner
+Hostel 13,2,Chili Chicken,dinner
+Hostel 13,1,Idli,breakfast
+Hostel 13,1,Medu Boonda,breakfast
+Hostel 13,1,Coconut Chutney,breakfast
+Hostel 13,1,Sambhar,breakfast
+Hostel 13,1,Egg Omelette,breakfast
+Hostel 13,1,Paneer Bhurji,breakfast
+Hostel 13,1,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,1,Boiled Sweet Corn,breakfast
+Hostel 13,1,Bread,breakfast
+Hostel 13,1,Butter And Mix Jam,breakfast
+Hostel 13,1,Tea And Coffee,breakfast
+Hostel 13,1,Banana/ Boiled Egg,breakfast
+Hostel 13,1,Milk/Watermelon Juice,breakfast
+Hostel 13,1,Bhindi Masala,lunch
+Hostel 13,1,Shukto,lunch
+Hostel 13,1,Dal Palak,lunch
+Hostel 13,1,Tomato-Rice,lunch
+Hostel 13,1,Roti (With And Without Ghee),lunch
+Hostel 13,1,Tisa Chutney (Spicy),lunch
+Hostel 13,1,Mix Pickle,lunch
+Hostel 13,1,Curd,lunch
+Hostel 13,1,Mint Mojito,lunch
+Hostel 13,1,Sabudana Papad,lunch
+Hostel 13,1,Cucumber,lunch
+Hostel 13,1,Beetroot,lunch
+Hostel 13,1,Chutney,lunch
+Hostel 13,1,Steam Rice,lunch
+Hostel 13,1,Sambhar,lunch
+Hostel 13,1,Bengali Chicken,lunch
+Hostel 13,1,Sev Puri (Chopped Onion And Tomato,snacks
+Hostel 13,1,Green And Red Chutney And Dahi),snacks
+Hostel 13,1,Bread,snacks
+Hostel 13,1,Butter,snacks
+Hostel 13,1,Peanut Butter And Mango Jam,snacks
+Hostel 13,1,Tea/Coffee,snacks
+Hostel 13,1,Soybean Dry,dinner
+Hostel 13,1,Kadhai Paneer,dinner
+Hostel 13,1,Puliyogare,dinner
+Hostel 13,1,Dal Tadka Fry,dinner
+Hostel 13,1,Cucumber,dinner
+Hostel 13,1,Carrot,dinner
+Hostel 13,1,Onion,dinner
+Hostel 13,1,Beetroot,dinner
+Hostel 13,1,Roti (With & Without Ghee),dinner
+Hostel 13,1,Chutney,dinner
+Hostel 13,1,Lemon Pickle,dinner
+Hostel 13,1,Steam Rice,dinner
+Hostel 13,1,Rasam,dinner
+Hostel 13,1,Manchaw Soup (Dry Noodles),dinner
+Hostel 13,1,Fruit,dinner
+Hostel 13,1,Kaju Katli (2 Pieces),dinner
+Hostel 13,1,Chicken Do Pyaza,dinner
+Hostel 13,4,Veg Poha (Peas And Peanut),breakfast
+Hostel 13,4,Sev,breakfast
+Hostel 13,4,Chana Usal,breakfast
+Hostel 13,4,Tomato Sauce And Chopped Onion,breakfast
+Hostel 13,4,Egg Bhurji,breakfast
+Hostel 13,4,Paneer Bhurji,breakfast
+Hostel 13,4,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,4,Boiled Chana,breakfast
+Hostel 13,4,Bread,breakfast
+Hostel 13,4,Butter And Mix Jam,breakfast
+Hostel 13,4,Tea/Coffee,breakfast
+Hostel 13,4,Banana/ Boiled Egg,breakfast
+Hostel 13,4,Milk/Apple Beetroot Carrot Juice,breakfast
+Hostel 13,4,Aloo Methi,lunch
+Hostel 13,4,Soyabean Masala Gravy,lunch
+Hostel 13,4,Hakka Masoor Daal,lunch
+Hostel 13,4,Masala Khichdi (Soya Chunks),lunch
+Hostel 13,4,Roti (With And Without Ghee),lunch
+Hostel 13,4,White Papaya Chutney,lunch
+Hostel 13,4,Mango Pickle,lunch
+Hostel 13,4,Curd,lunch
+Hostel 13,4,Rooh Afza,lunch
+Hostel 13,4,Papad,lunch
+Hostel 13,4,Cucumber,lunch
+Hostel 13,4,Beetroot,lunch
+Hostel 13,4,Lemon,lunch
+Hostel 13,4,Steam Rice,lunch
+Hostel 13,4,Rasam,lunch
+Hostel 13,4,Dhaba Chicken,lunch
+Hostel 13,4,Misal Pav (Chopped Onion Tomatos),snacks
+Hostel 13,4,Bread,snacks
+Hostel 13,4,Butter And Mix Jam,snacks
+Hostel 13,4,Tea And Coffee,snacks
+Hostel 13,4,Pumpkin Dry,dinner
+Hostel 13,4,Aloo Matar Bhandara,dinner
+Hostel 13,4,Lemon-Rice,dinner
+Hostel 13,4,Dal Achari Tadka,dinner
+Hostel 13,4,Kimchi Salad,dinner
+Hostel 13,4,Methi Puri/ Roti (With & Without Ghee),dinner
+Hostel 13,4,Pineapple Chutney,dinner
+Hostel 13,4,Lemon Pickle,dinner
+Hostel 13,4,Steam Rice,dinner
+Hostel 13,4,Rasam,dinner
+Hostel 13,4,Tomato Soup,dinner
+Hostel 13,4,Fruit,dinner
+Hostel 13,4,Srikhand,dinner
+Hostel 13,4,Chicken 65,dinner
+Hostel 13,5,Idli,breakfast
+Hostel 13,5,Medu Boonda,breakfast
+Hostel 13,5,Coconut Chutney,breakfast
+Hostel 13,5,Sambhar,breakfast
+Hostel 13,5,Egg Omelette,breakfast
+Hostel 13,5,Paneer Bhurji,breakfast
+Hostel 13,5,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,5,Boiled Sweet Corn,breakfast
+Hostel 13,5,Bread,breakfast
+Hostel 13,5,Butter And Mix Jam,breakfast
+Hostel 13,5,Tea And Coffee,breakfast
+Hostel 13,5,Banana/ Boiled Egg,breakfast
+Hostel 13,5,Milk/Watermelon Juice,breakfast
+Hostel 13,5,Bhindi Masala,lunch
+Hostel 13,5,Shukto,lunch
+Hostel 13,5,Dal Palak,lunch
+Hostel 13,5,Tomato-Rice,lunch
+Hostel 13,5,Roti (With And Without Ghee),lunch
+Hostel 13,5,Tisa Chutney (Spicy),lunch
+Hostel 13,5,Mix Pickle,lunch
+Hostel 13,5,Curd,lunch
+Hostel 13,5,Mint Mojito,lunch
+Hostel 13,5,Sabudana Papad,lunch
+Hostel 13,5,Cucumber,lunch
+Hostel 13,5,Beetroot,lunch
+Hostel 13,5,Chutney,lunch
+Hostel 13,5,Steam Rice,lunch
+Hostel 13,5,Sambhar,lunch
+Hostel 13,5,Bengali Chicken,lunch
+Hostel 13,5,Sev Puri (Chopped Onion And Tomato,snacks
+Hostel 13,5,Green And Red Chutney And Dahi),snacks
+Hostel 13,5,Bread,snacks
+Hostel 13,5,Butter,snacks
+Hostel 13,5,Peanut Butter And Mango Jam,snacks
+Hostel 13,5,Tea/Coffee,snacks
+Hostel 13,5,Soybean Dry,dinner
+Hostel 13,5,Kadhai Paneer,dinner
+Hostel 13,5,Puliyogare,dinner
+Hostel 13,5,Dal Tadka Fry,dinner
+Hostel 13,5,Cucumber,dinner
+Hostel 13,5,Carrot,dinner
+Hostel 13,5,Onion,dinner
+Hostel 13,5,Beetroot,dinner
+Hostel 13,5,Roti (With & Without Ghee),dinner
+Hostel 13,5,Chutney,dinner
+Hostel 13,5,Lemon Pickle,dinner
+Hostel 13,5,Steam Rice,dinner
+Hostel 13,5,Rasam,dinner
+Hostel 13,5,Manchaw Soup (Dry Noodles),dinner
+Hostel 13,5,Fruit,dinner
+Hostel 13,5,Kaju Katli (2 Pieces),dinner
+Hostel 13,5,Chicken Do Pyaza,dinner
+Hostel 13,6,Masala Utappam,breakfast
+Hostel 13,6,Sambar,breakfast
+Hostel 13,6,Coconut Chutney,breakfast
+Hostel 13,6,Egg Bhurji,breakfast
+Hostel 13,6,Paneer Bhurji,breakfast
+Hostel 13,6,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,6,Boiled Kidney Beans,breakfast
+Hostel 13,6,Bread,breakfast
+Hostel 13,6,Butter And Mix Jam,breakfast
+Hostel 13,6,Tea And Coffee,breakfast
+Hostel 13,6,Banana / Boiled Egg,breakfast
+Hostel 13,6,Milk/Carrot,breakfast
+Hostel 13,6,Beetroot,breakfast
+Hostel 13,6,Amla Mix Juice,breakfast
+Hostel 13,6,Veg Tawa,lunch
+Hostel 13,6,Kadhi Pakoda,lunch
+Hostel 13,6,Toor Dal Tadka,lunch
+Hostel 13,6,Vegetable Dal Khichdi,lunch
+Hostel 13,6,Roti (With And Without Ghee),lunch
+Hostel 13,6,Green Chiili,lunch
+Hostel 13,6,Curd,lunch
+Hostel 13,6,Nimbu Pani,lunch
+Hostel 13,6,Fryums,lunch
+Hostel 13,6,Pasta Salad With Mayo Dressing,lunch
+Hostel 13,6,Steam Rice,lunch
+Hostel 13,6,Sambhar,lunch
+Hostel 13,6,Chicken Masala,lunch
+Hostel 13,6,Chole Samosa (Chopped Onion Tomatos),snacks
+Hostel 13,6,Bread,snacks
+Hostel 13,6,Butter,snacks
+Hostel 13,6,And Mango Jam,snacks
+Hostel 13,6,Tea/Coffee,snacks
+Hostel 13,6,Phool Gobhi Matar,dinner
+Hostel 13,6,Soya Chaap Masala / Egg Curry,dinner
+Hostel 13,6,Fried Rice,dinner
+Hostel 13,6,Moong Dal Adraki Tadka,dinner
+Hostel 13,6,Boiled Corn Salad (Chopped Onion,dinner
+Hostel 13,6,Tomato),dinner
+Hostel 13,6,Roti (With & Without Ghee),dinner
+Hostel 13,6,Raita,dinner
+Hostel 13,6,Green Chiili,dinner
+Hostel 13,6,Steam Rice,dinner
+Hostel 13,6,Rasam,dinner
+Hostel 13,6,Fruit,dinner
+Hostel 13,6,Pista Barfi (2 Pieces),dinner
+Hostel 13,6,Chili Chicken,dinner
+Hostel 13,3,Puri Bhaji+Kheer,breakfast
+Hostel 13,3,Tomato Onion Chopped,breakfast
+Hostel 13,3,Egg Bhurji,breakfast
+Hostel 13,3,Paneer Bhurji,breakfast
+Hostel 13,3,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,3,Moong Sprouts,breakfast
+Hostel 13,3,Bread,breakfast
+Hostel 13,3,Peanut Butter And Mix Jam,breakfast
+Hostel 13,3,Tea,breakfast
+Hostel 13,3,Banana,breakfast
+Hostel 13,3,Cold Milk/Muskmelon Juice,breakfast
+Hostel 13,3,French Fries,lunch
+Hostel 13,3,Paneer Do Pyaza,lunch
+Hostel 13,3,Dal Makhani,lunch
+Hostel 13,3,Curd Rice With Tarmind Chuteny,lunch
+Hostel 13,3,Palak Parantha + Roti (With And Without Ghee),lunch
+Hostel 13,3,Mix Pickle,lunch
+Hostel 13,3,Fruit Custard,lunch
+Hostel 13,3,Papad,lunch
+Hostel 13,3,Roasted Peanut Salad,lunch
+Hostel 13,3,Steam Rice,lunch
+Hostel 13,3,Rasam,lunch
+Hostel 13,3,Fish Curry,lunch
+Hostel 13,3,Bhel Puri,snacks
+Hostel 13,3,Bread,snacks
+Hostel 13,3,Butter And Mix Jam,snacks
+Hostel 13,3,Tea/Coffee,snacks
+Hostel 13,3,Corn Palak,dinner
+Hostel 13,3,Matki Masala,dinner
+Hostel 13,3,Jeera Rice,dinner
+Hostel 13,3,Arhar Dal Tadka,dinner
+Hostel 13,3,Cucumber Carrot Onion With Corriander,dinner
+Hostel 13,3,Roti (With & Without Ghee),dinner
+Hostel 13,3,Mix Pickle,dinner
+Hostel 13,3,Steam Rice,dinner
+Hostel 13,3,Rasam,dinner
+Hostel 13,3,Fruit,dinner
+Hostel 13,3,Lauki Halwa,dinner
+Hostel 13,3,Hyderabadi Chicken Biryani,dinner
+Hostel 13,7,Puri Bhaji,breakfast
+Hostel 13,7,Pineapple Sheera,breakfast
+Hostel 13,7,Onion And Tomtato,breakfast
+Hostel 13,7,Egg Bhurji,breakfast
+Hostel 13,7,Paneer Bhurji,breakfast
+Hostel 13,7,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 13,7,Moong Sprouts,breakfast
+Hostel 13,7,Bread,breakfast
+Hostel 13,7,Butter And Mix Jam,breakfast
+Hostel 13,7,Tea/Coffee,breakfast
+Hostel 13,7,Banana/ Boiled Egg,breakfast
+Hostel 13,7,Milk/Muskmelon Juice,breakfast
+Hostel 13,7,French Fries,lunch
+Hostel 13,7,Paneer Do Pyaza,lunch
+Hostel 13,7,Dal Makhani,lunch
+Hostel 13,7,Curd Rice With Tarmind Chuteny,lunch
+Hostel 13,7,Palak Parantha + Roti (With And Without Ghee),lunch
+Hostel 13,7,Mix Pickle,lunch
+Hostel 13,7,Fruit Custard,lunch
+Hostel 13,7,Papad,lunch
+Hostel 13,7,Roasted Peanut Salad,lunch
+Hostel 13,7,Steam Rice,lunch
+Hostel 13,7,Rasam,lunch
+Hostel 13,7,Fish Curry,lunch
+Hostel 13,7,Bhel Puri,snacks
+Hostel 13,7,Bread,snacks
+Hostel 13,7,Butter And Mix Jam,snacks
+Hostel 13,7,Tea/Coffee,snacks
+Hostel 13,7,Corn Palak,dinner
+Hostel 13,7,Matki Masala,dinner
+Hostel 13,7,Jeera Rice,dinner
+Hostel 13,7,Arhar Dal Tadka,dinner
+Hostel 13,7,Cucumber Carrot Onion With Corriander,dinner
+Hostel 13,7,Roti (With & Without Ghee),dinner
+Hostel 13,7,Mix Pickle,dinner
+Hostel 13,7,Steam Rice,dinner
+Hostel 13,7,Rasam,dinner
+Hostel 13,7,Fruit,dinner
+Hostel 13,7,Lauki Halwa,dinner
+Hostel 13,7,Hyderabadi Chicken Biryani,dinner
+Hostel 14,5,Idli,breakfast
+Hostel 14,5,Medu Boonda,breakfast
+Hostel 14,5,Coconut Chutney,breakfast
+Hostel 14,5,Sambhar,breakfast
+Hostel 14,5,Egg Omelette,breakfast
+Hostel 14,5,Paneer Bhurji,breakfast
+Hostel 14,5,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,5,Boiled Sweet Corn,breakfast
+Hostel 14,5,Bread,breakfast
+Hostel 14,5,Butter And Mix Jam,breakfast
+Hostel 14,5,Tea And Coffee,breakfast
+Hostel 14,5,Banana/ Boiled Egg,breakfast
+Hostel 14,5,Milk/Watermelon Juice,breakfast
+Hostel 14,5,Bhindi Masala,lunch
+Hostel 14,5,Shukto,lunch
+Hostel 14,5,Dal Palak,lunch
+Hostel 14,5,Tomato-Rice,lunch
+Hostel 14,5,Roti (With And Without Ghee),lunch
+Hostel 14,5,Tisa Chutney (Spicy),lunch
+Hostel 14,5,Mix Pickle,lunch
+Hostel 14,5,Curd,lunch
+Hostel 14,5,Mint Mojito,lunch
+Hostel 14,5,Sabudana Papad,lunch
+Hostel 14,5,Cucumber,lunch
+Hostel 14,5,Beetroot,lunch
+Hostel 14,5,Chutney,lunch
+Hostel 14,5,Steam Rice,lunch
+Hostel 14,5,Sambhar,lunch
+Hostel 14,5,Bengali Chicken,lunch
+Hostel 14,5,Sev Puri (Chopped Onion And Tomato,snacks
+Hostel 14,5,Green And Red Chutney And Dahi),snacks
+Hostel 14,5,Bread,snacks
+Hostel 14,5,Butter,snacks
+Hostel 14,5,Peanut Butter And Mango Jam,snacks
+Hostel 14,5,Tea/Coffee,snacks
+Hostel 14,5,Soybean Dry,dinner
+Hostel 14,5,Kadhai Paneer,dinner
+Hostel 14,5,Puliyogare,dinner
+Hostel 14,5,Dal Tadka Fry,dinner
+Hostel 14,5,Cucumber,dinner
+Hostel 14,5,Carrot,dinner
+Hostel 14,5,Onion,dinner
+Hostel 14,5,Beetroot,dinner
+Hostel 14,5,Roti (With & Without Ghee),dinner
+Hostel 14,5,Chutney,dinner
+Hostel 14,5,Lemon Pickle,dinner
+Hostel 14,5,Steam Rice,dinner
+Hostel 14,5,Rasam,dinner
+Hostel 14,5,Manchaw Soup (Dry Noodles),dinner
+Hostel 14,5,Fruit,dinner
+Hostel 14,5,Kaju Katli (2 Pieces),dinner
+Hostel 14,5,Chicken Do Pyaza,dinner
+Hostel 14,7,Puri Bhaji,breakfast
+Hostel 14,7,Pineapple Sheera,breakfast
+Hostel 14,7,Onion And Tomtato,breakfast
+Hostel 14,7,Egg Bhurji,breakfast
+Hostel 14,7,Paneer Bhurji,breakfast
+Hostel 14,7,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,7,Moong Sprouts,breakfast
+Hostel 14,7,Bread,breakfast
+Hostel 14,7,Butter And Mix Jam,breakfast
+Hostel 14,7,Tea/Coffee,breakfast
+Hostel 14,7,Banana/ Boiled Egg,breakfast
+Hostel 14,7,Milk/Muskmelon Juice,breakfast
+Hostel 14,7,French Fries,lunch
+Hostel 14,7,Paneer Do Pyaza,lunch
+Hostel 14,7,Dal Makhani,lunch
+Hostel 14,7,Curd Rice With Tarmind Chuteny,lunch
+Hostel 14,7,Palak Parantha + Roti (With And Without Ghee),lunch
+Hostel 14,7,Mix Pickle,lunch
+Hostel 14,7,Fruit Custard,lunch
+Hostel 14,7,Papad,lunch
+Hostel 14,7,Roasted Peanut Salad,lunch
+Hostel 14,7,Steam Rice,lunch
+Hostel 14,7,Rasam,lunch
+Hostel 14,7,Fish Curry,lunch
+Hostel 14,7,Bhel Puri,snacks
+Hostel 14,7,Bread,snacks
+Hostel 14,7,Butter And Mix Jam,snacks
+Hostel 14,7,Tea/Coffee,snacks
+Hostel 14,7,Corn Palak,dinner
+Hostel 14,7,Matki Masala,dinner
+Hostel 14,7,Jeera Rice,dinner
+Hostel 14,7,Arhar Dal Tadka,dinner
+Hostel 14,7,Cucumber Carrot Onion With Corriander,dinner
+Hostel 14,7,Roti (With & Without Ghee),dinner
+Hostel 14,7,Mix Pickle,dinner
+Hostel 14,7,Steam Rice,dinner
+Hostel 14,7,Rasam,dinner
+Hostel 14,7,Fruit,dinner
+Hostel 14,7,Lauki Halwa,dinner
+Hostel 14,7,Hyderabadi Chicken Biryani,dinner
+Hostel 14,1,Idli,breakfast
+Hostel 14,1,Medu Boonda,breakfast
+Hostel 14,1,Coconut Chutney,breakfast
+Hostel 14,1,Sambhar,breakfast
+Hostel 14,1,Egg Omelette,breakfast
+Hostel 14,1,Paneer Bhurji,breakfast
+Hostel 14,1,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,1,Boiled Sweet Corn,breakfast
+Hostel 14,1,Bread,breakfast
+Hostel 14,1,Butter And Mix Jam,breakfast
+Hostel 14,1,Tea And Coffee,breakfast
+Hostel 14,1,Banana/ Boiled Egg,breakfast
+Hostel 14,1,Milk/Watermelon Juice,breakfast
+Hostel 14,1,Bhindi Masala,lunch
+Hostel 14,1,Shukto,lunch
+Hostel 14,1,Dal Palak,lunch
+Hostel 14,1,Tomato-Rice,lunch
+Hostel 14,1,Roti (With And Without Ghee),lunch
+Hostel 14,1,Tisa Chutney (Spicy),lunch
+Hostel 14,1,Mix Pickle,lunch
+Hostel 14,1,Curd,lunch
+Hostel 14,1,Mint Mojito,lunch
+Hostel 14,1,Sabudana Papad,lunch
+Hostel 14,1,Cucumber,lunch
+Hostel 14,1,Beetroot,lunch
+Hostel 14,1,Chutney,lunch
+Hostel 14,1,Steam Rice,lunch
+Hostel 14,1,Sambhar,lunch
+Hostel 14,1,Bengali Chicken,lunch
+Hostel 14,1,Sev Puri (Chopped Onion And Tomato,snacks
+Hostel 14,1,Green And Red Chutney And Dahi),snacks
+Hostel 14,1,Bread,snacks
+Hostel 14,1,Butter,snacks
+Hostel 14,1,Peanut Butter And Mango Jam,snacks
+Hostel 14,1,Tea/Coffee,snacks
+Hostel 14,1,Soybean Dry,dinner
+Hostel 14,1,Kadhai Paneer,dinner
+Hostel 14,1,Puliyogare,dinner
+Hostel 14,1,Dal Tadka Fry,dinner
+Hostel 14,1,Cucumber,dinner
+Hostel 14,1,Carrot,dinner
+Hostel 14,1,Onion,dinner
+Hostel 14,1,Beetroot,dinner
+Hostel 14,1,Roti (With & Without Ghee),dinner
+Hostel 14,1,Chutney,dinner
+Hostel 14,1,Lemon Pickle,dinner
+Hostel 14,1,Steam Rice,dinner
+Hostel 14,1,Rasam,dinner
+Hostel 14,1,Manchaw Soup (Dry Noodles),dinner
+Hostel 14,1,Fruit,dinner
+Hostel 14,1,Kaju Katli (2 Pieces),dinner
+Hostel 14,1,Chicken Do Pyaza,dinner
+Hostel 14,4,Veg Poha (Peas And Peanut),breakfast
+Hostel 14,4,Sev,breakfast
+Hostel 14,4,Chana Usal,breakfast
+Hostel 14,4,Tomato Sauce And Chopped Onion,breakfast
+Hostel 14,4,Egg Bhurji,breakfast
+Hostel 14,4,Paneer Bhurji,breakfast
+Hostel 14,4,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,4,Boiled Chana,breakfast
+Hostel 14,4,Bread,breakfast
+Hostel 14,4,Butter And Mix Jam,breakfast
+Hostel 14,4,Tea/Coffee,breakfast
+Hostel 14,4,Banana/ Boiled Egg,breakfast
+Hostel 14,4,Milk/Apple Beetroot Carrot Juice,breakfast
+Hostel 14,4,Aloo Methi,lunch
+Hostel 14,4,Soyabean Masala Gravy,lunch
+Hostel 14,4,Hakka Masoor Daal,lunch
+Hostel 14,4,Masala Khichdi (Soya Chunks),lunch
+Hostel 14,4,Roti (With And Without Ghee),lunch
+Hostel 14,4,White Papaya Chutney,lunch
+Hostel 14,4,Mango Pickle,lunch
+Hostel 14,4,Curd,lunch
+Hostel 14,4,Rooh Afza,lunch
+Hostel 14,4,Papad,lunch
+Hostel 14,4,Cucumber,lunch
+Hostel 14,4,Beetroot,lunch
+Hostel 14,4,Lemon,lunch
+Hostel 14,4,Steam Rice,lunch
+Hostel 14,4,Rasam,lunch
+Hostel 14,4,Dhaba Chicken,lunch
+Hostel 14,4,Misal Pav (Chopped Onion Tomatos),snacks
+Hostel 14,4,Bread,snacks
+Hostel 14,4,Butter And Mix Jam,snacks
+Hostel 14,4,Tea And Coffee,snacks
+Hostel 14,4,Pumpkin Dry,dinner
+Hostel 14,4,Aloo Matar Bhandara,dinner
+Hostel 14,4,Lemon-Rice,dinner
+Hostel 14,4,Dal Achari Tadka,dinner
+Hostel 14,4,Kimchi Salad,dinner
+Hostel 14,4,Methi Puri/ Roti (With & Without Ghee),dinner
+Hostel 14,4,Pineapple Chutney,dinner
+Hostel 14,4,Lemon Pickle,dinner
+Hostel 14,4,Steam Rice,dinner
+Hostel 14,4,Rasam,dinner
+Hostel 14,4,Tomato Soup,dinner
+Hostel 14,4,Fruit,dinner
+Hostel 14,4,Srikhand,dinner
+Hostel 14,4,Chicken 65,dinner
+Hostel 14,6,Masala Utappam,breakfast
+Hostel 14,6,Sambar,breakfast
+Hostel 14,6,Coconut Chutney,breakfast
+Hostel 14,6,Egg Bhurji,breakfast
+Hostel 14,6,Paneer Bhurji,breakfast
+Hostel 14,6,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,6,Boiled Kidney Beans,breakfast
+Hostel 14,6,Bread,breakfast
+Hostel 14,6,Butter And Mix Jam,breakfast
+Hostel 14,6,Tea And Coffee,breakfast
+Hostel 14,6,Banana / Boiled Egg,breakfast
+Hostel 14,6,Milk/Carrot,breakfast
+Hostel 14,6,Beetroot,breakfast
+Hostel 14,6,Amla Mix Juice,breakfast
+Hostel 14,6,Veg Tawa,lunch
+Hostel 14,6,Kadhi Pakoda,lunch
+Hostel 14,6,Toor Dal Tadka,lunch
+Hostel 14,6,Vegetable Dal Khichdi,lunch
+Hostel 14,6,Roti (With And Without Ghee),lunch
+Hostel 14,6,Green Chiili,lunch
+Hostel 14,6,Curd,lunch
+Hostel 14,6,Nimbu Pani,lunch
+Hostel 14,6,Fryums,lunch
+Hostel 14,6,Pasta Salad With Mayo Dressing,lunch
+Hostel 14,6,Steam Rice,lunch
+Hostel 14,6,Sambhar,lunch
+Hostel 14,6,Chicken Masala,lunch
+Hostel 14,6,Chole Samosa (Chopped Onion Tomatos),snacks
+Hostel 14,6,Bread,snacks
+Hostel 14,6,Butter,snacks
+Hostel 14,6,And Mango Jam,snacks
+Hostel 14,6,Tea/Coffee,snacks
+Hostel 14,6,Phool Gobhi Matar,dinner
+Hostel 14,6,Soya Chaap Masala / Egg Curry,dinner
+Hostel 14,6,Fried Rice,dinner
+Hostel 14,6,Moong Dal Adraki Tadka,dinner
+Hostel 14,6,Boiled Corn Salad (Chopped Onion,dinner
+Hostel 14,6,Tomato),dinner
+Hostel 14,6,Roti (With & Without Ghee),dinner
+Hostel 14,6,Raita,dinner
+Hostel 14,6,Green Chiili,dinner
+Hostel 14,6,Steam Rice,dinner
+Hostel 14,6,Rasam,dinner
+Hostel 14,6,Fruit,dinner
+Hostel 14,6,Pista Barfi (2 Pieces),dinner
+Hostel 14,6,Chili Chicken,dinner
+Hostel 14,2,Gobhi Parantha,breakfast
+Hostel 14,2,Schezwan Chutney,breakfast
+Hostel 14,2,Tomato-Coriander-Chilli Chutney,breakfast
+Hostel 14,2,Curd,breakfast
+Hostel 14,2,Tomato Sauce,breakfast
+Hostel 14,2,Egg Bhurji,breakfast
+Hostel 14,2,Paneer Bhurji,breakfast
+Hostel 14,2,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,2,Sprout Pulses,breakfast
+Hostel 14,2,Bread,breakfast
+Hostel 14,2,Peanut Butter And Mix Jam,breakfast
+Hostel 14,2,Tea,breakfast
+Hostel 14,2,Banana,breakfast
+Hostel 14,2,(Cold Milk)/(Carrot,breakfast
+Hostel 14,2,Beetroot,breakfast
+Hostel 14,2,Amla Mix Juice),breakfast
+Hostel 14,2,Veg Tawa,lunch
+Hostel 14,2,Kadhi Pakoda,lunch
+Hostel 14,2,Toor Dal Tadka,lunch
+Hostel 14,2,Vegetable Dal Khichdi,lunch
+Hostel 14,2,Roti (With And Without Ghee),lunch
+Hostel 14,2,Green Chiili,lunch
+Hostel 14,2,Curd,lunch
+Hostel 14,2,Nimbu Pani,lunch
+Hostel 14,2,Fryums,lunch
+Hostel 14,2,Pasta Salad With Mayo Dressing,lunch
+Hostel 14,2,Steam Rice,lunch
+Hostel 14,2,Sambhar,lunch
+Hostel 14,2,Chicken Masala,lunch
+Hostel 14,2,Chole Samosa (Chopped Onion Tomatos),snacks
+Hostel 14,2,Bread,snacks
+Hostel 14,2,Butter,snacks
+Hostel 14,2,And Mango Jam,snacks
+Hostel 14,2,Tea/Coffee,snacks
+Hostel 14,2,Phool Gobhi Matar,dinner
+Hostel 14,2,Soya Chaap Masala / Egg Curry,dinner
+Hostel 14,2,Fried Rice,dinner
+Hostel 14,2,Moong Dal Adraki Tadka,dinner
+Hostel 14,2,Boiled Corn Salad (Chopped Onion,dinner
+Hostel 14,2,Tomato),dinner
+Hostel 14,2,Roti (With & Without Ghee),dinner
+Hostel 14,2,Raita,dinner
+Hostel 14,2,Green Chiili,dinner
+Hostel 14,2,Steam Rice,dinner
+Hostel 14,2,Rasam,dinner
+Hostel 14,2,Fruit,dinner
+Hostel 14,2,Pista Barfi (2 Pieces),dinner
+Hostel 14,2,Chili Chicken,dinner
+Hostel 14,3,Puri Bhaji+Kheer,breakfast
+Hostel 14,3,Tomato Onion Chopped,breakfast
+Hostel 14,3,Egg Bhurji,breakfast
+Hostel 14,3,Paneer Bhurji,breakfast
+Hostel 14,3,Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast
+Hostel 14,3,Moong Sprouts,breakfast
+Hostel 14,3,Bread,breakfast
+Hostel 14,3,Peanut Butter And Mix Jam,breakfast
+Hostel 14,3,Tea,breakfast
+Hostel 14,3,Banana,breakfast
+Hostel 14,3,Cold Milk/Muskmelon Juice,breakfast
+Hostel 14,3,French Fries,lunch
+Hostel 14,3,Paneer Do Pyaza,lunch
+Hostel 14,3,Dal Makhani,lunch
+Hostel 14,3,Curd Rice With Tarmind Chuteny,lunch
+Hostel 14,3,Palak Parantha + Roti (With And Without Ghee),lunch
+Hostel 14,3,Mix Pickle,lunch
+Hostel 14,3,Fruit Custard,lunch
+Hostel 14,3,Papad,lunch
+Hostel 14,3,Roasted Peanut Salad,lunch
+Hostel 14,3,Steam Rice,lunch
+Hostel 14,3,Rasam,lunch
+Hostel 14,3,Fish Curry,lunch
+Hostel 14,3,Bhel Puri,snacks
+Hostel 14,3,Bread,snacks
+Hostel 14,3,Butter And Mix Jam,snacks
+Hostel 14,3,Tea/Coffee,snacks
+Hostel 14,3,Corn Palak,dinner
+Hostel 14,3,Matki Masala,dinner
+Hostel 14,3,Jeera Rice,dinner
+Hostel 14,3,Arhar Dal Tadka,dinner
+Hostel 14,3,Cucumber Carrot Onion With Corriander,dinner
+Hostel 14,3,Roti (With & Without Ghee),dinner
+Hostel 14,3,Mix Pickle,dinner
+Hostel 14,3,Steam Rice,dinner
+Hostel 14,3,Rasam,dinner
+Hostel 14,3,Fruit,dinner
+Hostel 14,3,Lauki Halwa,dinner
+Hostel 14,3,Hyderabadi Chicken Biryani,dinner
+Hostel 15,1,Sabudana Khichadi,breakfast
+Hostel 15,1,Curd,breakfast
+Hostel 15,1,Moong Sprouts,breakfast
+Hostel 15,1,Tea,breakfast
+Hostel 15,1,Coffee,breakfast
+Hostel 15,1,Milk,breakfast
+Hostel 15,1,Boiled Egg,breakfast
+Hostel 15,1,Full Fry,breakfast
+Hostel 15,1,Paneer Bhurji,breakfast
+Hostel 15,1,Banana,breakfast
+Hostel 15,1,B.B.J.,breakfast
+Hostel 15,1,Juice,breakfast
+Hostel 15,1,Kadi Pakoda,lunch
+Hostel 15,1,Aloo Jeera,lunch
+Hostel 15,1,Dal Tadka,lunch
+Hostel 15,1,Steam Rice,lunch
+Hostel 15,1,Tomato Rice,lunch
+Hostel 15,1,Chapati,lunch
+Hostel 15,1,P.P.S.,lunch
+Hostel 15,1,Kokam Sarbat,lunch
+Hostel 15,1,Dhokla,snacks
+Hostel 15,1,Milk,snacks
+Hostel 15,1,Tea,snacks
+Hostel 15,1,Coffee,snacks
+Hostel 15,1,B.B.J.,snacks
+Hostel 15,1,Fruits,snacks
+Hostel 15,1,Rajma Masala,dinner
+Hostel 15,1,Baigan Bharta,dinner
+Hostel 15,1,Dal Fry,dinner
+Hostel 15,1,Steam Rice,dinner
+Hostel 15,1,Chapati,dinner
+Hostel 15,1,Salad,dinner
+Hostel 15,1,Pickle,dinner
+Hostel 15,1,Rice Kheer,dinner
+Hostel 15,1,Chilli Paneer (Extra),dinner
+Hostel 15,5,Mixveg Paratha,breakfast
+Hostel 15,5,Curd,breakfast
+Hostel 15,5,Sprout Moong,breakfast
+Hostel 15,5,Tea,breakfast
+Hostel 15,5,Coffee,breakfast
+Hostel 15,5,Milk,breakfast
+Hostel 15,5,Boiled Egg,breakfast
+Hostel 15,5,Egg Bhurji,breakfast
+Hostel 15,5,Paneer Bhurji,breakfast
+Hostel 15,5,Banana,breakfast
+Hostel 15,5,Juice,breakfast
+Hostel 15,5,Veg Kadai,lunch
+Hostel 15,5,Pumkin Latpata,lunch
+Hostel 15,5,Dal Panchratan,lunch
+Hostel 15,5,Steam Rice,lunch
+Hostel 15,5,Lemon Rice,lunch
+Hostel 15,5,Chapati,lunch
+Hostel 15,5,P.P.S.,lunch
+Hostel 15,5,Curd,lunch
+Hostel 15,5,Veg. Hakka Noodles,snacks
+Hostel 15,5,Sauce,snacks
+Hostel 15,5,Milk,snacks
+Hostel 15,5,Tea,snacks
+Hostel 15,5,Coffee,snacks
+Hostel 15,5,Peanut Butter,snacks
+Hostel 15,5,Fruits,snacks
+Hostel 15,5,Moong Masala,dinner
+Hostel 15,5,Aloo 65,dinner
+Hostel 15,5,Dal Kolhapuri,dinner
+Hostel 15,5,Steam Rice,dinner
+Hostel 15,5,Chapati,dinner
+Hostel 15,5,Salad,dinner
+Hostel 15,5,Pickle,dinner
+Hostel 15,5,Fruit Custard,dinner
+Hostel 15,5,Chicken Biriyani (Extra),dinner
+Hostel 15,2,Idli,breakfast
+Hostel 15,2,Wada Sambar,breakfast
+Hostel 15,2,Chutney,breakfast
+Hostel 15,2,Mix Sprouts,breakfast
+Hostel 15,2,Tea,breakfast
+Hostel 15,2,Coffee,breakfast
+Hostel 15,2,Milk,breakfast
+Hostel 15,2,Boiled Egg,breakfast
+Hostel 15,2,Egg Bhurji,breakfast
+Hostel 15,2,Paneer Bhurji,breakfast
+Hostel 15,2,Banana,breakfast
+Hostel 15,2,B.B.J.,breakfast
+Hostel 15,2,Juice,breakfast
+Hostel 15,2,Paneer Kohlapuri,lunch
+Hostel 15,2,Beetroot Poriyal,lunch
+Hostel 15,2,Dal Lassoni,lunch
+Hostel 15,2,Steam Rice,lunch
+Hostel 15,2,Jeera Rice,lunch
+Hostel 15,2,Chapati,lunch
+Hostel 15,2,P.P.S.,lunch
+Hostel 15,2,Lemon Juice,lunch
+Hostel 15,2,Pav Bhaji,snacks
+Hostel 15,2,Milk,snacks
+Hostel 15,2,Tea,snacks
+Hostel 15,2,Coffee,snacks
+Hostel 15,2,Peanut Butter,snacks
+Hostel 15,2,Fruits,snacks
+Hostel 15,2,Sev Tomato,dinner
+Hostel 15,2,Suran,dinner
+Hostel 15,2,Dal Tadka,dinner
+Hostel 15,2,Steam Rice,dinner
+Hostel 15,2,Chapati,dinner
+Hostel 15,2,Salad,dinner
+Hostel 15,2,Pickle,dinner
+Hostel 15,2,Kala Jamun,dinner
+Hostel 15,2,Chicken Hyderawadi (Extra),dinner
+Hostel 15,4,Uttapam,breakfast
+Hostel 15,4,Sambar,breakfast
+Hostel 15,4,Chutney,breakfast
+Hostel 15,4,Sprout Chana,breakfast
+Hostel 15,4,Tea,breakfast
+Hostel 15,4,Coffee,breakfast
+Hostel 15,4,Milk,breakfast
+Hostel 15,4,Boiled Egg,breakfast
+Hostel 15,4,Egg Bhurji,breakfast
+Hostel 15,4,Paneer Bhurji,breakfast
+Hostel 15,4,Banana,breakfast
+Hostel 15,4,B.B.J.,breakfast
+Hostel 15,4,Juice,breakfast
+Hostel 15,4,Chole,lunch
+Hostel 15,4,Dal Fry,lunch
+Hostel 15,4,Steam Rice,lunch
+Hostel 15,4,Bhature,lunch
+Hostel 15,4,Onion,lunch
+Hostel 15,4,P.P.S.,lunch
+Hostel 15,4,Mattha,lunch
+Hostel 15,4,Pani Puri,snacks
+Hostel 15,4,Milk,snacks
+Hostel 15,4,Tea,snacks
+Hostel 15,4,Coffee,snacks
+Hostel 15,4,B.B.J.,snacks
+Hostel 15,4,Fruits,snacks
+Hostel 15,4,Lauki Kofta Masala,dinner
+Hostel 15,4,Padwal Chnadal,dinner
+Hostel 15,4,Dal Palak,dinner
+Hostel 15,4,Steam Rice,dinner
+Hostel 15,4,Chapati,dinner
+Hostel 15,4,Salad,dinner
+Hostel 15,4,Pickle,dinner
+Hostel 15,4,Sev Boondi,dinner
+Hostel 15,4,Chicken Curry (Extra),dinner
+Hostel 15,6,Veg. Upma,breakfast
+Hostel 15,6,Chutney,breakfast
+Hostel 15,6,Mix Sprouts,breakfast
+Hostel 15,6,Tea,breakfast
+Hostel 15,6,Coffee,breakfast
+Hostel 15,6,Milk,breakfast
+Hostel 15,6,Boiled Egg,breakfast
+Hostel 15,6,Egg Bhurji,breakfast
+Hostel 15,6,Paneer Bhurji,breakfast
+Hostel 15,6,Banana,breakfast
+Hostel 15,6,B.B.J.,breakfast
+Hostel 15,6,Juice,breakfast
+Hostel 15,6,Bhandara Bhaji,lunch
+Hostel 15,6,Aloo Simla,lunch
+Hostel 15,6,Dal Methi,lunch
+Hostel 15,6,Steam Rice,lunch
+Hostel 15,6,Bisi Bele Bhat,lunch
+Hostel 15,6,Chapati,lunch
+Hostel 15,6,P.P.S.,lunch
+Hostel 15,6,Lemon Juice,lunch
+Hostel 15,6,Misal Pav,snacks
+Hostel 15,6,Milk,snacks
+Hostel 15,6,Tea,snacks
+Hostel 15,6,Coffee,snacks
+Hostel 15,6,B.B.J.,snacks
+Hostel 15,6,Strawberry Shake,snacks
+Hostel 15,6,Sahi Paneer,dinner
+Hostel 15,6,Toorai Masala Dry,dinner
+Hostel 15,6,Dal Banjara,dinner
+Hostel 15,6,Steam Rice,dinner
+Hostel 15,6,Chapati,dinner
+Hostel 15,6,Salad,dinner
+Hostel 15,6,Pickle,dinner
+Hostel 15,6,Coldrinks,dinner
+Hostel 15,6,Butter Chicken In Lunch (Extra),dinner
+Hostel 15,3,Poha,breakfast
+Hostel 15,3,Ussal,breakfast
+Hostel 15,3,Boiled Peanut,breakfast
+Hostel 15,3,Tea,breakfast
+Hostel 15,3,Coffee,breakfast
+Hostel 15,3,Milk,breakfast
+Hostel 15,3,Boiled Egg,breakfast
+Hostel 15,3,Omlet,breakfast
+Hostel 15,3,Paneer Bhurji,breakfast
+Hostel 15,3,Banana,breakfast
+Hostel 15,3,B.B.J.,breakfast
+Hostel 15,3,Juice,breakfast
+Hostel 15,3,Black Chana Masala,lunch
+Hostel 15,3,Bhindi Do Pyaza,lunch
+Hostel 15,3,Dal Kohlapuri,lunch
+Hostel 15,3,Steam Rice,lunch
+Hostel 15,3,Masala Rice,lunch
+Hostel 15,3,Chapati,lunch
+Hostel 15,3,P.P.S.,lunch
+Hostel 15,3,Rasna,lunch
+Hostel 15,3,Red Pasta,snacks
+Hostel 15,3,Milk,snacks
+Hostel 15,3,Tea,snacks
+Hostel 15,3,Coffee,snacks
+Hostel 15,3,B.B.J.,snacks
+Hostel 15,3,Mango Shake,snacks
+Hostel 15,3,Vatana Ussal,dinner
+Hostel 15,3,Aloo Cabbage Mutter,dinner
+Hostel 15,3,Dal Adraki,dinner
+Hostel 15,3,Steam Rice,dinner
+Hostel 15,3,Chapati,dinner
+Hostel 15,3,Salad,dinner
+Hostel 15,3,Pickle,dinner
+Hostel 15,3,Pineapple Sheera,dinner
+Hostel 15,3,Chicken Biriyani (Extra),dinner
+Hostel 15,7,Masala Dosa,breakfast
+Hostel 15,7,Sambar,breakfast
+Hostel 15,7,Chutney,breakfast
+Hostel 15,7,Matki,breakfast
+Hostel 15,7,Tea,breakfast
+Hostel 15,7,Coffee,breakfast
+Hostel 15,7,Milk,breakfast
+Hostel 15,7,Boiled Egg,breakfast
+Hostel 15,7,Egg Bhurji,breakfast
+Hostel 15,7,Paneer Bhurji,breakfast
+Hostel 15,7,Banana,breakfast
+Hostel 15,7,B.B.J.,breakfast
+Hostel 15,7,Juice,breakfast
+Hostel 15,7,Veg Korma,lunch
+Hostel 15,7,Mix Sprouts Dry,lunch
+Hostel 15,7,Dal Tadka,lunch
+Hostel 15,7,Steam Rice,lunch
+Hostel 15,7,Mint Rice,lunch
+Hostel 15,7,Chapati,lunch
+Hostel 15,7,P.P.S.,lunch
+Hostel 15,7,Rasna,lunch
+Hostel 15,7,Bhel,snacks
+Hostel 15,7,Chutney,snacks
+Hostel 15,7,Milk,snacks
+Hostel 15,7,Tea,snacks
+Hostel 15,7,Coffee,snacks
+Hostel 15,7,B.B.J.,snacks
+Hostel 15,7,Fruits,snacks
+Hostel 15,7,Chole Punjabi,dinner
+Hostel 15,7,Mix Veg Dry,dinner
+Hostel 15,7,Dal Fry,dinner
+Hostel 15,7,Steam Rice,dinner
+Hostel 15,7,Chapati,dinner
+Hostel 15,7,Salad,dinner
+Hostel 15,7,Pickle,dinner
+Hostel 15,7,Ice Cream,dinner
+Hostel 15,7,Chicken Kadai (Extra),dinner
+Hostel 16,2,Sevaiya Upma,breakfast
+Hostel 16,2,Coconut Chutney,breakfast
+Hostel 16,2,Tea,breakfast
+Hostel 16,2,Coffee,breakfast
+Hostel 16,2,Milk,breakfast
+Hostel 16,2,Bbj,breakfast
+Hostel 16,2,Paneer Bhurji,breakfast
+Hostel 16,2,Boiled Egg,breakfast
+Hostel 16,2,Egg Bhiurji,breakfast
+Hostel 16,2,Banana,breakfast
+Hostel 16,2,Juice,breakfast
+Hostel 16,2,Chawli Masala,lunch
+Hostel 16,2,Aloo Chatpata Dry,lunch
+Hostel 16,2,Chapati,lunch
+Hostel 16,2,Onion Rice,lunch
+Hostel 16,2,Dal Fry,lunch
+Hostel 16,2,Papad,lunch
+Hostel 16,2,Pickle,lunch
+Hostel 16,2,Salad,lunch
+Hostel 16,2,Curd,lunch
+Hostel 16,2,Masala Idli,snacks
+Hostel 16,2,Chutney,snacks
+Hostel 16,2,Tea,snacks
+Hostel 16,2,Coffee,snacks
+Hostel 16,2,Bbj,snacks
+Hostel 16,2,Fruits,snacks
+Hostel 16,2,Paneer Masala,dinner
+Hostel 16,2,Doodhi Chana Dal Dry,dinner
+Hostel 16,2,Rice,dinner
+Hostel 16,2,Chapati,dinner
+Hostel 16,2,Salad,dinner
+Hostel 16,2,Pickle,dinner
+Hostel 16,2,Dal Tadaka,dinner
+Hostel 16,2,Moong Dal Chilka,dinner
+Hostel 16,2,Moong Dal Halwa,dinner
+Hostel 16,2,Egg Curry (Extra),dinner
+Hostel 16,6,Besan Chilla,breakfast
+Hostel 16,6,Sauce,breakfast
+Hostel 16,6,Sprouts,breakfast
+Hostel 16,6,Bhaji,breakfast
+Hostel 16,6,Tea,breakfast
+Hostel 16,6,Coffee,breakfast
+Hostel 16,6,Milk,breakfast
+Hostel 16,6,Paneer Bhurji,breakfast
+Hostel 16,6,Boiled Egg,breakfast
+Hostel 16,6,Egg Bhiurji,breakfast
+Hostel 16,6,Banana,breakfast
+Hostel 16,6,Juice,breakfast
+Hostel 16,6,Special Lunch,lunch
+Hostel 16,6,Special Lunch,snacks
+Hostel 16,7,Masala Dosa,breakfast
+Hostel 16,7,Sambhar,breakfast
+Hostel 16,7,Chutney,breakfast
+Hostel 16,7,Tea,breakfast
+Hostel 16,7,Coffee,breakfast
+Hostel 16,7,Milk,breakfast
+Hostel 16,7,Paneer Bhurji,breakfast
+Hostel 16,7,Boiled Egg,breakfast
+Hostel 16,7,Egg Bhiurji,breakfast
+Hostel 16,7,Banana,breakfast
+Hostel 16,7,Juice,breakfast
+Hostel 16,7,Sev Tomato Curry,lunch
+Hostel 16,7,Baigan Bharta,lunch
+Hostel 16,7,Dal Adrahki,lunch
+Hostel 16,7,Chapati,lunch
+Hostel 16,7,Masala Rice,lunch
+Hostel 16,7,Papad,lunch
+Hostel 16,7,Pickle,lunch
+Hostel 16,7,Salad,lunch
+Hostel 16,7,Curd,lunch
+Hostel 16,7,Dhokla,snacks
+Hostel 16,7,Chutey,snacks
+Hostel 16,7,Tea,snacks
+Hostel 16,7,Coffee,snacks
+Hostel 16,7,Bbj,snacks
+Hostel 16,7,Peanut Butter,snacks
+Hostel 16,7,Fruits,snacks
+Hostel 16,7,Chole Pendi,dinner
+Hostel 16,7,Aloo Schezwan Dry,dinner
+Hostel 16,7,Dal Tadka,dinner
+Hostel 16,7,Rice,dinner
+Hostel 16,7,Chapati,dinner
+Hostel 16,7,Pickle,dinner
+Hostel 16,7,Salad,dinner
+Hostel 16,7,Ice Cream,dinner
+Hostel 16,7,Butter Chicken (Extra),dinner
+Hostel 16,3,Mix Veg Paratha,breakfast
+Hostel 16,3,Curd,breakfast
+Hostel 16,3,Tea,breakfast
+Hostel 16,3,Coffee,breakfast
+Hostel 16,3,Milk,breakfast
+Hostel 16,3,Bbj,breakfast
+Hostel 16,3,Eggs Bhurji,breakfast
+Hostel 16,3,Boiled Egg,breakfast
+Hostel 16,3,Paneer Bhurji,breakfast
+Hostel 16,3,Banana,breakfast
+Hostel 16,3,Juice,breakfast
+Hostel 16,3,Chole Punjabi,lunch
+Hostel 16,3,Bhatura,lunch
+Hostel 16,3,Tendli Chana Dry,lunch
+Hostel 16,3,Dal Bhukhara,lunch
+Hostel 16,3,Rice,lunch
+Hostel 16,3,Tadka Rice,lunch
+Hostel 16,3,Chapati,lunch
+Hostel 16,3,Papad,lunch
+Hostel 16,3,Pickle,lunch
+Hostel 16,3,Salad,lunch
+Hostel 16,3,Lassi,lunch
+Hostel 16,3,Veg Noodles,snacks
+Hostel 16,3,Tea,snacks
+Hostel 16,3,Coffee,snacks
+Hostel 16,3,Bbj,snacks
+Hostel 16,3,Peanut Butter,snacks
+Hostel 16,3,Fruits,snacks
+Hostel 16,3,Aloo Matar Tomato Rassa,dinner
+Hostel 16,3,Turai Chana Dry,dinner
+Hostel 16,3,Dal Fry,dinner
+Hostel 16,3,Rice,dinner
+Hostel 16,3,Chapati,dinner
+Hostel 16,3,Salad,dinner
+Hostel 16,3,Pickle,dinner
+Hostel 16,3,Coconut Barfi,dinner
+Hostel 16,3,Chicken Biryani,dinner
+Hostel 16,3,Raita (Extra),dinner
+Hostel 16,5,Onion Uttapam,breakfast
+Hostel 16,5,Sambhar,breakfast
+Hostel 16,5,Chutney,breakfast
+Hostel 16,5,Tea,breakfast
+Hostel 16,5,Coffee,breakfast
+Hostel 16,5,Milk,breakfast
+Hostel 16,5,Paneer Bhurji,breakfast
+Hostel 16,5,Boiled Egg,breakfast
+Hostel 16,5,Egg Bhiurji,breakfast
+Hostel 16,5,Banana,breakfast
+Hostel 16,5,Juice,breakfast
+Hostel 16,5,Black Chana Masala,lunch
+Hostel 16,5,Tendli Dry,lunch
+Hostel 16,5,Dal Tadaka,lunch
+Hostel 16,5,Chapati,lunch
+Hostel 16,5,Dal Khichadi,lunch
+Hostel 16,5,Papad,lunch
+Hostel 16,5,Pickle,lunch
+Hostel 16,5,Salad,lunch
+Hostel 16,5,Chass,lunch
+Hostel 16,5,Pani Puri,snacks
+Hostel 16,5,Tea,snacks
+Hostel 16,5,Coffee,snacks
+Hostel 16,5,Bbj,snacks
+Hostel 16,5,Fruits,snacks
+Hostel 16,5,Paneer Kadai,dinner
+Hostel 16,5,Carrot Matar Dry,dinner
+Hostel 16,5,Akha Massor Dal,dinner
+Hostel 16,5,Rice,dinner
+Hostel 16,5,Chapati,dinner
+Hostel 16,5,Pickle,dinner
+Hostel 16,5,Salad,dinner
+Hostel 16,5,Boondi Laddu,dinner
+Hostel 16,5,Chicken Kolhapuri (Extra),dinner
+Hostel 16,4,Mendu Vada,breakfast
+Hostel 16,4,Sambhar,breakfast
+Hostel 16,4,Chutney,breakfast
+Hostel 16,4,Bbj,breakfast
+Hostel 16,4,Tea,breakfast
+Hostel 16,4,Coffee,breakfast
+Hostel 16,4,Milk,breakfast
+Hostel 16,4,Paneer Bhurji,breakfast
+Hostel 16,4,Boiled Egg,breakfast
+Hostel 16,4,Egg Bhiurji,breakfast
+Hostel 16,4,Banana,breakfast
+Hostel 16,4,Juice,breakfast
+Hostel 16,4,Dahi Kadi Pakoda,lunch
+Hostel 16,4,Mix Kathola Dry,lunch
+Hostel 16,4,Dal Kolhapuri,lunch
+Hostel 16,4,Rice,lunch
+Hostel 16,4,Lemon Rice,lunch
+Hostel 16,4,Chapati,lunch
+Hostel 16,4,Papad,lunch
+Hostel 16,4,Pickle,lunch
+Hostel 16,4,Salad,lunch
+Hostel 16,4,Rasna,lunch
+Hostel 16,4,Pav B Bhaji,snacks
+Hostel 16,4,Tea,snacks
+Hostel 16,4,Coffee,snacks
+Hostel 16,4,Bbj,snacks
+Hostel 16,4,Fruits,snacks
+Hostel 16,4,Veg Kadai Masala,dinner
+Hostel 16,4,Aloo Karela Jodhpuri Dry,dinner
+Hostel 16,4,Dal Palak,dinner
+Hostel 16,4,Rice,dinner
+Hostel 16,4,Chapati,dinner
+Hostel 16,4,Salad,dinner
+Hostel 16,4,Pickle,dinner
+Hostel 16,4,Sevaiya Kheer,dinner
+Hostel 16,4,Paneer Chilli (Extra),dinner
+Hostel 16,1,Onion Poha,breakfast
+Hostel 16,1,Matki Usal,breakfast
+Hostel 16,1,Tea,breakfast
+Hostel 16,1,Coffee,breakfast
+Hostel 16,1,Milk,breakfast
+Hostel 16,1,Paneer Bhurji,breakfast
+Hostel 16,1,Omlete,breakfast
+Hostel 16,1,Banana,breakfast
+Hostel 16,1,Bbj,breakfast
+Hostel 16,1,Juice,breakfast
+Hostel 16,1,Rajma Tomato Gravy,lunch
+Hostel 16,1,Cabbage Matar Dry,lunch
+Hostel 16,1,Chapati,lunch
+Hostel 16,1,Masala Rice,lunch
+Hostel 16,1,Dal Lasuni,lunch
+Hostel 16,1,Papad,lunch
+Hostel 16,1,Pickle,lunch
+Hostel 16,1,Salad,lunch
+Hostel 16,1,Lemon Rasna,lunch
+Hostel 16,1,White Pasta,snacks
+Hostel 16,1,Tea,snacks
+Hostel 16,1,Coffee,snacks
+Hostel 16,1,Bbj,snacks
+Hostel 16,1,Fruits,snacks
+Hostel 16,1,Veg Kolhapuri,dinner
+Hostel 16,1,Soya Chilli Dry,dinner
+Hostel 16,1,Jeera Rice,dinner
+Hostel 16,1,Chapati,dinner
+Hostel 16,1,Salad,dinner
+Hostel 16,1,Pickle,dinner
+Hostel 16,1,Dal Tadaka,dinner
+Hostel 16,1,Gulab Jamun,dinner
+Hostel 16,1,Chicken Curry (Extra),dinner
+Hostel 17,1,Aloo Paratha,breakfast
+Hostel 17,1,Schezwan Chutney,breakfast
+Hostel 17,1,Tomato Chutney,breakfast
+Hostel 17,1,Egg Bhurji,breakfast
+Hostel 17,1,Paneer Bhurji,breakfast
+Hostel 17,1,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,1,Matki Ussal,breakfast
+Hostel 17,1,Bread,breakfast
+Hostel 17,1,Butter And Mix Jam,breakfast
+Hostel 17,1,Tea/Coffee,breakfast
+Hostel 17,1,Banana / Boiled Egg,breakfast
+Hostel 17,1,Milk / Juice,breakfast
+Hostel 17,1,Aloo Jeera,lunch
+Hostel 17,1,Lauki Kofta,lunch
+Hostel 17,1,Daal,lunch
+Hostel 17,1,Masala Rice,lunch
+Hostel 17,1,Roti,lunch
+Hostel 17,1,Mix Pickle,lunch
+Hostel 17,1,Dahi,lunch
+Hostel 17,1,Sambhar,lunch
+Hostel 17,1,Fryums,lunch
+Hostel 17,1,Salad,lunch
+Hostel 17,1,Steam Rice,lunch
+Hostel 17,1,Chicken Koliwada,lunch
+Hostel 17,1,Misal Pav,snacks
+Hostel 17,1,Bread,snacks
+Hostel 17,1,Butter And Mix Jam,snacks
+Hostel 17,1,Tea/Coffee,snacks
+Hostel 17,1,Milk,snacks
+Hostel 17,1,Fruits,snacks
+Hostel 17,1,Black Chana Dry,dinner
+Hostel 17,1,Methi Malai Matar,dinner
+Hostel 17,1,Dal Tadka,dinner
+Hostel 17,1,Salad,dinner
+Hostel 17,1,Roti,dinner
+Hostel 17,1,Coconut Rice,dinner
+Hostel 17,1,Dry Peanut Chutney,dinner
+Hostel 17,1,Rasam,dinner
+Hostel 17,1,Gulab Jamun,dinner
+Hostel 17,1,Butter Chicken,dinner
+Hostel 17,2,Indori Poha,breakfast
+Hostel 17,2,Egg Omlette,breakfast
+Hostel 17,2,Paneer Bhurji,breakfast
+Hostel 17,2,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,2,Boiled Peanut,breakfast
+Hostel 17,2,Bread,breakfast
+Hostel 17,2,Butter And Mix Jam,breakfast
+Hostel 17,2,Tea/Coffee,breakfast
+Hostel 17,2,Banana / Boiled Egg,breakfast
+Hostel 17,2,Milk / Juice,breakfast
+Hostel 17,2,Karela Chatpata,lunch
+Hostel 17,2,Paneer Matar,lunch
+Hostel 17,2,Daal,lunch
+Hostel 17,2,Dal Khichdi,lunch
+Hostel 17,2,Roti,lunch
+Hostel 17,2,Mango Pickle,lunch
+Hostel 17,2,Masala Chaas,lunch
+Hostel 17,2,Rassam,lunch
+Hostel 17,2,Papad,lunch
+Hostel 17,2,Salad,lunch
+Hostel 17,2,Steam Rice,lunch
+Hostel 17,2,Chicken Fry,lunch
+Hostel 17,2,Dhokla,snacks
+Hostel 17,2,Bread,snacks
+Hostel 17,2,Butter And Mix Jam,snacks
+Hostel 17,2,Tea/Coffee,snacks
+Hostel 17,2,Milk,snacks
+Hostel 17,2,Fruits,snacks
+Hostel 17,2,Aloo Gobi,dinner
+Hostel 17,2,Veg Manchurian,dinner
+Hostel 17,2,Dal Fry,dinner
+Hostel 17,2,Salad,dinner
+Hostel 17,2,Roti,dinner
+Hostel 17,2,Fried Rice,dinner
+Hostel 17,2,Hot N Sour Soup,dinner
+Hostel 17,2,Sambhar,dinner
+Hostel 17,2,Jalebi,dinner
+Hostel 17,2,Chilli Chicken,dinner
+Hostel 17,5,Idli/Vada,breakfast
+Hostel 17,5,Sambar,breakfast
+Hostel 17,5,Chutney,breakfast
+Hostel 17,5,Egg Bhurji,breakfast
+Hostel 17,5,Paneer Bhurji,breakfast
+Hostel 17,5,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,5,Moong Sprouts,breakfast
+Hostel 17,5,Bread,breakfast
+Hostel 17,5,Butter And Mix Jam,breakfast
+Hostel 17,5,Tea And Coffee,breakfast
+Hostel 17,5,Banana / Boiled Egg,breakfast
+Hostel 17,5,Milk/Juice,breakfast
+Hostel 17,5,Baingan Bharta,lunch
+Hostel 17,5,Black Chana Masala,lunch
+Hostel 17,5,Dal,lunch
+Hostel 17,5,Jeera Rice,lunch
+Hostel 17,5,Roti,lunch
+Hostel 17,5,Mix Pickle,lunch
+Hostel 17,5,Dahi,lunch
+Hostel 17,5,Sambhar,lunch
+Hostel 17,5,Roasted Papad,lunch
+Hostel 17,5,Salad,lunch
+Hostel 17,5,Steam Rice,lunch
+Hostel 17,5,Chicken Handi,lunch
+Hostel 17,5,Onion Kachori Starwberry Milkshake,snacks
+Hostel 17,5,Ad Butter,snacks
+Hostel 17,5,Peanut Butter And,snacks
+Hostel 17,5,Tea/Coffee,snacks
+Hostel 17,5,Fruits,snacks
+Hostel 17,5,Raw Banana Fry,dinner
+Hostel 17,5,Paneer Handi/ Egg Curry,dinner
+Hostel 17,5,Daladraki,dinner
+Hostel 17,5,Salad,dinner
+Hostel 17,5,Roti,dinner
+Hostel 17,5,Corn Rice,dinner
+Hostel 17,5,Dry Peanut Chutney,dinner
+Hostel 17,5,Rasam,dinner
+Hostel 17,5,Moong Dal Halwa,dinner
+Hostel 17,5,Chicken Kadhai,dinner
+Hostel 17,4,Paneer Paratha,breakfast
+Hostel 17,4,Curd,breakfast
+Hostel 17,4,Scezwan Chutney,breakfast
+Hostel 17,4,Egg Bhurji,breakfast
+Hostel 17,4,Paneer Bhurji,breakfast
+Hostel 17,4,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,4,Boiled Corn,breakfast
+Hostel 17,4,Bread,breakfast
+Hostel 17,4,Butter And Mix Jam,breakfast
+Hostel 17,4,Tea/Coffee,breakfast
+Hostel 17,4,Banana / Boiled Egg,breakfast
+Hostel 17,4,Milk/ Juice,breakfast
+Hostel 17,4,Arabi Amritsari,lunch
+Hostel 17,4,Punjabi Dum Aloo,lunch
+Hostel 17,4,Daal,lunch
+Hostel 17,4,Masala Rice,lunch
+Hostel 17,4,Roti,lunch
+Hostel 17,4,Mix Pickle,lunch
+Hostel 17,4,Rasna,lunch
+Hostel 17,4,Sambhar,lunch
+Hostel 17,4,Rice Papad,lunch
+Hostel 17,4,Salad,lunch
+Hostel 17,4,Steam Rice,lunch
+Hostel 17,4,Paneer Crispy,lunch
+Hostel 17,4,White Sauce Pasta,snacks
+Hostel 17,4,Butter,snacks
+Hostel 17,4,And Mix Jam,snacks
+Hostel 17,4,Tea/Coffee,snacks
+Hostel 17,4,Milk,snacks
+Hostel 17,4,Fruits,snacks
+Hostel 17,4,Aloo Methi,dinner
+Hostel 17,4,Bengali Sukhto,dinner
+Hostel 17,4,Dal,dinner
+Hostel 17,4,Salad,dinner
+Hostel 17,4,Roti,dinner
+Hostel 17,4,Tadka Rice,dinner
+Hostel 17,4,Tomato Chutney,dinner
+Hostel 17,4,Rasam,dinner
+Hostel 17,4,Ras Malai,dinner
+Hostel 17,4,Chicken Lucknow,dinner
+Hostel 17,4,Biryani,dinner
+Hostel 17,3,Tomato Uttapam,breakfast
+Hostel 17,3,Coconut Chutney,breakfast
+Hostel 17,3,Egg Omlette,breakfast
+Hostel 17,3,Paneer Bhurji,breakfast
+Hostel 17,3,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,3,Matki Ussal,breakfast
+Hostel 17,3,Bread,breakfast
+Hostel 17,3,Butter And Mix Jam,breakfast
+Hostel 17,3,Tea/Coffee,breakfast
+Hostel 17,3,Banana / Boiled Egg,breakfast
+Hostel 17,3,Milk/ Juice,breakfast
+Hostel 17,3,Aloo Bhindi Dry,lunch
+Hostel 17,3,Rajma Masala,lunch
+Hostel 17,3,Daal,lunch
+Hostel 17,3,Curd Rice,lunch
+Hostel 17,3,Puri,lunch
+Hostel 17,3,Mix Pickle,lunch
+Hostel 17,3,Shrikhand,lunch
+Hostel 17,3,Rassam,lunch
+Hostel 17,3,Fryums,lunch
+Hostel 17,3,Salad,lunch
+Hostel 17,3,Steam Rice,lunch
+Hostel 17,3,Chicken 65,lunch
+Hostel 17,3,Masala Maggie With Cheese,snacks
+Hostel 17,3,Bread Butter,snacks
+Hostel 17,3,Peanut Butter,snacks
+Hostel 17,3,Mix Jam,snacks
+Hostel 17,3,Tea/Coffee,snacks
+Hostel 17,3,Milk,snacks
+Hostel 17,3,Fruits,snacks
+Hostel 17,3,Aloo Shimla,dinner
+Hostel 17,3,Veg Kolhapuri,dinner
+Hostel 17,3,Dal Tadka,dinner
+Hostel 17,3,Salad,dinner
+Hostel 17,3,Roti,dinner
+Hostel 17,3,Masala Rice,dinner
+Hostel 17,3,Tomato Soup,dinner
+Hostel 17,3,Sambhar,dinner
+Hostel 17,3,Sawai Kheer,dinner
+Hostel 17,3,Garlic Chicken,dinner
+Hostel 17,6,Puri Bhaji,breakfast
+Hostel 17,6,Aloo Bhaji,breakfast
+Hostel 17,6,Egg Omlette,breakfast
+Hostel 17,6,Paneer Bhurji,breakfast
+Hostel 17,6,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,6,Corn Chat,breakfast
+Hostel 17,6,Bread,breakfast
+Hostel 17,6,Butter And Mix Jam,breakfast
+Hostel 17,6,Tea/Coffee,breakfast
+Hostel 17,6,Banana/Boiled Egg,breakfast
+Hostel 17,6,Milk/Juice,breakfast
+Hostel 17,6,Cabbage Matar,lunch
+Hostel 17,6,Kadhi Pakoda,lunch
+Hostel 17,6,Dal Fry,lunch
+Hostel 17,6,Tadka Rice,lunch
+Hostel 17,6,Roti,lunch
+Hostel 17,6,Mix Pickle,lunch
+Hostel 17,6,Shikanji,lunch
+Hostel 17,6,Rassam,lunch
+Hostel 17,6,Roasted Papad,lunch
+Hostel 17,6,Salad,lunch
+Hostel 17,6,Steam Rice,lunch
+Hostel 17,6,Chicken Sukka,lunch
+Hostel 17,6,Hakka Noodles,snacks
+Hostel 17,6,Bread Butter And Mix Jam,snacks
+Hostel 17,6,Tea/Coffee,snacks
+Hostel 17,6,Milk,snacks
+Hostel 17,6,Fruits,snacks
+Hostel 17,6,Bhindi Masala,dinner
+Hostel 17,6,Malai Kofta,dinner
+Hostel 17,6,Dal,dinner
+Hostel 17,6,Salad,dinner
+Hostel 17,6,Roti,dinner
+Hostel 17,6,Masala Kichdi,dinner
+Hostel 17,6,Tomato Chutney,dinner
+Hostel 17,6,Sambhar,dinner
+Hostel 17,6,Pineapple Sheera,dinner
+Hostel 17,6,Chicken Pahadi,dinner
+Hostel 17,7,Mysore Masala Dosa,breakfast
+Hostel 17,7,Sambar,breakfast
+Hostel 17,7,Chutney,breakfast
+Hostel 17,7,Egg Bhurji,breakfast
+Hostel 17,7,Paneer Bhurji,breakfast
+Hostel 17,7,Chocos / Bournvita / Meusli,breakfast
+Hostel 17,7,Chana Sprouts,breakfast
+Hostel 17,7,Bread,breakfast
+Hostel 17,7,Butter And Mix Jam,breakfast
+Hostel 17,7,Tea/Coffee,breakfast
+Hostel 17,7,Banana/ Boiled Egg,breakfast
+Hostel 17,7,Milk/Juice,breakfast
+Hostel 17,7,Ghobhi Shimla,lunch
+Hostel 17,7,Chole,lunch
+Hostel 17,7,Daal,lunch
+Hostel 17,7,Pudina Rice,lunch
+Hostel 17,7,Bhature,lunch
+Hostel 17,7,Mix Pickle,lunch
+Hostel 17,7,Lassi,lunch
+Hostel 17,7,Sambhar,lunch
+Hostel 17,7,Fried Papad,lunch
+Hostel 17,7,Salad,lunch
+Hostel 17,7,Steam Rice,lunch
+Hostel 17,7,Chicken Rogan Josh,lunch
+Hostel 17,7,Dahi Papdi Chat,snacks
+Hostel 17,7,Bread Butter And Mix Jam,snacks
+Hostel 17,7,Tea/ Coffee,snacks
+Hostel 17,7,Milk,snacks
+Hostel 17,7,Fruits,snacks
+Hostel 17,7,Soyabean Chili,dinner
+Hostel 17,7,White Matar Usal,dinner
+Hostel 17,7,Dal Punchratna,dinner
+Hostel 17,7,Salad,dinner
+Hostel 17,7,Roti,dinner
+Hostel 17,7,Veg Biryani + Raita,dinner
+Hostel 17,7,Mirchi Techa,dinner
+Hostel 17,7,Rasam,dinner
+Hostel 17,7,Ice Cream,dinner
+Hostel 17,7,Chicken Hyderabadi,dinner
+Hostel 17,7,Biryani,dinner
+Hostel 18,4,"Besan  Chilla
+Green chutney/Tomato Sauce
+Egg Bhurji
+ Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Sprouted Moong
+Bread",breakfast
+Hostel 18,4,"Butter and Mix Jam
+Tea and Coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,4,"Channa Chatpata
+Kadhi Pakoda
+Dal Palak
+Dal khichdi
+Steam Rice
+Roti (with and without butter)
+Mix Pickle
+Shikanji 
+Disco Papad
+Salad
+Sambhar
+Chicken Do Pyaja",lunch
+Hostel 18,4,"Fried Idli
+Bread",snacks
+Hostel 18,4,"Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,4,"Aloo  Padwal 
+Pindi Chole Puri
+Tawa Pulav
+Steam Rice
+Dal Varan
+Salad
+
+Mix Pickle
+Rasam
+Shrikhand
+Fruit
+Chicken koliwada",dinner
+Hostel 18,7,"Masala Dosa
+Sambhar/Coconut Chutney
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Mix Sprout
+Bread",breakfast
+Hostel 18,7,"Butter and Mix Jam
+Tea and Coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,7,"Aloo Posto
+Rajma Kashmiri
+Dalma
+Green Peas Pulav
+Steam Rice
+Azwain Puri
+Mix Pickle
+Curd
+Disco Papad
+Salad
+Rasam/Boiled rice
+Chicken kohlapuri",lunch
+Hostel 18,7,"Cheese  Maggie
+Bread",snacks
+Hostel 18,7,"P. Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,7,"Tendli Channa
+Paneer Butter Masala/Egg Malwani
+Jeera rice
+Steam Rice
+Dal fry
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Samber
+Cham Cham
+Fruit",dinner
+Hostel 18,3,"Indori Poha
+Pineapple Shira/Matki Usal
+Egg Omelette
+ Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Sprouted moong
+Bread",breakfast
+Hostel 18,3,"Butter and Mix Jam
+Tea and Coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,3,"Aloo Shimla
+ Chhole Bhature
+Urad Dal Chilka
+ Onion Rice
+Steam Rice
+
+Mix Pickle/Imli Chutney
+Lassi (Sweet/Lassi)
+Fry Papad
+Salad
+Rasam/ Boiled rice
+Egg Bhurji",lunch
+Hostel 18,3,"Red Sauce Pasta
+Bread",snacks
+Hostel 18,3,"Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,3,"Tawa Veg
+Mashroom  Handi
+Jeera Rice
+Steam Rice
+Yellow Dal
+Salad
+Roti(with and without Ghee)
+Mix Pickle/Veg Soup
+Sambhar
+Sev Boondi
+Fruit
+Chicken Changeji",dinner
+Hostel 18,5,"Rava Upma
+Coconut chutney
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Mix Sprout
+Bread",breakfast
+Hostel 18,5,"Butter and Mix Jam
+Tea and Coffee
+Banana
+Milk/Juice",breakfast
+Hostel 18,5,"Bhindi Maharashtrian
+Chawli masala
+Dal Lasooni
+Lemon Rice
+Steam Rice
+Roti (with and without butter)
+Mix Pickle
+Curd
+Roasted Papad
+Mix Salad
+Rasam/Boiled rice
+Chicken Maharaja",lunch
+Hostel 18,5,"Pani Puri
+Bread",snacks
+Hostel 18,5,"Butter and Mix Jam
+Tea/Coffee & Cut Fruit",snacks
+Hostel 18,5,"Akha Masoor 
+Dum Aloo Kashmiri
+Veg Dum Biryani
+Steam Rice
+Moong Dal Chilka
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Sambar
+Ice Cream
+
+Chicken Dum Biryani",dinner
+Hostel 18,5,3 Piece,dinner
+Hostel 18,2,"Idli vada
+Sambar & Chutney
+Omelete
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Sprouted Chana
+Bread",breakfast
+Hostel 18,2,"Butter and Mix Jam
+Tea and coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,2,"Moong Torai
+Palak Paneer
+Dal Adraki
+Jeera Rice 
+Steam Rice
+Roti (with and without butter)
+Mix Pickle
+Jaljira
+Disco Papad
+Salad
+Sambhar
+Chicken Pahadi",lunch
+Hostel 18,2,"Khaman Dhokla
+Bread",snacks
+Hostel 18,2,"P. Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,2,"Karela Tamatar
+Rajma Pahadi
+Tadka Rice
+Steam Rice
+Dal Panchratna
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Sambar
+Motichoor Ladoo
+Fruit
+Methi Chicken",dinner
+Hostel 18,1,"Aloo Paratha
+Curd/Tomato Chutney
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Peanut
+Bread",breakfast
+Hostel 18,1,"Butter and Mix Jam
+Tea and coffee
+Banana/ Boiled Egg
+Milk",breakfast
+Hostel 18,1,"Mix-Veg
+Black Chana Masala
+Dal Fry
+Tomato Rice
+Steam Rice
+Roti (with and without butter)
+Mix Pickle
+Lemon Water
+Disco Papad
+Salad
+Rasam/Boiled rice
+Chicken Masala",lunch
+Hostel 18,1,"Misal Pav
+Bread",snacks
+Hostel 18,1,"Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,1,"Aloo Methi
+Nargish Kofta
+ Besebele Bhat
+Steam Rice
+Dal Tadka
+ Salad
+Roti (with and without Ghee)
+Mix Pickle
+Sambhar
+Moong Dal Halwa
+Fruit
+Chicken Butter Masala",dinner
+Hostel 18,6,"Puri Bhaji
+
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Corn 
+Bread",breakfast
+Hostel 18,6,"Butter and Mix Jam
+Tea and Coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,6,"Soyabean Dry
+Methi Matar
+Dal Makhani
+Carrot Rice
+Steam Rice
+Puri
+Mix Pickle
+Butter Milk
+Fryums
+Mix Sprout Salad
+Sambhar",lunch
+Hostel 18,6,"Bread Pakoda
+Bread",snacks
+Hostel 18,6,"Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,6,"Gajar Matar Dry
+Veg Manchuriyan
+Schezwan rice
+Steam Rice
+Dal Makhani
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Rasam
+Rice Kheer
+Fruit
+Chicken Pahadi",dinner
+Hostel 19,1,Poha,breakfast
+Hostel 19,1,Matki Ussal,breakfast
+Hostel 19,1,Boiled Chana,breakfast
+Hostel 19,1,Milk,breakfast
+Hostel 19,1,Tea,breakfast
+Hostel 19,1,Coffee,breakfast
+Hostel 19,1,Muesli,breakfast
+Hostel 19,1,Bournvita,breakfast
+Hostel 19,1,Bread Butter Jam,breakfast
+Hostel 19,1,Egg Bhurji/Boiled Egg,breakfast
+Hostel 19,1,Paneer Bhurji,breakfast
+Hostel 19,1,Banana,breakfast
+Hostel 19,1,Jeera Aloo,lunch
+Hostel 19,1,Rajma Masala,lunch
+Hostel 19,1,Chapati,lunch
+Hostel 19,1,Steam Rice,lunch
+Hostel 19,1,Jeera Rice,lunch
+Hostel 19,1,Dal Tadka,lunch
+Hostel 19,1,Salad,lunch
+Hostel 19,1,Papad & Pickle,lunch
+Hostel 19,1,Shrikhand,lunch
+Hostel 19,1,Pav Bhaji,snacks
+Hostel 19,1,Milk,snacks
+Hostel 19,1,Tea,snacks
+Hostel 19,1,Coffee,snacks
+Hostel 19,1,Oats,snacks
+Hostel 19,1,Bournvita,snacks
+Hostel 19,1,Bread Butter Jam,snacks
+Hostel 19,1,Seasonal Fruits,snacks
+Hostel 19,1,Turai Moong Dal,dinner
+Hostel 19,1,Black Chana,dinner
+Hostel 19,1,Chapati,dinner
+Hostel 19,1,Dal Tadka,dinner
+Hostel 19,1,Steam Rice,dinner
+Hostel 19,1,Lemon Rice,dinner
+Hostel 19,1,Salad,dinner
+Hostel 19,1,Papad & Pickle,dinner
+Hostel 19,1,Semiya Kheer,dinner
+Hostel 19,1,Chicken Hydrabadi (Extra),dinner
+Hostel 19,3,Tawa Paratha,breakfast
+Hostel 19,3,Aloo Chana Bhaji,breakfast
+Hostel 19,3,Mix Sprout,breakfast
+Hostel 19,3,Milk,breakfast
+Hostel 19,3,Tea,breakfast
+Hostel 19,3,Coffee,breakfast
+Hostel 19,3,Cornflakes,breakfast
+Hostel 19,3,Bournvita,breakfast
+Hostel 19,3,Bread Butter Jam,breakfast
+Hostel 19,3,Egg Bhurji/Boiled Egg,breakfast
+Hostel 19,3,Paneer Bhurji,breakfast
+Hostel 19,3,Banana,breakfast
+Hostel 19,3,Aloo Methi,lunch
+Hostel 19,3,Sev Tomato,lunch
+Hostel 19,3,Chapati,lunch
+Hostel 19,3,Steam Rice,lunch
+Hostel 19,3,Lemon Rice,lunch
+Hostel 19,3,Dal Fry,lunch
+Hostel 19,3,Salad,lunch
+Hostel 19,3,Papad & Pickle,lunch
+Hostel 19,3,Curd,lunch
+Hostel 19,3,Chicken Biryani (Extra),lunch
+Hostel 19,3,Samosa,snacks
+Hostel 19,3,Milk,snacks
+Hostel 19,3,Tea,snacks
+Hostel 19,3,Coffee,snacks
+Hostel 19,3,Muesli,snacks
+Hostel 19,3,Bournvita,snacks
+Hostel 19,3,Bread Butter Jam,snacks
+Hostel 19,3,Seasonal Fruits,snacks
+Hostel 19,3,Pumpkin Dry,dinner
+Hostel 19,3,Punjabi Chhole,dinner
+Hostel 19,3,Chapati,dinner
+Hostel 19,3,Dal Tadka,dinner
+Hostel 19,3,Steam Rice,dinner
+Hostel 19,3,Tomato Rice,dinner
+Hostel 19,3,Salad,dinner
+Hostel 19,3,Papad & Pickle,dinner
+Hostel 19,3,Fruit Custard,dinner
+Hostel 19,3,Chichen Hydrabadi (Extra),dinner
+Hostel 19,5,Aloo Paratha,breakfast
+Hostel 19,5,Curd,breakfast
+Hostel 19,5,Schezwan Chutney,breakfast
+Hostel 19,5,Matki,breakfast
+Hostel 19,5,Milk,breakfast
+Hostel 19,5,Tea,breakfast
+Hostel 19,5,Coffee,breakfast
+Hostel 19,5,Oats,breakfast
+Hostel 19,5,Bournvita,breakfast
+Hostel 19,5,Bread Butter Jam,breakfast
+Hostel 19,5,Full Fry/Boiled Egg,breakfast
+Hostel 19,5,Paneer Bhurji,breakfast
+Hostel 19,5,Banana,breakfast
+Hostel 19,5,Punjabi Kadi,lunch
+Hostel 19,5,Chauli Dry,lunch
+Hostel 19,5,Chapati,lunch
+Hostel 19,5,Steam Rice,lunch
+Hostel 19,5,Dal Kichadi,lunch
+Hostel 19,5,Dal Methi,lunch
+Hostel 19,5,Salad,lunch
+Hostel 19,5,Papad & Pickle,lunch
+Hostel 19,5,Kokam,lunch
+Hostel 19,5,Paneer Labadar (Extra),lunch
+Hostel 19,5,Ragda Pattice,snacks
+Hostel 19,5,Milk,snacks
+Hostel 19,5,Tea,snacks
+Hostel 19,5,Coffee,snacks
+Hostel 19,5,Chocos,snacks
+Hostel 19,5,Bournvita,snacks
+Hostel 19,5,Bread Butter Jam,snacks
+Hostel 19,5,Seasonal Fruits,snacks
+Hostel 19,5,Tendli Chana,dinner
+Hostel 19,5,Paneer Tikka Masala,dinner
+Hostel 19,5,Chapati,dinner
+Hostel 19,5,Dal Fry,dinner
+Hostel 19,5,Steam Rice,dinner
+Hostel 19,5,Coriender Rice,dinner
+Hostel 19,5,Salad,dinner
+Hostel 19,5,Papad & Pickle,dinner
+Hostel 19,5,Kala Jamun,dinner
+Hostel 19,5,Chicken Kolhapuri (Extra),dinner
+Hostel 19,4,Moong Dal Chilla,breakfast
+Hostel 19,4,Coconut Chutney/Sambhar,breakfast
+Hostel 19,4,Boiled Peanut,breakfast
+Hostel 19,4,Milk,breakfast
+Hostel 19,4,Tea,breakfast
+Hostel 19,4,Coffee,breakfast
+Hostel 19,4,Chocos,breakfast
+Hostel 19,4,Bournvita,breakfast
+Hostel 19,4,Bread Butter Jam,breakfast
+Hostel 19,4,Omlet/Boiled Egg,breakfast
+Hostel 19,4,Paneer Bhurji,breakfast
+Hostel 19,4,Banana,breakfast
+Hostel 19,4,Chole Bature,lunch
+Hostel 19,4,Aloo Capsicum,lunch
+Hostel 19,4,Chapati,lunch
+Hostel 19,4,Steam Rice,lunch
+Hostel 19,4,Green Peas Pulav,lunch
+Hostel 19,4,Dal Tadka,lunch
+Hostel 19,4,Salad,lunch
+Hostel 19,4,Papad & Pickle,lunch
+Hostel 19,4,Lassi,lunch
+Hostel 19,4,Pani Poori,snacks
+Hostel 19,4,Milk,snacks
+Hostel 19,4,Tea,snacks
+Hostel 19,4,Coffee,snacks
+Hostel 19,4,Oats,snacks
+Hostel 19,4,Bournvita,snacks
+Hostel 19,4,Bread Butter Jam,snacks
+Hostel 19,4,Papaya,snacks
+Hostel 19,4,Soya Mutter,dinner
+Hostel 19,4,Mix Kathol,dinner
+Hostel 19,4,Chapati,dinner
+Hostel 19,4,Dal Tadka,dinner
+Hostel 19,4,Steam Rice,dinner
+Hostel 19,4,Jeera Rice,dinner
+Hostel 19,4,Salad,dinner
+Hostel 19,4,Papad & Pickle,dinner
+Hostel 19,4,Pineapple Sheera,dinner
+Hostel 19,4,Chiken Butter Masala (Extra),dinner
+Hostel 19,6,Masala Dosa,breakfast
+Hostel 19,6,Sambhar/Chutney,breakfast
+Hostel 19,6,Mix Sprout,breakfast
+Hostel 19,6,Milk,breakfast
+Hostel 19,6,Tea,breakfast
+Hostel 19,6,Coffee,breakfast
+Hostel 19,6,Chocos,breakfast
+Hostel 19,6,Bournvita,breakfast
+Hostel 19,6,Bread Butter Jam,breakfast
+Hostel 19,6,Egg Bhurji/Boiled Egg,breakfast
+Hostel 19,6,Paneer Bhurji,breakfast
+Hostel 19,6,Banana,breakfast
+Hostel 19,6,Matki Rassa,lunch
+Hostel 19,6,Mix Veg,lunch
+Hostel 19,6,Chapati,lunch
+Hostel 19,6,Green Peas Pulao,lunch
+Hostel 19,6,Steam Rice,lunch
+Hostel 19,6,Dal Palak,lunch
+Hostel 19,6,Salad,lunch
+Hostel 19,6,Papad & Pickle,lunch
+Hostel 19,6,Butter Milk,lunch
+Hostel 19,6,Veg Biryani (Extra),lunch
+Hostel 19,6,Bhel Poori,snacks
+Hostel 19,6,Milk,snacks
+Hostel 19,6,Tea,snacks
+Hostel 19,6,Coffee,snacks
+Hostel 19,6,Corn Flakes,snacks
+Hostel 19,6,Bournvita,snacks
+Hostel 19,6,Bread Butter Jam,snacks
+Hostel 19,6,Moshmbi,snacks
+Hostel 19,6,Aloo Gobhi Dry,dinner
+Hostel 19,6,Soyabin Masala,dinner
+Hostel 19,6,Chapati,dinner
+Hostel 19,6,Dal Fry,dinner
+Hostel 19,6,Steam Rice,dinner
+Hostel 19,6,Masala Rice,dinner
+Hostel 19,6,Salad,dinner
+Hostel 19,6,Papad & Pickle,dinner
+Hostel 19,6,Jalebi,dinner
+Hostel 19,6,Chicken Dum Biryani (Extra),dinner
+Hostel 19,2,Uttapam,breakfast
+Hostel 19,2,Sambhar,breakfast
+Hostel 19,2,Sprout Moong,breakfast
+Hostel 19,2,Milk,breakfast
+Hostel 19,2,Tea,breakfast
+Hostel 19,2,Coffee,breakfast
+Hostel 19,2,Oats,breakfast
+Hostel 19,2,Bournvita,breakfast
+Hostel 19,2,Bbj Peanut Butter,breakfast
+Hostel 19,2,Egg Bhurji/Boiled Egg,breakfast
+Hostel 19,2,Paneer Bhurji,breakfast
+Hostel 19,2,Banana,breakfast
+Hostel 19,2,Paneer Handi,lunch
+Hostel 19,2,Doodhi Chana,lunch
+Hostel 19,2,Chapati,lunch
+Hostel 19,2,Steam Rice,lunch
+Hostel 19,2,Masala Rice,lunch
+Hostel 19,2,Dal Lassoni,lunch
+Hostel 19,2,Salad,lunch
+Hostel 19,2,Papad & Pickle,lunch
+Hostel 19,2,Lemon Water,lunch
+Hostel 19,2,Veg Hakka Noodles,snacks
+Hostel 19,2,Milk,snacks
+Hostel 19,2,Tea,snacks
+Hostel 19,2,Coffee,snacks
+Hostel 19,2,Corn Flakes,snacks
+Hostel 19,2,Bournvita,snacks
+Hostel 19,2,Bread Butter Jam,snacks
+Hostel 19,2,Cold Coffee,snacks
+Hostel 19,2,Veg Kolhapuri,dinner
+Hostel 19,2,Moong Dry,dinner
+Hostel 19,2,Chapati,dinner
+Hostel 19,2,Dal Fry,dinner
+Hostel 19,2,Steam Rice,dinner
+Hostel 19,2,Pudina Rice,dinner
+Hostel 19,2,Salad,dinner
+Hostel 19,2,Papad & Pickle,dinner
+Hostel 19,2,Gulab Jamun,dinner
+Hostel 19,2,Chicken Curry (Extra),dinner
+Hostel 19,7,Poori,breakfast
+Hostel 19,7,Bhaji,breakfast
+Hostel 19,7,Moong,breakfast
+Hostel 19,7,Milk,breakfast
+Hostel 19,7,Tea,breakfast
+Hostel 19,7,Coffee,breakfast
+Hostel 19,7,Cornflakes/Bournvita,breakfast
+Hostel 19,7,Bread Butter Jam,breakfast
+Hostel 19,7,Egg Bhurji/Boiled Egg,breakfast
+Hostel 19,7,Paneer Bhurji,breakfast
+Hostel 19,7,Banana,breakfast
+Hostel 19,7,Veg Jalfreji,lunch
+Hostel 19,7,Corn Palak,lunch
+Hostel 19,7,Chapati,lunch
+Hostel 19,7,Toor Dal Tadka,lunch
+Hostel 19,7,Steam Rice,lunch
+Hostel 19,7,Jeera Rice,lunch
+Hostel 19,7,Salad,lunch
+Hostel 19,7,Papad & Pickle,lunch
+Hostel 19,7,Roohfza,lunch
+Hostel 19,7,Veg Sandwich,snacks
+Hostel 19,7,Milk,snacks
+Hostel 19,7,Tea,snacks
+Hostel 19,7,Coffee,snacks
+Hostel 19,7,Oats,snacks
+Hostel 19,7,Bournvita,snacks
+Hostel 19,7,Bbj/Peanut Butter,snacks
+Hostel 19,7,Milk Shake,snacks
+Hostel 19,7,Kofta Curry,dinner
+Hostel 19,7,Cabbage Mutter,dinner
+Hostel 19,7,Chapati,dinner
+Hostel 19,7,Steam Rice,dinner
+Hostel 19,7,Tadka Rice,dinner
+Hostel 19,7,Dal Lasooni,dinner
+Hostel 19,7,Salad,dinner
+Hostel 19,7,Papad & Pickle,dinner
+Hostel 19,7,Icecream,dinner
+Hostel 19,7,Chicken Do Pyaza (Extra),dinner
+Hostel 2,1,Aloo Paratha,breakfast
+Hostel 2,1,Red Chilly+Garlic Chutney,breakfast
+Hostel 2,1,Banana,breakfast
+Hostel 2,1,Bbj,breakfast
+Hostel 2,1,Tea,breakfast
+Hostel 2,1,Coffee,breakfast
+Hostel 2,1,Milk,breakfast
+Hostel 2,1,Fresh Juice,breakfast
+Hostel 2,1,Boiled Egg,breakfast
+Hostel 2,1,Omelette,breakfast
+Hostel 2,1,Bhurji,breakfast
+Hostel 2,1,Aloo Chatpata,lunch
+Hostel 2,1,Rajma Masala,lunch
+Hostel 2,1,Chapati,lunch
+Hostel 2,1,Puri,lunch
+Hostel 2,1,Papad,lunch
+Hostel 2,1,Rice-Shrikhand,lunch
+Hostel 2,1,Matar Paneer (Extra),lunch
+Hostel 2,1,Bhel Puri,snacks
+Hostel 2,1,Fruit,snacks
+Hostel 2,1,Bbj,snacks
+Hostel 2,1,Tea,snacks
+Hostel 2,1,Coffee,snacks
+Hostel 2,1,Veg Kofta,dinner
+Hostel 2,1,Curd Rice,dinner
+Hostel 2,1,Aloo Methi,dinner
+Hostel 2,1,Roti,dinner
+Hostel 2,1,Veg Pulao,dinner
+Hostel 2,1,Rice,dinner
+Hostel 2,1,Dal Palak,dinner
+Hostel 2,1,Fruit Custard,dinner
+Hostel 2,4,Schezwan Masala Dosa,breakfast
+Hostel 2,4,Chutney- Sambar,breakfast
+Hostel 2,4,Banana,breakfast
+Hostel 2,4,Bbj,breakfast
+Hostel 2,4,Tea,breakfast
+Hostel 2,4,Coffee,breakfast
+Hostel 2,4,Milk,breakfast
+Hostel 2,4,Fresh Juice,breakfast
+Hostel 2,4,Boiled Egg,breakfast
+Hostel 2,4,Omelette,breakfast
+Hostel 2,4,Bhurji,breakfast
+Hostel 2,4,Matar Paneer,lunch
+Hostel 2,4,Tendli Dry,lunch
+Hostel 2,4,Dal Khichdi,lunch
+Hostel 2,4,Paratha,lunch
+Hostel 2,4,Jeera Rice,lunch
+Hostel 2,4,Fried Papad,lunch
+Hostel 2,4,Jaljeera,lunch
+Hostel 2,4,Fried Cheese Maggi,snacks
+Hostel 2,4,Peanut Butter,snacks
+Hostel 2,4,Fruit,snacks
+Hostel 2,4,Bbj,snacks
+Hostel 2,4,Tea,snacks
+Hostel 2,4,Cold Coffee,snacks
+Hostel 2,4,Matki Rassa,dinner
+Hostel 2,4,Baingan Bharta,dinner
+Hostel 2,4,Tamarind Rice,dinner
+Hostel 2,4,Roti,dinner
+Hostel 2,4,Dal Makhni,dinner
+Hostel 2,4,Sweet Corn Salad,dinner
+Hostel 2,4,Kala Jamun,dinner
+Hostel 2,4,Egg Masala (Extra),dinner
+Hostel 2,3,Idli-Medu Vada,breakfast
+Hostel 2,3,Chutney+Sambhar,breakfast
+Hostel 2,3,Banana,breakfast
+Hostel 2,3,Bbj,breakfast
+Hostel 2,3,Tea,breakfast
+Hostel 2,3,Coffee,breakfast
+Hostel 2,3,Milk,breakfast
+Hostel 2,3,Fresh Juice,breakfast
+Hostel 2,3,Boiled Egg,breakfast
+Hostel 2,3,Omelette,breakfast
+Hostel 2,3,Bhurji,breakfast
+Hostel 2,3,Chole Bhature,lunch
+Hostel 2,3,Chapati,lunch
+Hostel 2,3,Fried Papad,lunch
+Hostel 2,3,Jeera Rice,lunch
+Hostel 2,3,Dal Fry,lunch
+Hostel 2,3,Rassam,lunch
+Hostel 2,3,Lassi,lunch
+Hostel 2,3,Pani Puri,snacks
+Hostel 2,3,Milkshake,snacks
+Hostel 2,3,Bbj,snacks
+Hostel 2,3,Tea,snacks
+Hostel 2,3,Coffee,snacks
+Hostel 2,3,Black Chana Masala,dinner
+Hostel 2,3,Aloo Methi,dinner
+Hostel 2,3,Veg Biryani,dinner
+Hostel 2,3,Boondi Raita,dinner
+Hostel 2,3,Laddo,dinner
+Hostel 2,5,Poha +Sev,breakfast
+Hostel 2,5,Banana,breakfast
+Hostel 2,5,Bbj,breakfast
+Hostel 2,5,Tea,breakfast
+Hostel 2,5,Coffee,breakfast
+Hostel 2,5,Milk,breakfast
+Hostel 2,5,Fresh Juice,breakfast
+Hostel 2,5,Boiled Egg,breakfast
+Hostel 2,5,Omelette,breakfast
+Hostel 2,5,Bhurji,breakfast
+Hostel 2,5,Veg Angara,lunch
+Hostel 2,5,Aloo Matar Dry,lunch
+Hostel 2,5,Kaali Dal,lunch
+Hostel 2,5,Roti,lunch
+Hostel 2,5,Coconut Pulao,lunch
+Hostel 2,5,Lemon Rice,lunch
+Hostel 2,5,Chaas,lunch
+Hostel 2,5,Paneer Chilly Dry (Extra),lunch
+Hostel 2,5,Pyaz Kachori,snacks
+Hostel 2,5,Fruit,snacks
+Hostel 2,5,Bbj,snacks
+Hostel 2,5,Tea,snacks
+Hostel 2,5,Coffee,snacks
+Hostel 2,5,Punjabi Chole,dinner
+Hostel 2,5,Dal Tadka,dinner
+Hostel 2,5,Kurkure Karele,dinner
+Hostel 2,5,Veg Peas Pulao,dinner
+Hostel 2,5,Rabdi+Jalebi,dinner
+Hostel 2,7,Puri Bhaji,breakfast
+Hostel 2,7,Banana,breakfast
+Hostel 2,7,Bbj,breakfast
+Hostel 2,7,Tea,breakfast
+Hostel 2,7,Coffee,breakfast
+Hostel 2,7,Milk,breakfast
+Hostel 2,7,Fresh Juice,breakfast
+Hostel 2,7,Boiled Egg,breakfast
+Hostel 2,7,Omelette,breakfast
+Hostel 2,7,Bhurji,breakfast
+Hostel 2,7,Kadhi Pakoda,lunch
+Hostel 2,7,Mix Veg Dry,lunch
+Hostel 2,7,Curd,lunch
+Hostel 2,7,Chapati,lunch
+Hostel 2,7,Fried Papad,lunch
+Hostel 2,7,Nimbu Pani,lunch
+Hostel 2,7,Papdi Chat,snacks
+Hostel 2,7,Milkshake,snacks
+Hostel 2,7,Bbj,snacks
+Hostel 2,7,Tea,snacks
+Hostel 2,7,Coffee,snacks
+Hostel 2,7,Veg Manchurian,dinner
+Hostel 2,7,Schezwan Fried Rice,dinner
+Hostel 2,7,Manchow Soup,dinner
+Hostel 2,7,French Fries,dinner
+Hostel 2,7,Rice,dinner
+Hostel 2,7,Ice Cream,dinner
+Hostel 2,6,Uttapam+Sambhar+Chutney,breakfast
+Hostel 2,6,Banana,breakfast
+Hostel 2,6,Bbj,breakfast
+Hostel 2,6,Tea,breakfast
+Hostel 2,6,Coffee,breakfast
+Hostel 2,6,Milk,breakfast
+Hostel 2,6,Fresh Juice,breakfast
+Hostel 2,6,Boiled Egg,breakfast
+Hostel 2,6,Omelette,breakfast
+Hostel 2,6,Bhurji,breakfast
+Hostel 2,6,Chawali Masala,lunch
+Hostel 2,6,Carrot Matar Dry,lunch
+Hostel 2,6,Roti,lunch
+Hostel 2,6,Roasted Papad,lunch
+Hostel 2,6,Tomato Rice,lunch
+Hostel 2,6,Dal Palak,lunch
+Hostel 2,6,Rasna,lunch
+Hostel 2,6,Chicken Schezwan (Extra),lunch
+Hostel 2,6,Vada Pao,snacks
+Hostel 2,6,Peanut Butter,snacks
+Hostel 2,6,Fruit,snacks
+Hostel 2,6,Bbj,snacks
+Hostel 2,6,Tea,snacks
+Hostel 2,6,Cold Coffee,snacks
+Hostel 2,6,Shai Paneer,dinner
+Hostel 2,6,Soyabean Chilly,dinner
+Hostel 2,6,Butter Paratha,dinner
+Hostel 2,6,Veg Pulao,dinner
+Hostel 2,6,Channa Dal,dinner
+Hostel 2,6,Balushai,dinner
+Hostel 2,2,Besan Chilla+Chutney,breakfast
+Hostel 2,2,Banana,breakfast
+Hostel 2,2,Bbj,breakfast
+Hostel 2,2,Tea,breakfast
+Hostel 2,2,Coffee,breakfast
+Hostel 2,2,Milk,breakfast
+Hostel 2,2,Fresh Juice,breakfast
+Hostel 2,2,Boiled Egg,breakfast
+Hostel 2,2,Omelette,breakfast
+Hostel 2,2,Bhurji,breakfast
+Hostel 2,2,Aloo Jeera Dry,lunch
+Hostel 2,2,Veg Zalfrezi Gravy,lunch
+Hostel 2,2,Dal Fry,lunch
+Hostel 2,2,Rice,lunch
+Hostel 2,2,Pulihora,lunch
+Hostel 2,2,Curd,lunch
+Hostel 2,2,Roohafza,lunch
+Hostel 2,2,Paneer Angara (Extra),lunch
+Hostel 2,2,Pav Bhaji,snacks
+Hostel 2,2,Peanut Butter,snacks
+Hostel 2,2,Fruit,snacks
+Hostel 2,2,Bbj,snacks
+Hostel 2,2,Tea,snacks
+Hostel 2,2,Cold Coffee,snacks
+Hostel 2,2,Tomato Soup,dinner
+Hostel 2,2,Mix Veg Dry,dinner
+Hostel 2,2,Sev Tamatar,dinner
+Hostel 2,2,Dal Tadka,dinner
+Hostel 2,2,Pulao,dinner
+Hostel 2,2,Rice,dinner
+Hostel 2,2,Roti,dinner
+Hostel 2,2,Milk Cake,dinner
+Hostel 2,2,Chicken Kolhapuri (Extra),dinner
+Hostel 21,2,Idli Medu Vada,breakfast
+Hostel 21,2,Chutney/ Sambhar,breakfast
+Hostel 21,2,Boil Chana,breakfast
+Hostel 21,2,Milk,breakfast
+Hostel 21,2,Tea,breakfast
+Hostel 21,2,Coffee,breakfast
+Hostel 21,2,Oats,breakfast
+Hostel 21,2,Bournvita,breakfast
+Hostel 21,2,Bread Butter Jam,breakfast
+Hostel 21,2,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 21,2,Paneer Bhurji,breakfast
+Hostel 21,2,Banana,breakfast
+Hostel 21,2,Chicken Curry (Extra),breakfast
+Hostel 21,2,Matar Paneer,lunch
+Hostel 21,2,Padwal Dry,lunch
+Hostel 21,2,Chapati,lunch
+Hostel 21,2,Steam Rice,lunch
+Hostel 21,2,Masala Rice,lunch
+Hostel 21,2,Dal Lassoni,lunch
+Hostel 21,2,Salad,lunch
+Hostel 21,2,Disco Papad & Pickle,lunch
+Hostel 21,2,Butter Milk,lunch
+Hostel 21,2,Veg Maggie,snacks
+Hostel 21,2,Milk,snacks
+Hostel 21,2,Tea,snacks
+Hostel 21,2,Coffee,snacks
+Hostel 21,2,Corn Flakes,snacks
+Hostel 21,2,Bournvita,snacks
+Hostel 21,2,Bbj Peanut Butter,snacks
+Hostel 21,2,Cold Coffee,snacks
+Hostel 21,2,Veg Makhan Wala,dinner
+Hostel 21,2,Bhindi Do Payaja,dinner
+Hostel 21,2,Chapati,dinner
+Hostel 21,2,Dal Banjara,dinner
+Hostel 21,2,Steam Rice,dinner
+Hostel 21,2,Pudina Rice,dinner
+Hostel 21,2,Salad,dinner
+Hostel 21,2,Pickle,dinner
+Hostel 21,2,Jalebi,dinner
+Hostel 21,5,Puri,breakfast
+Hostel 21,5,Bhaji,breakfast
+Hostel 21,5,Boiled Chawali,breakfast
+Hostel 21,5,Milk,breakfast
+Hostel 21,5,Tea,breakfast
+Hostel 21,5,Coffee,breakfast
+Hostel 21,5,Oats,breakfast
+Hostel 21,5,Bournvita,breakfast
+Hostel 21,5,Bread Butter Jam,breakfast
+Hostel 21,5,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 21,5,Paneer Bhurji,breakfast
+Hostel 21,5,Banana,breakfast
+Hostel 21,5,Chicken Dum Biryani (Extra),breakfast
+Hostel 21,5,Kadhi Pakoda,lunch
+Hostel 21,5,Masoor Dry,lunch
+Hostel 21,5,Chapati,lunch
+Hostel 21,5,Steam Rice,lunch
+Hostel 21,5,Dal Kichadi,lunch
+Hostel 21,5,Dal Tadka,lunch
+Hostel 21,5,Salad,lunch
+Hostel 21,5,Disco Papad & Pickle,lunch
+Hostel 21,5,Kokam,lunch
+Hostel 21,5,Chole Samosa,snacks
+Hostel 21,5,Milk,snacks
+Hostel 21,5,Tea,snacks
+Hostel 21,5,Coffee,snacks
+Hostel 21,5,Chocos,snacks
+Hostel 21,5,Bournvita,snacks
+Hostel 21,5,Bread Butter Jam,snacks
+Hostel 21,5,Mango Milk Shake,snacks
+Hostel 21,5,Veg Maharaja,dinner
+Hostel 21,5,Turai Chana Dry,dinner
+Hostel 21,5,Chapati,dinner
+Hostel 21,5,Dal Methi,dinner
+Hostel 21,5,Steam Rice,dinner
+Hostel 21,5,Coriander Rice,dinner
+Hostel 21,5,Salad,dinner
+Hostel 21,5,Pickle,dinner
+Hostel 21,5,Fruit Custurd,dinner
+Hostel 21,3,Methi Thepla,breakfast
+Hostel 21,3,Chutney,breakfast
+Hostel 21,3,Mix Sprout,breakfast
+Hostel 21,3,Milk,breakfast
+Hostel 21,3,Tea,breakfast
+Hostel 21,3,Coffee,breakfast
+Hostel 21,3,Cornflakes,breakfast
+Hostel 21,3,Bournvita,breakfast
+Hostel 21,3,Bread Butter Jam,breakfast
+Hostel 21,3,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 21,3,Paneer Bhurji,breakfast
+Hostel 21,3,Banana,breakfast
+Hostel 21,3,Chichen Hydrabadi (Extra),breakfast
+Hostel 21,3,Soyabean Masala,lunch
+Hostel 21,3,Gobhi Aloo,lunch
+Hostel 21,3,Chapati,lunch
+Hostel 21,3,Steam Rice,lunch
+Hostel 21,3,Lemon Rice,lunch
+Hostel 21,3,Dal Fry,lunch
+Hostel 21,3,Salad,lunch
+Hostel 21,3,Roasted Papad & Pickle,lunch
+Hostel 21,3,Curd,lunch
+Hostel 21,3,Dabeli,snacks
+Hostel 21,3,Milk,snacks
+Hostel 21,3,Tea,snacks
+Hostel 21,3,Coffee,snacks
+Hostel 21,3,Muesli,snacks
+Hostel 21,3,Bournvita,snacks
+Hostel 21,3,Bread Butter Jam,snacks
+Hostel 21,3,Seasonal Fruits,snacks
+Hostel 21,3,Sev Tamatar,dinner
+Hostel 21,3,Doodhi Chana,dinner
+Hostel 21,3,Chapati,dinner
+Hostel 21,3,Dal Tadka,dinner
+Hostel 21,3,Steam Rice,dinner
+Hostel 21,3,Tomato Rice,dinner
+Hostel 21,3,Salad,dinner
+Hostel 21,3,Pickle,dinner
+Hostel 21,3,Paysam,dinner
+Hostel 21,6,Mix Veg Paratha,breakfast
+Hostel 21,6,Curd Schezwan Chuten,breakfast
+Hostel 21,6,Mix Sprout,breakfast
+Hostel 21,6,Milk,breakfast
+Hostel 21,6,Tea,breakfast
+Hostel 21,6,Coffee,breakfast
+Hostel 21,6,Chocos,breakfast
+Hostel 21,6,Bournvita,breakfast
+Hostel 21,6,Bread Butter Jam,breakfast
+Hostel 21,6,Full Fry/Boiled Egg,breakfast
+Hostel 21,6,Paneer Bhurji,breakfast
+Hostel 21,6,Banana,breakfast
+Hostel 21,6,Independence Day - Special Lunch,lunch
+Hostel 21,6,Pest Control,snacks
+Hostel 21,6,Pest Control,dinner
+Hostel 21,7,Pest Control,breakfast
+Hostel 21,7,Rajma Masala,lunch
+Hostel 21,7,Mix Veg Dry,lunch
+Hostel 21,7,Chapati,lunch
+Hostel 21,7,Steam Rice,lunch
+Hostel 21,7,Tadka Rice,lunch
+Hostel 21,7,Achari Dal,lunch
+Hostel 21,7,Salad,lunch
+Hostel 21,7,Papad & Pickle,lunch
+Hostel 21,7,Rasna,lunch
+Hostel 21,7,Veg Hakka Noodles,snacks
+Hostel 21,7,Milk,snacks
+Hostel 21,7,Tea,snacks
+Hostel 21,7,Coffee,snacks
+Hostel 21,7,Oats,snacks
+Hostel 21,7,Bournvita,snacks
+Hostel 21,7,Bbj/Peanut Butter,snacks
+Hostel 21,7,Milk Shake,snacks
+Hostel 21,7,Chole Pindi,dinner
+Hostel 21,7,Carrot Mutter,dinner
+Hostel 21,7,Chapati,dinner
+Hostel 21,7,Toor Dal Tadka,dinner
+Hostel 21,7,Steam Rice,dinner
+Hostel 21,7,Jeera Rice,dinner
+Hostel 21,7,Salad,dinner
+Hostel 21,7,Pickle,dinner
+Hostel 21,7,Ice Cream,dinner
+Hostel 21,7,Chicken Do Pyaza (Extra),dinner
+Hostel 21,1,Poha,breakfast
+Hostel 21,1,Matki Usal,breakfast
+Hostel 21,1,Moong,breakfast
+Hostel 21,1,Milk,breakfast
+Hostel 21,1,Tea,breakfast
+Hostel 21,1,Coffee,breakfast
+Hostel 21,1,Muesli,breakfast
+Hostel 21,1,Bournvita,breakfast
+Hostel 21,1,Bread Butter Jam,breakfast
+Hostel 21,1,Egg Bhurji / Boiled Egg,breakfast
+Hostel 21,1,Paneer Bhurji,breakfast
+Hostel 21,1,Banana,breakfast
+Hostel 21,1,Chicken Hydrabadi (Extra),breakfast
+Hostel 21,1,Black Chana Masala,lunch
+Hostel 21,1,Aloo Jeera,lunch
+Hostel 21,1,Chapati/Puri,lunch
+Hostel 21,1,Steam Rice,lunch
+Hostel 21,1,Jeera Rice,lunch
+Hostel 21,1,Dal Tadka,lunch
+Hostel 21,1,Salad,lunch
+Hostel 21,1,Fried Papad & Pickle,lunch
+Hostel 21,1,Shreekhand,lunch
+Hostel 21,1,Missal Pav,snacks
+Hostel 21,1,Milk,snacks
+Hostel 21,1,Tea,snacks
+Hostel 21,1,Coffee,snacks
+Hostel 21,1,Oats,snacks
+Hostel 21,1,Bournvita,snacks
+Hostel 21,1,Bread Butter Jam,snacks
+Hostel 21,1,Seasonal Fruits,snacks
+Hostel 21,1,White Batana,dinner
+Hostel 21,1,Cabbage Mutter,dinner
+Hostel 21,1,Chapati,dinner
+Hostel 21,1,Dal Tadka,dinner
+Hostel 21,1,Steam Rice,dinner
+Hostel 21,1,Lemon Rice,dinner
+Hostel 21,1,Salad,dinner
+Hostel 21,1,Pickle,dinner
+Hostel 21,1,Sevai Kheer,dinner
+Hostel 21,4,Onion Partaha,breakfast
+Hostel 21,4,Curd Schezwan Chuten,breakfast
+Hostel 21,4,Boiled Peanut,breakfast
+Hostel 21,4,Milk,breakfast
+Hostel 21,4,Tea,breakfast
+Hostel 21,4,Coffee,breakfast
+Hostel 21,4,Chocos,breakfast
+Hostel 21,4,Bournvita,breakfast
+Hostel 21,4,Bread Butter Jam,breakfast
+Hostel 21,4,Omlate/ Boiled Egg,breakfast
+Hostel 21,4,Paneer Bhurji,breakfast
+Hostel 21,4,Banana,breakfast
+Hostel 21,4,Chiken Butter Masala (Extra),breakfast
+Hostel 21,4,Chole Bhature,lunch
+Hostel 21,4,Cabbage Tomato,lunch
+Hostel 21,4,Chapati,lunch
+Hostel 21,4,Steam Rice,lunch
+Hostel 21,4,Green Peas Pulav,lunch
+Hostel 21,4,Dal Tadka,lunch
+Hostel 21,4,Salad,lunch
+Hostel 21,4,Fryums & Pickle,lunch
+Hostel 21,4,Lassi,lunch
+Hostel 21,4,Pani Puri,snacks
+Hostel 21,4,Milk,snacks
+Hostel 21,4,Tea,snacks
+Hostel 21,4,Coffee,snacks
+Hostel 21,4,Oats,snacks
+Hostel 21,4,Bournvita,snacks
+Hostel 21,4,Bread Butter Jam,snacks
+Hostel 21,4,Papaya,snacks
+Hostel 21,4,Butter Paneer Masala,dinner
+Hostel 21,4,Pumpkin Dry,dinner
+Hostel 21,4,Chapati,dinner
+Hostel 21,4,Dal Tadka,dinner
+Hostel 21,4,Steam Rice,dinner
+Hostel 21,4,Jeera Rice,dinner
+Hostel 21,4,Salad,dinner
+Hostel 21,4,Pickle,dinner
+Hostel 21,4,Gulab Jamun,dinner
+Hostel 3,5,Sabudana Khichdi + Paneer Bhurji,breakfast
+Hostel 3,5,Sweet Corn,breakfast
+Hostel 3,5,Omelette + Cornflakes,breakfast
+Hostel 3,5,Banana,breakfast
+Hostel 3,5,Rice,lunch
+Hostel 3,5,Dal Adraki,lunch
+Hostel 3,5,Roti,lunch
+Hostel 3,5,Soyabean Chilly Dry,lunch
+Hostel 3,5,Sev Tamatar Bhaji,lunch
+Hostel 3,5,Chaas,lunch
+Hostel 3,5,Papad,lunch
+Hostel 3,5,Pav Bhaji,snacks
+Hostel 3,5,Fruit + Peanut Butter,snacks
+Hostel 3,5,Veg Pulav,dinner
+Hostel 3,5,dal fry,dinner
+Hostel 3,5,Roti,dinner
+Hostel 3,5,Mushroom Butter Masala,dinner
+Hostel 3,5,Green Chawli Bhaji,dinner
+Hostel 3,5,Rasgulla,dinner
+Hostel 3,6,Masala Dosa + Sambhar + Chutney,breakfast
+Hostel 3,6,Moong,breakfast
+Hostel 3,6,Boiled Egg + Muesli,breakfast
+Hostel 3,6,Banana,breakfast
+Hostel 3,6,Tomato Rice,lunch
+Hostel 3,6,Mix Dal,lunch
+Hostel 3,6,Roti,lunch
+Hostel 3,6,Akka Masoor Bhaji,lunch
+Hostel 3,6,Kadi pakoda,lunch
+Hostel 3,6,Chaas,lunch
+Hostel 3,6,Fried Maggi,snacks
+Hostel 3,6,Nutella,snacks
+Hostel 3,6,Mint Rice,dinner
+Hostel 3,6,Chana Dal,dinner
+Hostel 3,6,Roti,dinner
+Hostel 3,6,Kadhai Paneer,dinner
+Hostel 3,6,Mix Veg,dinner
+Hostel 3,6,Moong Dal Halwa,dinner
+Hostel 3,4,Puri Bhaji + Curd,breakfast
+Hostel 3,4,Red Chana,breakfast
+Hostel 3,4,Boiled Egg + Juice,breakfast
+Hostel 3,4,Banana,breakfast
+Hostel 3,4,Rice,lunch
+Hostel 3,4,Dal fry,lunch
+Hostel 3,4,Bhature,lunch
+Hostel 3,4,Chhole Masala,lunch
+Hostel 3,4,Lassi,lunch
+Hostel 3,4,Samosa + Dahi + Chutney,snacks
+Hostel 3,4,Nimbu paani,snacks
+Hostel 3,4,Tomato rice,dinner
+Hostel 3,4,Dal Tadka,dinner
+Hostel 3,4,Roti,dinner
+Hostel 3,4,Aloo Mattar Curry,dinner
+Hostel 3,4,Bhindi fry,dinner
+Hostel 3,4,Rasmalai,dinner
+Hostel 3,4,Tomato Soup,dinner
+Hostel 3,7,Paneer paratha + Curd,breakfast
+Hostel 3,7,Peanuts,breakfast
+Hostel 3,7,Boiled Egg + Chocos,breakfast
+Hostel 3,7,Banana,breakfast
+Hostel 3,7,Rice,lunch
+Hostel 3,7,Dal fry,lunch
+Hostel 3,7,Roti,lunch
+Hostel 3,7,Chhole Pindi,lunch
+Hostel 3,7,Lassi,lunch
+Hostel 3,7,Macaroni Pasta,snacks
+Hostel 3,7,Oreo Milkshake,snacks
+Hostel 3,7,Fried rice,dinner
+Hostel 3,7,Dal lasooni,dinner
+Hostel 3,7,Roti,dinner
+Hostel 3,7,Gobhi Curry,dinner
+Hostel 3,7,Aloo Cabbage,dinner
+Hostel 3,7,Ice cream,dinner
+Hostel 3,7,Egg masala Curry,dinner
+Hostel 3,1,Aloo poha + Ratlami Sev,breakfast
+Hostel 3,1,Sweet Corn,breakfast
+Hostel 3,1,Omelette + Muesli,breakfast
+Hostel 3,1,Banana,breakfast
+Hostel 3,1,Rice,lunch
+Hostel 3,1,Dal Fry,lunch
+Hostel 3,1,Roti,lunch
+Hostel 3,1,Mutter Paneer,lunch
+Hostel 3,1,Curd,lunch
+Hostel 3,1,French Fries,lunch
+Hostel 3,1,Aloo Toast Sandwich,snacks
+Hostel 3,1,Banana Milkshake,snacks
+Hostel 3,1,Lemon Rice,dinner
+Hostel 3,1,Dal Kohlapuri,dinner
+Hostel 3,1,Roti,dinner
+Hostel 3,1,Bhindi Masala,dinner
+Hostel 3,1,Aloo Jeera,dinner
+Hostel 3,1,Sewai kheer,dinner
+Hostel 3,2,Aloo Paratha + Paneer Bhurji + Curd,breakfast
+Hostel 3,2,Moong,breakfast
+Hostel 3,2,Boiled Egg + Cornflakes,breakfast
+Hostel 3,2,Banana,breakfast
+Hostel 3,2,Rice,lunch
+Hostel 3,2,Dal tadka,lunch
+Hostel 3,2,Methi puri,lunch
+Hostel 3,2,Rajma Masala,lunch
+Hostel 3,2,Chaas,lunch
+Hostel 3,2,Chole Kulche,snacks
+Hostel 3,2,Fruit + Peanut Butter,snacks
+Hostel 3,2,Rice,dinner
+Hostel 3,2,Butter Fried Dal,dinner
+Hostel 3,2,Roti,dinner
+Hostel 3,2,Mix veg,dinner
+Hostel 3,2,Sev tamatar bhaji,dinner
+Hostel 3,2,Gulab Jamun,dinner
+Hostel 3,3,Upma + Paneer Bhurji,breakfast
+Hostel 3,3,Sweet Corn,breakfast
+Hostel 3,3,Omelette + Muesli,breakfast
+Hostel 3,3,Banana,breakfast
+Hostel 3,3,Curd Rice,lunch
+Hostel 3,3,Dal Tadka,lunch
+Hostel 3,3,Roti,lunch
+Hostel 3,3,Aloo Gobhi dry,lunch
+Hostel 3,3,Gatta Curry,lunch
+Hostel 3,3,Curd + Nimbu Pani,lunch
+Hostel 3,3,Bhel Puri,snacks
+Hostel 3,3,Fruit,snacks
+Hostel 3,3,Paneer Biryani,dinner
+Hostel 3,3,Boondi Raita + Dal Fry,dinner
+Hostel 3,3,Roti,dinner
+Hostel 3,3,Punjab Dum Aloo,dinner
+Hostel 3,3,Soyabean Chilli,dinner
+Hostel 3,3,Kalakand,dinner
+Hostel 3,3,Masala Papad,dinner
+Hostel 3,3,Boondi Raita,dinner
+Hostel 4,6,Sevai Upma,breakfast
+Hostel 4,6,Coconut Chutney,breakfast
+Hostel 4,6,Egg Bhurji,breakfast
+Hostel 4,6,Paneer Bhurji,breakfast
+Hostel 4,6,Museli,breakfast
+Hostel 4,6,Mix Sprouts,breakfast
+Hostel 4,6,Bread,breakfast
+Hostel 4,6,Butter And Mix Jam,breakfast
+Hostel 4,6,Tea/Coffee,breakfast
+Hostel 4,6,Banana/ Boiled Egg,breakfast
+Hostel 4,6,Milk,breakfast
+Hostel 4,6,Baigan Bharata,lunch
+Hostel 4,6,Chole Masala,lunch
+Hostel 4,6,Dal Tadka,lunch
+Hostel 4,6,Pudina Pulao,lunch
+Hostel 4,6,Bhature,lunch
+Hostel 4,6,Mix Pickle,lunch
+Hostel 4,6,Lassi,lunch
+Hostel 4,6,Sambhar,lunch
+Hostel 4,6,Roasted Papad,lunch
+Hostel 4,6,Salad+Onion,lunch
+Hostel 4,6,Steam Rice,lunch
+Hostel 4,6,Chicken Malwani (Extra),lunch
+Hostel 4,6,Sabudana Kichdi,snacks
+Hostel 4,6,Chocos,snacks
+Hostel 4,6,Bread Butter,snacks
+Hostel 4,6,Mix Jam,snacks
+Hostel 4,6,Tea/Coffee,snacks
+Hostel 4,6,Milk,snacks
+Hostel 4,6,Milkshake,snacks
+Hostel 4,6,Cluster Beans Dry,dinner
+Hostel 4,6,Malai Kofta,dinner
+Hostel 4,6,Dal Lasuni,dinner
+Hostel 4,6,Corn Salad,dinner
+Hostel 4,6,Roti,dinner
+Hostel 4,6,Veg Pulao,dinner
+Hostel 4,6,Steam Rice,dinner
+Hostel 4,6,Mirchi Techa,dinner
+Hostel 4,6,Rasam,dinner
+Hostel 4,6,Rasmalai,dinner
+Hostel 4,6,Chicken Rogan Josh (Extra),dinner
+Hostel 4,2,Idli/Vada,breakfast
+Hostel 4,2,Sambhar,breakfast
+Hostel 4,2,Coconut Chutney,breakfast
+Hostel 4,2,Egg Omlette,breakfast
+Hostel 4,2,Paneer Bhurji,breakfast
+Hostel 4,2,Oats,breakfast
+Hostel 4,2,Boiled Peanut,breakfast
+Hostel 4,2,Bread,breakfast
+Hostel 4,2,Butter And Mix Jam,breakfast
+Hostel 4,2,Tea/Coffee,breakfast
+Hostel 4,2,Banana/Boiled Egg,breakfast
+Hostel 4,2,Milk,breakfast
+Hostel 4,2,Karela Kurkure,lunch
+Hostel 4,2,Kadai Paneer,lunch
+Hostel 4,2,Dal Palak,lunch
+Hostel 4,2,Jeera Rice,lunch
+Hostel 4,2,Roti,lunch
+Hostel 4,2,Mix Pickle,lunch
+Hostel 4,2,Curd,lunch
+Hostel 4,2,Rasam,lunch
+Hostel 4,2,Fryums,lunch
+Hostel 4,2,Salad+Onion,lunch
+Hostel 4,2,Steam Rice,lunch
+Hostel 4,2,Chicken Do Pyaza (Extra),lunch
+Hostel 4,2,Misal Pav,snacks
+Hostel 4,2,Chocos,snacks
+Hostel 4,2,Bread Butter,snacks
+Hostel 4,2,Mix Jam,snacks
+Hostel 4,2,Peanut Butter,snacks
+Hostel 4,2,Tea/Coffee,snacks
+Hostel 4,2,Milk,snacks
+Hostel 4,2,Milkshake,snacks
+Hostel 4,2,Aloo Methi Dry,dinner
+Hostel 4,2,Soyabean Tikka Masala,dinner
+Hostel 4,2,Dal Tadka,dinner
+Hostel 4,2,Salad + Onion,dinner
+Hostel 4,2,Roti,dinner
+Hostel 4,2,Corn Rice,dinner
+Hostel 4,2,Steam Rice,dinner
+Hostel 4,2,Dry Peanut Chutney,dinner
+Hostel 4,2,Rasam,dinner
+Hostel 4,2,Mysore Pak,dinner
+Hostel 4,2,Panner Makhan (Extra),dinner
+Hostel 4,7,Mysore Masala Dosa,breakfast
+Hostel 4,7,Sambhar,breakfast
+Hostel 4,7,Coconut Chutney,breakfast
+Hostel 4,7,Egg Bhurji,breakfast
+Hostel 4,7,Paneer Bhurji,breakfast
+Hostel 4,7,Cornflakes,breakfast
+Hostel 4,7,Boiled Corn,breakfast
+Hostel 4,7,Bread,breakfast
+Hostel 4,7,Butter And Mix Jam,breakfast
+Hostel 4,7,Tea/Coffee,breakfast
+Hostel 4,7,Banana/Boiled Egg,breakfast
+Hostel 4,7,Milk,breakfast
+Hostel 4,7,Aloo Bhujia,lunch
+Hostel 4,7,Kadi Palak Pakoda,lunch
+Hostel 4,7,Dal Palak,lunch
+Hostel 4,7,Dal Kichdi,lunch
+Hostel 4,7,Roti,lunch
+Hostel 4,7,Mix Pickle,lunch
+Hostel 4,7,Lime Mojito,lunch
+Hostel 4,7,Sambhar,lunch
+Hostel 4,7,Fryums,lunch
+Hostel 4,7,Salad+Onion,lunch
+Hostel 4,7,Steam Rice,lunch
+Hostel 4,7,Kadai Paneer (Extra),lunch
+Hostel 4,7,Fried Maggie,snacks
+Hostel 4,7,Museli,snacks
+Hostel 4,7,Bread Butter,snacks
+Hostel 4,7,Mix Jam,snacks
+Hostel 4,7,Tea/Coffee,snacks
+Hostel 4,7,Milk,snacks
+Hostel 4,7,Fruits,snacks
+Hostel 4,7,Kadai Bhindi,dinner
+Hostel 4,7,Veg Chettinad,dinner
+Hostel 4,7,Dal Palak,dinner
+Hostel 4,7,Salad + Onion,dinner
+Hostel 4,7,Roti,dinner
+Hostel 4,7,Veg Biryani + Raita,dinner
+Hostel 4,7,Steam Rice,dinner
+Hostel 4,7,Rasam,dinner
+Hostel 4,7,Ice Cream,dinner
+Hostel 4,7,Chicken Hyderabadi Dum Biryani (Extra),dinner
+Hostel 4,1,Pest Control,breakfast
+Hostel 4,1,Aloo Jeera,lunch
+Hostel 4,1,Rajma Masala,lunch
+Hostel 4,1,Dal Tadka,lunch
+Hostel 4,1,Dal Kichdi,lunch
+Hostel 4,1,Roti,lunch
+Hostel 4,1,Mix Pickle,lunch
+Hostel 4,1,Curd,lunch
+Hostel 4,1,Sambhar,lunch
+Hostel 4,1,Rice Papad,lunch
+Hostel 4,1,Salad+Onion,lunch
+Hostel 4,1,Steam Rice,lunch
+Hostel 4,1,Chicken Crispy (Extra),lunch
+Hostel 4,1,Mix Veg Bhajiya,snacks
+Hostel 4,1,Chocos,snacks
+Hostel 4,1,Bread Butter,snacks
+Hostel 4,1,Mix Jam,snacks
+Hostel 4,1,Tea/Coffee,snacks
+Hostel 4,1,Milk,snacks
+Hostel 4,1,Fruits,snacks
+Hostel 4,1,Bhindi Peanut Curry,dinner
+Hostel 4,1,Gatte Ke Sabji,dinner
+Hostel 4,1,Daal Palak,dinner
+Hostel 4,1,Salad + Onion,dinner
+Hostel 4,1,Roti,dinner
+Hostel 4,1,Lemon Rice,dinner
+Hostel 4,1,Steam Rice,dinner
+Hostel 4,1,Tomato Chutney,dinner
+Hostel 4,1,Rasam,dinner
+Hostel 4,1,Gulab Jamun,dinner
+Hostel 4,1,Butter Chicken (Extra),dinner
+Hostel 4,4,Aloo Paratha,breakfast
+Hostel 4,4,Curd,breakfast
+Hostel 4,4,Green Chutney,breakfast
+Hostel 4,4,Egg Bhurji,breakfast
+Hostel 4,4,Paneer Bhurji,breakfast
+Hostel 4,4,Chocos,breakfast
+Hostel 4,4,Boiled Channa,breakfast
+Hostel 4,4,Bread,breakfast
+Hostel 4,4,Butter And Mix Jam,breakfast
+Hostel 4,4,Tea/Coffee,breakfast
+Hostel 4,4,Banana/Boiled Egg,breakfast
+Hostel 4,4,Milk,breakfast
+Hostel 4,4,Black Channa Dry,lunch
+Hostel 4,4,Dum Aloo,lunch
+Hostel 4,4,Dal Tadka,lunch
+Hostel 4,4,Curd Rice,lunch
+Hostel 4,4,Roti,lunch
+Hostel 4,4,Mix Pickle,lunch
+Hostel 4,4,Chaas,lunch
+Hostel 4,4,Sambhar,lunch
+Hostel 4,4,Papad,lunch
+Hostel 4,4,Salad+Onion,lunch
+Hostel 4,4,Steam Rice,lunch
+Hostel 4,4,Paneer Handi (Extra),lunch
+Hostel 4,4,Dahi Kachori Chaat,snacks
+Hostel 4,4,Oats,snacks
+Hostel 4,4,Bread Butter,snacks
+Hostel 4,4,Mix Jam,snacks
+Hostel 4,4,Peanut Butter,snacks
+Hostel 4,4,Tea/Coffee,snacks
+Hostel 4,4,Milk,snacks
+Hostel 4,4,Fruits,snacks
+Hostel 4,4,Lauki Channa Dry,dinner
+Hostel 4,4,Veg Kurma,dinner
+Hostel 4,4,Dal Lasoni,dinner
+Hostel 4,4,Salad + Onion,dinner
+Hostel 4,4,Roti,dinner
+Hostel 4,4,Lemon Rice,dinner
+Hostel 4,4,Steam Rice,dinner
+Hostel 4,4,Tomato Chutney + Manchow Soup,dinner
+Hostel 4,4,Rasam,dinner
+Hostel 4,4,Boondi Laadu,dinner
+Hostel 4,4,Paneer Dum Biryani (Extra),dinner
+Hostel 4,3,Besan Chilla,breakfast
+Hostel 4,3,Tomato Chutney,breakfast
+Hostel 4,3,Egg Bhurji,breakfast
+Hostel 4,3,Paneer Bhurji,breakfast
+Hostel 4,3,Chocos,breakfast
+Hostel 4,3,Boiled Corn,breakfast
+Hostel 4,3,Bread,breakfast
+Hostel 4,3,Butter And Mix Jam,breakfast
+Hostel 4,3,Tea/Coffee,breakfast
+Hostel 4,3,Banana/Boiled Egg,breakfast
+Hostel 4,3,Milk,breakfast
+Hostel 4,3,Arabi Amritsari,lunch
+Hostel 4,3,Pindi Chole,lunch
+Hostel 4,3,Dal Adraki,lunch
+Hostel 4,3,Coconut Rice,lunch
+Hostel 4,3,Puri,lunch
+Hostel 4,3,Mix Pickle,lunch
+Hostel 4,3,Shrikhand + Nimbu Paani,lunch
+Hostel 4,3,Sambhar,lunch
+Hostel 4,3,Fryums,lunch
+Hostel 4,3,Salad+Onion,lunch
+Hostel 4,3,Steam Rice,lunch
+Hostel 4,3,Chicken Chilly (Extra),lunch
+Hostel 4,3,Special Dinner,dinner
+Hostel 4,5,Puri,breakfast
+Hostel 4,5,Aloo Bhaji,breakfast
+Hostel 4,5,Egg Omlette,breakfast
+Hostel 4,5,Paneer Bhurji,breakfast
+Hostel 4,5,Oats,breakfast
+Hostel 4,5,Mix Sprouts,breakfast
+Hostel 4,5,Bread,breakfast
+Hostel 4,5,Butter And Mix Jam,breakfast
+Hostel 4,5,Tea/Coffee,breakfast
+Hostel 4,5,Banana/Boiled Egg,breakfast
+Hostel 4,5,Milk,breakfast
+Hostel 4,5,Soyabean Chilly Dry,lunch
+Hostel 4,5,Veg Kothapuri,lunch
+Hostel 4,5,Daal Palak,lunch
+Hostel 4,5,SchéWan Fried Rice,lunch
+Hostel 4,5,Roti,lunch
+Hostel 4,5,Mix Pickle,lunch
+Hostel 4,5,Chaas,lunch
+Hostel 4,5,Rasam,lunch
+Hostel 4,5,Masala Papad,lunch
+Hostel 4,5,Salad+Onion,lunch
+Hostel 4,5,Steam Rice,lunch
+Hostel 4,5,Chicken Lollipop (Extra),lunch
+Hostel 4,5,Paani Puri,snacks
+Hostel 4,5,Museli,snacks
+Hostel 4,5,Bread Butter,snacks
+Hostel 4,5,Mix Jam,snacks
+Hostel 4,5,Peanut Butter,snacks
+Hostel 4,5,Tea/Coffee,snacks
+Hostel 4,5,Milk,snacks
+Hostel 4,5,Fruits,snacks
+Hostel 4,5,Betroot Upcurry,dinner
+Hostel 4,5,Paneer Kohlapuri / Egg Masala,dinner
+Hostel 4,5,Dal Punchatantra,dinner
+Hostel 4,5,Salad + Onion,dinner
+Hostel 4,5,Roti,dinner
+Hostel 4,5,Masala Rice,dinner
+Hostel 4,5,Steam Rice,dinner
+Hostel 4,5,Dry Peanut Chutney,dinner
+Hostel 4,5,Sambhar,dinner
+Hostel 4,5,Moong Dal Halwa,dinner
+Hostel 4,5,Chicken Kolhapuri (Extra),dinner
+Hostel 5,6,"Onion Uttapam
+Coconut Chutney+Sambhar
+Matki Sprouts
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/omlette
+Banana",breakfast
+Hostel 5,6,"tomato Rice
+Dal Fry
+Methi Matar Masala
+Chana Dal Fry
+Roti
+Beetroot+ Carrot
+Fried Papad
+Rasam
+Jaljeera",lunch
+Hostel 5,6,"Misal Pav
+Pineapple
+BBJ
+Tea/Coffee",snacks
+Hostel 5,6,"tomato Rice
+Moong Dal
+Handi Paneer
+Kaddu Methi Dry
+Roti
+cucumber+onion
+Boondi
+Chicken Crispy",dinner
+Hostel 5,7,"Masala Dosa
+Chutney+ Sambhar
+Moong Sprouts
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/Egg Burji
+Banana",breakfast
+Hostel 5,7,"Soya Chunks Pulao
+Dal Makhni
+Sev Tamatar Gravy
+Baingan Bharta
+Roti
+Carrot+ Cucumber
+Potato Chips
+Rasam + Curd
+Lemonade",lunch
+Hostel 5,7,"hot dog 
+Watermelon
+BBJ
+Tea/Coffee",snacks
+Hostel 5,7,"Ghee Rice
+Dal Makhni
+Pindi Chole
+Bhindi do Pyaaza
+Roti
+Beetroot+ Carrot
+Icecream
+Chicken Leg-Piece Biryani",dinner
+Hostel 5,5,"Paneer Paratha
+Lehsun Red Chutney + curd
+Boiled Corn
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/Egg Burji
+Banana",breakfast
+Hostel 5,5,"Jeera Rice
+Dal Fry
+Punjabi Chole
+Tawa Veg Dry
+Bhature + Roti
+Corn salad
+Roasted Papad
+Sambhar
+Lassi",lunch
+Hostel 5,5,"Cheese Pizza
+Guava
+BBJ
+Tea/Coffee",snacks
+Hostel 5,5,"Veg Triple Rice
+Dal Makhni
+Veg Kolhapuri
+Gobi 65
+Roti
+Corn Salad
+Fruit Custard
+Chicken Lollypop",dinner
+Hostel 5,1,"Onion Paratha
+Chutney + Ketchup
+Boiled Peanuts
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/Egg Burji
+Banana",breakfast
+Hostel 5,1,"Tawa Pulav
+Dal Lasooni
+Rajma Masala
+Louki Chana
+Roti
+Peanut Chutney+ Sev Chaat
+Fried Papad
+Rasam+ Curd
+Rasna",lunch
+Hostel 5,1,"Kachori Chat
+Pomegranate
+BBJ
+Tea/Coffee",snacks
+Hostel 5,1,"Tawa Pulav
+Dal Tadka
+Veg Manchurian
+Bhareilly Baingan
+Roti
+Raddish + Onion
+Rasmalai
+Fish Curry",dinner
+Hostel 5,3,"Idly+ Medu Vada
+Chutney + Sambhar
+Boiled Corn
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/Egg Burji
+Banana",breakfast
+Hostel 5,3,"Ghee Rice
+Dal Tadka
+Bhandara Sabzi
+Aloo Baigan
+Methi Puri + Roti
+Cucumber + Thecha
+Potato Chips
+Sambhar
+Chaas",lunch
+Hostel 5,3,"Cheese Garlic Bread
+Papaya
+BBJ
+Tea/Coffee",snacks
+Hostel 5,3,"corriander Rice
+Dal Fry
+Punjabi Rajma Masala
+Aloo Chokha
+Roti
+Cucumber + Onion
+Moong Dal Halwa
+Egg Curry",dinner
+Hostel 5,2,"dal pakwan
+chutney
+Matki Sprouts
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/omlette
+Banana",breakfast
+Hostel 5,2,"Veg Biryani
+Dal Makhni
+Mushroom Matar Gravy
+Banana Dry
+Roti + raita
+Tomato Chutney+ Cucumber
+fryums
+Sambhar
+Shikanji",lunch
+Hostel 5,2,"Chole Samosa
+Orange
+BBJ
+Tea/Coffee",snacks
+Hostel 5,2,"Fried Rice
+Dal Lasooni
+Veg Kheema
+Tureli Aloo Chana
+Roti
+Carrot + Cucumber
+Gulab Jamun
+Paneer Chilly",dinner
+Hostel 5,4,"Indori Poha
+Sev + Tarri
+Moong Sprouts
+BBJ
+Milk
+Tea/Coffee
+Muesli+Cornflakes+Oats+Chocos
+Boiled Egg/omlette
+Banana",breakfast
+Hostel 5,4,"Tawa Pulav
+Dal Panchmel
+Kadhi Pakoda
+Bhindi Masala
+Roti
+Carrot+Radish
+Fryums
+Rasam
+Kokam Sharbat",lunch
+Hostel 5,4,"Fried Maggie
+Apple
+BBJ
+Tea/Coffee",snacks
+Hostel 5,4,"Jeera Rice
+Dal Tadka
+Shahi Paneer
+Black Chana Dry
+Roti
+Cucumber+Beetroot
+Rasgulla
+Chicken Hyderabadi",dinner
+Hostel 6,3,Idli - Mendu Wada,breakfast
+Hostel 6,3,Sambhar,breakfast
+Hostel 6,3,Chutney,breakfast
+Hostel 6,3,Matki Sprouts,breakfast
+Hostel 6,3,Milk,breakfast
+Hostel 6,3,Tea,breakfast
+Hostel 6,3,Coffee,breakfast
+Hostel 6,3,Bbj,breakfast
+Hostel 6,3,Paneer Bhurji,breakfast
+Hostel 6,3,Boiled Egg,breakfast
+Hostel 6,3,Omlet,breakfast
+Hostel 6,3,Banana,breakfast
+Hostel 6,3,Paneer Butter Masala,lunch
+Hostel 6,3,Cabbage Dry,lunch
+Hostel 6,3,Dal Fry,lunch
+Hostel 6,3,Tomato Rice,lunch
+Hostel 6,3,Salad,lunch
+Hostel 6,3,Papad,lunch
+Hostel 6,3,Rice,lunch
+Hostel 6,3,Roti,lunch
+Hostel 6,3,Rasam,lunch
+Hostel 6,3,Dahi,lunch
+Hostel 6,3,Pav Bhaji,snacks
+Hostel 6,3,Milk,snacks
+Hostel 6,3,Tea,snacks
+Hostel 6,3,Coffee,snacks
+Hostel 6,3,Bbj,snacks
+Hostel 6,3,Milkshake,snacks
+Hostel 6,3,French Fries,dinner
+Hostel 6,3,Veg Kolhapuri,dinner
+Hostel 6,3,Dal Tadka,dinner
+Hostel 6,3,Rice,dinner
+Hostel 6,3,Roti,dinner
+Hostel 6,3,Salad,dinner
+Hostel 6,3,Boondi Ladoo,dinner
+Hostel 6,3,Chicken Lollipop,dinner
+Hostel 6,2,Gobi Paratha,breakfast
+Hostel 6,2,Curd,breakfast
+Hostel 6,2,Schezwan,breakfast
+Hostel 6,2,Boiled Peanuts,breakfast
+Hostel 6,2,Milk,breakfast
+Hostel 6,2,Tea,breakfast
+Hostel 6,2,Coffee,breakfast
+Hostel 6,2,Bbj,breakfast
+Hostel 6,2,Paneer Bhurji,breakfast
+Hostel 6,2,Boiled Egg,breakfast
+Hostel 6,2,Egg-Bhurji,breakfast
+Hostel 6,2,Banana,breakfast
+Hostel 6,2,Chhole Bhature,lunch
+Hostel 6,2,Pumpkin Dry,lunch
+Hostel 6,2,Dal Lehsuni,lunch
+Hostel 6,2,Jeera Rice,lunch
+Hostel 6,2,Salad,lunch
+Hostel 6,2,Papad,lunch
+Hostel 6,2,Rice,lunch
+Hostel 6,2,Roti,lunch
+Hostel 6,2,Sambhar,lunch
+Hostel 6,2,Lassi,lunch
+Hostel 6,2,Jhal Muri,snacks
+Hostel 6,2,Milk,snacks
+Hostel 6,2,Tea,snacks
+Hostel 6,2,Coffee,snacks
+Hostel 6,2,Bbj,snacks
+Hostel 6,2,Peanut Butter,snacks
+Hostel 6,2,Fruit,snacks
+Hostel 6,2,Chana Chatpata Masala Kofta,dinner
+Hostel 6,2,Rice,dinner
+Hostel 6,2,Roti,dinner
+Hostel 6,2,Salad,dinner
+Hostel 6,2,Dudhi Halwa,dinner
+Hostel 6,2,Egg Curry,dinner
+Hostel 6,7,Dosa,breakfast
+Hostel 6,7,Sambhar,breakfast
+Hostel 6,7,Chatny,breakfast
+Hostel 6,7,Boiled Channa,breakfast
+Hostel 6,7,Milk,breakfast
+Hostel 6,7,Tea,breakfast
+Hostel 6,7,Coffee,breakfast
+Hostel 6,7,Bbj,breakfast
+Hostel 6,7,Paneer Bhurji,breakfast
+Hostel 6,7,Boiled Egg,breakfast
+Hostel 6,7,Egg Bhurji,breakfast
+Hostel 6,7,Banana,breakfast
+Hostel 6,7,Aloo-Sem,lunch
+Hostel 6,7,Matki Masala,lunch
+Hostel 6,7,Masoor Dal Fry,lunch
+Hostel 6,7,Lemon Rice,lunch
+Hostel 6,7,Salad,lunch
+Hostel 6,7,Papad,lunch
+Hostel 6,7,Rice,lunch
+Hostel 6,7,Roti,lunch
+Hostel 6,7,Rasam,lunch
+Hostel 6,7,Masala Chaas,lunch
+Hostel 6,7,Hot Dog,snacks
+Hostel 6,7,Milk,snacks
+Hostel 6,7,Tea,snacks
+Hostel 6,7,Coffee,snacks
+Hostel 6,7,Bbj,snacks
+Hostel 6,7,Fruit,snacks
+Hostel 6,7,Gobi 65,dinner
+Hostel 6,7,Malai Kofta,dinner
+Hostel 6,7,Veg Biryani,dinner
+Hostel 6,7,Moong Dal,dinner
+Hostel 6,7,Rice,dinner
+Hostel 6,7,Roti,dinner
+Hostel 6,7,Salad,dinner
+Hostel 6,7,Rabdi Kulfi,dinner
+Hostel 6,7,Chicken Biryani,dinner
+Hostel 6,4,Sabudana Khichidi,breakfast
+Hostel 6,4,Sweet Curd,breakfast
+Hostel 6,4,Boiled Sweet Corn,breakfast
+Hostel 6,4,Milk,breakfast
+Hostel 6,4,Tea,breakfast
+Hostel 6,4,Coffee,breakfast
+Hostel 6,4,Bbj,breakfast
+Hostel 6,4,Paneer Bhurji,breakfast
+Hostel 6,4,Boiled Egg,breakfast
+Hostel 6,4,Omlet,breakfast
+Hostel 6,4,Banana,breakfast
+Hostel 6,4,Chawli Dry,lunch
+Hostel 6,4,Aloo Mattar,lunch
+Hostel 6,4,Channa Dal,lunch
+Hostel 6,4,Pulihora,lunch
+Hostel 6,4,Salad,lunch
+Hostel 6,4,Papad,lunch
+Hostel 6,4,Rice,lunch
+Hostel 6,4,Roti,lunch
+Hostel 6,4,Sambhar,lunch
+Hostel 6,4,Lemonade,lunch
+Hostel 6,4,Dahi Wada,snacks
+Hostel 6,4,Milk,snacks
+Hostel 6,4,Tea,snacks
+Hostel 6,4,Coffee,snacks
+Hostel 6,4,Bbj,snacks
+Hostel 6,4,Fruit,snacks
+Hostel 6,4,Pindi Chhole,dinner
+Hostel 6,4,Butter Veg Dry,dinner
+Hostel 6,4,Dal Lahsooni,dinner
+Hostel 6,4,Rice,dinner
+Hostel 6,4,Roti,dinner
+Hostel 6,4,Salad,dinner
+Hostel 6,4,Dry Fruit Sheera(Milk+Ghee),dinner
+Hostel 6,4,Paneer Tikka,dinner
+Hostel 6,5,Suji Upma,breakfast
+Hostel 6,5,Cocnut+Ginger Chutney,breakfast
+Hostel 6,5,Boiled Channa,breakfast
+Hostel 6,5,Milk,breakfast
+Hostel 6,5,Tea,breakfast
+Hostel 6,5,Coffee,breakfast
+Hostel 6,5,Bbj,breakfast
+Hostel 6,5,Paneer Bhurji,breakfast
+Hostel 6,5,Boiled Egg,breakfast
+Hostel 6,5,Egg Bhurji,breakfast
+Hostel 6,5,Banana,breakfast
+Hostel 6,5,Bhindi Masala,lunch
+Hostel 6,5,Veg Patiyal,lunch
+Hostel 6,5,Toor Dal Tadka,lunch
+Hostel 6,5,Masala Rice,lunch
+Hostel 6,5,Salad,lunch
+Hostel 6,5,Papad,lunch
+Hostel 6,5,Rice,lunch
+Hostel 6,5,Roti,lunch
+Hostel 6,5,Rasam,lunch
+Hostel 6,5,Watermelon Juice,lunch
+Hostel 6,5,Samose,snacks
+Hostel 6,5,Milk,snacks
+Hostel 6,5,Tea,snacks
+Hostel 6,5,Coffee,snacks
+Hostel 6,5,Bbj,snacks
+Hostel 6,5,Peanut Butter,snacks
+Hostel 6,5,Fruit,snacks
+Hostel 6,5,Gobhi Masala,dinner
+Hostel 6,5,Palak Corn,dinner
+Hostel 6,5,Channa-Dal Tadka,dinner
+Hostel 6,5,Rice,dinner
+Hostel 6,5,Roti,dinner
+Hostel 6,5,Salad,dinner
+Hostel 6,5,Gulab Jamun,dinner
+Hostel 6,5,Chicken Afgani,dinner
+Hostel 6,1,Poha,breakfast
+Hostel 6,1,Moong Sprouts,breakfast
+Hostel 6,1,Channa Gravy,breakfast
+Hostel 6,1,Sev,breakfast
+Hostel 6,1,Milk,breakfast
+Hostel 6,1,Tea,breakfast
+Hostel 6,1,Coffee,breakfast
+Hostel 6,1,Bbj,breakfast
+Hostel 6,1,Paneer Bhurji,breakfast
+Hostel 6,1,Boiled Egg,breakfast
+Hostel 6,1,Omlet,breakfast
+Hostel 6,1,Banana,breakfast
+Hostel 6,1,Masala Rajma Gravy,lunch
+Hostel 6,1,Aloo Jeera,lunch
+Hostel 6,1,Puri,lunch
+Hostel 6,1,Shrikhand,lunch
+Hostel 6,1,Dal Dohkli,lunch
+Hostel 6,1,Peas Pulao,lunch
+Hostel 6,1,Salad,lunch
+Hostel 6,1,Papad,lunch
+Hostel 6,1,Rice,lunch
+Hostel 6,1,Roti,lunch
+Hostel 6,1,Rasam,lunch
+Hostel 6,1,White Sauce Pasta (Olives+Corn),snacks
+Hostel 6,1,Milk,snacks
+Hostel 6,1,Tea,snacks
+Hostel 6,1,Coffee,snacks
+Hostel 6,1,Bbj,snacks
+Hostel 6,1,Fruit,snacks
+Hostel 6,1,Bengan Bharwa Curry,dinner
+Hostel 6,1,Gajar Methi,dinner
+Hostel 6,1,Dal Palak,dinner
+Hostel 6,1,Rice,dinner
+Hostel 6,1,Roti,dinner
+Hostel 6,1,Salad,dinner
+Hostel 6,1,Sevai Kheer,dinner
+Hostel 6,1,Chicken Hyderabadi,dinner
+Hostel 6,6,Puri Bhaji,breakfast
+Hostel 6,6,Boiled Sweet Corn,breakfast
+Hostel 6,6,Milk,breakfast
+Hostel 6,6,Tea,breakfast
+Hostel 6,6,Coffee,breakfast
+Hostel 6,6,Bbj,breakfast
+Hostel 6,6,Paneer Bhurji,breakfast
+Hostel 6,6,Boiled Egg,breakfast
+Hostel 6,6,Omlet,breakfast
+Hostel 6,6,Banana,breakfast
+Hostel 6,6,Aloo-Parval,lunch
+Hostel 6,6,Shahi Paneer,lunch
+Hostel 6,6,Toor Dal Tadka,lunch
+Hostel 6,6,Veg Biryani,lunch
+Hostel 6,6,Salad,lunch
+Hostel 6,6,Papad,lunch
+Hostel 6,6,Rice,lunch
+Hostel 6,6,Roti,lunch
+Hostel 6,6,Raita,lunch
+Hostel 6,6,Sambhar,lunch
+Hostel 6,6,Hakka Noodles,snacks
+Hostel 6,6,Milk,snacks
+Hostel 6,6,Tea,snacks
+Hostel 6,6,Coffee,snacks
+Hostel 6,6,Bbj,snacks
+Hostel 6,6,Milkshake,snacks
+Hostel 6,6,Tendali Dry,dinner
+Hostel 6,6,Sev-Tamatar,dinner
+Hostel 6,6,Moong Dal,dinner
+Hostel 6,6,Rice,dinner
+Hostel 6,6,Roti,dinner
+Hostel 6,6,Salad,dinner
+Hostel 6,6,Jalebi,dinner
+Hostel 6,6,Butter Chicken,dinner
+Hostel 7,5,Puri,breakfast
+Hostel 7,5,Bhaji,breakfast
+Hostel 7,5,Boiled Chawali,breakfast
+Hostel 7,5,Milk,breakfast
+Hostel 7,5,Tea,breakfast
+Hostel 7,5,Coffee,breakfast
+Hostel 7,5,Oats,breakfast
+Hostel 7,5,Bournvita,breakfast
+Hostel 7,5,Bread Butter Jam,breakfast
+Hostel 7,5,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 7,5,Paneer Bhurji,breakfast
+Hostel 7,5,Banana,breakfast
+Hostel 7,5,Chicken Dum Biryani (Extra),breakfast
+Hostel 7,5,Kadhi Pakoda,lunch
+Hostel 7,5,Masoor Dry,lunch
+Hostel 7,5,Chapati,lunch
+Hostel 7,5,Steam Rice,lunch
+Hostel 7,5,Dal Kichadi,lunch
+Hostel 7,5,Dal Tadka,lunch
+Hostel 7,5,Salad,lunch
+Hostel 7,5,Disco Papad & Pickle,lunch
+Hostel 7,5,Kokam,lunch
+Hostel 7,5,Chole Samosa,snacks
+Hostel 7,5,Milk,snacks
+Hostel 7,5,Tea,snacks
+Hostel 7,5,Coffee,snacks
+Hostel 7,5,Chocos,snacks
+Hostel 7,5,Bournvita,snacks
+Hostel 7,5,Bread Butter Jam,snacks
+Hostel 7,5,Mango Milk Shake,snacks
+Hostel 7,5,Veg Maharaja,dinner
+Hostel 7,5,Turai Chana Dry,dinner
+Hostel 7,5,Chapati,dinner
+Hostel 7,5,Dal Methi,dinner
+Hostel 7,5,Steam Rice,dinner
+Hostel 7,5,Coriander Rice,dinner
+Hostel 7,5,Salad,dinner
+Hostel 7,5,Pickle,dinner
+Hostel 7,5,Fruit Custurd,dinner
+Hostel 7,1,Poha,breakfast
+Hostel 7,1,Matki Usal,breakfast
+Hostel 7,1,Moong,breakfast
+Hostel 7,1,Milk,breakfast
+Hostel 7,1,Tea,breakfast
+Hostel 7,1,Coffee,breakfast
+Hostel 7,1,Muesli,breakfast
+Hostel 7,1,Bournvita,breakfast
+Hostel 7,1,Bread Butter Jam,breakfast
+Hostel 7,1,Egg Bhurji / Boiled Egg,breakfast
+Hostel 7,1,Paneer Bhurji,breakfast
+Hostel 7,1,Banana,breakfast
+Hostel 7,1,Chicken Hydrabadi (Extra),breakfast
+Hostel 7,1,Black Chana Masala,lunch
+Hostel 7,1,Aloo Jeera,lunch
+Hostel 7,1,Chapati/Puri,lunch
+Hostel 7,1,Steam Rice,lunch
+Hostel 7,1,Jeera Rice,lunch
+Hostel 7,1,Dal Tadka,lunch
+Hostel 7,1,Salad,lunch
+Hostel 7,1,Fried Papad & Pickle,lunch
+Hostel 7,1,Shreekhand,lunch
+Hostel 7,1,Missal Pav,snacks
+Hostel 7,1,Milk,snacks
+Hostel 7,1,Tea,snacks
+Hostel 7,1,Coffee,snacks
+Hostel 7,1,Oats,snacks
+Hostel 7,1,Bournvita,snacks
+Hostel 7,1,Bread Butter Jam,snacks
+Hostel 7,1,Seasonal Fruits,snacks
+Hostel 7,1,White Batana,dinner
+Hostel 7,1,Cabbage Mutter,dinner
+Hostel 7,1,Chapati,dinner
+Hostel 7,1,Dal Tadka,dinner
+Hostel 7,1,Steam Rice,dinner
+Hostel 7,1,Lemon Rice,dinner
+Hostel 7,1,Salad,dinner
+Hostel 7,1,Pickle,dinner
+Hostel 7,1,Sevai Kheer,dinner
+Hostel 7,3,Methi Thepla,breakfast
+Hostel 7,3,Chutney,breakfast
+Hostel 7,3,Mix Sprout,breakfast
+Hostel 7,3,Milk,breakfast
+Hostel 7,3,Tea,breakfast
+Hostel 7,3,Coffee,breakfast
+Hostel 7,3,Cornflakes,breakfast
+Hostel 7,3,Bournvita,breakfast
+Hostel 7,3,Bread Butter Jam,breakfast
+Hostel 7,3,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 7,3,Paneer Bhurji,breakfast
+Hostel 7,3,Banana,breakfast
+Hostel 7,3,Chichen Hydrabadi (Extra),breakfast
+Hostel 7,3,Soyabean Masala,lunch
+Hostel 7,3,Gobhi Aloo,lunch
+Hostel 7,3,Chapati,lunch
+Hostel 7,3,Steam Rice,lunch
+Hostel 7,3,Lemon Rice,lunch
+Hostel 7,3,Dal Fry,lunch
+Hostel 7,3,Salad,lunch
+Hostel 7,3,Roasted Papad & Pickle,lunch
+Hostel 7,3,Curd,lunch
+Hostel 7,3,Dabeli,snacks
+Hostel 7,3,Milk,snacks
+Hostel 7,3,Tea,snacks
+Hostel 7,3,Coffee,snacks
+Hostel 7,3,Muesli,snacks
+Hostel 7,3,Bournvita,snacks
+Hostel 7,3,Bread Butter Jam,snacks
+Hostel 7,3,Seasonal Fruits,snacks
+Hostel 7,3,Sev Tamatar,dinner
+Hostel 7,3,Doodhi Chana,dinner
+Hostel 7,3,Chapati,dinner
+Hostel 7,3,Dal Tadka,dinner
+Hostel 7,3,Steam Rice,dinner
+Hostel 7,3,Tomato Rice,dinner
+Hostel 7,3,Salad,dinner
+Hostel 7,3,Pickle,dinner
+Hostel 7,3,Paysam,dinner
+Hostel 7,4,Onion Partaha,breakfast
+Hostel 7,4,Curd Schezwan Chuten,breakfast
+Hostel 7,4,Boiled Peanut,breakfast
+Hostel 7,4,Milk,breakfast
+Hostel 7,4,Tea,breakfast
+Hostel 7,4,Coffee,breakfast
+Hostel 7,4,Chocos,breakfast
+Hostel 7,4,Bournvita,breakfast
+Hostel 7,4,Bread Butter Jam,breakfast
+Hostel 7,4,Omlate/ Boiled Egg,breakfast
+Hostel 7,4,Paneer Bhurji,breakfast
+Hostel 7,4,Banana,breakfast
+Hostel 7,4,Chiken Butter Masala (Extra),breakfast
+Hostel 7,4,Chole Bhature,lunch
+Hostel 7,4,Cabbage Tomato,lunch
+Hostel 7,4,Chapati,lunch
+Hostel 7,4,Steam Rice,lunch
+Hostel 7,4,Green Peas Pulav,lunch
+Hostel 7,4,Dal Tadka,lunch
+Hostel 7,4,Salad,lunch
+Hostel 7,4,Fryums & Pickle,lunch
+Hostel 7,4,Lassi,lunch
+Hostel 7,4,Pani Puri,snacks
+Hostel 7,4,Milk,snacks
+Hostel 7,4,Tea,snacks
+Hostel 7,4,Coffee,snacks
+Hostel 7,4,Oats,snacks
+Hostel 7,4,Bournvita,snacks
+Hostel 7,4,Bread Butter Jam,snacks
+Hostel 7,4,Papaya,snacks
+Hostel 7,4,Butter Paneer Masala,dinner
+Hostel 7,4,Pumpkin Dry,dinner
+Hostel 7,4,Chapati,dinner
+Hostel 7,4,Dal Tadka,dinner
+Hostel 7,4,Steam Rice,dinner
+Hostel 7,4,Jeera Rice,dinner
+Hostel 7,4,Salad,dinner
+Hostel 7,4,Pickle,dinner
+Hostel 7,4,Gulab Jamun,dinner
+Hostel 7,2,Idli Medu Vada,breakfast
+Hostel 7,2,Chutney/ Sambhar,breakfast
+Hostel 7,2,Boil Chana,breakfast
+Hostel 7,2,Milk,breakfast
+Hostel 7,2,Tea,breakfast
+Hostel 7,2,Coffee,breakfast
+Hostel 7,2,Oats,breakfast
+Hostel 7,2,Bournvita,breakfast
+Hostel 7,2,Bread Butter Jam,breakfast
+Hostel 7,2,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 7,2,Paneer Bhurji,breakfast
+Hostel 7,2,Banana,breakfast
+Hostel 7,2,Chicken Curry (Extra),breakfast
+Hostel 7,2,Matar Paneer,lunch
+Hostel 7,2,Padwal Dry,lunch
+Hostel 7,2,Chapati,lunch
+Hostel 7,2,Steam Rice,lunch
+Hostel 7,2,Masala Rice,lunch
+Hostel 7,2,Dal Lassoni,lunch
+Hostel 7,2,Salad,lunch
+Hostel 7,2,Disco Papad & Pickle,lunch
+Hostel 7,2,Butter Milk,lunch
+Hostel 7,2,Veg Maggie,snacks
+Hostel 7,2,Milk,snacks
+Hostel 7,2,Tea,snacks
+Hostel 7,2,Coffee,snacks
+Hostel 7,2,Corn Flakes,snacks
+Hostel 7,2,Bournvita,snacks
+Hostel 7,2,Bbj Peanut Butter,snacks
+Hostel 7,2,Cold Coffee,snacks
+Hostel 7,2,Veg Makhan Wala,dinner
+Hostel 7,2,Bhindi Do Payaja,dinner
+Hostel 7,2,Chapati,dinner
+Hostel 7,2,Dal Banjara,dinner
+Hostel 7,2,Steam Rice,dinner
+Hostel 7,2,Pudina Rice,dinner
+Hostel 7,2,Salad,dinner
+Hostel 7,2,Pickle,dinner
+Hostel 7,2,Jalebi,dinner
+Hostel 7,6,Mix Veg Paratha,breakfast
+Hostel 7,6,Curd Schezwan Chuten,breakfast
+Hostel 7,6,Mix Sprout,breakfast
+Hostel 7,6,Milk,breakfast
+Hostel 7,6,Tea,breakfast
+Hostel 7,6,Coffee,breakfast
+Hostel 7,6,Chocos,breakfast
+Hostel 7,6,Bournvita,breakfast
+Hostel 7,6,Bread Butter Jam,breakfast
+Hostel 7,6,Full Fry/Boiled Egg,breakfast
+Hostel 7,6,Paneer Bhurji,breakfast
+Hostel 7,6,Banana,breakfast
+Hostel 7,6,Independence Day - Special Lunch,lunch
+Hostel 7,6,Pest Control,snacks
+Hostel 7,6,Pest Control,dinner
+Hostel 7,7,Pest Control,breakfast
+Hostel 7,7,Rajma Masala,lunch
+Hostel 7,7,Mix Veg Dry,lunch
+Hostel 7,7,Chapati,lunch
+Hostel 7,7,Steam Rice,lunch
+Hostel 7,7,Tadka Rice,lunch
+Hostel 7,7,Achari Dal,lunch
+Hostel 7,7,Salad,lunch
+Hostel 7,7,Papad & Pickle,lunch
+Hostel 7,7,Rasna,lunch
+Hostel 7,7,Veg Hakka Noodles,snacks
+Hostel 7,7,Milk,snacks
+Hostel 7,7,Tea,snacks
+Hostel 7,7,Coffee,snacks
+Hostel 7,7,Oats,snacks
+Hostel 7,7,Bournvita,snacks
+Hostel 7,7,Bbj/Peanut Butter,snacks
+Hostel 7,7,Milk Shake,snacks
+Hostel 7,7,Chole Pindi,dinner
+Hostel 7,7,Carrot Mutter,dinner
+Hostel 7,7,Chapati,dinner
+Hostel 7,7,Toor Dal Tadka,dinner
+Hostel 7,7,Steam Rice,dinner
+Hostel 7,7,Jeera Rice,dinner
+Hostel 7,7,Salad,dinner
+Hostel 7,7,Pickle,dinner
+Hostel 7,7,Ice Cream,dinner
+Hostel 7,7,Chicken Do Pyaza (Extra),dinner
+Hostel 8,3,Methi Thepla,breakfast
+Hostel 8,3,Chutney,breakfast
+Hostel 8,3,Mix Sprout,breakfast
+Hostel 8,3,Milk,breakfast
+Hostel 8,3,Tea,breakfast
+Hostel 8,3,Coffee,breakfast
+Hostel 8,3,Cornflakes,breakfast
+Hostel 8,3,Bournvita,breakfast
+Hostel 8,3,Bread Butter Jam,breakfast
+Hostel 8,3,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 8,3,Paneer Bhurji,breakfast
+Hostel 8,3,Banana,breakfast
+Hostel 8,3,Chichen Hydrabadi (Extra),breakfast
+Hostel 8,3,Soyabean Masala,lunch
+Hostel 8,3,Gobhi Aloo,lunch
+Hostel 8,3,Chapati,lunch
+Hostel 8,3,Steam Rice,lunch
+Hostel 8,3,Lemon Rice,lunch
+Hostel 8,3,Dal Fry,lunch
+Hostel 8,3,Salad,lunch
+Hostel 8,3,Roasted Papad & Pickle,lunch
+Hostel 8,3,Curd,lunch
+Hostel 8,3,Dabeli,snacks
+Hostel 8,3,Milk,snacks
+Hostel 8,3,Tea,snacks
+Hostel 8,3,Coffee,snacks
+Hostel 8,3,Muesli,snacks
+Hostel 8,3,Bournvita,snacks
+Hostel 8,3,Bread Butter Jam,snacks
+Hostel 8,3,Seasonal Fruits,snacks
+Hostel 8,3,Sev Tamatar,dinner
+Hostel 8,3,Doodhi Chana,dinner
+Hostel 8,3,Chapati,dinner
+Hostel 8,3,Dal Tadka,dinner
+Hostel 8,3,Steam Rice,dinner
+Hostel 8,3,Tomato Rice,dinner
+Hostel 8,3,Salad,dinner
+Hostel 8,3,Pickle,dinner
+Hostel 8,3,Paysam,dinner
+Hostel 8,1,Poha,breakfast
+Hostel 8,1,Matki Usal,breakfast
+Hostel 8,1,Moong,breakfast
+Hostel 8,1,Milk,breakfast
+Hostel 8,1,Tea,breakfast
+Hostel 8,1,Coffee,breakfast
+Hostel 8,1,Muesli,breakfast
+Hostel 8,1,Bournvita,breakfast
+Hostel 8,1,Bread Butter Jam,breakfast
+Hostel 8,1,Egg Bhurji / Boiled Egg,breakfast
+Hostel 8,1,Paneer Bhurji,breakfast
+Hostel 8,1,Banana,breakfast
+Hostel 8,1,Chicken Hydrabadi (Extra),breakfast
+Hostel 8,1,Black Chana Masala,lunch
+Hostel 8,1,Aloo Jeera,lunch
+Hostel 8,1,Chapati/Puri,lunch
+Hostel 8,1,Steam Rice,lunch
+Hostel 8,1,Jeera Rice,lunch
+Hostel 8,1,Dal Tadka,lunch
+Hostel 8,1,Salad,lunch
+Hostel 8,1,Fried Papad & Pickle,lunch
+Hostel 8,1,Shreekhand,lunch
+Hostel 8,1,Missal Pav,snacks
+Hostel 8,1,Milk,snacks
+Hostel 8,1,Tea,snacks
+Hostel 8,1,Coffee,snacks
+Hostel 8,1,Oats,snacks
+Hostel 8,1,Bournvita,snacks
+Hostel 8,1,Bread Butter Jam,snacks
+Hostel 8,1,Seasonal Fruits,snacks
+Hostel 8,1,White Batana,dinner
+Hostel 8,1,Cabbage Mutter,dinner
+Hostel 8,1,Chapati,dinner
+Hostel 8,1,Dal Tadka,dinner
+Hostel 8,1,Steam Rice,dinner
+Hostel 8,1,Lemon Rice,dinner
+Hostel 8,1,Salad,dinner
+Hostel 8,1,Pickle,dinner
+Hostel 8,1,Sevai Kheer,dinner
+Hostel 8,4,Onion Partaha,breakfast
+Hostel 8,4,Curd Schezwan Chuten,breakfast
+Hostel 8,4,Boiled Peanut,breakfast
+Hostel 8,4,Milk,breakfast
+Hostel 8,4,Tea,breakfast
+Hostel 8,4,Coffee,breakfast
+Hostel 8,4,Chocos,breakfast
+Hostel 8,4,Bournvita,breakfast
+Hostel 8,4,Bread Butter Jam,breakfast
+Hostel 8,4,Omlate/ Boiled Egg,breakfast
+Hostel 8,4,Paneer Bhurji,breakfast
+Hostel 8,4,Banana,breakfast
+Hostel 8,4,Chiken Butter Masala (Extra),breakfast
+Hostel 8,4,Chole Bhature,lunch
+Hostel 8,4,Cabbage Tomato,lunch
+Hostel 8,4,Chapati,lunch
+Hostel 8,4,Steam Rice,lunch
+Hostel 8,4,Green Peas Pulav,lunch
+Hostel 8,4,Dal Tadka,lunch
+Hostel 8,4,Salad,lunch
+Hostel 8,4,Fryums & Pickle,lunch
+Hostel 8,4,Lassi,lunch
+Hostel 8,4,Pani Puri,snacks
+Hostel 8,4,Milk,snacks
+Hostel 8,4,Tea,snacks
+Hostel 8,4,Coffee,snacks
+Hostel 8,4,Oats,snacks
+Hostel 8,4,Bournvita,snacks
+Hostel 8,4,Bread Butter Jam,snacks
+Hostel 8,4,Papaya,snacks
+Hostel 8,4,Butter Paneer Masala,dinner
+Hostel 8,4,Pumpkin Dry,dinner
+Hostel 8,4,Chapati,dinner
+Hostel 8,4,Dal Tadka,dinner
+Hostel 8,4,Steam Rice,dinner
+Hostel 8,4,Jeera Rice,dinner
+Hostel 8,4,Salad,dinner
+Hostel 8,4,Pickle,dinner
+Hostel 8,4,Gulab Jamun,dinner
+Hostel 8,5,Puri,breakfast
+Hostel 8,5,Bhaji,breakfast
+Hostel 8,5,Boiled Chawali,breakfast
+Hostel 8,5,Milk,breakfast
+Hostel 8,5,Tea,breakfast
+Hostel 8,5,Coffee,breakfast
+Hostel 8,5,Oats,breakfast
+Hostel 8,5,Bournvita,breakfast
+Hostel 8,5,Bread Butter Jam,breakfast
+Hostel 8,5,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 8,5,Paneer Bhurji,breakfast
+Hostel 8,5,Banana,breakfast
+Hostel 8,5,Chicken Dum Biryani (Extra),breakfast
+Hostel 8,5,Kadhi Pakoda,lunch
+Hostel 8,5,Masoor Dry,lunch
+Hostel 8,5,Chapati,lunch
+Hostel 8,5,Steam Rice,lunch
+Hostel 8,5,Dal Kichadi,lunch
+Hostel 8,5,Dal Tadka,lunch
+Hostel 8,5,Salad,lunch
+Hostel 8,5,Disco Papad & Pickle,lunch
+Hostel 8,5,Kokam,lunch
+Hostel 8,5,Chole Samosa,snacks
+Hostel 8,5,Milk,snacks
+Hostel 8,5,Tea,snacks
+Hostel 8,5,Coffee,snacks
+Hostel 8,5,Chocos,snacks
+Hostel 8,5,Bournvita,snacks
+Hostel 8,5,Bread Butter Jam,snacks
+Hostel 8,5,Mango Milk Shake,snacks
+Hostel 8,5,Veg Maharaja,dinner
+Hostel 8,5,Turai Chana Dry,dinner
+Hostel 8,5,Chapati,dinner
+Hostel 8,5,Dal Methi,dinner
+Hostel 8,5,Steam Rice,dinner
+Hostel 8,5,Coriander Rice,dinner
+Hostel 8,5,Salad,dinner
+Hostel 8,5,Pickle,dinner
+Hostel 8,5,Fruit Custurd,dinner
+Hostel 8,7,Pest Control,breakfast
+Hostel 8,7,Rajma Masala,lunch
+Hostel 8,7,Mix Veg Dry,lunch
+Hostel 8,7,Chapati,lunch
+Hostel 8,7,Steam Rice,lunch
+Hostel 8,7,Tadka Rice,lunch
+Hostel 8,7,Achari Dal,lunch
+Hostel 8,7,Salad,lunch
+Hostel 8,7,Papad & Pickle,lunch
+Hostel 8,7,Rasna,lunch
+Hostel 8,7,Veg Hakka Noodles,snacks
+Hostel 8,7,Milk,snacks
+Hostel 8,7,Tea,snacks
+Hostel 8,7,Coffee,snacks
+Hostel 8,7,Oats,snacks
+Hostel 8,7,Bournvita,snacks
+Hostel 8,7,Bbj/Peanut Butter,snacks
+Hostel 8,7,Milk Shake,snacks
+Hostel 8,7,Chole Pindi,dinner
+Hostel 8,7,Carrot Mutter,dinner
+Hostel 8,7,Chapati,dinner
+Hostel 8,7,Toor Dal Tadka,dinner
+Hostel 8,7,Steam Rice,dinner
+Hostel 8,7,Jeera Rice,dinner
+Hostel 8,7,Salad,dinner
+Hostel 8,7,Pickle,dinner
+Hostel 8,7,Ice Cream,dinner
+Hostel 8,7,Chicken Do Pyaza (Extra),dinner
+Hostel 8,6,Mix Veg Paratha,breakfast
+Hostel 8,6,Curd Schezwan Chuten,breakfast
+Hostel 8,6,Mix Sprout,breakfast
+Hostel 8,6,Milk,breakfast
+Hostel 8,6,Tea,breakfast
+Hostel 8,6,Coffee,breakfast
+Hostel 8,6,Chocos,breakfast
+Hostel 8,6,Bournvita,breakfast
+Hostel 8,6,Bread Butter Jam,breakfast
+Hostel 8,6,Full Fry/Boiled Egg,breakfast
+Hostel 8,6,Paneer Bhurji,breakfast
+Hostel 8,6,Banana,breakfast
+Hostel 8,6,Independence Day - Special Lunch,lunch
+Hostel 8,6,Pest Control,snacks
+Hostel 8,6,Pest Control,dinner
+Hostel 8,2,Idli Medu Vada,breakfast
+Hostel 8,2,Chutney/ Sambhar,breakfast
+Hostel 8,2,Boil Chana,breakfast
+Hostel 8,2,Milk,breakfast
+Hostel 8,2,Tea,breakfast
+Hostel 8,2,Coffee,breakfast
+Hostel 8,2,Oats,breakfast
+Hostel 8,2,Bournvita,breakfast
+Hostel 8,2,Bread Butter Jam,breakfast
+Hostel 8,2,Egg Bhurji/ Boiled Egg,breakfast
+Hostel 8,2,Paneer Bhurji,breakfast
+Hostel 8,2,Banana,breakfast
+Hostel 8,2,Chicken Curry (Extra),breakfast
+Hostel 8,2,Matar Paneer,lunch
+Hostel 8,2,Padwal Dry,lunch
+Hostel 8,2,Chapati,lunch
+Hostel 8,2,Steam Rice,lunch
+Hostel 8,2,Masala Rice,lunch
+Hostel 8,2,Dal Lassoni,lunch
+Hostel 8,2,Salad,lunch
+Hostel 8,2,Disco Papad & Pickle,lunch
+Hostel 8,2,Butter Milk,lunch
+Hostel 8,2,Veg Maggie,snacks
+Hostel 8,2,Milk,snacks
+Hostel 8,2,Tea,snacks
+Hostel 8,2,Coffee,snacks
+Hostel 8,2,Corn Flakes,snacks
+Hostel 8,2,Bournvita,snacks
+Hostel 8,2,Bbj Peanut Butter,snacks
+Hostel 8,2,Cold Coffee,snacks
+Hostel 8,2,Veg Makhan Wala,dinner
+Hostel 8,2,Bhindi Do Payaja,dinner
+Hostel 8,2,Chapati,dinner
+Hostel 8,2,Dal Banjara,dinner
+Hostel 8,2,Steam Rice,dinner
+Hostel 8,2,Pudina Rice,dinner
+Hostel 8,2,Salad,dinner
+Hostel 8,2,Pickle,dinner
+Hostel 8,2,Jalebi,dinner
+QIP,2,Ask your mess co to update menu!,breakfast
+QIP,2,Ask your mess co to update menu!,lunch
+QIP,2,Ask your mess co to update menu!,snacks
+QIP,2,Ask your mess co to update menu!,dinner
+QIP,3,Ask your mess co to update menu!,breakfast
+QIP,3,Ask your mess co to update menu!,lunch
+QIP,3,Ask your mess co to update menu!,snacks
+QIP,3,Ask your mess co to update menu!,dinner
+QIP,5,Ask your mess co to update menu!,breakfast
+QIP,5,Ask your mess co to update menu!,lunch
+QIP,5,Ask your mess co to update menu!,snacks
+QIP,5,Ask your mess co to update menu!,dinner
+QIP,7,Ask your mess co to update menu!,breakfast
+QIP,7,Ask your mess co to update menu!,lunch
+QIP,7,Ask your mess co to update menu!,snacks
+QIP,7,Ask your mess co to update menu!,dinner
+QIP,4,Ask your mess co to update menu!,breakfast
+QIP,4,Ask your mess co to update menu!,lunch
+QIP,4,Ask your mess co to update menu!,snacks
+QIP,4,Ask your mess co to update menu!,dinner
+QIP,1,Ask your mess co to update menu!,breakfast
+QIP,1,Ask your mess co to update menu!,lunch
+QIP,1,Ask your mess co to update menu!,snacks
+QIP,1,Ask your mess co to update menu!,dinner
+QIP,6,Ask your mess co to update menu!,breakfast
+QIP,6,Ask your mess co to update menu!,lunch
+QIP,6,Ask your mess co to update menu!,snacks
+QIP,6,Ask your mess co to update menu!,dinner
+Tansa,4,Uttapam+Sambhar+ Chutney,breakfast
+Tansa,4,Sprouts Matki,breakfast
+Tansa,4,Chocos+Cornflakes,breakfast
+Tansa,4,Boild Egg,breakfast
+Tansa,4,Tinda Veg. Roti,lunch
+Tansa,4,Moong Dal,lunch
+Tansa,4,Biryani,lunch
+Tansa,4,Lijjat Papad,lunch
+Tansa,4,Salad,lunch
+Tansa,4,Jal Jeera,lunch
+Tansa,4,Chole Kulche,snacks
+Tansa,4,Milk,snacks
+Tansa,4,Tea,snacks
+Tansa,4,Coffee,snacks
+Tansa,4,Bbj,snacks
+Tansa,4,Bournvita,snacks
+Tansa,4,Mushroom Gravy,dinner
+Tansa,4,Rice,dinner
+Tansa,4,Masoor Dal,dinner
+Tansa,4,Roti,dinner
+Tansa,4,Salad,dinner
+Tansa,4,Ice-Cream,dinner
+Tansa,1,Aloo Paratha,breakfast
+Tansa,1,Curd,breakfast
+Tansa,1,Pickle,breakfast
+Tansa,1,Sprouts Moong,breakfast
+Tansa,1,Chocos+Cornflakes,breakfast
+Tansa,1,Boild Egg,breakfast
+Tansa,1,Paneer Bhurji,breakfast
+Tansa,1,Aloo Matar,lunch
+Tansa,1,Roti,lunch
+Tansa,1,Tomato Rice,lunch
+Tansa,1,Moong+Masoor Dal,lunch
+Tansa,1,Salad,lunch
+Tansa,1,Papad,lunch
+Tansa,1,Nimbu Pani,lunch
+Tansa,1,Maggie,snacks
+Tansa,1,Milk,snacks
+Tansa,1,Tea,snacks
+Tansa,1,Coffee,snacks
+Tansa,1,Bbj,snacks
+Tansa,1,Bournvita,snacks
+Tansa,1,Fruit,snacks
+Tansa,1,Lauki Kofta,dinner
+Tansa,1,Rice,dinner
+Tansa,1,Toor Dal,dinner
+Tansa,1,Roti,dinner
+Tansa,1,Salad,dinner
+Tansa,1,Ras Malai,dinner
+Tansa,1,Fish,dinner
+Tansa,2,Poha+Shiv+Chutney,breakfast
+Tansa,2,Nimbu,breakfast
+Tansa,2,Boiled Peanut,breakfast
+Tansa,2,Chocos + Cornflakes,breakfast
+Tansa,2,Boiled Egg,breakfast
+Tansa,2,Veg. Manchurian & Rajama,lunch
+Tansa,2,Dal Tadka,lunch
+Tansa,2,Rice,lunch
+Tansa,2,Salad,lunch
+Tansa,2,Rasana,lunch
+Tansa,2,Papad,lunch
+Tansa,2,Sprouts Chaat,snacks
+Tansa,2,Milk,snacks
+Tansa,2,Tea,snacks
+Tansa,2,Coffee,snacks
+Tansa,2,Bbj,snacks
+Tansa,2,Bournvita,snacks
+Tansa,2,Fruit,snacks
+Tansa,2,Sarso Ka Saag,dinner
+Tansa,2,Roti,dinner
+Tansa,2,Akha Masoor Dal,dinner
+Tansa,2,Pulav Rice,dinner
+Tansa,2,Salad,dinner
+Tansa,2,Gulab Jamun,dinner
+Tansa,7,Moong Dal Chilla Chutney,breakfast
+Tansa,7,Sprouts Matki,breakfast
+Tansa,7,Chocos+Cornflakes,breakfast
+Tansa,7,Egg Bhurji,breakfast
+Tansa,7,Misel Pov,lunch
+Tansa,7,Bread,lunch
+Tansa,7,Peanut Butter & Mix Jam,lunch
+Tansa,7,Tea/Coffee,lunch
+Tansa,7,Samosa Chutney,snacks
+Tansa,7,Milk,snacks
+Tansa,7,Tea,snacks
+Tansa,7,Coffee,snacks
+Tansa,7,Bbj,snacks
+Tansa,7,Bournvita,snacks
+Tansa,7,Fruit,snacks
+Tansa,7,Kadi Pakoda & Kala Chana,dinner
+Tansa,7,Roti,dinner
+Tansa,7,Rice,dinner
+Tansa,7,Roti,dinner
+Tansa,7,Akhaa Masoor Dal,dinner
+Tansa,7,Salad,dinner
+Tansa,7,Fruit Custard,dinner
+Tansa,5,Methi Thepla,breakfast
+Tansa,5,Sweet Corn,breakfast
+Tansa,5,Chocos + Cornflakes,breakfast
+Tansa,5,Egg Bhurji,breakfast
+Tansa,5,Matar Paneer,lunch
+Tansa,5,Roti,lunch
+Tansa,5,Peas Rice,lunch
+Tansa,5,Dal,lunch
+Tansa,5,Salad,lunch
+Tansa,5,Chaa,lunch
+Tansa,5,Pav Bhaji + Nimbu,snacks
+Tansa,5,Milk,snacks
+Tansa,5,Tea,snacks
+Tansa,5,Coffee,snacks
+Tansa,5,Bbj,snacks
+Tansa,5,Bournvita,snacks
+Tansa,5,Fruit,snacks
+Tansa,5,Sev Tamatar & Aloo Beans,dinner
+Tansa,5,Rice,dinner
+Tansa,5,Toor Dal,dinner
+Tansa,5,Roti,dinner
+Tansa,5,Salad,dinner
+Tansa,5,Moong Dal Halwa,dinner
+Tansa,5,Chicken Curry,dinner
+Tansa,6,Sabudana Khichadi,breakfast
+Tansa,6,Curd,breakfast
+Tansa,6,Pickle,breakfast
+Tansa,6,Sweet Corn,breakfast
+Tansa,6,Chocos+Cornflakes,breakfast
+Tansa,6,Omelette,breakfast
+Tansa,6,Choole Bhature,lunch
+Tansa,6,Toor Dal,lunch
+Tansa,6,Rice,lunch
+Tansa,6,Salad,lunch
+Tansa,6,Papad,lunch
+Tansa,6,Lassi,lunch
+Tansa,6,Cheese Burger+ Salad,snacks
+Tansa,6,Milk,snacks
+Tansa,6,Tea,snacks
+Tansa,6,Coffee,snacks
+Tansa,6,Bbj,snacks
+Tansa,6,Bournvita,snacks
+Tansa,6,Fruit,snacks
+Tansa,6,Palak Methi Saag,dinner
+Tansa,6,Roti,dinner
+Tansa,6,Rice,dinner
+Tansa,6,Mix Dal,dinner
+Tansa,6,Salad,dinner
+Tansa,6,Gajar Ka Halwa,dinner
+Tansa,3,Meduvada+Sambhar+ Chutney,breakfast
+Tansa,3,Kala Chana,breakfast
+Tansa,3,Chocos + Cornflakes,breakfast
+Tansa,3,Boild Egg,breakfast
+Tansa,3,Pumpkin Masala,lunch
+Tansa,3,Puri,lunch
+Tansa,3,Mix Dal,lunch
+Tansa,3,Rice,lunch
+Tansa,3,Papad,lunch
+Tansa,3,Salad,lunch
+Tansa,3,Pudina Chhach,lunch
+Tansa,3,Aloo Tikki+ Ragada & Chutney,snacks
+Tansa,3,Milk,snacks
+Tansa,3,Tea,snacks
+Tansa,3,Coffee,snacks
+Tansa,3,Bbj,snacks
+Tansa,3,Bournvita,snacks
+Tansa,3,Fruit,snacks
+Tansa,3,Palak Paneer,dinner
+Tansa,3,Roti,dinner
+Tansa,3,Toor Dal,dinner
+Tansa,3,Rice,dinner
+Tansa,3,Roti,dinner
+Tansa,3,Salad,dinner
+Tansa,3,Bajra Kheer,dinner
