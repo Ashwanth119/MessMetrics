@@ -2,3 +2,14 @@ fastapi[standard]
 pandas
 requests
 numpy
+
+# Database
+sqlalchemy
+psycopg[binary]
+python-dotenv
+
+# Authentication and password hashing
+pyjwt
+pwdlib[argon2]
+python-multipart
+
