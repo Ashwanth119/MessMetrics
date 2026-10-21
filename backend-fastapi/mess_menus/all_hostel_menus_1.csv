@@ -6,37 +6,25 @@ Aamrus,lunch,Hostel 11,7
 Achaari Gobi,dinner,Hostel 11,1
 Achari Dal,lunch,"Hostel 21, Hostel 7, Hostel 8",7
 Ad Butter,snacks,Hostel 17,5
-"Akha Masoor 
-Dum Aloo Kashmiri
-Veg Dum Biryani
-Steam Rice
-Moong Dal Chilka
-Salad
-Roti(with and without Ghee)
-Mix Pickle
-Sambar
-Ice Cream
-
-Chicken Dum Biryani",dinner,Hostel 18,5
-Akha Masoor Dal,"lunch, dinner","Hostel 10, Tansa","7, 2"
+Akha Masoor Dal,dinner,Tansa,2
 Akha Massor Dal,dinner,Hostel 16,5
 Akhaa Masoor Dal,dinner,Tansa,7
 Akka Masoor Bhaji,lunch,Hostel 3,6
 Akka Moong Dal Tadka,dinner,Hostel 11,5
-"Aloo  Padwal 
-Pindi Chole Puri
-Tawa Pulav
-Steam Rice
-Dal Varan
-Salad
-
-Mix Pickle
-Rasam
-Shrikhand
-Fruit
-Chicken koliwada",dinner,Hostel 18,4
 Aloo 65,dinner,Hostel 15,5
 Aloo Bhaji,breakfast,"Hostel 17, Hostel 4","6, 5"
+"Aloo Bhaji
+Chole
+Veg Pulav
+Steam Rice
+Yellow Dal
+Salad/Boondi Raita
+Azwain Puri
+Mix Pickle
+Sambar
+Karam Sai Barfi
+Fruit
+Halwa Chana",dinner,Hostel 18,1
 Aloo Bhindi Dry,lunch,Hostel 17,3
 Aloo Bhujia,lunch,Hostel 4,7
 Aloo Cabbage,dinner,Hostel 3,7
@@ -44,45 +32,7 @@ Aloo Cabbage Mutter,dinner,Hostel 15,3
 Aloo Capsicum,lunch,Hostel 19,4
 Aloo Chana Bhaji,breakfast,Hostel 19,3
 Aloo Chatpata,lunch,Hostel 2,1
-Aloo Chatpata Dry,lunch,Hostel 16,2
-Aloo Gobhi Dry,dinner,Hostel 19,6
-Aloo Gobhi dry,lunch,Hostel 3,3
-Aloo Gobi,dinner,Hostel 17,2
-Aloo Jeera,"lunch, dinner","Hostel 11, Hostel 15, Hostel 17, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8","7, 1"
-Aloo Jeera Dry,lunch,Hostel 2,2
-Aloo Karela Jodhpuri Dry,dinner,Hostel 16,4
-Aloo Karela Masala,lunch,Hostel 10,2
-Aloo Matar,lunch,Tansa,1
-Aloo Matar Bhandara,dinner,"Hostel 12, Hostel 13, Hostel 14",4
-Aloo Matar Dry,lunch,Hostel 2,5
-Aloo Matar Tomato Rassa,dinner,Hostel 16,3
-Aloo Mattar,lunch,Hostel 6,4
-Aloo Mattar Curry,dinner,Hostel 3,4
-Aloo Methi,"dinner, lunch","Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 19, Hostel 2","2, 4, 3, 1"
-"Aloo Methi
-Nargish Kofta
- Besebele Bhat
-Steam Rice
-Dal Tadka
- Salad
-Roti (with and without Ghee)
-Mix Pickle
-Sambhar
-Moong Dal Halwa
-Fruit
-Chicken Butter Masala",dinner,Hostel 18,1
-Aloo Methi Dry,dinner,Hostel 4,2
-Aloo Paratha,breakfast,"Hostel 17, Hostel 19, Hostel 2, Hostel 4, Tansa","1, 5, 4"
-"Aloo Paratha
-Curd/Tomato Chutney
-Egg Bhurji
-Paneer Bhurji
-""Cornflakes/Bournvita/
-Cereals/Chocos/Muesli""
-Peanut
-Bread",breakfast,Hostel 18,1
-Aloo Paratha + Paneer Bhurji + Curd,breakfast,Hostel 3,2
-"Aloo Posto
+"Aloo Chatpata
 Rajma Kashmiri
 Dalma
 Green Peas Pulav
@@ -93,25 +43,52 @@ Curd
 Disco Papad
 Salad
 Rasam/Boiled rice
-Chicken kohlapuri",lunch,Hostel 18,7
+Chicken Dhaba",lunch,Hostel 18,6
+Aloo Chatpata Dry,lunch,Hostel 16,2
+Aloo Gobhi Dry,dinner,Hostel 19,6
+Aloo Gobhi dry,lunch,Hostel 3,3
+Aloo Gobi,dinner,Hostel 17,2
+Aloo Jeera,"lunch, dinner","Hostel 11, Hostel 15, Hostel 17, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8","7, 1"
+Aloo Jeera Dry,lunch,Hostel 2,2
+Aloo Karela Jodhpuri Dry,dinner,Hostel 16,4
+Aloo Lahsuni,dinner,Hostel 10,5
+Aloo Masala,lunch,Hostel 10,3
+Aloo Matar,lunch,Tansa,1
+Aloo Matar Bhandara,dinner,"Hostel 12, Hostel 13, Hostel 14",4
+Aloo Matar Dry,lunch,Hostel 2,5
+Aloo Matar Tomato Rassa,dinner,Hostel 16,3
+Aloo Mattar,lunch,Hostel 6,4
+Aloo Mattar Curry,dinner,Hostel 3,4
+Aloo Methi,"dinner, lunch","Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 19, Hostel 2","2, 4, 3, 1"
+Aloo Methi Dry,dinner,Hostel 4,2
+Aloo Onion Paratha,breakfast,Hostel 10,4
+Aloo Paratha,breakfast,"Hostel 17, Hostel 19, Hostel 2, Hostel 4, Tansa","1, 5, 4"
+"Aloo Paratha
+Curd/Tomato Chutney
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Peanut
+Bread",breakfast,Hostel 18,4
+Aloo Paratha + Paneer Bhurji + Curd,breakfast,Hostel 3,2
 Aloo Schezwan Dry,dinner,Hostel 16,7
 Aloo Shimla,dinner,Hostel 17,3
 "Aloo Shimla
- Chhole Bhature
-Urad Dal Chilka
- Onion Rice
+Veg Manchuriyan
+Schezwan Rice
 Steam Rice
-
-Mix Pickle/Imli Chutney
-Lassi (Sweet/Lassi)
-Fry Papad
-Salad
-Rasam/ Boiled rice
-Egg Bhurji",lunch,Hostel 18,3
+Dal Varan
+Salad/Veg clear soup
+Roti(with and without Ghee)
+Mix Pickle
+Rasam
+Gulab Jamun
+Fruit
+Chicken koliwada",dinner,Hostel 18,4
 Aloo Simla,lunch,Hostel 15,6
 Aloo Tikki+ Ragada & Chutney,snacks,Tansa,3
 Aloo Toast Sandwich,snacks,Hostel 3,1
-Aloo Veg Biryani,lunch,Hostel 10,6
 Aloo poha + Ratlami Sev,breakfast,Hostel 3,1
 Aloo-Parval,lunch,Hostel 6,6
 Aloo-Sem,lunch,Hostel 6,7
@@ -121,29 +98,24 @@ Amla Mix Juice,breakfast,"Hostel 12, Hostel 13, Hostel 14",6
 Amla Mix Juice),breakfast,"Hostel 12, Hostel 13, Hostel 14",2
 And Mango Jam,snacks,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 And Mix Jam,snacks,Hostel 17,4
+Apple,snacks,Hostel 10,3
+Apple Ber,snacks,Hostel 10,7
 Arabi Amritsari,lunch,"Hostel 17, Hostel 4","4, 3"
-Arbi Dum Masala,lunch,Hostel 10,7
 Arhar Dal,lunch,Hostel 11,"1, 2"
-Arhar Dal Tadaka,dinner,Hostel 10,2
+Arhar Dal Tadaka,dinner,Hostel 10,7
 Arhar Dal Tadka,"lunch, dinner","Hostel 10, Hostel 12, Hostel 13, Hostel 14","5, 7, 3"
 Ask your mess co to update menu!,"breakfast, lunch, snacks, dinner",QIP,"2, 3, 5, 7, 4, 1, 6"
-Aviyal Masala,dinner,Hostel 10,7
-B B J,snacks,Hostel 10,"2, 1"
-B. B. J,"breakfast, snacks",Hostel 10,"7, 2, 4, 1, 5, 6, 3"
-B.B.J,snacks,Hostel 10,6
+B B J,snacks,Hostel 10,"7, 1, 3"
+B. B. J,"breakfast, snacks",Hostel 10,"7, 4, 1, 5, 6, 3"
 B.B.J.,"breakfast, snacks",Hostel 15,"1, 2, 4, 6, 3, 7"
-Baigan Bhaja,dinner,Hostel 10,6
 Baigan Bharata,lunch,Hostel 4,6
 Baigan Bharta,"dinner, lunch","Hostel 11, Hostel 15, Hostel 16","7, 1"
-Baigan Choka,dinner,Hostel 10,1
 Baingan Bharta,"lunch, dinner","Hostel 17, Hostel 2","5, 4"
 Baingan Chana Sabji,lunch,Hostel 11,4
 Bajra Kheer,dinner,Tansa,3
-Balushahi,dinner,Hostel 10,3
 Balushai,dinner,Hostel 2,6
 Banana,breakfast,"Hostel 10, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 6, Hostel 7, Hostel 8","4, 1, 6, 3, 2, 5, 7"
 Banana / Boiled Egg,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 17","6, 1, 2, 5, 4, 3"
-Banana Dry,lunch,Hostel 10,3
 Banana Milkshake,snacks,Hostel 3,1
 Banana/ Boiled Egg,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 4","4, 1, 7, 5, 6"
 Banana/Boiled Egg,breakfast,"Hostel 17, Hostel 4","6, 2, 7, 4, 3, 5"
@@ -152,73 +124,62 @@ Bbj Peanut Butter,"breakfast, snacks","Hostel 19, Hostel 21, Hostel 7, Hostel 8"
 Bbj/Peanut Butter,snacks,"Hostel 19, Hostel 21, Hostel 7, Hostel 8",7
 Beetroot,"breakfast, lunch, dinner","Hostel 12, Hostel 13, Hostel 14","6, 4, 1, 5, 2"
 Beetroot Carrot,lunch,Hostel 10,5
-Beetroot Poriyal,lunch,"Hostel 10, Hostel 15","6, 2"
+Beetroot Poriyal,lunch,Hostel 15,2
 Beetroot/Carrot,dinner,Hostel 10,1
-Beetroot/Gajar,dinner,Hostel 10,3
-Bell Cake,dinner,Hostel 10,7
 Bengali Chicken,lunch,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Bengali Sukhto,dinner,Hostel 17,4
 Bengali Veg Torka Dal,dinner,Hostel 11,1
 Bengan Bharwa Curry,dinner,Hostel 6,1
-"Besan  Chilla
-Green chutney/Tomato Sauce
-Egg Bhurji
- Paneer Bhurji
-""Cornflakes/Bournvita/
-Cereals/Chocos/Muesli""
-Sprouted Moong
-Bread",breakfast,Hostel 18,4
 Besan Chilla,breakfast,"Hostel 16, Hostel 4","6, 3"
 Besan Chilla+Chutney,breakfast,Hostel 2,2
 Betroot Upcurry,dinner,Hostel 4,5
-Bhagar Rice Kheer,dinner,Hostel 10,5
 Bhaji,breakfast,"Hostel 16, Hostel 19, Hostel 21, Hostel 7, Hostel 8","6, 7, 5"
+Bhaji(Green Peas),breakfast,Hostel 10,1
 Bhandara Bhaji,lunch,Hostel 15,6
 Bhatura,lunch,Hostel 16,3
 Bhature,lunch,"Hostel 11, Hostel 15, Hostel 17, Hostel 3, Hostel 4","3, 4, 7, 6"
 Bhel,snacks,Hostel 15,7
 Bhel Poori,snacks,Hostel 19,6
 Bhel Puri,snacks,"Hostel 12, Hostel 13, Hostel 14, Hostel 2, Hostel 3","7, 3, 1"
+"Bhel Puri
+Bread",snacks,Hostel 18,5
 Bhindi Do Payaja,dinner,"Hostel 21, Hostel 7, Hostel 8",2
 Bhindi Do Pyaja,dinner,Hostel 11,4
-Bhindi Do Pyaza,lunch,Hostel 15,3
-"Bhindi Maharashtrian
-Chawli masala
-Dal Lasooni
-Lemon Rice
+"Bhindi Do Pyaja
+Black Chana Masala 
+Tawa Pulav
 Steam Rice
-Roti (with and without butter)
+Dal Varan
+Salad
+Roti(with and without Ghee)
 Mix Pickle
-Curd
-Roasted Papad
-Mix Salad
-Rasam/Boiled rice
-Chicken Maharaja",lunch,Hostel 18,5
-Bhindi Masala,"lunch, dinner","Hostel 10, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 3, Hostel 6","4, 1, 5, 6"
+Rasam
+Fruit Custurd
+Fruit",dinner,Hostel 18,6
+Bhindi Do Pyaza,"dinner, lunch","Hostel 10, Hostel 15","7, 3"
+Bhindi Masala,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 3, Hostel 6","1, 5, 6"
 Bhindi Peanut Curry,dinner,Hostel 4,1
 Bhindi Sabji,lunch,Hostel 11,1
 Bhindi fry,dinner,Hostel 3,4
 Bhurji,breakfast,Hostel 2,"1, 4, 3, 5, 7, 6, 2"
 Biryani,"dinner, lunch","Hostel 17, Tansa","4, 7"
 Bisi Bele Bhat,lunch,Hostel 15,6
-Bisibille Bhat,dinner,Hostel 10,6
 Black Chana,"breakfast, dinner","Hostel 11, Hostel 19","2, 4, 1"
-Black Chana Chatpata,dinner,Hostel 10,5
 Black Chana Dry,dinner,Hostel 17,1
 Black Chana Masala,"lunch, dinner","Hostel 15, Hostel 16, Hostel 17, Hostel 2, Hostel 21, Hostel 7, Hostel 8","3, 5, 1"
 Black Channa Dry,lunch,Hostel 4,4
 Black Gravy Chana,lunch,Hostel 11,2
+Black Watana,lunch,Hostel 10,6
 Blooshahi,dinner,Hostel 11,2
-Boil Chana,breakfast,"Hostel 10, Hostel 21, Hostel 7, Hostel 8","3, 2"
-Boil Corn,breakfast,Hostel 10,2
-Boil Kidney Beans,breakfast,Hostel 10,4
-Boil Peanuts,breakfast,Hostel 10,5
+Boil Chana,breakfast,"Hostel 10, Hostel 21, Hostel 7, Hostel 8","7, 1, 2"
+Boil Chickpea,breakfast,Hostel 10,6
+Boil Kidney Beans,breakfast,Hostel 10,3
+Boil Peanuts,breakfast,Hostel 10,4
 Boild Egg,breakfast,Tansa,"4, 1, 3"
 Boiled Chana,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 19","4, 1"
 Boiled Channa,breakfast,"Hostel 4, Hostel 6","4, 7, 5"
 Boiled Chawali,breakfast,"Hostel 21, Hostel 7, Hostel 8",5
 Boiled Chawli,breakfast,Hostel 11,4
-Boiled Chickpea,breakfast,Hostel 10,6
 Boiled Corn,breakfast,"Hostel 17, Hostel 4","4, 7, 3"
 Boiled Corn Salad (Chopped Onion,dinner,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Boiled Egg,breakfast,"Hostel 11, Hostel 15, Hostel 16, Hostel 2, Hostel 6, Tansa","7, 6, 1, 5, 2, 4, 3"
@@ -231,6 +192,7 @@ Boiled Egg; Even Week: Masala Dosa,breakfast,Hostel 11,6
 Boiled Egg; Even Week: Puri Alu Bhajii,breakfast,Hostel 11,1
 Boiled Eggs,breakfast,Hostel 11,3
 Boiled Kidney Beans,breakfast,"Hostel 12, Hostel 13, Hostel 14",6
+Boiled Moong,breakfast,Hostel 10,5
 Boiled Peanut,breakfast,"Hostel 15, Hostel 17, Hostel 19, Hostel 21, Hostel 4, Hostel 7, Hostel 8, Tansa","3, 2, 4"
 Boiled Peanuts,breakfast,Hostel 6,2
 Boiled Sweet Corn,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 6","1, 5, 4, 6"
@@ -245,8 +207,6 @@ Bread,"breakfast, snacks, lunch","Hostel 12, Hostel 13, Hostel 14, Hostel 17, Ho
 Bread Butter,snacks,"Hostel 17, Hostel 4","3, 6, 2, 7, 1, 4, 5"
 Bread Butter And Mix Jam,snacks,Hostel 17,"6, 7"
 Bread Butter Jam,"breakfast, snacks","Hostel 19, Hostel 21, Hostel 7, Hostel 8","1, 3, 5, 4, 6, 2, 7"
-"Bread Pakoda
-Bread",snacks,Hostel 18,6
 Brown Gram Salad,lunch,Hostel 11,5
 Browngram Salad,lunch,Hostel 11,5
 Butter,snacks,"Hostel 12, Hostel 13, Hostel 14, Hostel 17","6, 1, 5, 2, 4"
@@ -262,51 +222,64 @@ Butter Paratha,dinner,Hostel 2,6
 Butter Veg Dry,dinner,Hostel 6,4
 "Butter and Mix Jam
 Tea and Coffee
-Banana
-Milk/Juice",breakfast,Hostel 18,5
-"Butter and Mix Jam
-Tea and Coffee
 Banana / Boiled Egg
-Milk",breakfast,Hostel 18,"4, 7, 3, 6"
+Milk",breakfast,Hostel 18,"7, 6"
 "Butter and Mix Jam
 Tea and coffee
 Banana / Boiled Egg
 Milk",breakfast,Hostel 18,2
 "Butter and Mix Jam
 Tea and coffee
-Banana/ Boiled Egg
-Milk",breakfast,Hostel 18,1
+Banana / Boiled Egg
+Milk/Juice",breakfast,Hostel 18,5
 "Butter and Mix Jam
-Tea/Coffee",snacks,Hostel 18,"4, 3, 1, 6"
+Tea and coffee
+Banana/ Boiled Egg
+Milk",breakfast,Hostel 18,"4, 1"
+"Butter and Mix Jam
+Tea/Coffee",snacks,Hostel 18,"3, 1, 6"
 "Butter and Mix Jam
 Tea/Coffee & Cut Fruit",snacks,Hostel 18,5
-Cabbage Dry,lunch,"Hostel 10, Hostel 6","1, 3"
+Cabbage Dry,lunch,Hostel 6,3
+"Cabbage Kolhapuri
+Rajma Masala
+Tomato Rice
+Steam Rice
+Yellow Dal
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Sambar
+Siwai Kheer 
+Fruit
+Chicken Changeji",dinner,Hostel 18,3
 Cabbage Matar,lunch,Hostel 17,6
 Cabbage Matar Dry,lunch,Hostel 16,1
 Cabbage Mutter,dinner,"Hostel 19, Hostel 21, Hostel 7, Hostel 8","7, 1"
+Cabbage Peas,lunch,Hostel 10,4
 Cabbage Tomato,lunch,"Hostel 21, Hostel 7, Hostel 8",4
 Carrot,dinner,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Carrot Matar Dry,"dinner, lunch","Hostel 16, Hostel 2","5, 6"
 Carrot Mutter,dinner,"Hostel 21, Hostel 7, Hostel 8",7
 Chaa,lunch,Tansa,5
-Chaas,lunch,"Hostel 10, Hostel 2, Hostel 3, Hostel 4","2, 5, 6, 4"
-Chana Chatpata Masala Kofta,dinner,Hostel 6,2
-Chana Dal,dinner,"Hostel 10, Hostel 3","7, 1, 6"
-Chana Masala,lunch,Hostel 11,7
-Chana Sprouts,breakfast,Hostel 17,7
-Chana Usal,breakfast,"Hostel 12, Hostel 13, Hostel 14",4
-"Channa Chatpata
-Kadhi Pakoda
+Chaas,lunch,"Hostel 10, Hostel 2, Hostel 3, Hostel 4","5, 6, 2, 4"
+"Chana Chatpata
+ Kadhi Pakoda
 Dal Palak
-Dal khichdi
+Daal Khichdi
 Steam Rice
 Roti (with and without butter)
 Mix Pickle
-Shikanji 
+Butter Milk
 Disco Papad
 Salad
 Sambhar
 Chicken Do Pyaja",lunch,Hostel 18,4
+Chana Chatpata Masala Kofta,dinner,Hostel 6,2
+Chana Dal,dinner,Hostel 3,6
+Chana Masala,lunch,Hostel 11,7
+Chana Sprouts,breakfast,Hostel 17,7
+Chana Usal,breakfast,"Hostel 12, Hostel 13, Hostel 14",4
 Channa Dal,"dinner, lunch","Hostel 2, Hostel 6","6, 4"
 Channa Gravy,breakfast,Hostel 6,1
 Channa-Dal Tadka,dinner,Hostel 6,5
@@ -319,8 +292,6 @@ Chawali Masala,lunch,Hostel 2,6
 Chawli Dry,lunch,Hostel 6,4
 Chawli Masala,lunch,Hostel 16,2
 Chawli Sbji,lunch,Hostel 11,5
-"Cheese  Maggie
-Bread",snacks,Hostel 18,7
 Cheese Burger+ Salad,snacks,Tansa,6
 "Cheese Garlic Bread
 Papaya
@@ -340,12 +311,10 @@ Chicken Aloo Jhol,lunch,Hostel 10,1
 Chicken Biriyani (Extra),dinner,Hostel 15,"5, 3"
 Chicken Biryani,dinner,"Hostel 16, Hostel 6","3, 7"
 Chicken Biryani (Extra),"dinner, lunch","Hostel 10, Hostel 19","7, 3"
-Chicken Butter Masala (Extra),dinner,Hostel 10,5
-Chicken Chilli (Extra),dinner,Hostel 10,4
 Chicken Chilly (Extra),lunch,Hostel 4,3
 Chicken Crispy (Extra),lunch,Hostel 4,1
-Chicken Curry,"lunch, dinner","Hostel 10, Tansa","7, 5"
-Chicken Curry (Extra),"dinner, breakfast","Hostel 15, Hostel 16, Hostel 19, Hostel 21, Hostel 7, Hostel 8","4, 1, 2"
+Chicken Curry,dinner,Tansa,5
+Chicken Curry (Extra),"dinner, breakfast","Hostel 10, Hostel 15, Hostel 16, Hostel 19, Hostel 21, Hostel 7, Hostel 8","5, 4, 1, 2"
 Chicken Do Pyaza,dinner,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Chicken Do Pyaza (Extra),"dinner, lunch","Hostel 19, Hostel 21, Hostel 4, Hostel 7, Hostel 8","7, 2"
 Chicken Dum Biryani (Extra),"dinner, breakfast","Hostel 19, Hostel 21, Hostel 7, Hostel 8","6, 5"
@@ -359,7 +328,7 @@ Chicken Kadai (Extra),dinner,Hostel 15,7
 Chicken Kadhai,dinner,Hostel 17,5
 Chicken Kolhapuri (Extra),dinner,"Hostel 16, Hostel 19, Hostel 2, Hostel 4","5, 2"
 Chicken Koliwada,lunch,Hostel 17,1
-Chicken Kosha (Extra),dinner,Hostel 10,2
+Chicken Koliwada (Extra),dinner,Hostel 10,4
 Chicken Lollipop,dinner,Hostel 6,3
 Chicken Lollipop (Extra),lunch,Hostel 4,5
 Chicken Lucknow,dinner,Hostel 17,4
@@ -372,14 +341,13 @@ Chicken Schezwan (Extra),lunch,Hostel 2,6
 Chicken Sukka,lunch,Hostel 17,6
 Chicken Tawa Masala,lunch,Hostel 10,4
 Chiken Butter Masala (Extra),"dinner, breakfast","Hostel 19, Hostel 21, Hostel 7, Hostel 8",4
-Chikko,snacks,Hostel 10,3
 Chili Chicken,dinner,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Chilli Chicken,dinner,Hostel 17,2
 Chilli Paneer (Extra),dinner,Hostel 15,1
+Chinese Bhel,snacks,Hostel 10,7
 Chocos,"snacks, breakfast","Hostel 19, Hostel 21, Hostel 4, Hostel 7, Hostel 8","5, 4, 6, 2, 1, 3"
 Chocos + Cornflakes,breakfast,Tansa,"2, 5, 3"
 Chocos / Bournvita / Meusli,breakfast,Hostel 17,"1, 2, 5, 4, 3, 6, 7"
-Chocos+Bournvita,"breakfast, snacks",Hostel 10,7
 Chocos+Cornflakes,breakfast,Tansa,"4, 1, 7, 6"
 Chocos/Bournvita,"breakfast, snacks",Hostel 10,3
 Chocos/Museli/Bournvita/Oats/Corn Flakes,breakfast,"Hostel 12, Hostel 13, Hostel 14","6, 4, 1, 7, 5, 3, 2"
@@ -403,11 +371,10 @@ Chutney,"breakfast, lunch, dinner, snacks","Hostel 11, Hostel 12, Hostel 13, Hos
 Chutney+Sambhar,breakfast,Hostel 2,3
 Chutney- Sambar,breakfast,Hostel 2,4
 Chutney/ Sambhar,breakfast,"Hostel 21, Hostel 7, Hostel 8",2
-Clear Soup-,dinner,Hostel 10,2
 Cluster Beans Dry,dinner,Hostel 4,6
 Cocnut+Ginger Chutney,breakfast,Hostel 6,5
 Coconut Barfi,dinner,Hostel 16,3
-Coconut Chutney,breakfast,"Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 16, Hostel 17, Hostel 4","5, 3, 1, 6, 2, 7"
+Coconut Chutney,breakfast,"Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 16, Hostel 17, Hostel 4","3, 1, 5, 6, 2, 7"
 Coconut Chutney/Sambhar,breakfast,Hostel 19,4
 Coconut Pulao,lunch,Hostel 2,5
 Coconut Rice,"dinner, lunch","Hostel 17, Hostel 4","1, 3"
@@ -418,36 +385,47 @@ Coldrinks,dinner,Hostel 15,6
 Coriander Rice,"lunch, dinner","Hostel 10, Hostel 21, Hostel 7, Hostel 8",5
 Coriender Rice,dinner,Hostel 19,5
 Corn,breakfast,Hostel 11,"3, 6, 1"
-Corn Capsicum,dinner,Hostel 10,7
 Corn Chat,breakfast,Hostel 17,6
 Corn Flakes,snacks,"Hostel 19, Hostel 21, Hostel 7, Hostel 8","6, 2"
 Corn Palak,"dinner, lunch","Hostel 12, Hostel 13, Hostel 14, Hostel 19","7, 3"
+"Corn Palak
+Dum Aloo Kashmiri
+Veg Dum Biryani
+Steam Rice
+Moong Dal Chilka
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Sambar
+Ice Cream
+
+Chicken Dum Biryani",dinner,Hostel 18,5
 Corn Rice,dinner,"Hostel 17, Hostel 4","5, 2"
 Corn Salad,dinner,"Hostel 11, Hostel 4","7, 6"
 Cornflakes,breakfast,"Hostel 19, Hostel 21, Hostel 4, Hostel 7, Hostel 8","3, 7"
-Cornflakes/Bournvita,"breakfast, snacks","Hostel 10, Hostel 19","4, 7"
+Cornflakes/Bournvita,"breakfast, snacks","Hostel 10, Hostel 19","4, 1, 7"
 Cucumber,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14","4, 1, 5"
-Cucumber /Carrot Salad,lunch,Hostel 10,4
 Cucumber Carrot Onion With Corriander,dinner,"Hostel 12, Hostel 13, Hostel 14","7, 3"
+Cucumber Corn Salad,lunch,Hostel 10,4
 Cucumber Peanut Salad,lunch,Hostel 10,3
-Cucumber/ Beetroot(Boil),dinner,Hostel 10,2
-Cucumber/Beetroot,dinner,Hostel 10,6
-Cucumber/Carrot,lunch,Hostel 10,7
-Curd,"lunch, breakfast, dinner","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","7, 4, 1, 5, 6, 3, 2"
+Cucumber/ Beetroot,dinner,Hostel 10,7
+Cucumber/Beetroot(Boil),lunch,Hostel 10,1
+Curd,"breakfast, lunch","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","4, 1, 6, 3, 5, 2, 7"
 Curd + Nimbu Pani,lunch,Hostel 3,3
-Curd Rice,"dinner, lunch","Hostel 10, Hostel 17, Hostel 2, Hostel 3, Hostel 4","2, 3, 1, 4"
+Curd Rice,"dinner, lunch","Hostel 10, Hostel 17, Hostel 2, Hostel 3, Hostel 4","4, 3, 1"
 Curd Rice With Tarmind Chuteny,lunch,"Hostel 12, Hostel 13, Hostel 14","7, 3"
 Curd Schezwan Chuten,breakfast,"Hostel 21, Hostel 7, Hostel 8","6, 4"
 Curd; Even Week: Lemon Rice,lunch,Hostel 11,2
 Curd; Even Week: Rice,lunch,Hostel 11,"6, 5"
 Daal,lunch,Hostel 17,"1, 2, 4, 3, 7"
 Daal Palak,"dinner, lunch",Hostel 4,"1, 5"
-Dabeli,snacks,"Hostel 21, Hostel 7, Hostel 8",3
+Dabeli,snacks,"Hostel 10, Hostel 21, Hostel 7, Hostel 8","1, 3"
 Dahi,lunch,"Hostel 17, Hostel 6","1, 5, 3"
 Dahi Bath,lunch,Hostel 11,1
 Dahi Kachori Chaat,snacks,Hostel 4,4
 Dahi Kadi Pakoda,lunch,Hostel 16,4
 Dahi Papdi Chat,snacks,Hostel 17,7
+Dahi Puri,snacks,Hostel 10,5
 Dahi Wada,snacks,Hostel 6,4
 Dal,"lunch, dinner","Hostel 11, Hostel 17, Tansa","7, 5, 4, 6"
 Dal Achari Tadka,dinner,"Hostel 12, Hostel 13, Hostel 14",4
@@ -457,7 +435,7 @@ Dal Banjara,dinner,"Hostel 15, Hostel 21, Hostel 7, Hostel 8","6, 2"
 Dal Bhukhara,lunch,Hostel 16,3
 Dal Butter Fry,lunch,Hostel 11,"3, 1"
 Dal Dohkli,lunch,Hostel 6,1
-Dal Fry,"lunch, dinner","Hostel 10, Hostel 11, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 6, Hostel 7, Hostel 8","3, 2, 4, 1, 7, 6, 5"
+Dal Fry,"dinner, lunch","Hostel 11, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 6, Hostel 7, Hostel 8","2, 4, 1, 7, 3, 6, 5"
 Dal Khichadi,lunch,Hostel 16,5
 Dal Khichdi,lunch,"Hostel 17, Hostel 2","2, 4"
 Dal Kichadi,lunch,"Hostel 19, Hostel 21, Hostel 7, Hostel 8",5
@@ -470,10 +448,18 @@ Dal Lasooni,dinner,Hostel 19,7
 Dal Lassoni,lunch,"Hostel 15, Hostel 19, Hostel 21, Hostel 7, Hostel 8",2
 Dal Lasuni,"lunch, dinner","Hostel 16, Hostel 4","1, 6"
 Dal Lehsuni,"dinner, lunch","Hostel 11, Hostel 6","5, 2"
-Dal Makhani,lunch,"Hostel 12, Hostel 13, Hostel 14","7, 3"
-Dal Makhni,"lunch, dinner","Hostel 10, Hostel 11, Hostel 2","2, 6, 4"
+Dal Makhani,lunch,"Hostel 10, Hostel 12, Hostel 13, Hostel 14","7, 3"
+Dal Makhni,"dinner, lunch","Hostel 10, Hostel 11, Hostel 2","4, 6"
 Dal Methi,"lunch, dinner","Hostel 15, Hostel 19, Hostel 21, Hostel 7, Hostel 8","6, 5"
 Dal Mukhni,lunch,Hostel 11,7
+"Dal Pakwan
+
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Corn 
+Bread",breakfast,Hostel 18,7
 Dal Palak,"lunch, dinner","Hostel 10, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 19, Hostel 2, Hostel 4, Hostel 6","6, 1, 5, 4, 2, 7"
 Dal Panchratan,lunch,Hostel 15,5
 Dal Punchatantra,dinner,Hostel 4,5
@@ -481,14 +467,15 @@ Dal Punchratna,dinner,Hostel 17,7
 Dal Tadaka,"dinner, lunch",Hostel 16,"2, 5, 1"
 Dal Tadka,"dinner, lunch","Hostel 11, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","3, 1, 2, 7, 4, 5, 6"
 Dal Tadka Fry,dinner,"Hostel 12, Hostel 13, Hostel 14","1, 5"
+Dal Varan,dinner,Hostel 10,1
 Dal fry,lunch,Hostel 3,"4, 7"
 Dal lasooni,dinner,Hostel 3,7
 Dal tadka,lunch,Hostel 3,2
 Daladraki,dinner,Hostel 17,5
-Dalma,dinner,"Hostel 10, Hostel 11","3, 1"
+Dalma,dinner,Hostel 11,1
 Dhaba Chicken,lunch,"Hostel 12, Hostel 13, Hostel 14",4
-Dhokla,snacks,"Hostel 10, Hostel 15, Hostel 16, Hostel 17","3, 1, 7, 2"
-Dhudhi Soup,dinner,Hostel 10,6
+Dhokla,snacks,"Hostel 15, Hostel 16, Hostel 17","1, 7, 2"
+Dhoodhi Chana,lunch,Hostel 10,1
 Disco Papad & Pickle,lunch,"Hostel 21, Hostel 7, Hostel 8","2, 5"
 Doodhi Chana,"lunch, dinner","Hostel 19, Hostel 21, Hostel 7, Hostel 8","2, 3"
 Doodhi Chana Dal Dry,dinner,Hostel 16,2
@@ -497,7 +484,7 @@ Dragon,snacks,Hostel 10,1
 Dry Fruit Sheera(Milk+Ghee),dinner,Hostel 6,4
 Dry Peanut Chutney,dinner,"Hostel 17, Hostel 4","1, 5, 2"
 Dudhi Halwa,dinner,Hostel 6,2
-Dum Aloo,"dinner, lunch","Hostel 10, Hostel 11, Hostel 4","5, 2, 4"
+Dum Aloo,lunch,"Hostel 11, Hostel 4","2, 4"
 Egg Bhiurji,breakfast,Hostel 16,"2, 6, 7, 5, 4"
 Egg Bhurji,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 17, Hostel 4, Hostel 6, Tansa","6, 4, 7, 3, 2, 5, 1"
 Egg Bhurji / Boiled Egg,breakfast,"Hostel 21, Hostel 7, Hostel 8",1
@@ -509,18 +496,15 @@ Egg Masala,lunch,Hostel 10,5
 Egg Masala (Extra),dinner,Hostel 2,4
 Egg Omelette,breakfast,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Egg Omlette,breakfast,"Hostel 17, Hostel 4","2, 3, 6, 5"
-Egg Tawa Masala,lunch,Hostel 10,2
+Egg Tawa Masala,lunch,Hostel 10,6
 Egg masala Curry,dinner,Hostel 3,7
 Egg-Bhurji,breakfast,Hostel 6,2
 Eggs Bhurji,breakfast,Hostel 16,3
 Fish,dinner,Tansa,1
 Fish Curry,lunch,"Hostel 12, Hostel 13, Hostel 14","7, 3"
-Fish Masala (Extra),dinner,Hostel 10,6
 French Fries,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14, Hostel 2, Hostel 3, Hostel 6","7, 3, 1"
 Fresh Juice,breakfast,Hostel 2,"1, 4, 3, 5, 7, 6, 2"
 Fried Cheese Maggi,snacks,Hostel 2,4
-"Fried Idli
-Bread",snacks,Hostel 18,4
 Fried Maggi,snacks,Hostel 3,6
 Fried Maggie,snacks,Hostel 4,7
 "Fried Maggie
@@ -538,6 +522,7 @@ Roti
 Carrot + Cucumber
 Gulab Jamun
 Paneer Chilly",dinner,Hostel 5,2
+Fried Semiya Kheer,dinner,Hostel 10,1
 Fried rice,dinner,Hostel 3,7
 Fruit,"dinner, snacks","Hostel 12, Hostel 13, Hostel 14, Hostel 2, Hostel 3, Hostel 6, Tansa","6, 4, 1, 7, 5, 3, 2"
 Fruit + Peanut Butter,snacks,Hostel 3,"5, 2"
@@ -551,25 +536,27 @@ Full Fry/Boiled Egg,breakfast,"Hostel 19, Hostel 21, Hostel 7, Hostel 8","5, 6"
 Gajar Ka Halwa,dinner,Tansa,6
 Gajar Ka Halwa; Even Week: Plain Rice,dinner,Hostel 11,4
 "Gajar Matar Dry
-Veg Manchuriyan
-Schezwan rice
+Aloo Soyabean Rasa
+Dal Lasooni
+Lemon Rice
 Steam Rice
-Dal Makhani
-Salad
-Roti(with and without Ghee)
+Roti (with and without butter)
 Mix Pickle
-Rasam
-Rice Kheer
-Fruit
-Chicken Pahadi",dinner,Hostel 18,6
+Curd
+Roasted Papad
+Mix Salad
+Rasam/Boiled rice
+Chicken Maharaja",lunch,Hostel 18,5
 Gajar Methi,dinner,Hostel 6,1
-Garlic Chicken,"lunch, dinner","Hostel 10, Hostel 17","6, 3"
+Garlic Chicken,"lunch, dinner","Hostel 10, Hostel 17","7, 3"
 Gatta Curry,lunch,Hostel 3,3
 Gatte Ke Sabji,dinner,Hostel 4,1
 Gatte Ki Sabji,lunch,Hostel 11,4
+Gatte Ki Sabzi,dinner,Hostel 10,7
+Gawar Dry,dinner,Hostel 10,1
 Gawar Sabji,lunch,Hostel 11,6
 Gawar Sbji,lunch,Hostel 11,6
-Gazar Methi Dry,dinner,Hostel 10,2
+Gazar Matar Dry,lunch,Hostel 10,6
 "Ghee Rice
 Dal Makhni
 Pindi Chole
@@ -599,15 +586,16 @@ Green And Red Chutney And Dahi),snacks,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Green Chawli Bhaji,dinner,Hostel 3,5
 Green Chiili,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14","6, 2"
 Green Chutney,breakfast,Hostel 4,4
+Green Mint Chutney,lunch,Hostel 10,5
 Green Peas Pulao,lunch,Hostel 19,6
 Green Peas Pulav,lunch,"Hostel 19, Hostel 21, Hostel 7, Hostel 8",4
 Green Salad,dinner,Hostel 10,5
 Groundnut,breakfast,Hostel 11,7
-Guava,snacks,Hostel 10,7
 Gulab Jamun,dinner,"Hostel 16, Hostel 17, Hostel 19, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","1, 2, 4, 5"
 Gulab Jamun; Even Week: Rice,dinner,Hostel 11,2
 Hakka Masoor Daal,lunch,"Hostel 12, Hostel 13, Hostel 14",4
-Hakka Noodles,snacks,"Hostel 17, Hostel 6",6
+Hakka Noodles,snacks,"Hostel 10, Hostel 17, Hostel 6","3, 6"
+Hard Cleaning,"breakfast, lunch",Hostel 18,3
 Herb Rice,dinner,Hostel 10,1
 Honeybell Cake/Chocolate; Even Week: Fried Rice,dinner,Hostel 11,5
 Hot Dog,snacks,Hostel 6,7
@@ -623,7 +611,7 @@ Idli - Mendu Wada,breakfast,Hostel 6,3
 Idli Medu Vada,breakfast,"Hostel 21, Hostel 7, Hostel 8",2
 "Idli vada
 Sambar & Chutney
-Omelete
+Omelette
 Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
@@ -640,17 +628,10 @@ Tea/Coffee
 Muesli+Cornflakes+Oats+Chocos
 Boiled Egg/Egg Burji
 Banana",breakfast,Hostel 5,3
+Imrti,dinner,Hostel 10,4
 Independence Day - Special Lunch,lunch,"Hostel 21, Hostel 7, Hostel 8",6
 Indian Mixed Salad,lunch,Hostel 11,1
 Indori Poha,breakfast,Hostel 17,2
-"Indori Poha
-Pineapple Shira/Matki Usal
-Egg Omelette
- Paneer Bhurji
-""Cornflakes/Bournvita/
-Cereals/Chocos/Muesli""
-Sprouted moong
-Bread",breakfast,Hostel 18,3
 "Indori Poha
 Sev + Tarri
 Moong Sprouts
@@ -665,7 +646,7 @@ Jalebi,dinner,"Hostel 17, Hostel 19, Hostel 21, Hostel 6, Hostel 7, Hostel 8","2
 Jalebi; Even Week: Plain Rice,dinner,Hostel 11,3
 Jaljeera,lunch,"Hostel 10, Hostel 2",4
 Jeera Aloo,lunch,Hostel 19,1
-Jeera Rice,"dinner, lunch","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8","5, 7, 3, 2, 1, 4"
+Jeera Rice,"lunch, dinner","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8","3, 5, 7, 2, 1, 4"
 "Jeera Rice
 Dal Fry
 Punjabi Chole
@@ -695,42 +676,28 @@ Kadai Bhindi,dinner,Hostel 4,7
 Kadai Paneer,lunch,Hostel 4,2
 Kadai Paneer (Extra),lunch,Hostel 4,7
 Kadhai Paneer,dinner,"Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 3","3, 1, 5, 6"
-Kadhi Pakoda,lunch,"Hostel 10, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 2, Hostel 21, Hostel 7, Hostel 8","4, 6, 2, 7, 5"
+Kadhi Pakoda,lunch,"Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 2, Hostel 21, Hostel 7, Hostel 8","6, 2, 7, 5"
 Kadi Pakoda,"dinner, lunch","Hostel 11, Hostel 15","6, 4, 1"
 Kadi Pakoda & Kala Chana,dinner,Tansa,7
 Kadi Palak Pakoda,lunch,Hostel 4,7
 Kadi pakoda,lunch,Hostel 3,6
 Kaju Katli (2 Pieces),dinner,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Kala Chana,breakfast,Tansa,3
-Kala Jamun,dinner,"Hostel 10, Hostel 15, Hostel 19, Hostel 2","4, 2, 5"
+Kala Jamun,dinner,"Hostel 15, Hostel 19, Hostel 2","2, 5, 4"
 Kalakand,dinner,Hostel 3,3
 Kali Dal,dinner,Hostel 11,"3, 7"
-Kanchipuram Idli/Vada Sambhar,breakfast,Hostel 10,2
 Karela Chatpata,lunch,Hostel 17,2
 Karela Fry,lunch,Hostel 11,4
 Karela Kurkure,lunch,Hostel 4,2
-"Karela Tamatar
-Rajma Pahadi
-Tadka Rice
-Steam Rice
-Dal Panchratna
-Salad
-Roti(with and without Ghee)
-Mix Pickle
-Sambar
-Motichoor Ladoo
-Fruit
-Methi Chicken",dinner,Hostel 18,2
 Kerala Chicken (Extra),dinner,Hostel 10,3
 Kerala Rice,dinner,Hostel 10,3
 Keri Sabji/Turai Sabji,lunch,Hostel 11,2
-"Khaman Dhokla
-Bread",snacks,Hostel 18,2
 Khichdi,dinner,Hostel 11,4
 Kimchi Salad,dinner,"Hostel 12, Hostel 13, Hostel 14",4
+Knorr Soup,dinner,Hostel 10,4
 Kofta Curry,dinner,Hostel 19,7
 Kokam,lunch,"Hostel 19, Hostel 21, Hostel 7, Hostel 8",5
-Kokam Sarbat,lunch,"Hostel 10, Hostel 15","6, 1"
+Kokam Sarbat,lunch,Hostel 15,1
 Kokam Sarbat; Even Week: Rice,lunch,Hostel 11,1
 Kurkure Karele,dinner,Hostel 2,5
 Laddo,dinner,Hostel 2,3
@@ -741,23 +708,20 @@ Lauki Channa Dry,dinner,Hostel 4,4
 Lauki Halwa,dinner,"Hostel 12, Hostel 13, Hostel 14","7, 3"
 Lauki Kofta,"lunch, dinner","Hostel 17, Tansa",1
 Lauki Kofta Masala,dinner,Hostel 15,4
-Lauki Tomato Gravy,dinner,Hostel 10,1
 Lehsun Chutney,lunch,Hostel 11,6
 Lemon,lunch,"Hostel 12, Hostel 13, Hostel 14",4
 Lemon Coriander Soup,dinner,Hostel 10,1
 Lemon Juice,lunch,Hostel 15,"2, 6"
-Lemon Mint Sharbat,lunch,Hostel 10,5
 Lemon Pickle,dinner,"Hostel 12, Hostel 13, Hostel 14","4, 1, 5"
 Lemon Rasna,lunch,Hostel 16,1
-Lemon Rice,"lunch, dinner","Hostel 10, Hostel 15, Hostel 16, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8","7, 5, 4, 1, 3"
+Lemon Rice,"dinner, lunch","Hostel 10, Hostel 15, Hostel 16, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 6, Hostel 7, Hostel 8","5, 4, 1, 3, 7"
 Lemon Water,lunch,Hostel 19,2
 Lemon-Rice,dinner,"Hostel 12, Hostel 13, Hostel 14",4
 Lemonade,lunch,Hostel 6,4
 Lijjat Papad,lunch,Tansa,4
 Lime Mojito,lunch,Hostel 4,7
-Live Counter,breakfast,Hostel 10,"7, 2, 4, 1, 5, 6, 3"
+Live Counter,breakfast,Hostel 10,"7, 4, 1, 5, 6, 3"
 Lobia Masala Gravy,dinner,Hostel 10,4
-Long Beans Masala Dry,dinner,Hostel 10,3
 Macaroni Pasta,snacks,Hostel 3,7
 Maggie,snacks,Tansa,1
 Makhana Sabji,dinner,Hostel 11,7
@@ -777,7 +741,7 @@ Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
 Mix Sprout
-Bread",breakfast,Hostel 18,7
+Bread",breakfast,Hostel 18,6
 "Masala Dosa
 Chutney+ Sambhar
 Moong Sprouts
@@ -795,7 +759,7 @@ Masala Kichdi,dinner,Hostel 17,6
 Masala Maggie With Cheese,snacks,Hostel 17,3
 Masala Papad,"lunch, dinner","Hostel 11, Hostel 3, Hostel 4","2, 3, 5"
 Masala Rajma Gravy,lunch,Hostel 6,1
-Masala Rice,"dinner, lunch","Hostel 10, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8","7, 3, 1, 4, 6, 2, 5"
+Masala Rice,"lunch, dinner","Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8","3, 7, 1, 4, 6, 2, 5"
 Masala Roasted,"dinner, lunch",Hostel 11,"7, 6, 2"
 Masala Utappam,breakfast,"Hostel 12, Hostel 13, Hostel 14",6
 Mashroom Chilli,dinner,Hostel 11,5
@@ -811,18 +775,17 @@ Matki Sprouts,breakfast,Hostel 6,3
 Matki Usal,breakfast,"Hostel 16, Hostel 21, Hostel 7, Hostel 8",1
 Matki Ussal,breakfast,"Hostel 17, Hostel 19","1, 3"
 Mattha,lunch,Hostel 15,4
-Mawa Peda,dinner,Hostel 10,6
 Medu Boonda,breakfast,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Meduvada+Sambhar+ Chutney,breakfast,Tansa,3
 Mendu Vada,breakfast,Hostel 16,4
 Methi Malai Matar,"lunch, dinner","Hostel 11, Hostel 17","4, 1"
-Methi Moong Dry Sabzi,lunch,Hostel 10,5
+Methi Matar Malai,dinner,Hostel 10,3
 Methi Puri/ Roti (With & Without Ghee),dinner,"Hostel 12, Hostel 13, Hostel 14",4
 Methi Thepla,breakfast,"Hostel 21, Hostel 7, Hostel 8, Tansa","3, 5"
 Methi puri,lunch,Hostel 3,2
-Milk,"breakfast, snacks","Hostel 10, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","7, 2, 4, 1, 5, 6, 3"
+Milk,"breakfast, snacks","Hostel 10, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","7, 4, 1, 5, 6, 3, 2"
 Milk / Juice,breakfast,Hostel 17,"1, 2"
-Milk Cake,dinner,Hostel 2,2
+Milk Cake,dinner,"Hostel 10, Hostel 2","7, 2"
 Milk Shake,snacks,"Hostel 19, Hostel 21, Hostel 7, Hostel 8",7
 Milk/ Juice,breakfast,Hostel 17,"4, 3"
 Milk/Apple Beetroot Carrot Juice,breakfast,"Hostel 12, Hostel 13, Hostel 14",4
@@ -831,15 +794,13 @@ Milk/Juice,breakfast,Hostel 17,"5, 6, 7"
 Milk/Muskmelon Juice,breakfast,"Hostel 12, Hostel 13, Hostel 14",7
 Milk/Watermelon Juice,breakfast,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Milkshake,snacks,"Hostel 2, Hostel 4, Hostel 6","3, 7, 6, 2"
-Minestrom Soup,dinner,Hostel 10,4
+Minestrone Soup,dinner,Hostel 10,7
 Mint Juice; Even Week: Veg Pulao,lunch,Hostel 11,3
 Mint Mojito,lunch,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Mint Rice,"lunch, dinner","Hostel 15, Hostel 3","7, 6"
 Mirchi Tamatar Sbji,lunch,Hostel 11,3
 Mirchi Techa,dinner,"Hostel 17, Hostel 4","7, 6"
 Misal Pav,snacks,"Hostel 15, Hostel 17, Hostel 4","6, 1, 2"
-"Misal Pav
-Bread",snacks,Hostel 18,1
 "Misal Pav
 Pineapple
 BBJ
@@ -849,7 +810,7 @@ Misel Pov,lunch,Tansa,7
 Missal Pav,snacks,"Hostel 21, Hostel 7, Hostel 8",1
 Missi Roti,lunch,Hostel 11,1
 Mix Dal,"lunch, dinner","Hostel 3, Tansa","6, 3"
-Mix Dal Fry,dinner,Hostel 10,5
+Mix Dal Fry,dinner,Hostel 10,"5, 3"
 Mix Jam,snacks,"Hostel 17, Hostel 4","3, 6, 2, 7, 1, 4, 5"
 Mix Juice,snacks,Hostel 10,5
 Mix Kathol,dinner,Hostel 19,4
@@ -858,26 +819,22 @@ Mix Pickle,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 4
 Mix Salad,dinner,"Hostel 10, Hostel 11","4, 5"
 Mix Sprout,breakfast,"Hostel 19, Hostel 21, Hostel 7, Hostel 8","3, 6"
 Mix Sprout Salad,dinner,Hostel 11,1
-Mix Sprouts,breakfast,"Hostel 10, Hostel 15, Hostel 4","7, 2, 6, 5"
+Mix Sprouts,breakfast,"Hostel 15, Hostel 4","2, 6, 5"
 Mix Sprouts Dry,lunch,Hostel 15,7
 Mix Veg,"dinner, lunch","Hostel 11, Hostel 19, Hostel 3","2, 6"
 Mix Veg Bhajiya,snacks,Hostel 4,1
 Mix Veg Dry,"dinner, lunch","Hostel 10, Hostel 15, Hostel 2, Hostel 21, Hostel 7, Hostel 8","4, 7, 2"
 Mix Veg Gravy,lunch,Hostel 11,5
 Mix Veg Paratha,breakfast,"Hostel 16, Hostel 21, Hostel 7, Hostel 8","3, 6"
+"Mix Veg Uttapam 
+Sambar and Chutney
+Egg Bhurji
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Sprouted Chana
+Bread",breakfast,Hostel 18,5
 Mix veg,dinner,Hostel 3,2
-"Mix-Veg
-Black Chana Masala
-Dal Fry
-Tomato Rice
-Steam Rice
-Roti (with and without butter)
-Mix Pickle
-Lemon Water
-Disco Papad
-Salad
-Rasam/Boiled rice
-Chicken Masala",lunch,Hostel 18,1
 Mixed Sprout Sabji,lunch,Hostel 11,6
 Mixed Sprout Sald,dinner,Hostel 11,5
 Mixveg Paratha,breakfast,Hostel 15,5
@@ -890,10 +847,9 @@ Moong Dal Chilla Chutney,breakfast,Tansa,7
 Moong Dal Halwa,dinner,"Hostel 11, Hostel 16, Hostel 17, Hostel 3, Hostel 4, Tansa","7, 2, 5, 6"
 Moong Dry,dinner,Hostel 19,2
 Moong Masala,dinner,Hostel 15,5
-Moong Masoor Dal,dinner,Hostel 10,3
 Moong Sprouts,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 17, Hostel 6","7, 3, 1, 5"
 "Moong Torai
-Palak Paneer
+Matar Paneer
 Dal Adraki
 Jeera Rice 
 Steam Rice
@@ -902,30 +858,29 @@ Mix Pickle
 Jaljira
 Disco Papad
 Salad
-Sambhar
-Chicken Pahadi",lunch,Hostel 18,2
+Sambhar",lunch,Hostel 18,2
 Moong+Masoor Dal,lunch,Tansa,1
 Moong; Even Week: Raginidly,breakfast,Hostel 11,3
 Moong; Even Week: Upma,breakfast,Hostel 11,5
 Moshmbi,snacks,Hostel 19,6
 Muesli,"breakfast, snacks","Hostel 19, Hostel 21, Hostel 7, Hostel 8","1, 3"
-Muli Paratha,breakfast,Hostel 10,4
+Mulli/Gajar,dinner,Hostel 10,3
 Museli,"breakfast, snacks",Hostel 4,"6, 7, 5"
-Museli+Bournvita,"breakfast, snacks",Hostel 10,"1, 5"
+Museli+Bournvita,"breakfast, snacks",Hostel 10,"7, 5"
 Mushroom Butter Masala,dinner,Hostel 3,5
 Mushroom Gravy,dinner,Tansa,4
-Muskmelon,breakfast,Hostel 10,2
+Muskmelon,breakfast,Hostel 10,3
 Mutter Paneer,lunch,Hostel 3,1
+"Mysore Bonda
+Bread",snacks,Hostel 18,1
 Mysore Masala Dosa,breakfast,"Hostel 17, Hostel 4",7
 Mysore Pak,dinner,Hostel 4,2
-Naka,snacks,Hostel 10,2
 Nimbu,breakfast,Tansa,2
 Nimbu Pani,lunch,"Hostel 12, Hostel 13, Hostel 14, Hostel 2, Tansa","6, 2, 7, 1"
 Nimbu paani,snacks,Hostel 3,4
 Nutella,snacks,Hostel 3,6
 Oats,"snacks, breakfast","Hostel 19, Hostel 21, Hostel 4, Hostel 7, Hostel 8","1, 5, 4, 2, 7"
-Oats/Bornvita,"breakfast, snacks",Hostel 10,2
-Oats/Bournvita,"breakfast, snacks",Hostel 10,6
+Oats/Bournvita,breakfast,Hostel 10,6
 Odd Week: Alu Paratha,breakfast,Hostel 11,4
 Odd Week: Chowmin/Pancake; Even Week: Chana Chat,snacks,Hostel 11,5
 Odd Week: Dal Kachori; Even Week: Veg Cheese Sandwich,snacks,Hostel 11,6
@@ -957,7 +912,6 @@ Onion,"dinner, lunch","Hostel 12, Hostel 13, Hostel 14, Hostel 15","1, 5, 4"
 Onion And Tomtato,breakfast,"Hostel 12, Hostel 13, Hostel 14",7
 Onion Kachori Starwberry Milkshake,snacks,Hostel 17,5
 Onion Methi Thepla,breakfast,Hostel 10,7
-Onion Mirchi Techa,lunch,Hostel 10,2
 "Onion Paratha
 Chutney + Ketchup
 Boiled Peanuts
@@ -968,7 +922,8 @@ Muesli+Cornflakes+Oats+Chocos
 Boiled Egg/Egg Burji
 Banana",breakfast,Hostel 5,1
 Onion Partaha,breakfast,"Hostel 21, Hostel 7, Hostel 8",4
-Onion Poha,breakfast,"Hostel 10, Hostel 16",1
+Onion Peas Poha,breakfast,Hostel 10,5
+Onion Poha,breakfast,Hostel 16,1
 Onion Rice,lunch,Hostel 16,2
 Onion Tadka Rice,lunch,Hostel 10,1
 Onion Uttapam,breakfast,Hostel 16,5
@@ -981,10 +936,10 @@ Tea/Coffee
 Muesli+Cornflakes+Oats+Chocos
 Boiled Egg/omlette
 Banana",breakfast,Hostel 5,6
-Orange,snacks,Hostel 10,6
+Onion Uttapam(Sambhar),breakfast,Hostel 10,6
 Oreo Milkshake,snacks,Hostel 3,7
-"P. Butter and Mix Jam
-Tea/Coffee",snacks,Hostel 18,"7, 2"
+"P.Butter and Mix Jam
+Tea/Coffee",snacks,Hostel 18,"4, 7"
 P.P.S.,lunch,Hostel 15,"1, 5, 2, 4, 6, 3, 7"
 Paani Puri,snacks,Hostel 4,5
 Padwal Chnadal,dinner,Hostel 15,4
@@ -993,37 +948,35 @@ Palak Corn,dinner,Hostel 6,5
 Palak Methi Saag,dinner,Tansa,6
 Palak Paneer,dinner,Tansa,3
 Palak Parantha + Roti (With And Without Ghee),lunch,"Hostel 12, Hostel 13, Hostel 14","7, 3"
+Pancharatan Dal,lunch,Hostel 10,3
 Panchpuran Tadka Dal,lunch,Hostel 11,6
-Panchratan Dal,dinner,Hostel 10,4
 Paneer 65/Paneer Masala,dinner,Hostel 11,3
 Paneer Angara (Extra),lunch,Hostel 2,2
 Paneer Bhurji,breakfast,"Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","3, 1, 5, 6, 4, 7, 2"
 Paneer Bhurji/ Apple,breakfast,Hostel 10,6
-Paneer Bhurji/ Mosambi,breakfast,Hostel 10,5
-Paneer Bhurji/Apple,breakfast,Hostel 10,1
-Paneer Bhurji/Chikko,breakfast,Hostel 10,7
+Paneer Bhurji/ Chikoo,breakfast,Hostel 10,5
 Paneer Bhurji/Gauva,breakfast,Hostel 10,4
-Paneer Bhurji/Orange,breakfast,Hostel 10,3
-Paneer Bhurji/Plum,breakfast,Hostel 10,2
+Paneer Bhurji/Mosambi,breakfast,Hostel 10,3
+Paneer Bhurji/Orange,breakfast,Hostel 10,1
+Paneer Bhurji/Plum,breakfast,Hostel 10,7
 Paneer Bhurji; Even Week: Alu Carrot Poha,breakfast,Hostel 11,4
 Paneer Bhurji; Even Week: Paneer Paratha,breakfast,Hostel 11,2
 Paneer Bhurji; Even Week: Veg Dalia,breakfast,Hostel 11,7
 Paneer Biriyani,lunch,Hostel 11,7
 Paneer Biryani,dinner,Hostel 3,3
-Paneer Butter Masala,lunch,Hostel 6,3
+Paneer Butter Masala,lunch,"Hostel 10, Hostel 6","7, 3"
 Paneer Chilli (Extra),dinner,Hostel 16,4
 Paneer Chilly (Extra),dinner,Hostel 10,1
 Paneer Chilly Dry (Extra),lunch,Hostel 2,5
 Paneer Crispy,lunch,Hostel 17,4
 Paneer Do Pyaza,lunch,"Hostel 12, Hostel 13, Hostel 14","7, 3"
 Paneer Dum Biryani (Extra),dinner,Hostel 4,4
-Paneer Handi,lunch,"Hostel 10, Hostel 19",2
+Paneer Handi,lunch,Hostel 19,2
 Paneer Handi (Extra),lunch,Hostel 4,4
 Paneer Handi/ Egg Curry,dinner,Hostel 17,5
 Paneer Kadai,dinner,Hostel 16,5
 Paneer Kohlapuri,lunch,Hostel 15,2
 Paneer Kohlapuri / Egg Masala,dinner,Hostel 4,5
-Paneer Kolhapuri,dinner,Hostel 10,6
 Paneer Labadar (Extra),lunch,Hostel 19,5
 Paneer Masala,dinner,Hostel 16,2
 Paneer Matar,lunch,Hostel 17,2
@@ -1041,32 +994,34 @@ Paneer Tikka,dinner,Hostel 6,4
 Paneer Tikka Masala,dinner,Hostel 19,5
 Paneer paratha + Curd,breakfast,Hostel 3,7
 Pani Poori,snacks,Hostel 19,4
-Pani Puri,snacks,"Hostel 10, Hostel 15, Hostel 16, Hostel 2, Hostel 21, Hostel 7, Hostel 8","5, 4, 3"
+Pani Puri,snacks,"Hostel 15, Hostel 16, Hostel 2, Hostel 21, Hostel 7, Hostel 8","4, 5, 3"
 "Pani Puri
-Bread",snacks,Hostel 18,5
+Bread",snacks,Hostel 18,6
 Panner Makhan (Extra),dinner,Hostel 4,2
-Papad,"dinner, lunch","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 16, Hostel 17, Hostel 2, Hostel 3, Hostel 4, Hostel 6, Tansa","2, 4, 5, 6, 7, 3, 1"
+Papad,"dinner, lunch","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 16, Hostel 17, Hostel 2, Hostel 3, Hostel 4, Hostel 6, Tansa","7, 4, 1, 5, 6, 2, 3"
 Papad & Pickle,"lunch, dinner","Hostel 19, Hostel 21, Hostel 7, Hostel 8","1, 3, 5, 4, 6, 2, 7"
-Papaya,"breakfast, snacks","Hostel 10, Hostel 19, Hostel 21, Hostel 7, Hostel 8","7, 4"
+Papaya,snacks,"Hostel 19, Hostel 21, Hostel 7, Hostel 8",4
 Papdi Chat,snacks,Hostel 2,7
 Paratha,"dinner, lunch","Hostel 11, Hostel 2","6, 4"
-Pasta Salad,lunch,Hostel 10,1
 Pasta Salad With Mayo Dressing,lunch,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Pav B Bhaji,snacks,Hostel 16,4
 Pav Bhaji,snacks,"Hostel 15, Hostel 19, Hostel 2, Hostel 3, Hostel 6","2, 1, 5, 3"
+"Pav Bhaji
+Bread",snacks,Hostel 18,3
 Pav Bhaji + Nimbu,snacks,Tansa,5
+Payasam,dinner,Hostel 10,3
 Paysam,dinner,"Hostel 21, Hostel 7, Hostel 8",3
-Peanut Butter,snacks,"Hostel 10, Hostel 15, Hostel 16, Hostel 17, Hostel 2, Hostel 4, Hostel 6","7, 2, 4, 5, 3, 6"
+Peanut Butter,snacks,"Hostel 10, Hostel 15, Hostel 16, Hostel 17, Hostel 2, Hostel 4, Hostel 6","7, 5, 3, 2, 4, 6"
 Peanut Butter & Mix Jam,lunch,Tansa,7
 Peanut Butter And,snacks,Hostel 17,5
 Peanut Butter And Mango Jam,snacks,"Hostel 12, Hostel 13, Hostel 14","1, 5"
 Peanut Butter And Mix Jam,breakfast,"Hostel 12, Hostel 13, Hostel 14","3, 2"
 Peanut Salad,lunch,Hostel 11,2
 Peanuts,breakfast,Hostel 3,7
-Pears/Dragon,snacks,Hostel 10,4
-Peas Pulao,lunch,"Hostel 10, Hostel 11, Hostel 6","2, 1"
+Pears,snacks,Hostel 10,4
+Peas Pulao,lunch,"Hostel 11, Hostel 6","2, 1"
 Peas Rice,lunch,Tansa,5
-Pest Control,"snacks, dinner, breakfast","Hostel 21, Hostel 4, Hostel 7, Hostel 8","6, 7, 1"
+Pest Control,"breakfast, lunch, snacks, dinner","Hostel 10, Hostel 18, Hostel 21, Hostel 4, Hostel 7, Hostel 8","2, 6, 7, 1"
 Phool Gobhi Matar,dinner,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Pickle,"dinner, lunch, breakfast","Hostel 15, Hostel 16, Hostel 21, Hostel 7, Hostel 8, Tansa","1, 5, 2, 4, 6, 3, 7"
 Pindi Chhole,dinner,Hostel 6,4
@@ -1076,15 +1031,22 @@ Pineapple Chutney,"lunch, dinner","Hostel 10, Hostel 12, Hostel 13, Hostel 14",4
 Pineapple Sheera,"dinner, breakfast","Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 17, Hostel 19","4, 7, 3, 6"
 Pista Barfi (2 Pieces),dinner,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Plain Khicdi,dinner,Hostel 11,6
-Plain Rice,"lunch, dinner","Hostel 10, Hostel 11","7, 2, 4, 1, 5, 6, 3"
+Plain Rice,"lunch, dinner","Hostel 10, Hostel 11","7, 4, 1, 5, 6, 3, 2"
 Plain Salad,"lunch, dinner",Hostel 11,"3, 7, 6, 2, 4"
 Plain Sald,dinner,Hostel 11,4
 Plane Salad,lunch,Hostel 11,3
 Poha,breakfast,"Hostel 15, Hostel 19, Hostel 21, Hostel 6, Hostel 7, Hostel 8","3, 1"
+"Poha 
+Pineapple Sheera/Matki Usal
+Egg Omlette
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Peanut
+Bread",breakfast,Hostel 18,1
 Poha +Sev,breakfast,Hostel 2,5
 Poha+Shiv+Chutney,breakfast,Tansa,2
 Poori,breakfast,Hostel 19,7
-Potao Chips,lunch,Hostel 10,7
 Pudina Chhach,lunch,Tansa,3
 Pudina Pulao,lunch,Hostel 4,6
 Pudina Rice,"lunch, dinner","Hostel 17, Hostel 19, Hostel 21, Hostel 7, Hostel 8","7, 2"
@@ -1104,89 +1066,69 @@ Punjabi Dum Aloo,lunch,Hostel 17,4
 Punjabi Kadi,lunch,Hostel 19,5
 Puri,"lunch, breakfast","Hostel 11, Hostel 17, Hostel 2, Hostel 21, Hostel 4, Hostel 6, Hostel 7, Hostel 8, Tansa","7, 3, 1, 5"
 Puri Bhaji,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 2, Hostel 6","7, 6"
-"Puri Bhaji
-
-Egg Bhurji
-Paneer Bhurji
-""Cornflakes/Bournvita/
-Cereals/Chocos/Muesli""
-Corn 
-Bread",breakfast,Hostel 18,6
 Puri Bhaji + Curd,breakfast,Hostel 3,4
 Puri Bhaji+Kheer,breakfast,"Hostel 12, Hostel 13, Hostel 14",3
+Puri(Sheera),breakfast,Hostel 10,1
 Pyaj Tomato Sbji,lunch,Hostel 11,6
 Pyaz Kachori,snacks,Hostel 2,5
 Rabdi Kulfi,dinner,Hostel 6,7
 Rabdi+Jalebi,dinner,Hostel 2,5
+"Ragada Patties
+Bread",snacks,Hostel 18,4
 Ragda Pattice,snacks,Hostel 19,5
-Ragi Uttapa(Sambhar),breakfast,Hostel 10,5
 Raita,"dinner, lunch","Hostel 12, Hostel 13, Hostel 14, Hostel 6","6, 2"
 Raita (Extra),dinner,Hostel 16,3
-Rajasthani Chutney,lunch,Hostel 10,5
+Rajasthani Chutney,breakfast,Hostel 10,7
 Rajma,lunch,Hostel 11,1
-Rajma Masala,"dinner, lunch","Hostel 15, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 7, Hostel 8","1, 3, 7, 2"
+Rajma Masala,"dinner, lunch","Hostel 10, Hostel 15, Hostel 17, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 4, Hostel 7, Hostel 8","5, 1, 3, 7, 2"
 Rajma Tomato Gravy,lunch,Hostel 16,1
 Ras Malai,dinner,"Hostel 17, Tansa","4, 1"
-Rasam,"dinner, lunch","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 4, Hostel 6","7, 3, 5, 6, 4, 1, 2"
+Rasam,"lunch, dinner","Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 4, Hostel 6","5, 6, 4, 1, 7, 3, 2"
 Rasana,lunch,Tansa,2
 Rasgulla,dinner,Hostel 3,5
 Rasmalai,dinner,"Hostel 3, Hostel 4","4, 6"
-Rasna,lunch,"Hostel 10, Hostel 15, Hostel 16, Hostel 17, Hostel 2, Hostel 21, Hostel 7, Hostel 8","7, 3, 4, 6"
+Rasna,lunch,"Hostel 15, Hostel 16, Hostel 17, Hostel 2, Hostel 21, Hostel 7, Hostel 8","3, 7, 4, 6"
 Rassam,lunch,"Hostel 17, Hostel 2","2, 3, 6"
-"Rava Upma
-Coconut chutney
-Egg Bhurji
-Paneer Bhurji
-""Cornflakes/Bournvita/
-Cereals/Chocos/Muesli""
-Mix Sprout
-Bread",breakfast,Hostel 18,5
 Raw Banana Fry,dinner,Hostel 17,5
 Raw Banana Sabji,dinner,Hostel 11,1
-Rawa Upma,breakfast,Hostel 10,3
+Red Bhopla,lunch,Hostel 10,5
 Red Chana,breakfast,Hostel 3,4
 Red Chilly+Garlic Chutney,breakfast,Hostel 2,1
-Red Chutney,breakfast,Hostel 10,2
+Red Chutney,breakfast,Hostel 10,6
 Red Pasta,snacks,Hostel 15,3
-"Red Sauce Pasta
-Bread",snacks,Hostel 18,3
 Rice,"dinner, lunch","Hostel 16, Hostel 2, Hostel 3, Hostel 6, Tansa","2, 7, 3, 5, 4, 1, 6"
 Rice Bhakri,lunch,Hostel 11,5
 Rice Kheer,dinner,"Hostel 11, Hostel 15","6, 1"
 Rice Papad,lunch,"Hostel 10, Hostel 17, Hostel 4","1, 4"
 Rice-Shrikhand,lunch,Hostel 2,1
-Roasted Papad,"dinner, lunch","Hostel 10, Hostel 17, Hostel 2, Hostel 4","7, 2, 4, 6, 5"
+Roasted Papad,lunch,"Hostel 10, Hostel 17, Hostel 2, Hostel 4","7, 4, 6, 5"
 Roasted Papad & Pickle,lunch,"Hostel 21, Hostel 7, Hostel 8",3
 Roasted Peanut Salad,lunch,"Hostel 12, Hostel 13, Hostel 14","7, 3"
 Rooh Afza,lunch,"Hostel 12, Hostel 13, Hostel 14",4
 Roohafza,lunch,"Hostel 10, Hostel 2","1, 2"
 Roohfza,lunch,Hostel 19,7
 Roohi Fish Masala,lunch,Hostel 10,3
-Roti,"lunch, dinner","Hostel 10, Hostel 11, Hostel 17, Hostel 2, Hostel 3, Hostel 4, Hostel 6, Tansa","3, 7, 6, 1, 5, 2, 4"
+Roti,"lunch, dinner","Hostel 10, Hostel 11, Hostel 17, Hostel 2, Hostel 3, Hostel 4, Hostel 6, Tansa","1, 3, 7, 6, 5, 2, 4"
 Roti (With & Without Ghee),dinner,"Hostel 12, Hostel 13, Hostel 14","6, 1, 7, 5, 3, 2"
 Roti (With And Without Ghee),lunch,"Hostel 12, Hostel 13, Hostel 14","6, 4, 1, 5, 2"
-Roti/ With/ Without Ghee,lunch,Hostel 10,"2, 4, 1, 5, 6"
+Roti/ Methi Paratha,lunch,Hostel 10,7
+Roti/ With/ Without Ghee,lunch,Hostel 10,"4, 5, 6"
 Roti/Masala Puri,dinner,Hostel 10,5
-Roti/Missi Roti,dinner,Hostel 10,7
+Roti/With /Missi Roti,dinner,Hostel 10,4
 Roti/With /Mix Roti,dinner,Hostel 10,1
-Roti/With /Paratha,dinner,Hostel 10,6
-Roti/With /Without Ghee,dinner,Hostel 10,"2, 4, 3"
-Roti/With/Without Ghee,lunch,Hostel 10,7
+Roti/With /Without Ghee,dinner,Hostel 10,"7, 3"
 Sabudan Kheer; Even Week: Rice,dinner,Hostel 11,7
-Sabudana Kheer,dinner,Hostel 10,1
 Sabudana Khichadi,breakfast,"Hostel 15, Tansa","1, 6"
 Sabudana Khichdi + Paneer Bhurji,breakfast,Hostel 3,5
 Sabudana Khichidi,breakfast,Hostel 6,4
 Sabudana Kichdi,snacks,Hostel 4,6
 Sabudana Papad,lunch,"Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14","5, 3, 1"
-Sadudana Khichdi,breakfast,Hostel 10,6
 Sahi Paneer,dinner,Hostel 15,6
-Sahi Tukda,dinner,Hostel 10,2
 Salad,"lunch, dinner","Hostel 11, Hostel 15, Hostel 16, Hostel 17, Hostel 19, Hostel 21, Hostel 6, Hostel 7, Hostel 8, Tansa","7, 6, 1, 2, 5, 4, 3"
 Salad + Onion,dinner,Hostel 4,"2, 7, 1, 4, 5"
 Salad+Onion,lunch,Hostel 4,"6, 2, 7, 1, 4, 3, 5"
 Sambar,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 17","6, 4, 7, 5"
-Sambhar,"breakfast, dinner, lunch","Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 16, Hostel 17, Hostel 19, Hostel 4, Hostel 6","3, 2, 6, 1, 5, 7, 4"
+Sambhar,"dinner, breakfast, lunch","Hostel 10, Hostel 11, Hostel 12, Hostel 13, Hostel 14, Hostel 16, Hostel 17, Hostel 19, Hostel 4, Hostel 6","3, 2, 6, 1, 5, 7, 4"
 Sambhar/Chutney,breakfast,Hostel 19,6
 Samosa,snacks,Hostel 19,3
 Samosa + Dahi + Chutney,snacks,Hostel 3,4
@@ -1201,7 +1143,6 @@ Schezwan,breakfast,Hostel 6,2
 Schezwan Chutney,breakfast,"Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 19","2, 1, 5"
 Schezwan Fried Rice,dinner,Hostel 2,7
 Schezwan Masala Dosa,breakfast,Hostel 2,4
-Schezwan Masala Dosa/ Plain Dosa,snacks,Hostel 10,7
 SchéWan Fried Rice,lunch,Hostel 4,5
 Seasonal Fruits,snacks,"Hostel 19, Hostel 21, Hostel 7, Hostel 8","1, 3, 5"
 Semiya Kheer,dinner,Hostel 19,1
@@ -1228,9 +1169,10 @@ Shambhar,breakfast,Hostel 11,3
 Sheera; Even Week: Rice,dinner,Hostel 11,6
 Shikanji,lunch,Hostel 17,6
 Shreekhand,lunch,"Hostel 21, Hostel 7, Hostel 8",1
-Shrikhand,lunch,"Hostel 17, Hostel 19, Hostel 6","3, 1"
+Shrikhand,"dinner, lunch","Hostel 10, Hostel 17, Hostel 19, Hostel 6","5, 3, 1"
 Shrikhand + Nimbu Paani,lunch,Hostel 4,3
 Shukto,lunch,"Hostel 12, Hostel 13, Hostel 14","1, 5"
+Sindhi Kadi,lunch,Hostel 10,4
 Snake Bean Sabji,lunch,Hostel 11,2
 Soya Chaap Masala / Egg Curry,dinner,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Soya Chilli Dry,dinner,Hostel 16,1
@@ -1245,21 +1187,10 @@ Rasam + Curd
 Lemonade",lunch,Hostel 5,7
 Soya Mutter,dinner,Hostel 19,4
 Soyabean Chili,dinner,Hostel 17,7
-Soyabean Chilli,"lunch, dinner","Hostel 10, Hostel 3","5, 3"
+Soyabean Chilli,dinner,Hostel 3,3
 Soyabean Chilly,dinner,Hostel 2,6
 Soyabean Chilly Dry,lunch,"Hostel 3, Hostel 4",5
-"Soyabean Dry
-Methi Matar
-Dal Makhani
-Carrot Rice
-Steam Rice
-Puri
-Mix Pickle
-Butter Milk
-Fryums
-Mix Sprout Salad
-Sambhar",lunch,Hostel 18,6
-Soyabean Masala,lunch,"Hostel 11, Hostel 21, Hostel 7, Hostel 8","1, 3"
+Soyabean Masala,"dinner, lunch","Hostel 10, Hostel 11, Hostel 21, Hostel 7, Hostel 8","1, 3"
 Soyabean Masala Gravy,lunch,"Hostel 12, Hostel 13, Hostel 14",4
 Soyabean Tikka Masala,dinner,Hostel 4,2
 Soyabin Masala,dinner,Hostel 19,6
@@ -1270,17 +1201,16 @@ Spinach Aloo,dinner,Hostel 11,6
 Sprout Chana,breakfast,Hostel 15,4
 Sprout Moong,breakfast,"Hostel 15, Hostel 19","5, 2"
 Sprout Pulses,breakfast,"Hostel 12, Hostel 13, Hostel 14",2
-Sprouts,breakfast,"Hostel 10, Hostel 16","1, 6"
+Sprouts,breakfast,Hostel 16,6
 Sprouts Chaat,snacks,Tansa,2
 Sprouts Matki,breakfast,Tansa,"4, 7"
 Sprouts Moong,breakfast,Tansa,1
-Sprouts Moong Salad,lunch,Hostel 10,2
+Sprouts Moong Salad,lunch,Hostel 10,7
 Srikhand,dinner,"Hostel 12, Hostel 13, Hostel 14",4
 Steam Rice,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 17, Hostel 19, Hostel 21, Hostel 4, Hostel 7, Hostel 8","6, 4, 1, 7, 5, 3, 2"
-Stick Salad,dinner,Hostel 10,7
 Strawberry Shake,snacks,Hostel 15,6
+Strawberry Sharbat,lunch,Hostel 10,7
 Suji Upma,breakfast,Hostel 6,5
-Sukto Masala,dinner,Hostel 10,2
 Suran,dinner,Hostel 15,2
 Sweet Corn,breakfast,"Hostel 3, Tansa","5, 1, 3, 6"
 Sweet Corn Salad,"lunch, dinner","Hostel 11, Hostel 2","7, 4"
@@ -1290,6 +1220,7 @@ Tadka Cucumber Salad,lunch,Hostel 10,6
 Tadka Rice,"lunch, dinner","Hostel 16, Hostel 17, Hostel 19, Hostel 21, Hostel 7, Hostel 8","3, 4, 6, 7"
 Tamarind Chutney,lunch,Hostel 10,3
 Tamarind Rice,dinner,Hostel 2,4
+Tamarind Sharbat,lunch,Hostel 10,6
 Tang,lunch,Hostel 11,5
 Tawa Paratha,breakfast,Hostel 19,3
 "Tawa Pulav
@@ -1319,27 +1250,28 @@ Raddish + Onion
 Rasmalai
 Fish Curry",dinner,Hostel 5,1
 "Tawa Veg
-Mashroom  Handi
-Jeera Rice
+Chawli masala
+Dal Makhani
+Lemon Rice
 Steam Rice
-Yellow Dal
-Salad
-Roti(with and without Ghee)
-Mix Pickle/Veg Soup
-Sambhar
-Sev Boondi
-Fruit
-Chicken Changeji",dinner,Hostel 18,3
+Roti (with and without butter)
+Mix Pickle
+Lemon Water
+Roasted Papad
+Mix Salad
+Rasam/Boiled rice
+Chicken Masala",lunch,Hostel 18,1
 Tea,"breakfast, snacks","Hostel 12, Hostel 13, Hostel 14, Hostel 15, Hostel 16, Hostel 19, Hostel 2, Hostel 21, Hostel 6, Hostel 7, Hostel 8, Tansa","3, 2, 1, 5, 4, 6, 7"
-Tea /Coffee,"breakfast, snacks",Hostel 10,"7, 2, 5, 6, 3"
+Tea /Coffee,"snacks, breakfast",Hostel 10,"7, 5, 6, 3"
 Tea And Coffee,"breakfast, snacks","Hostel 12, Hostel 13, Hostel 14, Hostel 17","6, 4, 1, 5"
+Tea Party,snacks,Hostel 10,6
 Tea/ Coffee,snacks,Hostel 17,7
-Tea/Coffee,"snacks, breakfast, lunch","Hostel 10, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 4, Tansa","7, 2, 4, 1, 5, 6, 3"
+Tea/Coffee,"breakfast, snacks, lunch","Hostel 10, Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 4, Tansa","7, 4, 1, 5, 3, 6, 2"
 Tendali Dry,dinner,Hostel 6,6
 Tendli Chana,dinner,Hostel 19,5
 Tendli Chana Dry,lunch,Hostel 16,3
 "Tendli Channa
-Paneer Butter Masala/Egg Malwani
+Paneer Do Pyaza/Egg Malwani
 Jeera rice
 Steam Rice
 Dal fry
@@ -1347,15 +1279,28 @@ Salad
 Roti(with and without Ghee)
 Mix Pickle
 Samber
-Cham Cham
+Rasagulla
 Fruit",dinner,Hostel 18,7
 Tendli Dry,lunch,"Hostel 16, Hostel 2","5, 4"
+"Tendli Dry
+Chole Bhature
+Dal Tadka
+Lemon Rice
+Steam Rice
+Roti (with and without butter)
+Mix Pickle
+Lassi/Thecha
+Roasted Papad
+Mix Salad
+Rasam/Boiled rice
+Chicken kohlapuri",lunch,Hostel 18,7
 Tinda Veg. Roti,lunch,Tansa,4
+Tindli Dry,dinner,Hostel 10,3
 Tisa Chutney (Spicy),lunch,"Hostel 12, Hostel 13, Hostel 14","1, 5"
-Tomato Chutney,"breakfast, dinner","Hostel 10, Hostel 11, Hostel 17, Hostel 4","7, 2, 1, 4, 6, 3"
+Tomato Chutney,"breakfast, dinner","Hostel 11, Hostel 17, Hostel 4","2, 1, 4, 6, 3"
 Tomato Chutney + Manchow Soup,dinner,Hostel 4,4
 Tomato Onion Chopped,breakfast,"Hostel 12, Hostel 13, Hostel 14",3
-Tomato Rice,"dinner, lunch","Hostel 10, Hostel 11, Hostel 15, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 6, Hostel 7, Hostel 8, Tansa","4, 1, 3, 6"
+Tomato Rice,"dinner, lunch","Hostel 10, Hostel 11, Hostel 15, Hostel 19, Hostel 2, Hostel 21, Hostel 3, Hostel 6, Hostel 7, Hostel 8, Tansa","7, 4, 1, 3, 6"
 Tomato Sauce,breakfast,"Hostel 12, Hostel 13, Hostel 14",2
 Tomato Sauce And Chopped Onion,breakfast,"Hostel 12, Hostel 13, Hostel 14",4
 Tomato Soup,dinner,"Hostel 12, Hostel 13, Hostel 14, Hostel 17, Hostel 2, Hostel 3","4, 3, 2"
@@ -1368,20 +1313,21 @@ Tondli Sabji,lunch,Hostel 11,1
 Toor Dal,"dinner, lunch",Tansa,"1, 5, 6, 3"
 Toor Dal Tadka,"lunch, dinner","Hostel 12, Hostel 13, Hostel 14, Hostel 19, Hostel 21, Hostel 6, Hostel 7, Hostel 8","6, 2, 7, 5"
 Toorai Masala Dry,dinner,Hostel 15,6
-Torai Posto Dry,lunch,Hostel 10,7
 Turai Chana Dry,dinner,"Hostel 16, Hostel 21, Hostel 7, Hostel 8","3, 5"
 Turai Moong Dal,dinner,Hostel 19,1
 Upma + Paneer Bhurji,breakfast,Hostel 3,3
-Usal,breakfast,Hostel 10,1
+Usal,breakfast,Hostel 10,5
 Ussal,breakfast,Hostel 15,3
 Uttapam,breakfast,"Hostel 15, Hostel 19","4, 2"
 Uttapam+Sambhar+ Chutney,breakfast,Tansa,4
 Uttapam+Sambhar+Chutney,breakfast,Hostel 2,6
 Vada Pao,snacks,Hostel 2,6
-Vada Pav,snacks,Hostel 10,1
+"Vada Pav
+Bread",snacks,Hostel 18,7
+Vangi Bhatt,lunch,Hostel 10,6
 Vatana Ussal,dinner,Hostel 15,3
 Veg Angara,lunch,Hostel 2,5
-Veg Biryani,"lunch, dinner","Hostel 11, Hostel 2, Hostel 6","7, 3, 6"
+Veg Biryani,"lunch, dinner","Hostel 10, Hostel 11, Hostel 2, Hostel 6","7, 3, 6"
 "Veg Biryani
 Dal Makhni
 Mushroom Matar Gravy
@@ -1393,36 +1339,35 @@ Sambhar
 Shikanji",lunch,Hostel 5,2
 Veg Biryani (Extra),lunch,Hostel 19,6
 Veg Biryani + Raita,dinner,"Hostel 17, Hostel 4",7
+Veg Burger (Cheese),snacks,Hostel 10,4
 Veg Chettinad,dinner,Hostel 4,7
 Veg Dal Khichdi,lunch,Hostel 10,4
-Veg Frankie,snacks,Hostel 10,6
 Veg Hakka Noodles,snacks,"Hostel 19, Hostel 21, Hostel 7, Hostel 8","2, 7"
-Veg Hyderabadi,lunch,Hostel 10,6
+Veg Handi,lunch,Hostel 10,1
 Veg Jalfreji,lunch,Hostel 19,7
 Veg Kadai,lunch,Hostel 15,5
 Veg Kadai Masala,dinner,Hostel 16,4
 Veg Kofta,dinner,Hostel 2,1
 Veg Kolhapuri,dinner,"Hostel 16, Hostel 17, Hostel 19, Hostel 6","1, 3, 2"
-Veg Kolhapuri Masala,lunch,Hostel 10,1
-Veg Korma,lunch,Hostel 15,7
+Veg Korma,lunch,"Hostel 10, Hostel 15","5, 7"
 Veg Kothapuri,lunch,Hostel 4,5
 Veg Kurma,dinner,Hostel 4,4
-Veg Macroni,snacks,Hostel 10,2
 Veg Maggie,snacks,"Hostel 21, Hostel 7, Hostel 8",2
 Veg Maharaja,dinner,"Hostel 21, Hostel 7, Hostel 8",5
 Veg Makhan Wala,dinner,"Hostel 21, Hostel 7, Hostel 8",2
 Veg Manchurian,dinner,"Hostel 17, Hostel 2","2, 7"
-Veg Mayo Sandwich (Cheese),snacks,Hostel 10,4
 Veg Moong Dal,lunch,Hostel 10,4
 Veg Noodles,snacks,Hostel 16,3
 Veg Patiyal,lunch,Hostel 6,5
 Veg Peas Pulao,dinner,Hostel 2,5
 Veg Poha (Peas And Peanut),breakfast,"Hostel 12, Hostel 13, Hostel 14",4
-Veg Pulao,"lunch, dinner","Hostel 10, Hostel 2, Hostel 4","3, 1, 6"
+Veg Pulao,dinner,"Hostel 2, Hostel 4","1, 6"
 Veg Pulav,dinner,Hostel 3,5
-Veg Raita,lunch,"Hostel 10, Hostel 11","6, 7"
+Veg Raita,lunch,"Hostel 10, Hostel 11",7
 Veg Sandwich,snacks,Hostel 19,7
+Veg Sev Upma,breakfast,Hostel 10,3
 Veg Tawa,lunch,"Hostel 12, Hostel 13, Hostel 14","6, 2"
+Veg Tawa Dry,lunch,Hostel 10,7
 "Veg Triple Rice
 Dal Makhni
 Veg Kolhapuri
@@ -1437,7 +1382,7 @@ Veg. Manchurian & Rajama,lunch,Tansa,2
 Veg. Upma,breakfast,Hostel 15,6
 Vegetable Dal Khichdi,lunch,"Hostel 12, Hostel 13, Hostel 14","6, 2"
 Wada Sambar,breakfast,Hostel 15,2
-Watermelon,breakfast,Hostel 10,3
+Watermelon,breakfast,Hostel 10,7
 Watermelon Juice,lunch,Hostel 6,5
 White Batana,dinner,"Hostel 21, Hostel 7, Hostel 8",1
 White Matar Usal,dinner,Hostel 17,7
