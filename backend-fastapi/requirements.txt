@@ -2,3 +2,5 @@ fastapi[standard]
 pandas
 requests
 numpy
+pymongo
+python-dotenv
