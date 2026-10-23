@@ -8,9 +8,10 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jwt.exceptions import InvalidTokenError
 from sqlalchemy.orm import Session
+from sqlalchemy import select
 
 from app.database import get_db
-from app.models import User
+from app.models import User, Role, UserRole
 
 password_hash = PasswordHash.recommended()
 
@@ -71,3 +72,20 @@ def get_current_user(
         raise credentials_exception
 
     return user
+
+
+def get_current_roles(user: User = Depends(get_current_user), db: Session = Depends(get_db)) -> list[str]:
+    return db.scalars(
+        select(Role.name)
+        .join(UserRole, UserRole.role_id == Role.id)
+        .where(UserRole.user_id == user.id)
+    ).all()
+
+
+def require_role(role_name: str):
+    def checker(roles: list[str] = Depends(get_current_roles)):
+        if role_name not in roles:
+            raise HTTPException(status_code=403, detail="Access denied")
+    return checker
+
+
