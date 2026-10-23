@@ -34,3 +34,13 @@ class UserResponse(BaseModel):
 class TokenResponse(BaseModel):
     access_token: str
     token_type: str = "bearer"
+
+
+class HostelAdminRegister(BaseModel):
+    username: str = Field(min_length=3, max_length=50)
+    email: str = Field(min_length=5, max_length=255)
+    password: str = Field(min_length=8, max_length=128)
+    hostel_number: str = Field(pattern=r"^h([1-9]|1[0-9]|2[0-2])$")
+    admin_type: str = Field(min_length=1, max_length=50)
+
+
