@@ -1,223 +1,280 @@
 hostel_name,day,item_name,meal
-Hostel 10,7,Onion Methi Thepla,breakfast
-Hostel 10,7,Rajasthani Chutney,breakfast
-Hostel 10,7,Boil Chana,breakfast
+Hostel 10,7,Beetroot Puri,breakfast
+Hostel 10,7,Bhaji,breakfast
+Hostel 10,7,Mix Sprouts,breakfast
 Hostel 10,7,Milk,breakfast
-Hostel 10,7,Tea/Coffee,breakfast
-Hostel 10,7,Museli+Bournvita,breakfast
+Hostel 10,7,Tea /Coffee,breakfast
+Hostel 10,7,Chocos/Bournvita,breakfast
 Hostel 10,7,Live Counter,breakfast
-Hostel 10,7,B. B. J,breakfast
-Hostel 10,7,Paneer Bhurji/Plum,breakfast
-Hostel 10,7,Watermelon,breakfast
-Hostel 10,7,Paneer Butter Masala,lunch
-Hostel 10,7,Veg Tawa Dry,lunch
-Hostel 10,7,Roti/ Methi Paratha,lunch
-Hostel 10,7,Dal Makhani,lunch
+Hostel 10,7,B B J,breakfast
+Hostel 10,7,Paneer Bhurji,breakfast
+Hostel 10,7,Chikko,breakfast
+Hostel 10,7,Muskmelon,breakfast
+Hostel 10,7,Black Chana Masala,lunch
+Hostel 10,7,Chawli Poriyal,lunch
+Hostel 10,7,Roti,lunch
+Hostel 10,7,Dal Tadka Fry,lunch
 Hostel 10,7,Plain Rice,lunch
 Hostel 10,7,Veg Biryani,lunch
-Hostel 10,7,Sprouts Moong Salad,lunch
-Hostel 10,7,Roasted Papad,lunch
+Hostel 10,7,Green Salad,lunch
+Hostel 10,7,Papad,lunch
 Hostel 10,7,Veg Raita,lunch
-Hostel 10,7,Strawberry Sharbat,lunch
-Hostel 10,7,Garlic Chicken,lunch
-Hostel 10,7,Chinese Bhel,snacks
+Hostel 10,7,Strawberry Sarbat,lunch
+Hostel 10,7,Chicken Masala,lunch
+Hostel 10,7,Pani Puri,snacks
 Hostel 10,7,Milk,snacks
-Hostel 10,7,Tea /Coffee,snacks
-Hostel 10,7,Museli+Bournvita,snacks
-Hostel 10,7,Apple Ber,snacks
-Hostel 10,7,B B J,snacks
+Hostel 10,7,Tea/Coffee,snacks
+Hostel 10,7,Chocos/Bournvita,snacks
+Hostel 10,7,Apple,snacks
+Hostel 10,7,B. B. J,snacks
 Hostel 10,7,Peanut Butter,snacks
-Hostel 10,7,Gatte Ki Sabzi,dinner
-Hostel 10,7,Bhindi Do Pyaza,dinner
-Hostel 10,7,Roti/With /Without Ghee,dinner
-Hostel 10,7,Arhar Dal Tadaka,dinner
+Hostel 10,7,Methi Matar Malai,dinner
+Hostel 10,7,Zunka,dinner
+Hostel 10,7,Roti/Rice Bhakri,dinner
+Hostel 10,7,Green Moong Dal,dinner
 Hostel 10,7,Plain Rice,dinner
-Hostel 10,7,Tomato Rice,dinner
-Hostel 10,7,Cucumber/ Beetroot,dinner
-Hostel 10,7,Minestrone Soup,dinner
-Hostel 10,7,Papad,dinner
-Hostel 10,7,Milk Cake,dinner
+Hostel 10,7,Vangi Bhat,dinner
+Hostel 10,7,Cucumber/Gajar,dinner
+Hostel 10,7,Fryums,dinner
+Hostel 10,7,Dhudhi Soup,dinner
+Hostel 10,7,Sonpapdi,dinner
 Hostel 10,7,Chicken Biryani (Extra),dinner
-Hostel 10,2,Pest Control,breakfast
-Hostel 10,2,Pest Control,lunch
-Hostel 10,2,Pest Control,snacks
-Hostel 10,2,Pest Control,dinner
-Hostel 10,4,Aloo Onion Paratha,breakfast
+Hostel 10,2,Idli /Vada Sambhar,breakfast
+Hostel 10,2,Coconut Chutney,breakfast
+Hostel 10,2,Boil Corn,breakfast
+Hostel 10,2,Milk,breakfast
+Hostel 10,2,Tea/Coffee,breakfast
+Hostel 10,2,Oats/Bornvita,breakfast
+Hostel 10,2,Live Counter,breakfast
+Hostel 10,2,B B J,breakfast
+Hostel 10,2,Paneer Bhurji,breakfast
+Hostel 10,2,Apple,breakfast
+Hostel 10,2,Muskmelon,breakfast
+Hostel 10,2,Palak Paneer,lunch
+Hostel 10,2,Tindli Chana,lunch
+Hostel 10,2,Roti,lunch
+Hostel 10,2,Dal Tadka,lunch
+Hostel 10,2,Plain Rice,lunch
+Hostel 10,2,Tadka Rice,lunch
+Hostel 10,2,Cucumber/Carrot,lunch
+Hostel 10,2,Roasted Papad,lunch
+Hostel 10,2,Peanut Thecha,lunch
+Hostel 10,2,Chhaas,lunch
+Hostel 10,2,Chicken Kosha,lunch
+Hostel 10,2,Misal Pav,snacks
+Hostel 10,2,Milk,snacks
+Hostel 10,2,Tea /Coffee,snacks
+Hostel 10,2,Oats/Bournvita,snacks
+Hostel 10,2,Plum,snacks
+Hostel 10,2,B B J,snacks
+Hostel 10,2,Peanut Butter,snacks
+Hostel 10,2,Stuff Simla Masala,dinner
+Hostel 10,2,Dhudhi Tomato,dinner
+Hostel 10,2,Roti With/ Without Ghee,dinner
+Hostel 10,2,Dal Makhni,dinner
+Hostel 10,2,Plain Rice,dinner
+Hostel 10,2,Curd Rice,dinner
+Hostel 10,2,Mix Salad,dinner
+Hostel 10,2,Rice Papad,dinner
+Hostel 10,2,Minestrone Soup,dinner
+Hostel 10,2,Motichoor Ladoo,dinner
+Hostel 10,2,Egg Biryani (Extra),dinner
+Hostel 10,4,Mix Veg Paratha,breakfast
 Hostel 10,4,Curd,breakfast
-Hostel 10,4,Boil Peanuts,breakfast
+Hostel 10,4,Boiled Corn,breakfast
 Hostel 10,4,Milk,breakfast
 Hostel 10,4,Tea/Coffee,breakfast
-Hostel 10,4,Cornflakes/Bournvita,breakfast
+Hostel 10,4,Chocos/Bournvita,breakfast
 Hostel 10,4,Live Counter,breakfast
-Hostel 10,4,B. B. J,breakfast
-Hostel 10,4,Paneer Bhurji/Gauva,breakfast
+Hostel 10,4,B B J,breakfast
+Hostel 10,4,Paneer Bhurji,breakfast
+Hostel 10,4,Mosambi,breakfast
 Hostel 10,4,Banana,breakfast
-Hostel 10,4,Sindhi Kadi,lunch
-Hostel 10,4,Cabbage Peas,lunch
-Hostel 10,4,Roti/ With/ Without Ghee,lunch
-Hostel 10,4,Veg Moong Dal,lunch
+Hostel 10,4,Dahi Pakoda Kadi,lunch
+Hostel 10,4,Mix Sprouts Dry,lunch
+Hostel 10,4,Roti,lunch
+Hostel 10,4,Dal Varan,lunch
 Hostel 10,4,Plain Rice,lunch
-Hostel 10,4,Veg Dal Khichdi,lunch
-Hostel 10,4,Cucumber Corn Salad,lunch
-Hostel 10,4,Roasted Papad,lunch
+Hostel 10,4,Brown Onion Rice,lunch
+Hostel 10,4,Pasta Salad,lunch
+Hostel 10,4,Sabudana Papad,lunch
 Hostel 10,4,Pineapple Chutney,lunch
-Hostel 10,4,Jaljeera,lunch
-Hostel 10,4,Chicken Tawa Masala,lunch
-Hostel 10,4,Veg Burger (Cheese),snacks
+Hostel 10,4,Rose Sarbat,lunch
+Hostel 10,4,Egg Masala,lunch
+Hostel 10,4,Sev Puri,snacks
 Hostel 10,4,Milk,snacks
 Hostel 10,4,Tea/Coffee,snacks
-Hostel 10,4,Cornflakes/Bournvita,snacks
-Hostel 10,4,Pears,snacks
+Hostel 10,4,Chocos/Bournvita,snacks
+Hostel 10,4,Chikko,snacks
 Hostel 10,4,B. B. J,snacks
-Hostel 10,4,Lobia Masala Gravy,dinner
-Hostel 10,4,Mix Veg Dry,dinner
-Hostel 10,4,Roti/With /Missi Roti,dinner
-Hostel 10,4,Dal Makhni,dinner
+Hostel 10,4,Peanut Butter,snacks
+Hostel 10,4,Ghugni,dinner
+Hostel 10,4,Baigan Bhaja,dinner
+Hostel 10,4,Roti/Multigrain Roti,dinner
+Hostel 10,4,Masoor Dal,dinner
 Hostel 10,4,Plain Rice,dinner
-Hostel 10,4,Curd Rice,dinner
-Hostel 10,4,Mix Salad,dinner
-Hostel 10,4,Knorr Soup,dinner
-Hostel 10,4,Papad,dinner
-Hostel 10,4,Imrti,dinner
-Hostel 10,4,Chicken Koliwada (Extra),dinner
-Hostel 10,1,Puri(Sheera),breakfast
-Hostel 10,1,Bhaji(Green Peas),breakfast
-Hostel 10,1,Boil Chana,breakfast
+Hostel 10,4,Veg Dal Khichdi,dinner
+Hostel 10,4,Stick Salad,dinner
+Hostel 10,4,Roasted Papad,dinner
+Hostel 10,4,Tomato Soup,dinner
+Hostel 10,4,Gulab Jamun,dinner
+Hostel 10,4,Chicken (Kali Mirch) (Extra),dinner
+Hostel 10,1,Onion Peas Poha,breakfast
+Hostel 10,1,Usal,breakfast
+Hostel 10,1,Boil Peanuts,breakfast
 Hostel 10,1,Milk,breakfast
 Hostel 10,1,Tea/Coffee,breakfast
 Hostel 10,1,Cornflakes/Bournvita,breakfast
 Hostel 10,1,Live Counter,breakfast
-Hostel 10,1,B. B. J,breakfast
-Hostel 10,1,Paneer Bhurji/Orange,breakfast
+Hostel 10,1,B B J,breakfast
+Hostel 10,1,Paneer Bhurji,breakfast
+Hostel 10,1,Orange,breakfast
 Hostel 10,1,Banana,breakfast
-Hostel 10,1,Veg Handi,lunch
-Hostel 10,1,Dhoodhi Chana,lunch
+Hostel 10,1,Moong Sprouts Masala,lunch
+Hostel 10,1,Kaccha Kela,lunch
 Hostel 10,1,Roti,lunch
-Hostel 10,1,Jeera Tadka Dal Fry,lunch
+Hostel 10,1,Pancharatan Dal,lunch
 Hostel 10,1,Plain Rice,lunch
-Hostel 10,1,Onion Tadka Rice,lunch
-Hostel 10,1,Cucumber/Beetroot(Boil),lunch
+Hostel 10,1,Lemon Rice,lunch
+Hostel 10,1,Cucumber /Mulli,lunch
 Hostel 10,1,Rice Papad,lunch
 Hostel 10,1,Curd,lunch
-Hostel 10,1,Roohafza,lunch
-Hostel 10,1,Chicken Aloo Jhol,lunch
-Hostel 10,1,Dabeli,snacks
+Hostel 10,1,Lemon Mint Sarbat,lunch
+Hostel 10,1,Chicken Malvani,lunch
+Hostel 10,1,Ragada Patice,snacks
 Hostel 10,1,Milk,snacks
 Hostel 10,1,Tea/Coffee,snacks
 Hostel 10,1,Cornflakes/Bournvita,snacks
 Hostel 10,1,Dragon,snacks
 Hostel 10,1,B B J,snacks
-Hostel 10,1,Soyabean Masala,dinner
-Hostel 10,1,Gawar Dry,dinner
-Hostel 10,1,Roti/With /Mix Roti,dinner
-Hostel 10,1,Dal Varan,dinner
+Hostel 10,1,Veg Hyderabadi,dinner
+Hostel 10,1,Torai Tomato,dinner
+Hostel 10,1,Roti/ Mix Roti,dinner
+Hostel 10,1,Ghee Jeera Dal Fry,dinner
 Hostel 10,1,Plain Rice,dinner
 Hostel 10,1,Herb Rice,dinner
 Hostel 10,1,Beetroot/Carrot,dinner
+Hostel 10,1,Roasted Papad,dinner
 Hostel 10,1,Lemon Coriander Soup,dinner
-Hostel 10,1,Papad,dinner
-Hostel 10,1,Fried Semiya Kheer,dinner
-Hostel 10,1,Paneer Chilly (Extra),dinner
-Hostel 10,5,Onion Peas Poha,breakfast
-Hostel 10,5,Usal,breakfast
+Hostel 10,1,Coconut Barfi,dinner
+Hostel 10,1,Paneer 65 (Extra),dinner
+Hostel 10,5,Veg Rava Upama,breakfast
+Hostel 10,5,Coconut Chutney,breakfast
 Hostel 10,5,Boiled Moong,breakfast
 Hostel 10,5,Milk,breakfast
 Hostel 10,5,Tea /Coffee,breakfast
-Hostel 10,5,Museli+Bournvita,breakfast
+Hostel 10,5,Muesli/Bournvita,breakfast
 Hostel 10,5,Live Counter,breakfast
-Hostel 10,5,B. B. J,breakfast
-Hostel 10,5,Paneer Bhurji/ Chikoo,breakfast
+Hostel 10,5,B B J,breakfast
+Hostel 10,5,Paneer Bhurji,breakfast
+Hostel 10,5,Guava,breakfast
 Hostel 10,5,Pineapple,breakfast
-Hostel 10,5,Veg Korma,lunch
-Hostel 10,5,Red Bhopla,lunch
-Hostel 10,5,Roti/ With/ Without Ghee,lunch
-Hostel 10,5,Arhar Dal Tadka,lunch
+Hostel 10,5,Rajma Masala,lunch
+Hostel 10,5,Aloo Jeera Lasooni,lunch
+Hostel 10,5,Roti/Masala Puri,lunch
+Hostel 10,5,Dal Tadaka,lunch
 Hostel 10,5,Plain Rice,lunch
-Hostel 10,5,Coriander Rice,lunch
-Hostel 10,5,Beetroot Carrot,lunch
-Hostel 10,5,Sabudana Papad,lunch
-Hostel 10,5,Green Mint Chutney,lunch
-Hostel 10,5,Chaas,lunch
-Hostel 10,5,Egg Masala,lunch
-Hostel 10,5,Dahi Puri,snacks
+Hostel 10,5,Jeera Rice,lunch
+Hostel 10,5,Onion/Tomato/Cucumber,lunch
+Hostel 10,5,Roasted Papad,lunch
+Hostel 10,5,Curd,lunch
+Hostel 10,5,Mix Sarbat,lunch
+Hostel 10,5,Achari Chicken,lunch
+Hostel 10,5,Dhokla,snacks
 Hostel 10,5,Milk,snacks
-Hostel 10,5,Tea/Coffee,snacks
-Hostel 10,5,Museli+Bournvita,snacks
+Hostel 10,5,Tea /Coffee,snacks
+Hostel 10,5,Muesli/Bournvita,snacks
 Hostel 10,5,Mix Juice,snacks
-Hostel 10,5,B. B. J,snacks
-Hostel 10,5,Peanut Butter,snacks
-Hostel 10,5,Rajma Masala,dinner
-Hostel 10,5,Aloo Lahsuni,dinner
-Hostel 10,5,Roti/Masala Puri,dinner
-Hostel 10,5,Mix Dal Fry,dinner
+Hostel 10,5,B.B.J,snacks
+Hostel 10,5,Sukto,dinner
+Hostel 10,5,Cabbage Matar,dinner
+Hostel 10,5,Roti With/ Without Ghee,dinner
+Hostel 10,5,Panchratan Dal,dinner
 Hostel 10,5,Plain Rice,dinner
-Hostel 10,5,Lemon Rice,dinner
-Hostel 10,5,Green Salad,dinner
-Hostel 10,5,Manchow Soup,dinner
+Hostel 10,5,Peanut Rice,dinner
+Hostel 10,5,Salad,dinner
 Hostel 10,5,Papad,dinner
-Hostel 10,5,Shrikhand,dinner
-Hostel 10,5,Chicken Curry (Extra),dinner
-Hostel 10,6,Onion Uttapam(Sambhar),breakfast
-Hostel 10,6,Red Chutney,breakfast
-Hostel 10,6,Boil Chickpea,breakfast
+Hostel 10,5,Hot N Sour Soup,dinner
+Hostel 10,5,Fruit Custard,dinner
+Hostel 10,5,Fish Curry (Extra),dinner
+Hostel 10,6,Mix Veg Sweet And Salty Daliya,breakfast
+Hostel 10,6,Green Chutney,breakfast
+Hostel 10,6,Boiled Chickea,breakfast
 Hostel 10,6,Milk,breakfast
 Hostel 10,6,Tea /Coffee,breakfast
 Hostel 10,6,Oats/Bournvita,breakfast
 Hostel 10,6,Live Counter,breakfast
-Hostel 10,6,B. B. J,breakfast
-Hostel 10,6,Paneer Bhurji/ Apple,breakfast
+Hostel 10,6,B B J,breakfast
+Hostel 10,6,Paneer Bhurji,breakfast
+Hostel 10,6,Apple Ber,breakfast
 Hostel 10,6,Banana,breakfast
-Hostel 10,6,Black Watana,lunch
-Hostel 10,6,Gazar Matar Dry,lunch
-Hostel 10,6,Roti/ With/ Without Ghee,lunch
-Hostel 10,6,Dal Palak,lunch
+Hostel 10,6,Soyabean Chilli,lunch
+Hostel 10,6,Mix Veg,lunch
+Hostel 10,6,Roti,lunch
+Hostel 10,6,Dal Lassoni,lunch
 Hostel 10,6,Plain Rice,lunch
-Hostel 10,6,Vangi Bhatt,lunch
-Hostel 10,6,Tadka Cucumber Salad,lunch
-Hostel 10,6,Roasted Papad,lunch
+Hostel 10,6,Peas Pulao,lunch
+Hostel 10,6,Moong Salad,lunch
+Hostel 10,6,Papad,lunch
 Hostel 10,6,Curd,lunch
-Hostel 10,6,Tamarind Sharbat,lunch
-Hostel 10,6,Egg Tawa Masala,lunch
-Hostel 10,6,Tea Party,snacks
-Hostel 10,3,Veg Sev Upma,breakfast
-Hostel 10,3,Coconut Chutney,breakfast
+Hostel 10,6,Rohafza,lunch
+Hostel 10,6,Chicken Aloo Jhol,lunch
+Hostel 10,6,Bread Pakoda,snacks
+Hostel 10,6,Milk,snacks
+Hostel 10,6,Tea /Coffee,snacks
+Hostel 10,6,Oats/Bournvita,snacks
+Hostel 10,6,Orange,snacks
+Hostel 10,6,B.B.J,snacks
+Hostel 10,6,Paneer Kadai Masala,dinner
+Hostel 10,6,Bhindi Masala,dinner
+Hostel 10,6,Roti /Mix Roti,dinner
+Hostel 10,6,Dal Varan,dinner
+Hostel 10,6,Plain Rice,dinner
+Hostel 10,6,Masala Rice,dinner
+Hostel 10,6,Mix Salad,dinner
+Hostel 10,6,Papad,dinner
+Hostel 10,6,Palak Soup,dinner
+Hostel 10,6,Sahi Tukda,dinner
+Hostel 10,6,Chicken Sukha (Extra),dinner
+Hostel 10,3,Mix Oats Chilla,breakfast
+Hostel 10,3,Tomato Chutney,breakfast
 Hostel 10,3,Boil Kidney Beans,breakfast
 Hostel 10,3,Milk,breakfast
 Hostel 10,3,Tea/Coffee,breakfast
-Hostel 10,3,Chocos/Bournvita,breakfast
+Hostel 10,3,Cornflakes/Bournvita,breakfast
 Hostel 10,3,Live Counter,breakfast
-Hostel 10,3,B. B. J,breakfast
-Hostel 10,3,Paneer Bhurji/Mosambi,breakfast
-Hostel 10,3,Muskmelon,breakfast
+Hostel 10,3,B B J,breakfast
+Hostel 10,3,Paneer Bhurj,breakfast
+Hostel 10,3,Sitafal,breakfast
+Hostel 10,3,Watermelon,breakfast
 Hostel 10,3,Chole Bhature,lunch
-Hostel 10,3,Aloo Masala,lunch
+Hostel 10,3,Aloo Posto,lunch
 Hostel 10,3,Roti,lunch
-Hostel 10,3,Pancharatan Dal,lunch
+Hostel 10,3,Akha Masoor Dal,lunch
 Hostel 10,3,Plain Rice,lunch
-Hostel 10,3,Jeera Rice,lunch
-Hostel 10,3,Cucumber Peanut Salad,lunch
-Hostel 10,3,Sabudana Papad,lunch
+Hostel 10,3,Jeera Coriander Rice,lunch
+Hostel 10,3,Corn Salad,lunch
+Hostel 10,3,Fryums,lunch
 Hostel 10,3,Tamarind Chutney,lunch
-Hostel 10,3,Lassi (Sweet/Salty),lunch
-Hostel 10,3,Roohi Fish Masala,lunch
-Hostel 10,3,Hakka Noodles,snacks
+Hostel 10,3,Sweet Lassi/Salted,lunch
+Hostel 10,3,Fish Masala,lunch
+Hostel 10,3,Veg/Fry Cheese Maggi,snacks
 Hostel 10,3,Milk,snacks
-Hostel 10,3,Tea /Coffee,snacks
-Hostel 10,3,Chocos/Bournvita,snacks
-Hostel 10,3,Apple,snacks
-Hostel 10,3,B B J,snacks
-Hostel 10,3,Peanut Butter,snacks
-Hostel 10,3,Methi Matar Malai,dinner
-Hostel 10,3,Tindli Dry,dinner
-Hostel 10,3,Roti/With /Without Ghee,dinner
-Hostel 10,3,Mix Dal Fry,dinner
+Hostel 10,3,Tea/Coffee,snacks
+Hostel 10,3,Cornflakes/Bournvita,snacks
+Hostel 10,3,Apple Ber,snacks
+Hostel 10,3,B.B.J,snacks
+Hostel 10,3,Veg Shahi Kuruma,dinner
+Hostel 10,3,Karela Do Pyaza,dinner
+Hostel 10,3,Roti With/ Without Ghee,dinner
+Hostel 10,3,Yellow Moong Dal,dinner
 Hostel 10,3,Plain Rice,dinner
-Hostel 10,3,Kerala Rice,dinner
-Hostel 10,3,Mulli/Gajar,dinner
-Hostel 10,3,Sambhar,dinner
-Hostel 10,3,Fryums,dinner
-Hostel 10,3,Payasam,dinner
-Hostel 10,3,Kerala Chicken (Extra),dinner
+Hostel 10,3,Bissible Bhatt,dinner
+Hostel 10,3,Cucumber /Gajar,dinner
+Hostel 10,3,Roasted Papad,dinner
+Hostel 10,3,Clear Soup,dinner
+Hostel 10,3,Malpua,dinner
+Hostel 10,3,Chicken Tawa Masala (Extra),dinner
 Hostel 11,3,Odd Week: Medu Bada,breakfast
 Hostel 11,3,Shambhar,breakfast
 Hostel 11,3,Chutney,breakfast
@@ -2202,22 +2259,22 @@ Hostel 17,7,Rasam,dinner
 Hostel 17,7,Ice Cream,dinner
 Hostel 17,7,Chicken Hyderabadi,dinner
 Hostel 17,7,Biryani,dinner
-Hostel 18,4,"Aloo Paratha
-Curd/Tomato Chutney
+Hostel 18,4,"Thepla
+Tomato Chutney/Curd
 Egg Bhurji
-Paneer Bhurji
+ Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
-Peanut
+Mix sprout
 Bread",breakfast
 Hostel 18,4,"Butter and Mix Jam
-Tea and coffee
-Banana/ Boiled Egg
+Tea and Coffee
+Banana / Boiled Egg
 Milk",breakfast
-Hostel 18,4,"Chana Chatpata
- Kadhi Pakoda
+Hostel 18,4,"Channa Chatpata
+Kadhi Pakoda
 Dal Palak
-Daal Khichdi
+Dal khichdi
 Steam Rice
 Roti (with and without butter)
 Mix Pickle
@@ -2226,93 +2283,102 @@ Disco Papad
 Salad
 Sambhar
 Chicken Do Pyaja",lunch
-Hostel 18,4,"Ragada Patties
+Hostel 18,4,"Chinese Bhel
 Bread",snacks
-Hostel 18,4,"P.Butter and Mix Jam
+Hostel 18,4,"Butter and Mix Jam
 Tea/Coffee",snacks
-Hostel 18,4,"Aloo Shimla
-Veg Manchuriyan
-Schezwan Rice
+Hostel 18,4,"Baigan Drumstick
+Pindi Chole Puri
+Tawa Pulav
 Steam Rice
 Dal Varan
-Salad/Veg clear soup
-Roti(with and without Ghee)
+Salad
+
 Mix Pickle
 Rasam
-Gulab Jamun
+Shrikhand
 Fruit
 Chicken koliwada",dinner
-Hostel 18,7,"Dal Pakwan
+Hostel 18,7,"Indoori Poha
+Pineapple Shira/Matki Usal
+Omelete 
+Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Mix Sprout
+Bread",breakfast
+Hostel 18,7,"Butter and Mix Jam
+Tea and Coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,7,"Aloo Masala
+Rajma Kashmiri
+Dalma
+Green Peas Pulav
+Steam Rice
+Azwain Puri
+Mix Pickle
+Curd
+Disco Papad
+Salad
+Rasam/Boiled rice
+Chicken kohlapuri",lunch
+Hostel 18,7,Tea Party,snacks
+Hostel 18,7,Tea Party,dinner
+Hostel 18,3,"Moong Chila 
+Green Chutney/Tomato Sauce
+Omelete
+ Paneer Bhurji
+""Cornflakes/Bournvita/
+Cereals/Chocos/Muesli""
+Sprouted moong
+Bread",breakfast
+Hostel 18,3,"Butter and Mix Jam
+Tea and Coffee
+Banana / Boiled Egg
+Milk",breakfast
+Hostel 18,3,"Aloo Jeera 
+ Chhole Bhature
+Urad Dal Chilka
+ Onion Rice
+Steam Rice
 
+Mix Pickle/Thecha
+Lassi (Sweet/Lassi)
+Fry Papad
+Salad
+Rasam/ Boiled rice
+Egg Bhurji",lunch
+Hostel 18,3,"Maggie
+Bread",snacks
+Hostel 18,3,"Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,3,"Gajar Matar Dry
+Vatana Usal
+Jeera Rice
+Steam Rice
+Yellow Dal
+Salad
+Roti(with and without Ghee)
+Mix Pickle/Veg Soup
+Sambhar
+Fruit Custurd
+Fruit
+Chicken Changeji",dinner
+Hostel 18,5,"Puri Bhaji
+Sambhar/Coconut Chutney
 Egg Bhurji
 Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
 Corn 
 Bread",breakfast
-Hostel 18,7,"Butter and Mix Jam
-Tea and Coffee
-Banana / Boiled Egg
-Milk",breakfast
-Hostel 18,7,"Tendli Dry
-Chole Bhature
-Dal Tadka
-Lemon Rice
-Steam Rice
-Roti (with and without butter)
-Mix Pickle
-Lassi/Thecha
-Roasted Papad
-Mix Salad
-Rasam/Boiled rice
-Chicken kohlapuri",lunch
-Hostel 18,7,"Vada Pav
-Bread",snacks
-Hostel 18,7,"P.Butter and Mix Jam
-Tea/Coffee",snacks
-Hostel 18,7,"Tendli Channa
-Paneer Do Pyaza/Egg Malwani
-Jeera rice
-Steam Rice
-Dal fry
-Salad
-Roti(with and without Ghee)
-Mix Pickle
-Samber
-Rasagulla
-Fruit",dinner
-Hostel 18,3,Hard Cleaning,breakfast
-Hostel 18,3,Hard Cleaning,lunch
-Hostel 18,3,"Pav Bhaji
-Bread",snacks
-Hostel 18,3,"Butter and Mix Jam
-Tea/Coffee",snacks
-Hostel 18,3,"Cabbage Kolhapuri
-Rajma Masala
-Tomato Rice
-Steam Rice
-Yellow Dal
-Salad
-Roti(with and without Ghee)
-Mix Pickle
-Sambar
-Siwai Kheer 
-Fruit
-Chicken Changeji",dinner
-Hostel 18,5,"Mix Veg Uttapam 
-Sambar and Chutney
-Egg Bhurji
-Paneer Bhurji
-""Cornflakes/Bournvita/
-Cereals/Chocos/Muesli""
-Sprouted Chana
-Bread",breakfast
 Hostel 18,5,"Butter and Mix Jam
-Tea and coffee
-Banana / Boiled Egg
+Tea and Coffee
+Banana
 Milk/Juice",breakfast
-Hostel 18,5,"Gajar Matar Dry
-Aloo Soyabean Rasa
+Hostel 18,5,"Aloo Soybean 
+Chawli masala
 Dal Lasooni
 Lemon Rice
 Steam Rice
@@ -2323,11 +2389,11 @@ Roasted Papad
 Mix Salad
 Rasam/Boiled rice
 Chicken Maharaja",lunch
-Hostel 18,5,"Bhel Puri
+Hostel 18,5,"Masala  Sandwich
 Bread",snacks
-Hostel 18,5,"Butter and Mix Jam
+Hostel 18,5,"P. Butter and Mix Jam
 Tea/Coffee & Cut Fruit",snacks
-Hostel 18,5,"Corn Palak
+Hostel 18,5,"Akha Masoor 
 Dum Aloo Kashmiri
 Veg Dum Biryani
 Steam Rice
@@ -2340,9 +2406,9 @@ Ice Cream
 
 Chicken Dum Biryani",dinner
 Hostel 18,5,3 Piece,dinner
-Hostel 18,2,"Idli vada
-Sambar & Chutney
-Omelette
+Hostel 18,2,"Sabuddana Khichdi
+Lassi
+Omelete
 Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
@@ -2352,22 +2418,37 @@ Hostel 18,2,"Butter and Mix Jam
 Tea and coffee
 Banana / Boiled Egg
 Milk",breakfast
-Hostel 18,2,"Moong Torai
-Matar Paneer
+Hostel 18,2,"Pumkin Alsi 
+Paneer Makhanwala
 Dal Adraki
 Jeera Rice 
 Steam Rice
 Roti (with and without butter)
 Mix Pickle
 Jaljira
-Disco Papad
+Fryums
 Salad
-Sambhar",lunch
-Hostel 18,2,Pest Control,snacks
-Hostel 18,2,Pest Control,dinner
-Hostel 18,1,"Poha 
-Pineapple Sheera/Matki Usal
-Egg Omlette
+Sambhar
+Egg Bhurji",lunch
+Hostel 18,2,"Dabeli
+Bread",snacks
+Hostel 18,2,"P. Butter and Mix Jam
+Tea/Coffee",snacks
+Hostel 18,2,"Baigan Chokha 
+Rajma Masala
+Tadka Rice
+Steam Rice
+Dal Panchratna
+Salad
+Roti(with and without Ghee)
+Mix Pickle
+Sambar
+Rice Kheer 
+Fruit
+Methi Chicken",dinner
+Hostel 18,1,"Gobhi Paratha
+Curd/Tomato Chutney
+Egg Bhurji
 Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
@@ -2377,73 +2458,74 @@ Hostel 18,1,"Butter and Mix Jam
 Tea and coffee
 Banana/ Boiled Egg
 Milk",breakfast
-Hostel 18,1,"Tawa Veg
-Chawli masala
-Dal Makhani
-Lemon Rice
+Hostel 18,1,"Cabbage Kolhapuri
+Black Chana Masala 
+Dal Fry
+Curd Rice
 Steam Rice
 Roti (with and without butter)
 Mix Pickle
-Lemon Water
-Roasted Papad
-Mix Salad
+Butter Milk
+Disco Papad
+Salad
 Rasam/Boiled rice
 Chicken Masala",lunch
-Hostel 18,1,"Mysore Bonda
+Hostel 18,1,"Hakka Noodle
 Bread",snacks
 Hostel 18,1,"Butter and Mix Jam
 Tea/Coffee",snacks
-Hostel 18,1,"Aloo Bhaji
-Chole
-Veg Pulav
+Hostel 18,1,"Mix  Veg Dry
+Veg Kofta 
+ Besebele Bhat
 Steam Rice
-Yellow Dal
-Salad/Boondi Raita
-Azwain Puri
+Dal Tadka
+ Salad
+Roti (with and without Ghee)
 Mix Pickle
-Sambar
-Karam Sai Barfi
+Sambhar
+Jalebi
 Fruit
-Halwa Chana",dinner
+Chicken Butter Masala",dinner
 Hostel 18,6,"Masala Dosa
 Sambhar/Coconut Chutney
 Egg Bhurji
 Paneer Bhurji
 ""Cornflakes/Bournvita/
 Cereals/Chocos/Muesli""
-Mix Sprout
+Black Boiled Chana 
 Bread",breakfast
 Hostel 18,6,"Butter and Mix Jam
 Tea and Coffee
 Banana / Boiled Egg
 Milk",breakfast
-Hostel 18,6,"Aloo Chatpata
-Rajma Kashmiri
-Dalma
-Green Peas Pulav
+Hostel 18,6,"Raw Papaya Alsi
+Methi Matar
+Dal Makhani
+Carrot Rice
 Steam Rice
-Azwain Puri
+Puri
 Mix Pickle
-Curd
-Disco Papad
-Salad
-Rasam/Boiled rice
+Mint Shikanji
+Fryums
+Mix Sprout Salad
+Sambhar
 Chicken Dhaba",lunch
 Hostel 18,6,"Pani Puri
 Bread",snacks
 Hostel 18,6,"Butter and Mix Jam
 Tea/Coffee",snacks
-Hostel 18,6,"Bhindi Do Pyaja
-Black Chana Masala 
-Tawa Pulav
+Hostel 18,6,"Gawar Singdana 
+Paneer Tikka Masala/Egg Masala
+Schezwan rice
 Steam Rice
-Dal Varan
+Dal Makhani
 Salad
 Roti(with and without Ghee)
 Mix Pickle
 Rasam
-Fruit Custurd
-Fruit",dinner
+Gulab Jamun
+Fruit
+Chicken Pahadi",dinner
 Hostel 19,1,Poha,breakfast
 Hostel 19,1,Matki Ussal,breakfast
 Hostel 19,1,Boiled Chana,breakfast
