@@ -11,8 +11,11 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from app.database import Base, engine, get_db
-from app.models import User, Hostel, HostelAdminRequest, Role, UserRole
-from app.schemas import UserCreate, UserUpdate, UserResponse, TokenResponse, HostelAdminRegister
+from app.models import (
+    User, Hostel, HostelAdminRequest, Role, UserRole, StudentProfile, Mess, HostelMess,
+    FoodItem, MessMenu, MenuUpdateBatch, MenuSourceSnapshot, MenuChangeLog,
+)
+from app.schemas import UserCreate, UserUpdate, UserResponse, TokenResponse, HostelAdminRegister, StudentRegister
 from app.auth import (
     hash_password,
     verify_password,
@@ -340,6 +343,103 @@ def reject_hostel_admin_request(
         "message": "Hostel admin request rejected successfully",
         "request_id": request.id,
         "status": request.status
+    }
+
+
+@app.post("/auth/register/student", status_code=201)
+def register_student(
+    data: StudentRegister,
+    db: Session = Depends(get_db)
+):
+    existing_user = db.scalar(
+        select(User).where(
+            (User.username == data.username) |
+            (User.email == data.email)
+        )
+    )
+
+    if existing_user:
+        raise HTTPException(
+            status_code=409,
+            detail="Username or email already registered"
+        )
+
+    existing_roll_number = db.scalar(
+        select(StudentProfile).where(
+            StudentProfile.roll_number == data.roll_number
+        )
+    )
+
+    if existing_roll_number:
+        raise HTTPException(status_code=409, detail="Roll number already registered")
+
+    hostel_number = data.hostel_number.upper()
+    hostel = db.scalar(
+        select(Hostel).where(
+            Hostel.hostel_number == hostel_number,
+            Hostel.is_active.is_(True)
+        )
+    )
+
+    if hostel is None:
+        raise HTTPException(status_code=400, detail="Invalid or inactive hostel")
+
+    student_role = db.scalar(
+        select(Role).where(Role.name == "STUDENT")
+    )
+
+    if student_role is None:
+        raise HTTPException(status_code=500, detail="STUDENT role not configured")
+
+    user = User(
+        username=data.username,
+        email=data.email,
+        hashed_password=hash_password(data.password),
+        is_active=True
+    )
+
+    try:
+        db.add(user)
+        db.flush()
+
+        db.add(
+            StudentProfile(
+                user_id=user.id,
+                full_name=data.full_name,
+                roll_number=data.roll_number,
+                hostel_id=hostel.id,
+                room_number=data.room_number,
+                date_of_birth=data.date_of_birth,
+                height_cm=data.height_cm,
+                weight_kg=data.weight_kg,
+                activity_level=data.activity_level
+            )
+        )
+
+        db.add(
+            UserRole(
+                user_id=user.id,
+                role_id=student_role.id,
+                hostel_id=hostel.id
+            )
+        )
+
+        db.commit()
+        db.refresh(user)
+
+    except Exception:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Student registration failed")
+
+    return {
+        "message": "Student registered successfully",
+        "user_id": user.id,
+        "username": user.username,
+        "email": user.email,
+        "full_name": data.full_name,
+        "roll_number": data.roll_number,
+        "hostel_number": hostel.hostel_number,
+        "role": "STUDENT"
     }
 
 
