@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -42,5 +42,19 @@ class HostelAdminRegister(BaseModel):
     password: str = Field(min_length=8, max_length=128)
     hostel_number: str = Field(pattern=r"^h([1-9]|1[0-9]|2[0-2])$")
     admin_type: str = Field(min_length=1, max_length=50)
+
+
+class StudentRegister(BaseModel):
+    username: str = Field(min_length=3, max_length=50)
+    email: str = Field(min_length=5, max_length=255)
+    password: str = Field(min_length=8, max_length=128)
+    full_name: str = Field(min_length=1, max_length=100)
+    roll_number: str = Field(min_length=1, max_length=30)
+    hostel_number: str = Field(pattern=r"^[hH]([1-9]|1[0-9]|2[0-2])$")
+    room_number: str = Field(min_length=1, max_length=20)
+    date_of_birth: date | None = None
+    height_cm: float | None = Field(default=None, gt=0)
+    weight_kg: float | None = Field(default=None, gt=0)
+    activity_level: str | None = None
 
 
