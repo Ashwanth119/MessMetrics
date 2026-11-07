@@ -228,6 +228,10 @@ class HostelMess(Base):
         nullable=False,
     )
 
+class TestFood(Base):
+    __tablename__="Test_food_items"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    name: Mapped[str] = mapped_column(String(100), unique=True, nullable=False)
 
 class FoodItem(Base):
     __tablename__ = "food_items"

@@ -1,7 +1,8 @@
 
 from contextlib import asynccontextmanager
-
-from fastapi import FastAPI, Depends, HTTPException, status
+import time
+import requests
+from fastapi import FastAPI, Depends, HTTPException, Request, status
 from fastapi.security import OAuth2PasswordRequestForm
 
 from datetime import datetime, timezone
@@ -24,12 +25,21 @@ from app.auth import (
     get_current_roles,
     require_role,
 )
-
+from app.router1 import task_routes
+from app.logging_config import logger
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    Base.metadata.create_all(bind=engine)
-    yield
+    logger.info("Starting MessMetrics API")
+    try:
+        Base.metadata.create_all(bind=engine)
+        logger.info("Database tables are ready")
+        yield
+    except Exception:
+        logger.exception("Application lifespan failed")
+        raise
+    finally:
+        logger.info("Stopping MessMetrics API")
 
 
 app = FastAPI(
@@ -37,11 +47,40 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.include_router(task_routes)
+
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    started_at = time.perf_counter()
+    try:
+        response = await call_next(request)
+    except Exception:
+        duration_ms = (time.perf_counter() - started_at) * 1000
+        logger.exception(
+            "Unhandled error for %s %s after %.2f ms",
+            request.method,
+            request.url.path,
+            duration_ms,
+        )
+        raise
+
+    duration_ms = (time.perf_counter() - started_at) * 1000
+    logger.info(
+        "%s %s returned %s in %.2f ms",
+        request.method,
+        request.url.path,
+        response.status_code,
+        duration_ms,
+    )
+    return response
+
 
 # Home
 @app.get("/")
 def home():
     return {"message": "Welcome to MessMetrics API"}
+
 
 
 # CREATE: Register a user
@@ -441,5 +480,3 @@ def register_student(
         "hostel_number": hostel.hostel_number,
         "role": "STUDENT"
     }
-
-

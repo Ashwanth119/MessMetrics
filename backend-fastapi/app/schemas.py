@@ -57,4 +57,22 @@ class StudentRegister(BaseModel):
     weight_kg: float | None = Field(default=None, gt=0)
     activity_level: str | None = None
 
+class MessCreate(BaseModel):
+    name: str = Field(min_length=1, max_length=100)
+    is_active: bool = True
 
+
+class MessUpdate(BaseModel):
+    name: str | None = Field(default=None, min_length=1, max_length=100)
+    is_active: bool | None = None
+
+
+
+class MessResponse(BaseModel):
+    name: str
+    is_active: bool
+    created_at: datetime
+
+
+class FoodItemCreate(BaseModel):
+    name: str = Field(min_length=1, max_length=100)
