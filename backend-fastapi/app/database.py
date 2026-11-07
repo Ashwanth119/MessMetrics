@@ -1,9 +1,11 @@
 import os
+from pathlib import Path
+from app.settings import settings
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, URL, text
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 DATABASE_URL = URL.create(
     drivername="postgresql+psycopg",
@@ -14,10 +16,19 @@ DATABASE_URL = URL.create(
     database=os.environ["DB_NAME"],
 )
 
-engine = create_engine(
-    DATABASE_URL,
-    pool_pre_ping=True,
-)
+
+# Base=declarative_base()
+engine=create_engine(url=settings.DB_CONNECTION)
+LocalSession=sessionmaker(bind=engine)
+
+def get_db():
+    session=LocalSession()
+    try:
+        yield session
+    finally:
+        session.close()
+
+
 
 SessionLocal = sessionmaker(
     bind=engine,
