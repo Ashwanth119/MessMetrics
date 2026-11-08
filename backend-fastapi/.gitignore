@@ -5,3 +5,6 @@
 __pycache__/
 
 .env
+
+# Runtime application logs
+logs/
