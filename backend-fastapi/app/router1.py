@@ -1,53 +1,65 @@
 import requests
 from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy import select,delete
+from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
-
+import os
 from app.database import get_db
-from app.models import TestFood
+from app.models1 import Food,FoodAlias,FoodNutrition
 from app.schemas import FoodItemCreate
+from rapidfuzz import fuzz
+from dotenv import load_dotenv
 
+load_dotenv()
 task_routes = APIRouter(prefix="/tasks")
 
 
-@task_routes.delete("/get/items_clear")
-def clear_items(db: Session = Depends(get_db)):
+@task_routes.get("/get_calories_per_person")
+def calculate_calories(age, height, weight, sex, activity):
+    # Calculate BMR
+    if sex.lower() == "male":
+        bmr = 10 * weight + 6.25 * height - 5 * age + 5
+    elif sex.lower() == "female":
+        bmr = 10 * weight + 6.25 * height - 5 * age - 161
+    else:
+        raise ValueError("sex must be 'male' or 'female'")
 
-    try:
-        result = db.execute(delete(TestFood))
+    # Calculate TDEE
+    activity_factors = {
+        "sedentary": 1.2,
+        "light": 1.375,
+        "moderate": 1.55,
+        "very_active": 1.725,
+        "extra_active": 1.9
+    }
 
-        deleted_count = result.rowcount
+    if activity not in activity_factors:
+        raise ValueError("Invalid activity level")
 
-        db.commit()
+    tdee = bmr * activity_factors[activity]
 
-        return {
-            "message": "TestFood table cleared successfully",
-            "deleted_records": deleted_count
-        }
-
-    except Exception as exc:
-        db.rollback()
-
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Could not clear TestFood table"
-        ) from exc
-
+    return {
+        "bmr": round(bmr),
+        "maintenance_calories": round(tdee)
+    }
 
 
+# result = calculate_calories(
+#     age=22,
+#     height=175,
+#     weight=75,
+#     sex="male",
+#     activity="moderate"
+# )
 
-
-
-
-
+# print(result)
 
 
 
 @task_routes.post("/create/items", status_code=status.HTTP_201_CREATED)
 def create_item(body: FoodItemCreate, db: Session = Depends(get_db)):
     existing_item = db.scalar(
-        select(TestFood).where(TestFood.name == body.name.strip())
+        select(Food).where(Food.name == body.name.strip())
     )
     if existing_item:
         raise HTTPException(
@@ -55,24 +67,23 @@ def create_item(body: FoodItemCreate, db: Session = Depends(get_db)):
             detail="Test food already exists",
         )
 
-    item = TestFood(name=body.name.strip())
-    db.add(item)
-    try:
-        db.commit()
-        db.refresh(item)
-    except IntegrityError as exc:
-        db.rollback()
-        raise HTTPException(
-            status_code=status.HTTP_409_CONFLICT,
-            detail="Test food already exists",
-        ) from exc
+    item = Food(name=body.name.strip())
+    # db.add(item)
+    # try:
+    #     db.commit()
+    #     db.refresh(item)
+    # except IntegrityError as exc:
+    #     db.rollback()
+    #     raise HTTPException(
+    #         status_code=status.HTTP_409_CONFLICT,
+    #         detail="Test food already exists",
+    #     ) from exc
+    response = insert_food_nutrition(db, body.name.strip())
+    
+    return {"id": item.id, "name": item.name, "response":response}
 
-    return {"id": item.id, "name": item.name}
 
-
-@task_routes.post("/get/items_inserted")
-def insert_items(db: Session = Depends(get_db)):
-
+def get_data():
     # 1. Set request headers
     headers = {
         "User-Agent": (
@@ -105,81 +116,192 @@ def insert_items(db: Session = Depends(get_db)):
             status_code=status.HTTP_502_BAD_GATEWAY,
             detail="Menu API returned an unexpected response",
         )
+    return menu_data
 
-    # 4. Extract all food items
-    meals_times = ["breakfast", "lunch", "snacks", "dinner"]
+def extract_items(menu_data):
 
-    item_names: set[str] = set()
+    item_names = set()
+    meals_times = ["breakfast"]
 
-    for group in menu_data:
-
-        if not isinstance(group, dict):
-            continue
-
-        meals = group.get("mess", [])
-
-        if not isinstance(meals, list):
-            continue
-
-        for meal in meals:
-
-            if not isinstance(meal, dict):
-                continue
-
-            for times in meals_times:
-
-                food = meal.get(times)
-
-                if isinstance(food, str):
-
-                    item_names.update(
-                        name.strip()
-                        for name in food.replace(",", "\n").splitlines()
-                        if name.strip()
-                    )
-    # return item_names
-    # 5. Find items already present in database
-    existing_names: set[str] = set()
-
-    if item_names:
-
-        existing_names = set(
-            db.scalars(
-                select(TestFood.name).where(
-                    TestFood.name.in_(item_names)
+    for i in menu_data:
+        for j in i['mess']:
+            for meal in meals_times:
+                item_names.update(
+                    name.strip()
+                    for name in j.get(meal, "").replace(",", "\n").splitlines()
+                    if name.strip()
                 )
-            ).all()
+
+    return item_names
+
+
+def group_similar_items(item_names):
+
+    similar_items = []
+    visited = set()
+
+    item_names = sorted(item_names)
+
+    for i, item in enumerate(item_names):
+
+        if item in visited:
+            continue
+
+        group = [item]
+        visited.add(item)
+
+        for other in item_names[i + 1:]:
+
+            if other not in visited:
+
+                score = fuzz.token_sort_ratio(
+                    item.lower(), other.lower()
+                )
+
+                if score >= 85:
+                    group.append(other)
+                    visited.add(other)
+
+        similar_items.append(group)
+
+    return similar_items
+
+
+def insert_food(db: Session, canonical_name):
+
+    food = db.scalar(
+        select(Food).where(
+            Food.name == canonical_name
+        )
+    )
+
+    if not food:
+        food = Food(name=canonical_name)
+        db.add(food)
+        db.flush()
+
+        return food, True
+
+    return food, False
+
+
+# 4. Insert food aliases
+def insert_aliases(db: Session, group, food_id):
+
+    inserted_aliases = []
+
+    for name in group[1:]:
+
+        existing_alias = db.scalar(
+            select(FoodAlias).where(
+                FoodAlias.food_name == name
+            )
         )
 
-    # 6. Identify new food items
-    new_names = item_names - existing_names
+        if not existing_alias:
 
-    new_items = [
-        TestFood(name=name)
-        for name in sorted(new_names)
-    ]
+            db.add(
+                FoodAlias(
+                    food_name=name,
+                    food_id=food_id
+                )
+            )
 
-    # 7. Insert new items into database
-    if new_items:
+            inserted_aliases.append(name)
 
-        db.add_all(new_items)
-
-        try:
-            db.commit()
-
-        except IntegrityError as exc:
-            db.rollback()
-
+        elif existing_alias.food_id != food_id:
             raise HTTPException(
                 status_code=status.HTTP_409_CONFLICT,
-                detail="One or more food records already exist",
-            ) from exc
+                detail=f"{name} is already linked to another food"
+            )
 
-    # 8. Return insertion summary
+    return inserted_aliases
+
+
+@task_routes.post("/get/items_inserted")
+def insert_items(db: Session = Depends(get_db)):
+
+    menu_data = get_data()
+
+    # Extract items
+    item_names = extract_items(menu_data)
+
+    # Group similar items
+    similar_items = group_similar_items(item_names)
+
+    inserted_foods = []
+    inserted_aliases = []
+
+    try:
+
+        for group in similar_items:
+
+            canonical_name = group[0]
+
+            # Insert canonical food
+            food, is_new = insert_food(
+                db, canonical_name
+            )
+
+            if is_new:
+                inserted_foods.append(canonical_name)
+
+            # Insert aliases
+            aliases = insert_aliases(
+                db,
+                group,
+                food.id
+            )
+
+            inserted_aliases.extend(aliases)
+
+        db.commit()
+
+    except IntegrityError as exc:
+        db.rollback()
+
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail="One or more food records already exist"
+        ) from exc
+
+    except Exception:
+        db.rollback()
+        raise
+
     return {
         "total_unique_items_found": len(item_names),
-        "already_existing_items": len(existing_names),
-        "new_items_inserted": len(new_items),
-        "inserted_items": sorted(new_names),
-        "existing_items": sorted(existing_names),
+        "similar_groups": similar_items,
+        "new_foods_inserted": len(inserted_foods),
+        "new_aliases_inserted": len(inserted_aliases),
+        "inserted_foods": inserted_foods,
+        "inserted_aliases": inserted_aliases
     }
+
+def get_food_id(db: Session, name):
+
+    # Check canonical food
+    food = db.query(Food).filter(
+        Food.name.ilike(name)
+    ).first()
+
+    if food:
+        return food.id
+
+    # Check alias
+    alias = db.query(FoodAlias).filter(
+        FoodAlias.food_name.ilike(name)
+    ).first()
+
+    if alias:
+        return alias.food_id
+
+    return None
+
+def insert_food_nutrition(db: Session, query):
+    API_KEY = os.getenv("CALORIE_NINJA_API_KEY")
+    api_url = 'https://api.calorieninjas.com/v1/nutrition?query='
+    response = requests.get(api_url + query, headers={'X-Api-Key': API_KEY})
+    if response.status_code != requests.codes.ok:
+        print("Error:", response.status_code, response.text)
+    return response.text
