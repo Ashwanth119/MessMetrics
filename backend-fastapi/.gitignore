@@ -3,5 +3,5 @@
 
 # Python cache
 __pycache__/
-
+logs/
 .env
