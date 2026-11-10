@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
-
+from app.router1 import task_routes
 from app.database import Base, engine, get_db
 from app.models import (
     User, Hostel, HostelAdminRequest, Role, UserRole, StudentProfile, Mess, HostelMess,
@@ -39,6 +39,9 @@ app = FastAPI(
     title="MessMetrics API",
     lifespan=lifespan,
 )
+
+
+app.include_router(task_routes)
 
 app.add_middleware(
     CORSMiddleware,
