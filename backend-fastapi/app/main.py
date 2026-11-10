@@ -3,6 +3,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
+from fastapi.middleware.cors import CORSMiddleware
 
 from datetime import datetime, timezone
 
@@ -25,6 +26,8 @@ from app.auth import (
     require_role,
 )
 
+import os
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -35,6 +38,18 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="MessMetrics API",
     lifespan=lifespan,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        origin.strip()
+        for origin in os.getenv("FRONTEND_ORIGINS", "").split(",")
+        if origin.strip()
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
 )
 
 
@@ -371,9 +386,13 @@ def register_student(
     )
 
     if existing_roll_number:
-        raise HTTPException(status_code=409, detail="Roll number already registered")
+        raise HTTPException(
+            status_code=409,
+            detail="Roll number already registered"
+        )
 
     hostel_number = data.hostel_number.upper()
+
     hostel = db.scalar(
         select(Hostel).where(
             Hostel.hostel_number == hostel_number,
@@ -382,14 +401,20 @@ def register_student(
     )
 
     if hostel is None:
-        raise HTTPException(status_code=400, detail="Invalid or inactive hostel")
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid or inactive hostel"
+        )
 
     student_role = db.scalar(
         select(Role).where(Role.name == "STUDENT")
     )
 
     if student_role is None:
-        raise HTTPException(status_code=500, detail="STUDENT role not configured")
+        raise HTTPException(
+            status_code=500,
+            detail="STUDENT role not configured"
+        )
 
     user = User(
         username=data.username,
@@ -402,34 +427,43 @@ def register_student(
         db.add(user)
         db.flush()
 
-        db.add(
-            StudentProfile(
-                user_id=user.id,
-                full_name=data.full_name,
-                roll_number=data.roll_number,
-                hostel_id=hostel.id,
-                room_number=data.room_number,
-                date_of_birth=data.date_of_birth,
-                height_cm=data.height_cm,
-                weight_kg=data.weight_kg,
-                activity_level=data.activity_level
-            )
+        student_profile = StudentProfile(
+            user_id=user.id,
+            full_name=data.full_name,
+            roll_number=data.roll_number,
+            hostel_id=hostel.id,
+            room_number=data.room_number,
+            date_of_birth=data.date_of_birth,
+            height_cm=data.height_cm,
+            weight_kg=data.weight_kg,
+            activity_level=data.activity_level
         )
 
-        db.add(
-            UserRole(
-                user_id=user.id,
-                role_id=student_role.id,
-                hostel_id=hostel.id
-            )
+        db.add(student_profile)
+
+        user_role = UserRole(
+            user_id=user.id,
+            role_id=student_role.id,
+            hostel_id=hostel.id
         )
 
+        db.add(user_role)
         db.commit()
         db.refresh(user)
 
+    except IntegrityError:
+        db.rollback()
+        raise HTTPException(
+            status_code=409,
+            detail="Username, email, or roll number already registered"
+        )
+
     except Exception:
         db.rollback()
-        raise HTTPException(status_code=500, detail="Student registration failed")
+        raise HTTPException(
+            status_code=500,
+            detail="Student registration failed"
+        )
 
     return {
         "message": "Student registered successfully",
@@ -441,5 +475,27 @@ def register_student(
         "hostel_number": hostel.hostel_number,
         "role": "STUDENT"
     }
+
+
+@app.get("/hostels")
+def get_hostels(db: Session = Depends(get_db)):
+    hostels = db.scalars(
+        select(Hostel)
+        .where(Hostel.is_active.is_(True))
+    ).all()
+
+    hostels = sorted(
+        hostels,
+        key=lambda hostel: int(hostel.hostel_number[1:])
+    )
+
+    return [
+        {
+            "id": hostel.id,
+            "hostel_number": hostel.hostel_number,
+            "name": hostel.name
+        }
+        for hostel in hostels
+    ]
 
 
