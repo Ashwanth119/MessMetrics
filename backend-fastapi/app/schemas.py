@@ -1,5 +1,9 @@
 from datetime import date, datetime
-
+from sqlalchemy import (
+    Column, Integer, String, Float, ForeignKey
+)
+from typing import Optional
+from sqlalchemy.orm import relationship
 from pydantic import BaseModel, ConfigDict, Field
 
 
