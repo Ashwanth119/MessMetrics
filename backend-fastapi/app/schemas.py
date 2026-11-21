@@ -2,7 +2,7 @@ from datetime import date, datetime
 from sqlalchemy import (
     Column, Integer, String, Float, ForeignKey
 )
-from typing import Optional
+from typing import Optional, Literal
 from sqlalchemy.orm import relationship
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -61,4 +61,43 @@ class StudentRegister(BaseModel):
     weight_kg: float | None = Field(default=None, gt=0)
     activity_level: str | None = None
 
+
+
+class MealLogItemInput(BaseModel):
+    mess_menu_id: int = Field(gt=0)
+    servings_consumed: float = Field(gt=0)
+
+
+class MealLogUpsert(BaseModel):
+    log_date: date
+    meal_type: Literal["BREAKFAST", "LUNCH", "SNACKS", "DINNER"]
+    items: list[MealLogItemInput] = Field(default_factory=list)
+
+
+class MealLogItemResponse(BaseModel):
+    id: int
+    mess_menu_id: int | None
+    food_name: str
+    servings_consumed: float
+    calories: float | None
+    protein_g: float | None
+    carbohydrates_total_g: float | None
+    sugar_g: float | None
+    fiber_g: float | None
+    fat_total_g: float | None
+    fat_saturated_g: float | None
+    cholesterol_mg: float | None
+    sodium_mg: float | None
+    potassium_mg: float | None
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class MealLogResponse(BaseModel):
+    id: int
+    log_date: date
+    meal_type: str
+    items: list[MealLogItemResponse]
+
+    model_config = ConfigDict(from_attributes=True)
 

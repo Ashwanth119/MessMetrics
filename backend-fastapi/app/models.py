@@ -4,7 +4,7 @@ from sqlalchemy import (
     String, Boolean, DateTime, Integer, Float, Date, func, ForeignKey, UniqueConstraint,
     Index, CheckConstraint
 )
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.dialects.postgresql import JSONB
 
 
@@ -40,6 +40,26 @@ class User(Base):
         nullable=False,
     )
 
+    student_profile: Mapped["StudentProfile | None"] = relationship(
+        back_populates="user", cascade="all, delete-orphan", uselist=False
+    )
+    user_roles: Mapped[list["UserRole"]] = relationship(
+        back_populates="user", foreign_keys="UserRole.user_id", cascade="all, delete-orphan"
+    )
+    assigned_user_roles: Mapped[list["UserRole"]] = relationship(
+        back_populates="assigned_by_user", foreign_keys="UserRole.assigned_by"
+    )
+    hostel_admin_request: Mapped["HostelAdminRequest | None"] = relationship(
+        back_populates="user", foreign_keys="HostelAdminRequest.user_id",
+        cascade="all, delete-orphan", uselist=False
+    )
+    reviewed_hostel_admin_requests: Mapped[list["HostelAdminRequest"]] = relationship(
+        back_populates="reviewed_by_user", foreign_keys="HostelAdminRequest.reviewed_by"
+    )
+    menu_update_batches: Mapped[list["MenuUpdateBatch"]] = relationship(
+        back_populates="updated_by_user", foreign_keys="MenuUpdateBatch.updated_by"
+    )
+
 
 class Hostel(Base):
     __tablename__ = "hostels"
@@ -66,6 +86,16 @@ class Hostel(Base):
         nullable=False,
     )
 
+    student_profiles: Mapped[list["StudentProfile"]] = relationship(back_populates="hostel")
+    user_roles: Mapped[list["UserRole"]] = relationship(back_populates="hostel")
+    hostel_admin_requests: Mapped[list["HostelAdminRequest"]] = relationship(back_populates="hostel")
+    hostel_mess: Mapped["HostelMess | None"] = relationship(
+        back_populates="hostel", uselist=False
+    )
+    menu_source_snapshots: Mapped[list["MenuSourceSnapshot"]] = relationship(
+        back_populates="hostel"
+    )
+
 
 class Role(Base):
     __tablename__ = "roles"
@@ -81,6 +111,8 @@ class Role(Base):
     description: Mapped[str] = mapped_column(
         String(255), nullable=False
     )
+
+    user_roles: Mapped[list["UserRole"]] = relationship(back_populates="role")
 
 
 class UserRole(Base):
@@ -130,6 +162,15 @@ class UserRole(Base):
         nullable=False,
     )
 
+    user: Mapped["User"] = relationship(
+        back_populates="user_roles", foreign_keys=[user_id]
+    )
+    role: Mapped["Role"] = relationship(back_populates="user_roles")
+    hostel: Mapped["Hostel | None"] = relationship(back_populates="user_roles")
+    assigned_by_user: Mapped["User | None"] = relationship(
+        back_populates="assigned_user_roles", foreign_keys=[assigned_by]
+    )
+
 
 class HostelAdminRequest(Base):
     __tablename__ = "hostel_admin_requests"
@@ -174,6 +215,14 @@ class HostelAdminRequest(Base):
         nullable=False
     )
 
+    user: Mapped["User"] = relationship(
+        back_populates="hostel_admin_request", foreign_keys=[user_id]
+    )
+    hostel: Mapped["Hostel"] = relationship(back_populates="hostel_admin_requests")
+    reviewed_by_user: Mapped["User | None"] = relationship(
+        back_populates="reviewed_hostel_admin_requests", foreign_keys=[reviewed_by]
+    )
+
 
 class StudentProfile(Base):
     __tablename__ = "student_profiles"
@@ -195,6 +244,10 @@ class StudentProfile(Base):
     weight_kg: Mapped[float | None] = mapped_column(Float, nullable=True)
     activity_level: Mapped[str | None] = mapped_column(String(20), nullable=True)
 
+    user: Mapped["User"] = relationship(back_populates="student_profile")
+    hostel: Mapped["Hostel"] = relationship(back_populates="student_profiles")
+    meal_logs: Mapped[list["MealLog"]] = relationship(back_populates="student_profile", cascade="all, delete-orphan")
+
 
 class Mess(Base):
     __tablename__ = "messes"
@@ -207,6 +260,9 @@ class Mess(Base):
         server_default=func.now(),
         nullable=False,
     )
+
+    hostel_messes: Mapped[list["HostelMess"]] = relationship(back_populates="mess")
+    mess_menus: Mapped[list["MessMenu"]] = relationship(back_populates="mess")
 
 
 class HostelMess(Base):
@@ -227,6 +283,9 @@ class HostelMess(Base):
         server_default=func.now(),
         nullable=False,
     )
+
+    hostel: Mapped["Hostel"] = relationship(back_populates="hostel_mess")
+    mess: Mapped["Mess"] = relationship(back_populates="hostel_messes")
 
 
 class FoodItem(Base):
@@ -249,6 +308,8 @@ class FoodItem(Base):
     nutrition_updated_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    mess_menus: Mapped[list["MessMenu"]] = relationship(back_populates="food_item")
 
 
 class MenuUpdateBatch(Base):
@@ -273,6 +334,15 @@ class MenuUpdateBatch(Base):
     completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     status: Mapped[str] = mapped_column(String(20), default="SUCCESS", nullable=False)
     notes: Mapped[str | None] = mapped_column(String(1000), nullable=True)
+
+    updated_by_user: Mapped["User | None"] = relationship(back_populates="menu_update_batches")
+    mess_menus: Mapped[list["MessMenu"]] = relationship(back_populates="source_batch")
+    source_snapshots: Mapped[list["MenuSourceSnapshot"]] = relationship(
+        back_populates="batch", cascade="all, delete-orphan", passive_deletes=True
+    )
+    change_logs: Mapped[list["MenuChangeLog"]] = relationship(
+        back_populates="batch", cascade="all, delete-orphan", passive_deletes=True
+    )
 
 
 class MessMenu(Base):
@@ -310,6 +380,12 @@ class MessMenu(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), nullable=False)
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), nullable=False)
 
+    mess: Mapped["Mess"] = relationship(back_populates="mess_menus")
+    food_item: Mapped["FoodItem"] = relationship(back_populates="mess_menus")
+    source_batch: Mapped["MenuUpdateBatch | None"] = relationship(back_populates="mess_menus")
+    change_logs: Mapped[list["MenuChangeLog"]] = relationship(back_populates="mess_menu")
+    meal_log_items: Mapped[list["MealLogItem"]] = relationship(back_populates="mess_menu")
+
 
 class MenuSourceSnapshot(Base):
     __tablename__ = "menu_source_snapshots"
@@ -331,6 +407,9 @@ class MenuSourceSnapshot(Base):
     meal_type: Mapped[str] = mapped_column(String(20), nullable=False)
     raw_data: Mapped[dict] = mapped_column(JSONB, nullable=False)
     fetched_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    batch: Mapped["MenuUpdateBatch"] = relationship(back_populates="source_snapshots")
+    hostel: Mapped["Hostel"] = relationship(back_populates="menu_source_snapshots")
 
 
 class MenuChangeLog(Base):
@@ -356,3 +435,113 @@ class MenuChangeLog(Base):
     old_values: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
     new_values: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
     changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    batch: Mapped["MenuUpdateBatch"] = relationship(back_populates="change_logs")
+    mess_menu: Mapped["MessMenu | None"] = relationship(back_populates="change_logs")
+
+
+class MealLog(Base):
+    __tablename__ = "meal_logs"
+    __table_args__ = (
+        UniqueConstraint(
+            "student_profile_id",
+            "log_date",
+            "meal_type",
+            name="uq_meal_log_student_date_meal"
+        ),
+        CheckConstraint(
+            "meal_type IN ('BREAKFAST', 'LUNCH', 'SNACKS', 'DINNER')",
+            name="ck_meal_log_meal_type"
+        ),
+        Index("ix_meal_log_student_date", "student_profile_id", "log_date"),
+    )
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+
+    student_profile_id: Mapped[int] = mapped_column(
+        ForeignKey("student_profiles.id", ondelete="CASCADE"),
+        nullable=False
+    )
+
+    log_date: Mapped[date] = mapped_column(Date, nullable=False)
+    meal_type: Mapped[str] = mapped_column(String(20), nullable=False)
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False
+    )
+
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        onupdate=func.now(),
+        nullable=False
+    )
+
+    student_profile: Mapped["StudentProfile"] = relationship(
+        back_populates="meal_logs"
+    )
+
+    items: Mapped[list["MealLogItem"]] = relationship(
+        back_populates="meal_log",
+        cascade="all, delete-orphan",
+        passive_deletes=True
+    )
+
+
+class MealLogItem(Base):
+    __tablename__ = "meal_log_items"
+    __table_args__ = (
+        UniqueConstraint(
+            "meal_log_id",
+            "mess_menu_id",
+            name="uq_meal_log_menu_item"
+        ),
+        CheckConstraint(
+            "servings_consumed > 0",
+            name="ck_meal_log_item_servings"
+        ),
+        Index("ix_meal_log_item_meal", "meal_log_id"),
+    )
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+
+    meal_log_id: Mapped[int] = mapped_column(
+        ForeignKey("meal_logs.id", ondelete="CASCADE"),
+        nullable=False
+    )
+
+    mess_menu_id: Mapped[int | None] = mapped_column(
+        ForeignKey("mess_menus.id", ondelete="SET NULL"),
+        nullable=True
+    )
+
+    food_name: Mapped[str] = mapped_column(String(100), nullable=False)
+    servings_consumed: Mapped[float] = mapped_column(Float, nullable=False)
+
+    calories: Mapped[float | None] = mapped_column(Float, nullable=True)
+    protein_g: Mapped[float | None] = mapped_column(Float, nullable=True)
+    carbohydrates_total_g: Mapped[float | None] = mapped_column(Float, nullable=True)
+    sugar_g: Mapped[float | None] = mapped_column(Float, nullable=True)
+    fiber_g: Mapped[float | None] = mapped_column(Float, nullable=True)
+    fat_total_g: Mapped[float | None] = mapped_column(Float, nullable=True)
+    fat_saturated_g: Mapped[float | None] = mapped_column(Float, nullable=True)
+    cholesterol_mg: Mapped[float | None] = mapped_column(Float, nullable=True)
+    sodium_mg: Mapped[float | None] = mapped_column(Float, nullable=True)
+    potassium_mg: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False
+    )
+
+    meal_log: Mapped["MealLog"] = relationship(
+        back_populates="items"
+    )
+
+    mess_menu: Mapped["MessMenu | None"] = relationship(
+        back_populates="meal_log_items"
+    )
+

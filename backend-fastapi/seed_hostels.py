@@ -7,8 +7,8 @@ HOSTELS = [
     (f"H{number}", f"Hostel {number}")
     for number in range(1, 23)
 ] + [
-    ("QIP", "QIP"),
-    ("TANSA", "Tansa"),
+    ("H24", "QIP"),
+    ("H25", "Tansa"),
 ]
 
 

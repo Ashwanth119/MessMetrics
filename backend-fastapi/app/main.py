@@ -1,22 +1,27 @@
-
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.middleware.cors import CORSMiddleware
 
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
-from sqlalchemy import select
+from sqlalchemy import select, delete
+from sqlalchemy.orm import Session, selectinload
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy.orm import Session
+
 from app.router1 import task_routes
 from app.database import Base, engine, get_db
 from app.models import (
     User, Hostel, HostelAdminRequest, Role, UserRole, StudentProfile, Mess, HostelMess,
     FoodItem, MessMenu, MenuUpdateBatch, MenuSourceSnapshot, MenuChangeLog,
+    MealLog, MealLogItem
 )
-from app.schemas import UserCreate, UserUpdate, UserResponse, TokenResponse, HostelAdminRegister, StudentRegister
+from app.schemas import (
+    UserCreate, UserUpdate, UserResponse, TokenResponse,
+    HostelAdminRegister, StudentRegister,
+    MealLogUpsert, MealLogResponse
+)
 from app.auth import (
     hash_password,
     verify_password,
@@ -500,5 +505,324 @@ def get_hostels(db: Session = Depends(get_db)):
         }
         for hostel in hostels
     ]
+
+
+def get_student_mess(db: Session, user_id: int):
+    student = db.scalar(
+        select(StudentProfile).where(StudentProfile.user_id == user_id)
+    )
+
+    if student is None:
+        raise HTTPException(status_code=404, detail="Student profile not found")
+
+    hostel = db.get(Hostel, student.hostel_id)
+
+    if hostel is None:
+        raise HTTPException(status_code=404, detail="Hostel not found")
+
+    hostel_mess = db.scalar(
+        select(HostelMess).where(HostelMess.hostel_id == hostel.id)
+    )
+
+    if hostel_mess is None:
+        raise HTTPException(status_code=404, detail="No mess assigned to this hostel")
+
+    mess = db.get(Mess, hostel_mess.mess_id)
+
+    if mess is None or not mess.is_active:
+        raise HTTPException(status_code=404, detail="Assigned mess is unavailable")
+
+    return student, hostel, mess
+
+
+@app.get("/students/me/mess")
+def get_my_mess(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student, hostel, mess = get_student_mess(db, current_user.id)
+
+    return {
+        "hostel": {
+            "id": hostel.id,
+            "hostel_number": hostel.hostel_number,
+            "name": hostel.name,
+        },
+        "mess": {
+            "id": mess.id,
+            "name": mess.name,
+        },
+    }
+
+
+@app.get("/students/me/menu")
+def get_my_mess_menu(
+    menu_date: date | None = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student, hostel, mess = get_student_mess(db, current_user.id)
+
+    target_date = menu_date or date.today()
+
+    menu_items = db.scalars(
+        select(MessMenu)
+        .where(
+            MessMenu.mess_id == mess.id,
+            MessMenu.menu_date == target_date,
+        )
+        .options(selectinload(MessMenu.food_item))
+    ).all()
+
+    meal_order = ["BREAKFAST", "LUNCH", "SNACKS", "DINNER"]
+
+    meals = {
+        meal: [] for meal in meal_order
+    }
+
+    for item in menu_items:
+        food = item.food_item
+
+        if food is None or not food.is_active:
+            continue
+
+        meals[item.meal_type].append({
+            "menu_id": item.id,
+            "food_item_id": food.id,
+            "name": food.name,
+            "serving_quantity": item.serving_quantity,
+            "serving_unit": item.serving_unit,
+            "nutrition": {
+                "serving_size_g": food.serving_size_g,
+                "calories": food.calories,
+                "protein_g": food.protein_g,
+                "carbohydrates_total_g": food.carbohydrates_total_g,
+                "sugar_g": food.sugar_g,
+                "fiber_g": food.fiber_g,
+                "fat_total_g": food.fat_total_g,
+                "fat_saturated_g": food.fat_saturated_g,
+                "cholesterol_mg": food.cholesterol_mg,
+                "sodium_mg": food.sodium_mg,
+                "potassium_mg": food.potassium_mg,
+            },
+        })
+
+    return {
+        "menu_date": target_date,
+        "hostel": hostel.hostel_number,
+        "mess": mess.name,
+        "meals": [
+            {
+                "meal_type": meal,
+                "items": meals[meal],
+            }
+            for meal in meal_order
+        ],
+    }
+
+
+@app.put("/students/me/meal-logs", response_model=MealLogResponse)
+def save_meal_log(
+    data: MealLogUpsert,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student, hostel, mess = get_student_mess(db, current_user.id)
+
+    menu_ids = [item.mess_menu_id for item in data.items]
+
+    if len(menu_ids) != len(set(menu_ids)):
+        raise HTTPException(
+            status_code=400,
+            detail="Duplicate menu items are not allowed"
+        )
+
+    menu_items = db.scalars(
+        select(MessMenu)
+        .where(
+            MessMenu.id.in_(menu_ids),
+            MessMenu.mess_id == mess.id,
+            MessMenu.menu_date == data.log_date,
+            MessMenu.meal_type == data.meal_type,
+        )
+        .options(selectinload(MessMenu.food_item))
+    ).all() if menu_ids else []
+
+    if len(menu_items) != len(menu_ids):
+        raise HTTPException(
+            status_code=400,
+            detail="One or more selected items do not belong to your assigned mess, date, or meal"
+        )
+
+    for menu_item in menu_items:
+        if menu_item.food_item is None or not menu_item.food_item.is_active:
+            raise HTTPException(
+                status_code=400,
+                detail="One or more selected food items are unavailable"
+            )
+
+    meal_log = db.scalar(
+        select(MealLog)
+        .where(
+            MealLog.student_profile_id == student.id,
+            MealLog.log_date == data.log_date,
+            MealLog.meal_type == data.meal_type,
+        )
+        .options(selectinload(MealLog.items))
+    )
+
+    if meal_log is None:
+        meal_log = MealLog(
+            student_profile_id=student.id,
+            log_date=data.log_date,
+            meal_type=data.meal_type
+        )
+        db.add(meal_log)
+        db.flush()
+
+    else:
+        db.execute(
+            delete(MealLogItem).where(
+                MealLogItem.meal_log_id == meal_log.id
+            ),
+            execution_options={"synchronize_session": False}
+        )
+        db.flush()
+        db.expire(meal_log, ["items"])
+
+    for menu_item in menu_items:
+        food = menu_item.food_item
+
+        meal_log.items.append(
+            MealLogItem(
+                mess_menu_id=menu_item.id,
+                food_name=food.name,
+                servings_consumed=next(
+                    item.servings_consumed
+                    for item in data.items
+                    if item.mess_menu_id == menu_item.id
+                ),
+                calories=food.calories,
+                protein_g=food.protein_g,
+                carbohydrates_total_g=food.carbohydrates_total_g,
+                sugar_g=food.sugar_g,
+                fiber_g=food.fiber_g,
+                fat_total_g=food.fat_total_g,
+                fat_saturated_g=food.fat_saturated_g,
+                cholesterol_mg=food.cholesterol_mg,
+                sodium_mg=food.sodium_mg,
+                potassium_mg=food.potassium_mg,
+            )
+        )
+
+    try:
+        db.commit()
+    except Exception as exc:
+        db.rollback()
+        print("MEAL LOG ERROR:", repr(exc), flush=True)
+        raise HTTPException(
+            status_code=500,
+            detail="Failed to save meal log"
+        ) from exc
+
+    return db.scalar(
+        select(MealLog)
+        .where(MealLog.id == meal_log.id)
+        .options(selectinload(MealLog.items))
+    )
+
+
+@app.get("/students/me/meal-logs", response_model=list[MealLogResponse])
+def get_my_meal_logs(
+    log_date: date = date.today(),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student = db.scalar(
+        select(StudentProfile)
+        .where(StudentProfile.user_id == current_user.id)
+    )
+
+    if student is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Student profile not found"
+        )
+
+    meal_logs = db.scalars(
+        select(MealLog)
+        .where(
+            MealLog.student_profile_id == student.id,
+            MealLog.log_date == log_date
+        )
+        .options(selectinload(MealLog.items))
+        .order_by(MealLog.id)
+    ).all()
+
+    return meal_logs
+
+
+@app.get("/students/me/calories")
+def get_my_daily_calories(
+    log_date: date = date.today(),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student = db.scalar(
+        select(StudentProfile)
+        .where(StudentProfile.user_id == current_user.id)
+    )
+
+    if student is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Student profile not found"
+        )
+
+    meal_logs = db.scalars(
+        select(MealLog)
+        .where(
+            MealLog.student_profile_id == student.id,
+            MealLog.log_date == log_date
+        )
+        .options(selectinload(MealLog.items))
+    ).all()
+
+    nutrients = [
+        "calories",
+        "protein_g",
+        "carbohydrates_total_g",
+        "sugar_g",
+        "fiber_g",
+        "fat_total_g",
+        "fat_saturated_g",
+        "cholesterol_mg",
+        "sodium_mg",
+        "potassium_mg",
+    ]
+
+    totals = {key: 0.0 for key in nutrients}
+    meal_totals = {}
+
+    for meal_log in meal_logs:
+        meal_total = {key: 0.0 for key in nutrients}
+
+        for item in meal_log.items:
+            for key in nutrients:
+                value = getattr(item, key)
+
+                if value is not None:
+                    meal_total[key] += value * item.servings_consumed
+
+        meal_totals[meal_log.meal_type] = meal_total
+
+        for key in nutrients:
+            totals[key] += meal_total[key]
+
+    return {
+        "log_date": log_date,
+        "daily_totals": totals,
+        "meal_totals": meal_totals,
+    }
 
 

@@ -6,6 +6,7 @@ import Placeholder from './pages/Placeholder'
 import ProtectedRoute from './components/ProtectedRoute'
 import StudentLayout from './layouts/StudentLayout'
 import Profile from './pages/Profile'
+import Menu from "./pages/Menu"
 import './App.css'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route element={<ProtectedRoute />}>
           <Route element={<StudentLayout />}>
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/menu" element={<Placeholder title="Today's Menu" />} />
+            <Route path="/menu" element={<Menu />} />
             <Route path="/calories" element={<Placeholder title="Calorie Tracker" />} />
             <Route path="/nutrition" element={<Placeholder title="Nutrition" />} />
             <Route path="/profile" element={<Profile/>} />

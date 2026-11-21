@@ -10,8 +10,8 @@ from datetime import date, timedelta
 from app.database import get_db
 from app.models import FoodItem,HostelMess,Hostel,MessMenu
 # from app.models1 import Food,FoodAlias,FoodNutrition
-from app.schemas import FoodItemCreate
-from rapidfuzz import fuzz
+# from app.schemas import FoodItemCreate
+# from rapidfuzz import fuzz
 from dotenv import load_dotenv
 
 load_dotenv()
