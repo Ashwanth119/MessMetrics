@@ -52,7 +52,6 @@ export async function loginUser(username, password) {
     return data
 }
 
-
 export async function getCurrentUser() {
     const token = localStorage.getItem('access_token')
 
@@ -69,4 +68,76 @@ export async function getCurrentUser() {
     }
 
     return data
+}
+
+export async function getMyMenu(menuDate) {
+    const token = localStorage.getItem("access_token")
+
+    const response = await fetch(
+        `${API_URL}/students/me/menu?menu_date=${menuDate}`,
+        {
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        }
+    )
+
+    if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.detail || "Failed to fetch menu")
+    }
+
+    return response.json()
+}
+
+export async function getMyMealLogs(logDate) {
+    const response = await fetch(
+        `${API_URL}/students/me/meal-logs?log_date=${logDate}`,
+        {
+            headers: {
+                Authorization: `Bearer ${localStorage.getItem("access_token")}`
+            }
+        }
+    )
+
+    if (!response.ok) {
+        throw new Error("Failed to fetch meal logs")
+    }
+
+    return response.json()
+}
+
+export async function saveMealLog(data) {
+    const response = await fetch(`${API_URL}/students/me/meal-logs`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        },
+        body: JSON.stringify(data)
+    })
+
+    if (!response.ok) {
+        const error = await response.json()
+        throw new Error(error.detail || "Failed to save meal log")
+    }
+
+    return response.json()
+}
+
+export async function getMyCalories(logDate) {
+    const response = await fetch(
+        `${API_URL}/students/me/calories?log_date=${logDate}`,
+        {
+            headers: {
+                Authorization: `Bearer ${localStorage.getItem("access_token")}`
+            }
+        }
+    )
+
+    if (!response.ok) {
+        throw new Error("Failed to fetch calorie summary")
+    }
+
+    return response.json()
 }
