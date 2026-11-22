@@ -112,44 +112,6 @@ def calculate_calories(age_years, height_cm, weight_kg, sex, activity_level):
         "maintenance_calories": int(round(tdee))
     }
 
-# result = calculate_calories(
-#     age=22,
-#     height=175,
-#     weight=75,
-#     sex="male",
-#     activity="moderate"
-# )
-
-# print(result)
-
-
-
-# @task_routes.post("/create/items", status_code=status.HTTP_201_CREATED)
-# def create_item(body: FoodItemCreate, db: Session = Depends(get_db)):
-#     existing_item = db.scalar(
-#         select(Food).where(Food.name == body.name.strip())
-#     )
-#     if existing_item:
-#         raise HTTPException(
-#             status_code=status.HTTP_409_CONFLICT,
-#             detail="Test food already exists",
-#         )
-
-#     item = Food(name=body.name.strip())
-#     # db.add(item)
-#     # try:
-#     #     db.commit()
-#     #     db.refresh(item)
-#     # except IntegrityError as exc:
-#     #     db.rollback()
-#     #     raise HTTPException(
-#     #         status_code=status.HTTP_409_CONFLICT,
-#     #         detail="Test food already exists",
-#     #     ) from exc
-#     response = insert_food_nutrition(db, body.name.strip())
-    
-#     return {"id": item.id, "name": item.name, "response":response}
-
 
 def get_data():
     # 1. Set request headers
@@ -201,12 +163,22 @@ def extract_items(menu_data, db: Session):
     for i in menu_data:
 
         hostel_name = i.get("name", "")
-        mess_id = (
+        mess_id_rows = (
             db.query(HostelMess.mess_id)
             .join(Hostel, Hostel.id == HostelMess.hostel_id)
             .filter(Hostel.name == hostel_name)
-            .scalar()
+            .distinct()
+            .all()
         )
+        mess_ids = {row[0] for row in mess_id_rows}
+
+        if len(mess_ids) > 1:
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail=f"Menu hostel '{hostel_name}' maps to multiple messes",
+            )
+
+        mess_id = next(iter(mess_ids), None)
 
         for j in i.get("mess", []):
             try:
@@ -326,7 +298,6 @@ def insert_items(db: Session = Depends(get_db)):
     menu_data = get_data()
     # Extract hostel-wise menu data
     menus = extract_items(menu_data, db)
-    print(menus)
     inserted_foods = []
     existing_foods = []
     inserted_menus = []
