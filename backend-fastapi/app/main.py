@@ -20,7 +20,8 @@ from app.models import (
 from app.schemas import (
     UserCreate, UserUpdate, UserResponse, TokenResponse,
     HostelAdminRegister, StudentRegister,
-    MealLogUpsert, MealLogResponse, ActivityLevelUpdate
+    MealLogUpsert, MealLogResponse, ActivityLevelUpdate,
+    StudentProfileUpdate, StudentProfileResponse
 )
 from app.auth import (
     hash_password,
@@ -449,7 +450,7 @@ def register_student(
             height_cm=data.height_cm,
             weight_kg=data.weight_kg,
             sex=data.sex,
-            activity_level=data.activity_level
+            activity_level="sedentary"
         )
 
         db.add(student_profile)
@@ -865,6 +866,158 @@ def get_my_daily_calories(
         "log_date": log_date,
         "daily_totals": totals,
         "meal_totals": meal_totals,
+    }
+
+
+@app.get(
+    "/students/me/profile",
+    response_model=StudentProfileResponse
+)
+def get_my_profile(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student = db.scalar(
+        select(StudentProfile)
+        .where(StudentProfile.user_id == current_user.id)
+        .options(selectinload(StudentProfile.hostel))
+    )
+
+    if student is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Student profile not found"
+        )
+
+    return {
+        "username": current_user.username,
+        "email": current_user.email,
+        "is_active": current_user.is_active,
+        "created_at": current_user.created_at,
+        "full_name": student.full_name,
+        "roll_number": student.roll_number,
+        "hostel_id": student.hostel_id,
+        "hostel_number": student.hostel.hostel_number,
+        "hostel_name": student.hostel.name,
+        "room_number": student.room_number,
+        "date_of_birth": student.date_of_birth,
+        "height_cm": student.height_cm,
+        "weight_kg": student.weight_kg,
+        "sex": student.sex,
+        "activity_level": student.activity_level
+    }
+
+
+@app.patch(
+    "/students/me/profile",
+    response_model=StudentProfileResponse
+)
+def update_my_profile(
+    data: StudentProfileUpdate,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student = db.scalar(
+        select(StudentProfile)
+        .where(StudentProfile.user_id == current_user.id)
+    )
+
+    if student is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Student profile not found"
+        )
+
+    hostel = db.scalar(
+        select(Hostel).where(
+            Hostel.id == data.hostel_id,
+            Hostel.is_active.is_(True)
+        )
+    )
+
+    if hostel is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Active hostel not found"
+        )
+
+    duplicate_username = db.scalar(
+        select(User).where(
+            User.username == data.username,
+            User.id != current_user.id
+        )
+    )
+
+    if duplicate_username:
+        raise HTTPException(
+            status_code=409,
+            detail="Username already taken"
+        )
+
+    student_role = db.scalar(
+        select(Role).where(Role.name == "STUDENT")
+    )
+
+    if student_role is None:
+        raise HTTPException(
+            status_code=500,
+            detail="STUDENT role not configured"
+        )
+
+    student_assignments = db.scalars(
+        select(UserRole).where(
+            UserRole.user_id == current_user.id,
+            UserRole.role_id == student_role.id
+        )
+    ).all()
+
+    if not student_assignments:
+        raise HTTPException(
+            status_code=500,
+            detail="Student role assignment not found"
+        )
+
+    current_user.username = data.username
+
+    student.full_name = data.full_name
+    student.hostel_id = hostel.id
+    student.room_number = data.room_number
+    student.date_of_birth = data.date_of_birth
+    student.height_cm = data.height_cm
+    student.weight_kg = data.weight_kg
+    student.sex = data.sex
+    student.activity_level = data.activity_level
+
+    for assignment in student_assignments:
+        assignment.hostel_id = hostel.id
+
+    try:
+        db.commit()
+        db.refresh(current_user)
+        db.refresh(student)
+    except IntegrityError:
+        db.rollback()
+        raise HTTPException(
+            status_code=409,
+            detail="Failed to update profile due to a database constraint"
+        )
+
+    return {
+        "username": current_user.username,
+        "email": current_user.email,
+        "is_active": current_user.is_active,
+        "created_at": current_user.created_at,
+        "full_name": student.full_name,
+        "roll_number": student.roll_number,
+        "hostel_id": student.hostel_id,
+        "hostel_number": hostel.hostel_number,
+        "hostel_name": hostel.name,
+        "room_number": student.room_number,
+        "date_of_birth": student.date_of_birth,
+        "height_cm": student.height_cm,
+        "weight_kg": student.weight_kg,
+        "sex": student.sex,
+        "activity_level": student.activity_level
     }
 
 

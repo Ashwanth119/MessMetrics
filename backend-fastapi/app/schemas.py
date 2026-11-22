@@ -56,11 +56,10 @@ class StudentRegister(BaseModel):
     roll_number: str = Field(min_length=1, max_length=30)
     hostel_number: str = Field(pattern=r"^[hH]([1-9]|1[0-9]|2[0-2])$")
     room_number: str = Field(min_length=1, max_length=20)
-    date_of_birth: date | None = None
-    height_cm: float | None = Field(default=None, gt=0)
-    weight_kg: float | None = Field(default=None, gt=0)
-    sex: Literal["female", "male"] | None = None
-    activity_level: str | None = None
+    date_of_birth: date
+    height_cm: float = Field(gt=0)
+    weight_kg: float = Field(gt=0)
+    sex: Literal["female", "male"]
 
 
 class ActivityLevelUpdate(BaseModel):
@@ -106,3 +105,40 @@ class MealLogResponse(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
 
+
+class StudentProfileUpdate(BaseModel):
+    username: str = Field(min_length=3, max_length=50)
+    full_name: str = Field(min_length=1, max_length=100)
+    hostel_id: int = Field(gt=0)
+    room_number: str = Field(min_length=1, max_length=20)
+    date_of_birth: date
+    height_cm: float = Field(gt=0)
+    weight_kg: float = Field(gt=0)
+    sex: Literal["female", "male"]
+    activity_level: Literal[
+        "sedentary",
+        "light",
+        "moderate",
+        "very_active",
+        "extra_active"
+    ]
+
+
+class StudentProfileResponse(BaseModel):
+    username: str
+    email: str
+    is_active: bool
+    created_at: datetime
+    full_name: str
+    roll_number: str
+    hostel_id: int
+    hostel_number: str
+    hostel_name: str
+    room_number: str
+    date_of_birth: date
+    height_cm: float
+    weight_kg: float
+    sex: str
+    activity_level: str
+
+    model_config = ConfigDict(from_attributes=True)

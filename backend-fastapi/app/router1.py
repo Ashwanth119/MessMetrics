@@ -331,7 +331,6 @@ def insert_items(db: Session = Depends(get_db)):
                     food = db.query(FoodItem).filter(
                         FoodItem.name.ilike(item_name)
                     ).first()
-
                     # 2. Insert food if not existing
                     if not food:
 
@@ -351,7 +350,7 @@ def insert_items(db: Session = Depends(get_db)):
                             sodium_mg=food_info.get("sodium_mg"),
                             potassium_mg=food_info.get("potassium_mg")
                         )
-
+                        
                         db.add(food)
                         db.flush()
 
@@ -382,9 +381,9 @@ def insert_items(db: Session = Depends(get_db)):
                         serving_unit=None,
                         source_batch_id=None
                     )
-
+                    
                     db.add(mess_menu)
-
+   
                     inserted_menus.append({
                         "food_name": item_name,
                         "food_item_id": food.id,
