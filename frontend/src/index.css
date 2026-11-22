@@ -46,6 +46,7 @@ a {
 [data-theme="dark"] .student-header,
 [data-theme="dark"] .dashboard-card,
 [data-theme="dark"] .calorie-card,
+[data-theme="dark"] .nutrition-card,
 [data-theme="dark"] .profile-card,
 [data-theme="dark"] .food-card,
 [data-theme="dark"] .register-container {
@@ -94,6 +95,7 @@ a {
 [data-theme="dark"] .servings-input-label input,
 [data-theme="dark"] .calorie-card input,
 [data-theme="dark"] .calorie-card select,
+[data-theme="dark"] .nutrition-heading input,
 [data-theme="dark"] .register-container input,
 [data-theme="dark"] .register-container select {
   background: #0f172a;
@@ -114,6 +116,29 @@ a {
 
 [data-theme="dark"] .dashboard-meal li {
   border-color: #334155;
+}
+
+[data-theme="dark"] .nutrition-totals-table th,
+[data-theme="dark"] .nutrition-totals-table td,
+[data-theme="dark"] .nutrition-breakdown-table th,
+[data-theme="dark"] .nutrition-breakdown-table td {
+  border-color: #334155;
+}
+
+[data-theme="dark"] .nutrition-totals-table th {
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .nutrition-breakdown-table thead th {
+  color: #94a3b8;
+}
+
+[data-theme="dark"] .nutrition-breakdown-table tbody th {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .grams-nutrition-estimate dl {
+  background: #0f172a;
 }
 
 [data-theme="dark"] .meal-status {

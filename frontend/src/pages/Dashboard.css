@@ -165,19 +165,67 @@
 }
 
 .servings-input-label {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto minmax(90px, 120px) auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 10px;
     margin: 10px 0 0 26px;
     font-size: 13px;
     color: #666;
 }
 
-.servings-input-label input {
-    width: 75px;
-    padding: 6px;
+.grams-input {
+    width: 100%;
+    padding: 7px 9px;
     border: 1px solid #ddd;
     border-radius: 6px;
+}
+
+.grams-calories-estimate {
+    color: #218344;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.grams-nutrition-estimate {
+    grid-column: 1 / -1;
+    color: inherit;
+}
+
+.grams-nutrition-estimate summary {
+    cursor: pointer;
+    color: #2563eb;
+    font-size: 12px;
+}
+
+.grams-nutrition-estimate dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 8px 14px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 7px;
+    background: #f8fafc;
+}
+
+.grams-nutrition-estimate dl div {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.grams-nutrition-estimate dt {
+    color: #64748b;
+}
+
+.grams-nutrition-estimate dd {
+    font-weight: 600;
+}
+
+.servings-controls {
+    display: none;
 }
 
 .meal-actions {
@@ -227,4 +275,8 @@
     min-width: 20px;
     text-align: center;
     font-weight: 600;
+}
+
+.servings-input-label .servings-controls {
+    display: none;
 }
