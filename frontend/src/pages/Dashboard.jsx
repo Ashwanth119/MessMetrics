@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react"
 import {
     getMyMenu,
@@ -5,13 +6,8 @@ import {
     saveMealLog,
     getMyCalories
 } from "../services/api"
+import { useSelectedDate } from "../context/SelectedDateContext"
 import "./Dashboard.css"
-
-const getToday = () => {
-    const date = new Date()
-    date.setMinutes(date.getMinutes() - date.getTimezoneOffset())
-    return date.toISOString().split("T")[0]
-}
 
 const mealNames = {
     BREAKFAST: "Breakfast",
@@ -34,7 +30,8 @@ const nutritionFields = [
 ]
 
 function Dashboard() {
-    const [menuDate, setMenuDate] = useState(getToday())
+    const { selectedDate, setSelectedDate } = useSelectedDate()
+
     const [menu, setMenu] = useState(null)
     const [mealLogs, setMealLogs] = useState([])
     const [calories, setCalories] = useState({})
@@ -54,9 +51,9 @@ function Dashboard() {
 
             try {
                 const [menuData, logsData, calorieData] = await Promise.all([
-                    getMyMenu(menuDate),
-                    getMyMealLogs(menuDate),
-                    getMyCalories(menuDate)
+                    getMyMenu(selectedDate),
+                    getMyMealLogs(selectedDate),
+                    getMyCalories(selectedDate)
                 ])
 
                 setMenu(menuData)
@@ -94,7 +91,7 @@ function Dashboard() {
         }
 
         loadDashboard()
-    }, [menuDate])
+    }, [selectedDate])
 
     const toggleItem = (mealType, menuId, checked) => {
         setSelections(previous => {
@@ -148,7 +145,7 @@ function Dashboard() {
 
         try {
             const savedLog = await saveMealLog({
-                log_date: menuDate,
+                log_date: selectedDate,
                 meal_type: mealType,
                 items
             })
@@ -158,7 +155,7 @@ function Dashboard() {
                 savedLog
             ])
 
-            const calorieData = await getMyCalories(menuDate)
+            const calorieData = await getMyCalories(selectedDate)
             setCalories(calorieData.meal_totals || {})
             setMessage(`${mealNames[mealType]} saved successfully.`)
             setExpandedMeal(null)
@@ -187,14 +184,14 @@ function Dashboard() {
                 <div className="dashboard-card menu-dashboard-card">
                     <div className="menu-card-heading">
                         <div>
-                            <h2>Today's Menu</h2>
+                            <h2>Menu</h2>
                             <p>View your menu and log your meals.</p>
                         </div>
 
                         <input
                             type="date"
-                            value={menuDate}
-                            onChange={event => setMenuDate(event.target.value)}
+                            value={selectedDate}
+                            onChange={event => setSelectedDate(event.target.value)}
                         />
                     </div>
 
@@ -295,67 +292,67 @@ function Dashboard() {
 
                                                                 {checked && (
                                                                     <div className="servings-input-label">
-                                                                      <label htmlFor={`grams-${item.menu_id}`}>Amount (g)</label>
-                                                                      <input
-                                                                          id={`grams-${item.menu_id}`}
-                                                                          className="grams-input"
-                                                                          type="number"
-                                                                          min="1"
-                                                                          step="1"
-                                                                          value={grams[item.menu_id] || "100"}
-                                                                          onChange={event => updateGrams(item.menu_id, event.target.value)}
-                                                                      />
-                                                                      {item.nutrition?.calories != null && (
-                                                                          <span className="grams-calories-estimate">
-                                                                              ≈ {Math.round(item.nutrition.calories * Number(grams[item.menu_id] || 100) / (item.nutrition.serving_size_g || 100))} kcal
-                                                                          </span>
-                                                                      )}
-                                                                      <details className="grams-nutrition-estimate">
-                                                                          <summary>Nutrition for this amount</summary>
-                                                                          <dl>
-                                                                              {nutritionFields.map(([key, label, unit]) => {
-                                                                                  const value = item.nutrition?.[key]
-                                                                                  if (value == null) return null
-                                                                                  const amount = Number(grams[item.menu_id] || 100)
-                                                                                  const reference = item.nutrition?.serving_size_g || 100
-                                                                                  const scaledValue = value * amount / reference
-                                                                                  return (
-                                                                                      <div key={key}>
-                                                                                          <dt>{label}</dt>
-                                                                                          <dd>{unit === 'mg' ? Math.round(scaledValue) : Math.round(scaledValue * 10) / 10} {unit}</dd>
-                                                                                      </div>
-                                                                                  )
-                                                                              })}
-                                                                          </dl>
-                                                                      </details>
-                                                                      <div className="servings-controls">
-                                                                          <button
-                                                                              type="button"
-                                                                              onClick={() =>
-                                                                                  updateGrams(
-                                                                                      item.menu_id,
-                                                                                      String(Math.max(1, Number(grams[item.menu_id] || 100) - 1))
-                                                                                  )
-                                                                              }
-                                                                          >
-                                                                              −
-                                                                          </button>
+                                                                        <label htmlFor={`grams-${item.menu_id}`}>Amount (g)</label>
+                                                                        <input
+                                                                            id={`grams-${item.menu_id}`}
+                                                                            className="grams-input"
+                                                                            type="number"
+                                                                            min="1"
+                                                                            step="1"
+                                                                            value={grams[item.menu_id] || "100"}
+                                                                            onChange={event => updateGrams(item.menu_id, event.target.value)}
+                                                                        />
+                                                                        {item.nutrition?.calories != null && (
+                                                                            <span className="grams-calories-estimate">
+                                                                                ≈ {Math.round(item.nutrition.calories * Number(grams[item.menu_id] || 100) / (item.nutrition.serving_size_g || 100))} kcal
+                                                                            </span>
+                                                                        )}
+                                                                        <details className="grams-nutrition-estimate">
+                                                                            <summary>Nutrition for this amount</summary>
+                                                                            <dl>
+                                                                                {nutritionFields.map(([key, label, unit]) => {
+                                                                                    const value = item.nutrition?.[key]
+                                                                                    if (value == null) return null
+                                                                                    const amount = Number(grams[item.menu_id] || 100)
+                                                                                    const reference = item.nutrition?.serving_size_g || 100
+                                                                                    const scaledValue = value * amount / reference
+                                                                                    return (
+                                                                                        <div key={key}>
+                                                                                            <dt>{label}</dt>
+                                                                                            <dd>{unit === 'mg' ? Math.round(scaledValue) : Math.round(scaledValue * 10) / 10} {unit}</dd>
+                                                                                        </div>
+                                                                                    )
+                                                                                })}
+                                                                            </dl>
+                                                                        </details>
+                                                                        <div className="servings-controls">
+                                                                            <button
+                                                                                type="button"
+                                                                                onClick={() =>
+                                                                                    updateGrams(
+                                                                                        item.menu_id,
+                                                                                        String(Math.max(1, Number(grams[item.menu_id] || 100) - 1))
+                                                                                    )
+                                                                                }
+                                                                            >
+                                                                                −
+                                                                            </button>
 
-                                                                          <span>{grams[item.menu_id] || "100"}</span>
+                                                                            <span>{grams[item.menu_id] || "100"}</span>
 
-                                                                          <button
-                                                                              type="button"
-                                                                              onClick={() =>
-                                                                                  updateGrams(
-                                                                                      item.menu_id,
-                                                                                      String(Number(grams[item.menu_id] || 100) + 1)
-                                                                                  )
-                                                                              }
-                                                                          >
-                                                                              +
-                                                                          </button>
-                                                                      </div>
-                                                                  </div>
+                                                                            <button
+                                                                                type="button"
+                                                                                onClick={() =>
+                                                                                    updateGrams(
+                                                                                        item.menu_id,
+                                                                                        String(Number(grams[item.menu_id] || 100) + 1)
+                                                                                    )
+                                                                                }
+                                                                            >
+                                                                                +
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
                                                                 )}
                                                             </div>
                                                         )

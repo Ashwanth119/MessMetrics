@@ -1,5 +1,7 @@
+
 import { useEffect, useState } from 'react'
 import { getMyCalories } from '../services/api'
+import { useSelectedDate } from '../context/SelectedDateContext'
 
 const nutrients = [
   ['calories', 'Calories', 'kcal'],
@@ -21,19 +23,14 @@ const meals = [
   ['DINNER', 'Dinner']
 ]
 
-const today = () => {
-  const date = new Date()
-  date.setMinutes(date.getMinutes() - date.getTimezoneOffset())
-  return date.toISOString().slice(0, 10)
-}
-
 function formatAmount(value, unit) {
   const amount = Number(value || 0)
   return `${unit === 'mg' ? Math.round(amount) : Math.round(amount * 10) / 10} ${unit}`
 }
 
 function Nutrition() {
-  const [date, setDate] = useState(today())
+  const { selectedDate, setSelectedDate } = useSelectedDate()
+
   const [summary, setSummary] = useState(null)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(true)
@@ -43,7 +40,7 @@ function Nutrition() {
     setLoading(true)
     setError('')
 
-    getMyCalories(date)
+    getMyCalories(selectedDate)
       .then(data => {
         if (!ignore) setSummary(data)
       })
@@ -55,7 +52,7 @@ function Nutrition() {
       })
 
     return () => { ignore = true }
-  }, [date])
+  }, [selectedDate])
 
   return (
     <div className="nutrition-page">
@@ -66,7 +63,11 @@ function Nutrition() {
         </div>
         <label>
           Date
-          <input type="date" value={date} onChange={event => setDate(event.target.value)} />
+          <input
+            type="date"
+            value={selectedDate}
+            onChange={event => setSelectedDate(event.target.value)}
+          />
         </label>
       </div>
 

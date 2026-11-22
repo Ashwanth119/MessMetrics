@@ -1,9 +1,11 @@
+
 import { useEffect, useState } from "react";
 import {
   getMyCalories,
   getMyCalorieProfile,
   updateMyActivityLevel,
 } from "../services/api";
+import { useSelectedDate } from "../context/SelectedDateContext";
 
 const activityFactors = {
   sedentary: 1.2,
@@ -11,12 +13,6 @@ const activityFactors = {
   moderate: 1.55,
   very_active: 1.725,
   extra_active: 1.9,
-};
-
-const today = () => {
-  const date = new Date();
-  date.setMinutes(date.getMinutes() - date.getTimezoneOffset());
-  return date.toISOString().slice(0, 10);
 };
 
 function calculateAge(dateOfBirth) {
@@ -33,19 +29,23 @@ function calculateAge(dateOfBirth) {
 }
 
 function Calories() {
-  const [logDate, setLogDate] = useState(today());
+  const { selectedDate, setSelectedDate } = useSelectedDate();
+
   const [dailyTotals, setDailyTotals] = useState(null);
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState("");
   const [savingActivity, setSavingActivity] = useState(false);
 
   useEffect(() => {
-    getMyCalories(logDate)
+    setDailyTotals(null);
+    setError("");
+
+    getMyCalories(selectedDate)
       .then((data) => setDailyTotals(data.daily_totals || {}))
       .catch((err) =>
         setError(err.message || "Could not load calorie summary."),
       );
-  }, [logDate]);
+  }, [selectedDate]);
 
   useEffect(() => {
     getMyCalorieProfile()
@@ -99,8 +99,8 @@ function Calories() {
           <input
             aria-label="Calorie log date"
             type="date"
-            value={logDate}
-            onChange={(event) => setLogDate(event.target.value)}
+            value={selectedDate}
+            onChange={(event) => setSelectedDate(event.target.value)}
           />
         </div>
         {error && <p className="form-error">{error}</p>}
