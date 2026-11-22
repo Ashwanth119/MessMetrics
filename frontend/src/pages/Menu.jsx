@@ -1,12 +1,31 @@
 
 import { useEffect, useState } from "react"
 import { getMyMenu } from "../services/api"
+import { useSelectedDate } from "../context/SelectedDateContext"
 import "./Menu.css"
 
 const meals = ["BREAKFAST", "LUNCH", "SNACKS", "DINNER"]
 
+function getTodayIST() {
+    return new Intl.DateTimeFormat("en-CA", {
+        timeZone: "Asia/Kolkata",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+    }).format(new Date())
+}
+
+function formatDate(date) {
+    return new Date(`${date}T00:00:00`).toLocaleDateString("en-IN", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    })
+}
+
 function Menu() {
-    const [menuDate, setMenuDate] = useState("2026-11-08")
+    const { selectedDate, setSelectedDate } = useSelectedDate()
+
     const [menu, setMenu] = useState(null)
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState("")
@@ -19,7 +38,7 @@ function Menu() {
             setError("")
 
             try {
-                const data = await getMyMenu(menuDate)
+                const data = await getMyMenu(selectedDate)
                 if (!ignore) setMenu(data)
             } catch (err) {
                 if (!ignore) setError(err.message)
@@ -33,7 +52,7 @@ function Menu() {
         return () => {
             ignore = true
         }
-    }, [menuDate])
+    }, [selectedDate])
 
     function formatMeal(meal) {
         return meal.charAt(0) + meal.slice(1).toLowerCase()
@@ -45,18 +64,20 @@ function Menu() {
         )
     }
 
+    const isToday = selectedDate === getTodayIST()
+
     return (
         <div className="menu-page">
             <div className="page-heading">
                 <div>
-                    <h1>Today's Menu</h1>
+                    <h1>{isToday ? "Today's Menu" : `Menu for ${formatDate(selectedDate)}`}</h1>
                     <p>View your hostel mess menu and food details.</p>
                 </div>
 
                 <input
                     type="date"
-                    value={menuDate}
-                    onChange={e => setMenuDate(e.target.value)}
+                    value={selectedDate}
+                    onChange={e => setSelectedDate(e.target.value)}
                     className="menu-date"
                 />
             </div>
@@ -70,12 +91,7 @@ function Menu() {
                     <div className="menu-info">
                         <span>{menu.hostel}</span>
                         <span>{menu.mess}</span>
-                        <span>
-                            {new Date(`${menu.menu_date}T00:00:00`).toLocaleDateString(
-                                "en-IN",
-                                { day: "numeric", month: "long", year: "numeric" }
-                            )}
-                        </span>
+                        <span>{formatDate(menu.menu_date)}</span>
                     </div>
 
                     <div className="meals-container">
