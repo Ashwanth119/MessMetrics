@@ -58,10 +58,11 @@ function Dashboard() {
 
                 setMenu(menuData)
                 setMealLogs(logsData)
-                setCalories(calorieData.meal_totals || {})
+                setCalories(calorieData)
 
                 const selected = {}
                 const quantities = {}
+
                 const menuItemsById = new Map(
                     menuData.meals.flatMap(meal => meal.items).map(item => [item.menu_id, item])
                 )
@@ -75,7 +76,10 @@ function Dashboard() {
                         if (item.mess_menu_id !== null) {
                             const menuItem = menuItemsById.get(item.mess_menu_id)
                             const referenceGrams = menuItem?.nutrition?.serving_size_g || 100
-                            quantities[item.mess_menu_id] = String(Math.round(item.servings_consumed * referenceGrams))
+
+                            quantities[item.mess_menu_id] = String(
+                                Math.round(item.servings_consumed * referenceGrams)
+                            )
                         }
                     })
                 })
@@ -125,9 +129,11 @@ function Dashboard() {
         const selectedIds = selections[mealType] || []
 
         const mealItemsById = new Map(meal.items.map(item => [item.menu_id, item]))
+
         const items = selectedIds.map(menuId => {
             const item = mealItemsById.get(menuId)
             const referenceGrams = item?.nutrition?.serving_size_g || 100
+
             return {
                 mess_menu_id: menuId,
                 servings_consumed: Number(grams[menuId]) / referenceGrams
@@ -156,7 +162,8 @@ function Dashboard() {
             ])
 
             const calorieData = await getMyCalories(selectedDate)
-            setCalories(calorieData.meal_totals || {})
+            setCalories(calorieData)
+
             setMessage(`${mealNames[mealType]} saved successfully.`)
             setExpandedMeal(null)
         } catch (err) {
@@ -169,8 +176,14 @@ function Dashboard() {
     const isMealLogged = mealType =>
         mealLogs.some(log => log.meal_type === mealType)
 
+    const dailyTotals = calories.daily_totals || {}
+
     if (loading) {
-        return <div className="dashboard-page"><p>Loading dashboard...</p></div>
+        return (
+            <div className="dashboard-page">
+                <p>Loading dashboard...</p>
+            </div>
+        )
     }
 
     return (
@@ -213,7 +226,7 @@ function Dashboard() {
                                 const isExpanded = expandedMeal === mealType
                                 const selectedIds = selections[mealType] || []
                                 const logged = isMealLogged(mealType)
-                                const mealCalories = calories[mealType]?.calories
+                                const mealCalories = calories.meal_totals?.[mealType]?.calories
 
                                 return (
                                     <div className="dashboard-meal" key={mealType}>
@@ -292,7 +305,10 @@ function Dashboard() {
 
                                                                 {checked && (
                                                                     <div className="servings-input-label">
-                                                                        <label htmlFor={`grams-${item.menu_id}`}>Amount (g)</label>
+                                                                        <label htmlFor={`grams-${item.menu_id}`}>
+                                                                            Amount (g)
+                                                                        </label>
+
                                                                         <input
                                                                             id={`grams-${item.menu_id}`}
                                                                             className="grams-input"
@@ -300,38 +316,57 @@ function Dashboard() {
                                                                             min="1"
                                                                             step="1"
                                                                             value={grams[item.menu_id] || "100"}
-                                                                            onChange={event => updateGrams(item.menu_id, event.target.value)}
+                                                                            onChange={event =>
+                                                                                updateGrams(item.menu_id, event.target.value)
+                                                                            }
                                                                         />
+
                                                                         {item.nutrition?.calories != null && (
                                                                             <span className="grams-calories-estimate">
-                                                                                ≈ {Math.round(item.nutrition.calories * Number(grams[item.menu_id] || 100) / (item.nutrition.serving_size_g || 100))} kcal
+                                                                                ≈ {Math.round(
+                                                                                    item.nutrition.calories *
+                                                                                    Number(grams[item.menu_id] || 100) /
+                                                                                    (item.nutrition.serving_size_g || 100)
+                                                                                )} kcal
                                                                             </span>
                                                                         )}
+
                                                                         <details className="grams-nutrition-estimate">
                                                                             <summary>Nutrition for this amount</summary>
                                                                             <dl>
                                                                                 {nutritionFields.map(([key, label, unit]) => {
                                                                                     const value = item.nutrition?.[key]
+
                                                                                     if (value == null) return null
+
                                                                                     const amount = Number(grams[item.menu_id] || 100)
                                                                                     const reference = item.nutrition?.serving_size_g || 100
                                                                                     const scaledValue = value * amount / reference
+
                                                                                     return (
                                                                                         <div key={key}>
                                                                                             <dt>{label}</dt>
-                                                                                            <dd>{unit === 'mg' ? Math.round(scaledValue) : Math.round(scaledValue * 10) / 10} {unit}</dd>
+                                                                                            <dd>
+                                                                                                {unit === "mg"
+                                                                                                    ? Math.round(scaledValue)
+                                                                                                    : Math.round(scaledValue * 10) / 10} {unit}
+                                                                                            </dd>
                                                                                         </div>
                                                                                     )
                                                                                 })}
                                                                             </dl>
                                                                         </details>
+
                                                                         <div className="servings-controls">
                                                                             <button
                                                                                 type="button"
                                                                                 onClick={() =>
                                                                                     updateGrams(
                                                                                         item.menu_id,
-                                                                                        String(Math.max(1, Number(grams[item.menu_id] || 100) - 1))
+                                                                                        String(Math.max(
+                                                                                            1,
+                                                                                            Number(grams[item.menu_id] || 100) - 1
+                                                                                        ))
                                                                                     )
                                                                                 }
                                                                             >
@@ -369,9 +404,7 @@ function Dashboard() {
                                                         onClick={() => saveMeal(meal)}
                                                         disabled={savingMeal === mealType}
                                                     >
-                                                        {savingMeal === mealType
-                                                            ? "Saving..."
-                                                            : "Save meal"}
+                                                        {savingMeal === mealType ? "Saving..." : "Save meal"}
                                                     </button>
 
                                                     <button
@@ -391,14 +424,44 @@ function Dashboard() {
                     )}
                 </div>
 
-                <div className="dashboard-card">
-                    <h3>Calories</h3>
-                    <p>Track your daily calorie intake.</p>
-                </div>
+                <div className="dashboard-summary-grid">
+                    <div className="dashboard-card dashboard-summary-card">
+                        <h3>Calories</h3>
+                        <p>Daily calorie consumption</p>
 
-                <div className="dashboard-card">
-                    <h3>Nutrition</h3>
-                    <p>View your nutritional information.</p>
+                        <div className="dashboard-summary-value">
+                            {Math.round(dailyTotals.calories || 0)} kcal
+                        </div>
+
+                        <p>Consumed on the selected date</p>
+                    </div>
+
+                    <div className="dashboard-card dashboard-summary-card">
+                        <h3>Nutrition</h3>
+                        <p>Your daily nutrition intake</p>
+
+                        <div className="dashboard-nutrition-grid">
+                            <div>
+                                <strong>{Number(dailyTotals.protein_g || 0).toFixed(1)} g</strong>
+                                <span>Protein</span>
+                            </div>
+
+                            <div>
+                                <strong>{Number(dailyTotals.carbohydrates_total_g || 0).toFixed(1)} g</strong>
+                                <span>Carbohydrates</span>
+                            </div>
+
+                            <div>
+                                <strong>{Number(dailyTotals.fat_total_g || 0).toFixed(1)} g</strong>
+                                <span>Fat</span>
+                            </div>
+
+                            <div>
+                                <strong>{Number(dailyTotals.fiber_g || 0).toFixed(1)} g</strong>
+                                <span>Fiber</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

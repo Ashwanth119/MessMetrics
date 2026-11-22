@@ -71,6 +71,29 @@ export async function getCurrentUser() {
     return readJsonResponse(response, 'Failed to fetch profile')
 }
 
+export async function getMyProfile() {
+    const response = await fetch(`${API_URL}/students/me/profile`, {
+        headers: {
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        }
+    })
+
+    return readJsonResponse(response, "Failed to fetch student profile")
+}
+
+export async function updateMyProfile(profileData) {
+    const response = await fetch(`${API_URL}/students/me/profile`, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        },
+        body: JSON.stringify(profileData)
+    })
+
+    return readJsonResponse(response, "Failed to update student profile")
+}
+
 export async function getMyMenu(menuDate) {
     const token = localStorage.getItem("access_token")
 
