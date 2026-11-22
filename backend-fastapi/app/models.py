@@ -242,6 +242,7 @@ class StudentProfile(Base):
     date_of_birth: Mapped[date | None] = mapped_column(Date, nullable=True)
     height_cm: Mapped[float | None] = mapped_column(Float, nullable=True)
     weight_kg: Mapped[float | None] = mapped_column(Float, nullable=True)
+    sex: Mapped[str | None] = mapped_column(String(10), nullable=True)
     activity_level: Mapped[str | None] = mapped_column(String(20), nullable=True)
 
     user: Mapped["User"] = relationship(back_populates="student_profile")

@@ -20,13 +20,26 @@ const mealNames = {
     DINNER: "Dinner"
 }
 
+const nutritionFields = [
+    ["calories", "Calories", "kcal"],
+    ["protein_g", "Protein", "g"],
+    ["carbohydrates_total_g", "Carbohydrates", "g"],
+    ["sugar_g", "Sugar", "g"],
+    ["fiber_g", "Fiber", "g"],
+    ["fat_total_g", "Total fat", "g"],
+    ["fat_saturated_g", "Saturated fat", "g"],
+    ["cholesterol_mg", "Cholesterol", "mg"],
+    ["sodium_mg", "Sodium", "mg"],
+    ["potassium_mg", "Potassium", "mg"]
+]
+
 function Dashboard() {
     const [menuDate, setMenuDate] = useState(getToday())
     const [menu, setMenu] = useState(null)
     const [mealLogs, setMealLogs] = useState([])
     const [calories, setCalories] = useState({})
     const [selections, setSelections] = useState({})
-    const [servings, setServings] = useState({})
+    const [grams, setGrams] = useState({})
     const [expandedMeal, setExpandedMeal] = useState(null)
     const [loading, setLoading] = useState(true)
     const [savingMeal, setSavingMeal] = useState(null)
@@ -52,6 +65,9 @@ function Dashboard() {
 
                 const selected = {}
                 const quantities = {}
+                const menuItemsById = new Map(
+                    menuData.meals.flatMap(meal => meal.items).map(item => [item.menu_id, item])
+                )
 
                 logsData.forEach(log => {
                     selected[log.meal_type] = log.items
@@ -60,13 +76,15 @@ function Dashboard() {
 
                     log.items.forEach(item => {
                         if (item.mess_menu_id !== null) {
-                            quantities[item.mess_menu_id] = String(item.servings_consumed)
+                            const menuItem = menuItemsById.get(item.mess_menu_id)
+                            const referenceGrams = menuItem?.nutrition?.serving_size_g || 100
+                            quantities[item.mess_menu_id] = String(Math.round(item.servings_consumed * referenceGrams))
                         }
                     })
                 })
 
                 setSelections(selected)
-                setServings(quantities)
+                setGrams(quantities)
                 setExpandedMeal(null)
             } catch (err) {
                 setError(err.message || "Failed to load dashboard")
@@ -91,15 +109,15 @@ function Dashboard() {
         })
 
         if (checked) {
-            setServings(previous => ({
+            setGrams(previous => ({
                 ...previous,
-                [menuId]: previous[menuId] || "1"
+                [menuId]: previous[menuId] || "100"
             }))
         }
     }
 
-    const updateServings = (menuId, value) => {
-        setServings(previous => ({
+    const updateGrams = (menuId, value) => {
+        setGrams(previous => ({
             ...previous,
             [menuId]: value
         }))
@@ -109,13 +127,18 @@ function Dashboard() {
         const mealType = meal.meal_type
         const selectedIds = selections[mealType] || []
 
-        const items = selectedIds.map(menuId => ({
-            mess_menu_id: menuId,
-            servings_consumed: Number(servings[menuId])
-        }))
+        const mealItemsById = new Map(meal.items.map(item => [item.menu_id, item]))
+        const items = selectedIds.map(menuId => {
+            const item = mealItemsById.get(menuId)
+            const referenceGrams = item?.nutrition?.serving_size_g || 100
+            return {
+                mess_menu_id: menuId,
+                servings_consumed: Number(grams[menuId]) / referenceGrams
+            }
+        })
 
         if (items.some(item => !Number.isFinite(item.servings_consumed) || item.servings_consumed <= 0)) {
-            setError("Enter a valid serving quantity greater than zero.")
+            setError("Enter a valid amount in grams greater than zero.")
             return
         }
 
@@ -272,28 +295,60 @@ function Dashboard() {
 
                                                                 {checked && (
                                                                     <div className="servings-input-label">
-                                                                      <span>Servings</span>
+                                                                      <label htmlFor={`grams-${item.menu_id}`}>Amount (g)</label>
+                                                                      <input
+                                                                          id={`grams-${item.menu_id}`}
+                                                                          className="grams-input"
+                                                                          type="number"
+                                                                          min="1"
+                                                                          step="1"
+                                                                          value={grams[item.menu_id] || "100"}
+                                                                          onChange={event => updateGrams(item.menu_id, event.target.value)}
+                                                                      />
+                                                                      {item.nutrition?.calories != null && (
+                                                                          <span className="grams-calories-estimate">
+                                                                              ≈ {Math.round(item.nutrition.calories * Number(grams[item.menu_id] || 100) / (item.nutrition.serving_size_g || 100))} kcal
+                                                                          </span>
+                                                                      )}
+                                                                      <details className="grams-nutrition-estimate">
+                                                                          <summary>Nutrition for this amount</summary>
+                                                                          <dl>
+                                                                              {nutritionFields.map(([key, label, unit]) => {
+                                                                                  const value = item.nutrition?.[key]
+                                                                                  if (value == null) return null
+                                                                                  const amount = Number(grams[item.menu_id] || 100)
+                                                                                  const reference = item.nutrition?.serving_size_g || 100
+                                                                                  const scaledValue = value * amount / reference
+                                                                                  return (
+                                                                                      <div key={key}>
+                                                                                          <dt>{label}</dt>
+                                                                                          <dd>{unit === 'mg' ? Math.round(scaledValue) : Math.round(scaledValue * 10) / 10} {unit}</dd>
+                                                                                      </div>
+                                                                                  )
+                                                                              })}
+                                                                          </dl>
+                                                                      </details>
                                                                       <div className="servings-controls">
                                                                           <button
                                                                               type="button"
                                                                               onClick={() =>
-                                                                                  updateServings(
+                                                                                  updateGrams(
                                                                                       item.menu_id,
-                                                                                      String(Math.max(1, Number(servings[item.menu_id] || 1) - 1))
+                                                                                      String(Math.max(1, Number(grams[item.menu_id] || 100) - 1))
                                                                                   )
                                                                               }
                                                                           >
                                                                               −
                                                                           </button>
 
-                                                                          <span>{servings[item.menu_id] || "1"}</span>
+                                                                          <span>{grams[item.menu_id] || "100"}</span>
 
                                                                           <button
                                                                               type="button"
                                                                               onClick={() =>
-                                                                                  updateServings(
+                                                                                  updateGrams(
                                                                                       item.menu_id,
-                                                                                      String(Number(servings[item.menu_id] || 1) + 1)
+                                                                                      String(Number(grams[item.menu_id] || 100) + 1)
                                                                                   )
                                                                               }
                                                                           >

@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import './StudentLayout.css'
 
 function StudentLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('messmetrics-theme') === 'dark')
   const navigate = useNavigate()
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = darkMode ? 'dark' : 'light'
+    localStorage.setItem('messmetrics-theme', darkMode ? 'dark' : 'light')
+  }, [darkMode])
 
   const navItems = [
     { name: 'Dashboard', path: '/dashboard', icon: '⌂' },
@@ -67,6 +73,15 @@ function StudentLayout() {
             ☰
           </button>
           <span>MessMetrics</span>
+          <button
+            className="theme-toggle"
+            type="button"
+            onClick={() => setDarkMode(mode => !mode)}
+            aria-label={`Switch to ${darkMode ? 'light' : 'dark'} mode`}
+            title={`Switch to ${darkMode ? 'light' : 'dark'} mode`}
+          >
+            {darkMode ? '☀ Light mode' : '☾ Dark mode'}
+          </button>
         </header>
 
         <main className="student-content">

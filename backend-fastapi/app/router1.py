@@ -1,11 +1,11 @@
+from datetime import datetime
 import requests
 from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy import select
+from sqlalchemy import or_
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 import os
 import re
-import json
 from datetime import date, timedelta
 from app.database import get_db
 from app.models import FoodItem,HostelMess,Hostel,MessMenu
@@ -16,6 +16,45 @@ from dotenv import load_dotenv
 
 load_dotenv()
 task_routes = APIRouter(prefix="/tasks")
+
+@task_routes.put("/modify/existing_data")
+def modify_existing_food_nutrition(db: Session = Depends(get_db)):
+    nutrition_fields = (
+        "serving_size_g",
+        "calories",
+        "protein_g",
+        "carbohydrates_total_g",
+        "sugar_g",
+        "fiber_g",
+        "fat_total_g",
+        "fat_saturated_g",
+        "cholesterol_mg",
+        "sodium_mg",
+        "potassium_mg",
+    )
+    foods = db.query(FoodItem).filter(
+        or_(*(getattr(FoodItem, field).is_(None) for field in nutrition_fields))
+    ).order_by(FoodItem.id).all()
+
+    updated_foods = []
+    try:
+        for food in foods:
+            nutrition = insert_food_nutrition(food.name)
+            for field in nutrition_fields:
+                setattr(food, field, nutrition.get(field))
+            food.nutrition_updated_at=datetime.now()
+            updated_foods.append({"id": food.id, "name": food.name})
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise
+
+    return {
+        "message": "Existing food nutrition updated successfully",
+        "updated_count": len(updated_foods),
+        "updated_foods": updated_foods,
+    }
+
 
 @task_routes.delete("/delete/all-food-items")
 def delete_all_food_items(db: Session = Depends(get_db)):
@@ -265,24 +304,6 @@ def clean_food_items(text):
 
     return cleaned_items
 
-
-def insert_food(db: Session, canonical_name):
-
-    food = db.scalar(
-        select(Food).where(
-            Food.name == canonical_name
-        )
-    )
-
-    if not food:
-        food = Food(name=canonical_name)
-        db.add(food)
-        db.flush()
-        return food, True
-
-    return food, False
-
-
 def insert_food_nutrition_temp(item_name):
 
     return {
@@ -343,7 +364,7 @@ def insert_items(db: Session = Depends(get_db)):
                     # 2. Insert food if not existing
                     if not food:
 
-                        food_info = insert_food_nutrition_temp(item_name)
+                        food_info = insert_food_nutrition(item_name)
 
                         food = FoodItem(
                             name=item_name,
@@ -431,11 +452,35 @@ def insert_items(db: Session = Depends(get_db)):
 #calling clorie api
 def insert_food_nutrition(query):
     API_KEY = os.getenv("CALORIE_NINJA_API_KEY")
-    api_url = 'https://api.calorieninjas.com/v1/nutrition?query='
-    response = requests.get(api_url + query, headers={'X-Api-Key': API_KEY})
-    if response.status_code != requests.codes.ok:
-        print("Error:", response.status_code, response.text)
-    return modify_response_ninjas(json.loads(response.text))
+    if not API_KEY:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Nutrition API key is not configured",
+        )
+
+    try:
+        response = requests.get(
+            "https://api.calorieninjas.com/v1/nutrition",
+            params={"query": query},
+            headers={"X-Api-Key": API_KEY},
+            timeout=15,
+        )
+        response.raise_for_status()
+        nutrition_data = response.json()
+    except (requests.RequestException, ValueError) as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Could not retrieve valid nutrition data",
+        ) from exc
+
+    if (
+        not isinstance(nutrition_data, dict)
+        or not isinstance(nutrition_data.get("items"), list)
+        or not nutrition_data["items"]
+    ):
+        return insert_food_nutrition_temp(query)
+
+    return modify_response_ninjas(nutrition_data)
 
 
 #modifying cloariesapi response

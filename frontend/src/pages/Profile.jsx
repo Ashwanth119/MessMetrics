@@ -1,32 +1,32 @@
-import { useEffect, useState } from 'react'
-import { getCurrentUser } from '../services/api'
+import { useEffect, useState } from "react";
+import { getCurrentUser } from "../services/api";
 
 function Profile() {
-  const [user, setUser] = useState(null)
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState(true)
+  const [user, setUser] = useState(null);
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function fetchProfile() {
       try {
-        const data = await getCurrentUser()
-        setUser(data)
+        const data = await getCurrentUser();
+        setUser(data);
       } catch (error) {
-        setError(error.message)
+        setError(error.message);
       } finally {
-        setLoading(false)
+        setLoading(false);
       }
     }
 
-    fetchProfile()
-  }, [])
+    fetchProfile();
+  }, []);
 
   if (loading) {
-    return <p>Loading profile...</p>
+    return <p>Loading profile...</p>;
   }
 
   if (error) {
-    return <p className="form-error">{error}</p>
+    return <p className="form-error">{error}</p>;
   }
 
   return (
@@ -65,7 +65,7 @@ function Profile() {
 
           <div className="profile-field">
             <label>Account Status</label>
-            <p>{user.is_active ? 'Active' : 'Inactive'}</p>
+            <p>{user.is_active ? "Active" : "Inactive"}</p>
           </div>
 
           <div className="profile-field">
@@ -75,7 +75,7 @@ function Profile() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Profile
+export default Profile;
