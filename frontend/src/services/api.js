@@ -1,14 +1,33 @@
 
-const API_URL = import.meta.env.VITE_API_URL
+const API_URL = import.meta.env.VITE_API_URL || '/api'
+
+async function readJsonResponse(response, fallbackMessage) {
+    const responseText = await response.text()
+    let data
+
+    if (responseText) {
+        try {
+            data = JSON.parse(responseText)
+        } catch {
+            if (response.ok) {
+                throw new Error('The server returned an invalid response. Please try again.')
+            }
+        }
+    } else if (response.ok) {
+        throw new Error('The server returned an empty response. Please try again.')
+    }
+
+    if (!response.ok) {
+        throw new Error(data?.detail || fallbackMessage)
+    }
+
+    return data
+}
 
 export async function getHostels() {
     const response = await fetch(`${API_URL}/hostels`)
 
-    if (!response.ok) {
-        throw new Error("Failed to fetch hostels")
-    }
-
-    return response.json()
+    return readJsonResponse(response, 'Failed to fetch hostels')
 }
 
 export async function registerStudent(studentData) {
@@ -20,13 +39,7 @@ export async function registerStudent(studentData) {
         body: JSON.stringify(studentData)
     })
 
-    const data = await response.json()
-
-    if (!response.ok) {
-        throw new Error(data.detail || "Student registration failed")
-    }
-
-    return data
+    return readJsonResponse(response, 'Student registration failed')
 }
 
 export async function loginUser(username, password) {
@@ -43,13 +56,7 @@ export async function loginUser(username, password) {
         body: formData
     })
 
-    const data = await response.json()
-
-    if (!response.ok) {
-        throw new Error(data.detail || "Login failed")
-    }
-
-    return data
+    return readJsonResponse(response, 'Login failed')
 }
 
 export async function getCurrentUser() {
@@ -61,13 +68,7 @@ export async function getCurrentUser() {
         }
     })
 
-    const data = await response.json()
-
-    if (!response.ok) {
-        throw new Error(data.detail || 'Failed to fetch profile')
-    }
-
-    return data
+    return readJsonResponse(response, 'Failed to fetch profile')
 }
 
 export async function getMyMenu(menuDate) {
@@ -140,4 +141,27 @@ export async function getMyCalories(logDate) {
     }
 
     return response.json()
+}
+
+export async function getMyCalorieProfile() {
+    const response = await fetch(`${API_URL}/students/me/calorie-profile`, {
+        headers: {
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        }
+    })
+
+    return readJsonResponse(response, 'Failed to fetch calorie profile')
+}
+
+export async function updateMyActivityLevel(activityLevel) {
+    const response = await fetch(`${API_URL}/students/me/calorie-profile`, {
+        method: 'PATCH',
+        headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        },
+        body: JSON.stringify({ activity_level: activityLevel })
+    })
+
+    return readJsonResponse(response, 'Failed to save activity level')
 }

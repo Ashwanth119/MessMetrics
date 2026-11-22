@@ -18,26 +18,28 @@ function Register() {
     date_of_birth: '',
     height_cm: '',
     weight_kg: '',
-    activity_level: ''
+    sex: ''
   })
 
   const [hostels, setHostels] = useState([])
   const [hostelError, setHostelError] = useState('')
+  const [hostelLoadAttempt, setHostelLoadAttempt] = useState(0)
   const [error, setError] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   useEffect(() => {
     async function fetchHostels() {
+      setHostelError('')
       try {
         const data = await getHostels()
         setHostels(data)
       } catch (error) {
-        setHostelError('Unable to load hostels. Please try again.')
+        setHostelError(`Unable to load hostels: ${error.message}`)
       }
     }
 
     fetchHostels()
-  }, [])
+  }, [hostelLoadAttempt])
 
   function handleChange(e) {
     const { name, value } = e.target
@@ -73,7 +75,7 @@ function Register() {
       date_of_birth: formData.date_of_birth || null,
       height_cm: formData.height_cm ? Number(formData.height_cm) : null,
       weight_kg: formData.weight_kg ? Number(formData.weight_kg) : null,
-      activity_level: formData.activity_level || null
+      sex: formData.sex || null
     }
 
     try {
@@ -157,6 +159,15 @@ function Register() {
               ))}
             </select>
             {hostelError && <p className="form-error">{hostelError}</p>}
+            {hostelError && (
+              <button
+                type="button"
+                className="secondary-button"
+                onClick={() => setHostelLoadAttempt(attempt => attempt + 1)}
+              >
+                Retry loading hostels
+              </button>
+            )}
           </div>
 
           <div className="form-group">
@@ -197,17 +208,18 @@ function Register() {
           </div>
 
           <div className="form-group">
-            <label>Date of Birth</label>
+            <label>Date of Birth *</label>
             <input
               type="date"
               name="date_of_birth"
               value={formData.date_of_birth}
               onChange={handleChange}
+              required
             />
           </div>
 
           <div className="form-group">
-            <label>Height (cm)</label>
+            <label>Height (cm) *</label>
             <input
               type="number"
               name="height_cm"
@@ -215,11 +227,12 @@ function Register() {
               onChange={handleChange}
               placeholder="Enter height"
               min="1"
+              required
             />
           </div>
 
           <div className="form-group">
-            <label>Weight (kg)</label>
+            <label>Weight (kg) *</label>
             <input
               type="number"
               name="weight_kg"
@@ -228,22 +241,16 @@ function Register() {
               placeholder="Enter weight"
               min="1"
               step="0.1"
+              required
             />
           </div>
 
           <div className="form-group">
-            <label>Activity Level</label>
-            <select
-              name="activity_level"
-              value={formData.activity_level}
-              onChange={handleChange}
-            >
-              <option value="">Select activity level</option>
-              <option value="sedentary">Sedentary</option>
-              <option value="light">Lightly active</option>
-              <option value="moderate">Moderately active</option>
-              <option value="active">Very active</option>
-              <option value="very_active">Extra active</option>
+            <label>Sex *</label>
+            <select name="sex" value={formData.sex} onChange={handleChange} required>
+              <option value="">Select</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
             </select>
           </div>
 

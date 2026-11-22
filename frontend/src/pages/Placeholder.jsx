@@ -4,7 +4,7 @@ function Placeholder({ title }) {
       <h1>{title}</h1>
       <p>This section is under development.</p>
     </div>
-  )
+  );
 }
 
-export default Placeholder
+export default Placeholder;

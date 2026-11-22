@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from datetime import date, datetime, timezone
 
-from sqlalchemy import select, delete
+from sqlalchemy import select, delete, text
 from sqlalchemy.orm import Session, selectinload
 from sqlalchemy.exc import IntegrityError
 
@@ -20,7 +20,7 @@ from app.models import (
 from app.schemas import (
     UserCreate, UserUpdate, UserResponse, TokenResponse,
     HostelAdminRegister, StudentRegister,
-    MealLogUpsert, MealLogResponse
+    MealLogUpsert, MealLogResponse, ActivityLevelUpdate
 )
 from app.auth import (
     hash_password,
@@ -37,6 +37,10 @@ import os
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     Base.metadata.create_all(bind=engine)
+    with engine.begin() as connection:
+        connection.execute(
+            text("ALTER TABLE student_profiles ADD COLUMN IF NOT EXISTS sex VARCHAR(10)")
+        )
     yield
 
 
@@ -444,6 +448,7 @@ def register_student(
             date_of_birth=data.date_of_birth,
             height_cm=data.height_cm,
             weight_kg=data.weight_kg,
+            sex=data.sex,
             activity_level=data.activity_level
         )
 
@@ -505,6 +510,43 @@ def get_hostels(db: Session = Depends(get_db)):
         }
         for hostel in hostels
     ]
+
+
+@app.get("/students/me/calorie-profile")
+def get_my_calorie_profile(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student = db.scalar(
+        select(StudentProfile).where(StudentProfile.user_id == current_user.id)
+    )
+    if student is None:
+        raise HTTPException(status_code=404, detail="Student profile not found")
+
+    return {
+        "date_of_birth": student.date_of_birth,
+        "height_cm": student.height_cm,
+        "weight_kg": student.weight_kg,
+        "sex": student.sex,
+        "activity_level": student.activity_level,
+    }
+
+
+@app.patch("/students/me/calorie-profile")
+def update_my_activity_level(
+    data: ActivityLevelUpdate,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    student = db.scalar(
+        select(StudentProfile).where(StudentProfile.user_id == current_user.id)
+    )
+    if student is None:
+        raise HTTPException(status_code=404, detail="Student profile not found")
+
+    student.activity_level = data.activity_level
+    db.commit()
+    return {"activity_level": student.activity_level}
 
 
 def get_student_mess(db: Session, user_id: int):

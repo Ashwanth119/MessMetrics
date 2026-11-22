@@ -59,7 +59,12 @@ class StudentRegister(BaseModel):
     date_of_birth: date | None = None
     height_cm: float | None = Field(default=None, gt=0)
     weight_kg: float | None = Field(default=None, gt=0)
+    sex: Literal["female", "male"] | None = None
     activity_level: str | None = None
+
+
+class ActivityLevelUpdate(BaseModel):
+    activity_level: Literal["sedentary", "light", "moderate", "very_active", "extra_active"]
 
 
 
