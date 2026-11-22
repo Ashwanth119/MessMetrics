@@ -493,3 +493,110 @@ def modify_response_ninjas(obj):
             if j != "name":
                 overall[j] = overall.get(j, 0) + value
     return overall
+
+
+def get_data_from_client(query):
+    if not isinstance(query, str) or not query.strip():
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_CONTENT,
+            detail="A food name is required",
+        )
+
+    fields = (
+        "serving_size_g",
+        "calories",
+        "protein_g",
+        "carbohydrates_total_g",
+        "sugar_g",
+        "fiber_g",
+        "fat_total_g",
+        "fat_saturated_g",
+        "cholesterol_mg",
+        "sodium_mg",
+        "potassium_mg",
+    )
+
+    payload = {
+        "model": os.getenv("OLLAMA_MODEL", "qwen2.5:7b"),
+        "temperature": 0,
+        "response_format": {"type": "json_object"},
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "Estimate nutrition for the named food. Return only a JSON "
+                    "object with the requested nutrient keys. Values must be "
+                    "non-negative numbers or null. All nutrients must describe "
+                    "the same typical serving, whose mass is serving_size_g. "
+                    "Use null if a value cannot be estimated. Do not include "
+                    "units or extra keys."
+                ),
+            },
+            {
+                "role": "user",
+                "content": (
+                    f"Estimate one typical serving of {query.strip()}. "
+                    f"Return these exact keys: {', '.join(fields)}."
+                ),
+            },
+        ],
+    }
+
+    endpoint = os.getenv(
+        "OLLAMA_CHAT_COMPLETIONS_URL",
+        "http://localhost:11434/v1/chat/completions",
+    )
+
+    try:
+        response = requests.post(endpoint, json=payload, timeout=90)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Could not retrieve nutrition data from Qwen via Ollama",
+        ) from exc
+
+    try:
+        content = response.json()["choices"][0]["message"]["content"]
+        nutrition = json.loads(content)
+    except (ValueError, KeyError, IndexError, TypeError) as exc:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Qwen returned an invalid nutrition response",
+        ) from exc
+
+    if not isinstance(nutrition, dict) or any(
+        field not in nutrition for field in fields
+    ):
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Qwen response is missing required nutrition fields",
+        )
+
+    result = {}
+    for field in fields:
+        value = nutrition[field]
+        if value is None:
+            result[field] = None
+        elif (
+            isinstance(value, bool)
+            or not isinstance(value, (int, float))
+            or not math.isfinite(value)
+            or value < 0
+        ):
+            raise HTTPException(
+                status_code=status.HTTP_502_BAD_GATEWAY,
+                detail=f"Qwen returned an invalid value for {field}",
+            )
+        else:
+            result[field] = value
+
+    if not result["serving_size_g"]:
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Qwen returned an invalid serving size",
+        )
+
+    return result
+
+
