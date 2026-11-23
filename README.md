@@ -2,176 +2,265 @@
 
 **Personalized nutrition intelligence for hostel mess systems.**
 
-MessMetrics is a full-stack web application that turns a hostel's weekly mess menu into personalized, day-by-day eating guidance for every student, and gives the mess council hard data to improve the menu over time.
-
----
-
-https://calorieninjas.com/profile
-for the calories
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Disclaimer](#disclaimer)
-
----
-
-## Overview
-
-### The problem
-
-Hostel messes feed thousands of students every day. Students with different bodies, goals, and dietary restrictions all get the same menu.
-
-### The solution
-
-MessMetrics does not try to change what the mess cooks. Instead, it:
-
-1. **Ingests the weekly menu** by scraping the hostel website, with a manual upload option for mess council members when the scraped data is missing or outdated.
-2. **Maps every dish to a nutritional profile** using Indian food composition data, with a human review step for uncertain matches.
-3. **Guides each student** on what to eat from the existing menu, based on their body, goals, and dietary restrictions.
-4. **Gives the mess council an aggregate dashboard** that turns vague complaints into measurable evidence for menu reform.
+MessMetrics is a web application that helps hostel students understand the nutritional value of their mess food, estimate their daily calorie requirements, and track their food consumption.
 
 ## Key Features
 
-### Menu data pipeline
-
-- Scheduled scraping of the weekly menu from the hostel website, with change detection
-- Manual menu upload by admins (spreadsheet, PDF, or photo) and a manual entry grid as a fallback
-- Manual upload overrides scraped data for that week
-- Preview, edit, and Draft to Published workflow before students see anything
-- Version history with rollback, and "last updated" and source labels on every menu
-- Scrape failure alerts and stale-data warnings
-
-### Dish and nutrition mapping
-
-- Automatic matching of menu items to canonical dishes and nutrition profiles
-- Handles spelling variants and mixed-language dish names
-- Confidence scores with an admin review queue for low-confidence matches
-- Standard serving sizes (katori, ladle, piece) and "estimated" labels where data is not verified
-
-### Student features
-
-- Campus email login and onboarding profile (body metrics, goal, diet type, allergies)
-- Calorie and macro targets calculated from the profile
-- **Daily plan** per meal: what to take, how much, and what to limit
-- **Weekly view** with good-day / tough-day indicators
-- Gap suggestions when the mess menu falls short on protein, fibre, or other nutrients
-- Quick meal logging and planned vs. actual tracking
-- Dish ratings and feedback tags, plus reporting of incorrect menu data
-- Email reminders and weekly digest
-
-### Mess council and admin features
-
-- Menu status dashboard (current week, source, freshness)
-- Aggregate nutrition analytics compared against recommended levels
-- Gap analysis, for example "protein is below target on 4 of 7 days"
-- Feedback clustering by dish and meal, with trends over time
-- "What if" menu reform simulator
-- Exportable PDF and CSV reports for the warden and administration
-- **Privacy by design:** admins only see aggregated, anonymized data, never an individual student's records
-
-### Platform
-
-- Role-based access (student, admin, super admin)
-- Audit log of menu and data changes
-- Multi-hostel ready data model
-- Responsive, mobile-first website
-
----
+- Student registration, login, and profile management.
+- Hostel-wise mess menu retrieval from the IIT Bombay InstiApp API.
+- Nutritional information retrieval using the CalorieNinjas API.
+- Personalized BMR and daily calorie requirement estimation.
+- Meal tracking and nutritional intake calculation.
 
 ## Tech Stack
 
-### Frontend - React
-
-### Backend - FastAPI
-
-### Data and ingestion - Website scraping, Spreadsheets, PDFs
-
-### Database and storage - PostgreSQL
-
-### DevOps - Docker, GitHub
-
----
+| Component | Technology |
+|---|---|
+| Frontend | React 19, Vite |
+| Backend | Python, FastAPI |
+| ORM | SQLAlchemy |
+| Database | PostgreSQL |
+| Data Validation | Pydantic |
+| Authentication | JWT, OAuth2 |
+| Nutrition API | CalorieNinjas |
+| Menu Data Source | IIT Bombay InstiApp API |
 
 ## Project Structure
 
-```
-messmetrics/
-├── README.md
-├── docker-compose.yml
-├── .env.example
-├── .github/
-│   └── workflows/
-│       └── ci.yml
+```text
+MessMetrics/
 │
-├── frontend/                      # Next.js app
-│   ├── Dockerfile
-│   ├── package.json
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── (auth)/            # login, register
-│   │   │   ├── (student)/         # dashboard, plan, log, weekly, profile
-│   │   │   └── (admin)/           # menus, review queue, analytics, reports
-│   │   ├── components/            # shared and feature UI components
-│   │   ├── lib/                   # API client, utilities, validators
-│   │   └── hooks/                 # custom React hooks
-│   └── public/
-│
-├── backend/                       # FastAPI app
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── alembic/                   # database migrations
+├── backend-fastapi/
 │   ├── app/
-│   │   ├── main.py                # app entry point
-│   │   ├── core/                  # config, security, dependencies
-│   │   ├── api/                   # route handlers (auth, menus, plans, logs, admin)
-│   │   ├── models/                # SQLAlchemy models
-│   │   ├── schemas/               # Pydantic schemas
+│   │   ├── auth.py
+│   │   ├── database.py
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   ├── router1.py
+│   │   └── schemas.py
+│   │
+│   ├── simple_emotion_pipeline.ipynb
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── create_college_admin.py
+│   ├── create_tables.py
+│   ├── requirements.txt
+│   ├── seed_hostels.py
+│   └── seed_roles.py
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   └── Sidebar.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   └── SelectedDateContext.jsx
+│   │   │
+│   │   ├── layouts/
+│   │   │   ├── StudentLayout.css
+│   │   │   └── StudentLayout.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Calories.jsx
+│   │   │   ├── Dashboard.css
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Menu.css
+│   │   │   ├── Menu.jsx
+│   │   │   ├── Nutrition.css
+│   │   │   ├── Nutrition.jsx
+│   │   │   ├── Placeholder.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   └── Register.jsx
+│   │   │
 │   │   ├── services/
-│   │   │   ├── ingestion/         # scraper, spreadsheet/PDF/photo parsers
-│   │   │   ├── normalization/     # LLM menu normalization
-│   │   │   ├── nutrition/         # dish matching and nutrition mapping
-│   │   │   ├── personalization/   # targets, filters, plan optimizer
-│   │   │   └── analytics/         # aggregate stats, gap analysis
-│   │   ├── workers/               # background jobs and schedulers
-│   │   └── db/                    # session and base setup
-│   └── tests/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
 │
-├── data/
-│   ├── nutrition/                 # IFCT / USDA source data and loaders
-│   └── samples/                   # sample menus in different formats
-│
-└── docs/
-    ├── architecture.md
-    ├── database-schema.md
-    └── api.md
+└── README.md
 ```
 
----
+## Code Organization
+
+### Backend
+
+| File | Responsibility |
+|---|---|
+| `main.py` | FastAPI application entry point and router registration. |
+| `auth.py` | Password hashing, authentication, JWT generation, and authorization. |
+| `database.py` | PostgreSQL connection, SQLAlchemy engine, and database sessions. |
+| `models.py` | SQLAlchemy database models and relationships. |
+| `schemas.py` | Pydantic request and response schemas. |
+| `router1.py` | API endpoint implementations and application operations. |
+| `create_tables.py` | Creates database tables. |
+| `seed_hostels.py` | Populates the database with initial hostel records. |
+| `seed_roles.py` | Populates the database with application roles. |
+| `create_college_admin.py` | Creates the initial college administrator account. |
+| `simple_emotion_pipeline.ipynb` | Jupyter notebook containing the emotion detection pipeline. |
+
+### Frontend
+
+| File / Directory | Responsibility |
+|---|---|
+| `App.jsx` | Application routing and page configuration. |
+| `main.jsx` | Frontend entry point and React initialization. |
+| `App.css` | Application-level styling. |
+| `index.css` | Global styles and theme definitions. |
+| `components/` | Reusable components such as sidebar and protected routes. |
+| `context/` | Shared application state and React contexts. |
+| `layouts/` | Common page layouts. |
+| `pages/` | Individual application pages such as Dashboard, Menu, Profile, and Nutrition. |
+| `services/api.js` | Communication with the backend API. |
 
 ## Getting Started
 
-> Setup steps will be finalized as the project takes shape. The intended workflow is:
+### Prerequisites
 
+- Python 3.12 or later, compatible with project dependencies.
+- Node.js and npm.
+- PostgreSQL.
+- Git.
 
+### 1. Clone the Repository
 
-| Service            | URL                        |
-| ------------------ | -------------------------- |
-| Frontend           | -                          |
-| Backend API        | -                          |
-| API docs (Swagger) | -                          |
+```bash
+git clone https://github.com/Ashwanth119/MessMetrics.git
+cd MessMetrics
+```
 
----
+### 2. Backend Setup
 
-## Disclaimer
+Navigate to the backend directory:
 
-MessMetrics provides general nutrition guidance based on standard formulas and food composition data. It is **not medical advice**. Students with medical conditions should consult a qualified healthcare professional. Nutrition values for some dishes are estimates.
+```bash
+cd backend-fastapi
+```
 
----
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Create the backend environment file:
+
+```bash
+cp .env.example .env
+```
+
+Update the `.env` file with your PostgreSQL credentials, JWT secret, and CalorieNinjas API key.
+
+Initialize the database using the provided setup scripts:
+
+```bash
+python create_tables.py
+python seed_hostels.py
+python seed_roles.py
+```
+
+Create the initial college administrator account:
+
+```bash
+python create_college_admin.py
+```
+
+Start the backend server:
+
+```bash
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+The backend will be available at [http://localhost:8000](http://localhost:8000).
+
+### 3. Frontend Setup
+
+Open another terminal and navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Create the frontend environment file:
+
+```bash
+cp .env.example .env
+```
+
+Start the frontend development server:
+
+```bash
+npm run dev
+```
+
+The frontend will be available at [http://localhost:5173](http://localhost:5173).
+
+## Environment Variables
+
+### Backend
+
+The backend requires the following environment variables in `backend-fastapi/.env`:
+
+```env
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=mess_metrics
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+
+JWT_SECRET_KEY=replace_with_a_secure_secret
+JWT_ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+FRONTEND_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
+
+CALORIE_NINJA_API_KEY=your_calorie_ninja_api_key
+```
+
+### Frontend
+
+The frontend requires the following variable in `frontend/.env`:
+
+```env
+VITE_API_URL=http://localhost:8000
+```
+
+Use `.env.example` as a template for configuring the environment. Do not commit actual `.env` files, database passwords, JWT secrets, or API keys.
+
+**Note:** If the backend runs inside WSL while PostgreSQL runs on the Windows host, update `DB_HOST` to the appropriate Windows host IP address reachable from WSL instead of using `localhost`.
+
+## API Documentation
+
+Interactive API documentation is provided by FastAPI through Swagger UI.
+
+Once the backend is running, access:
+
+[http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## License
 
